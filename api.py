@@ -1,0 +1,1 @@
+print("KEY =", os.getenv("ANTHROPIC_API_KEY"))

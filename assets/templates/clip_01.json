@@ -1,0 +1,36 @@
+{
+  "template_name": "clip_01_product_showcase",
+  "duration": 8.0,
+  "events": [
+    {
+      "time": 0.15,
+      "category": "accent",
+      "volume": 1.0,
+      "probability": 1.0
+    },
+    {
+      "time": 1.20,
+      "category": "action",
+      "volume": 0.75,
+      "probability": 0.8
+    },
+    {
+      "time": 2.80,
+      "category": "action",
+      "volume": 0.70,
+      "probability": 0.6
+    },
+    {
+      "time": 4.80,
+      "category": "transition",
+      "volume": 0.65,
+      "probability": 0.7
+    },
+    {
+      "time": 6.90,
+      "category": "accent",
+      "volume": 0.90,
+      "probability": 1.0
+    }
+  ]
+}
