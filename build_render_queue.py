@@ -41,36 +41,32 @@ os.makedirs(
 # CATEGORY CONFIG
 # ============================================================
 
-# Chạy son, dép, móc khóa, ốp lưng và khẩu trang
+# Chạy đồ ăn vặt, móc khóa, ốp lưng
 ENABLED_CATEGORIES = [
-    "lipstick",
-    "sandal",
+    "snack",
     "keychain",
     "phone_case",
-    "mask",
 ]
 
 # Test riêng:
-# ENABLED_CATEGORIES = ["lipstick"]
-# ENABLED_CATEGORIES = ["sandal"]
+# ENABLED_CATEGORIES = ["snack"]
 # ENABLED_CATEGORIES = ["keychain"]
 # ENABLED_CATEGORIES = ["phone_case"]
-# ENABLED_CATEGORIES = ["mask"]
 
 
 CATEGORY_CONFIG = {
     # ========================================================
-    # LIPSTICK
+    # SNACK (ĐỒ ĂN VẶT)
     # ========================================================
-    "lipstick": {
+    "snack": {
         "products_dir": os.path.join(
             PRODUCTS_ROOT,
-            "lipstick"
+            "snack"
         ),
 
         "prompt_dir": os.path.join(
             PROMPTS_ROOT,
-            "lipstick",
+            "snack",
             "video_generation"
         ),
 
@@ -78,45 +74,8 @@ CATEGORY_CONFIG = {
             {
                 "clip_index": "1",
                 "start_image": "01_hand_holding.png",
-                "end_image": "02_opened_product.png",
+                "end_image": "01_hand_holding.png",
                 "prompt_file": "clip_01_product_showcase.txt",
-            },
-            {
-                "clip_index": "2",
-                "start_image": "03_mid_swatch.png",
-                "end_image": "04_final_swatch.png",
-                "prompt_file": "clip_02_swatch.txt",
-            },
-        ],
-    },
-
-    # ========================================================
-    # SANDAL
-    # ========================================================
-    "sandal": {
-        "products_dir": os.path.join(
-            PRODUCTS_ROOT,
-            "sandal"
-        ),
-
-        "prompt_dir": os.path.join(
-            PROMPTS_ROOT,
-            "sandal",
-            "video_generation"
-        ),
-
-        "clips": [
-            {
-                "clip_index": "1",
-                "start_image": "01_hand_holding.png",
-                "end_image": "02_product_closeup.png",
-                "prompt_file": "clip_01_product_showcase.txt",
-            },
-            {
-                "clip_index": "2",
-                "start_image": "03_on_foot.png",
-                "end_image": "04_on_foot_next_frame.png",
-                "prompt_file": "clip_02_on_foot.txt",
             },
         ],
     },
@@ -171,33 +130,6 @@ CATEGORY_CONFIG = {
                 "start_image": "01_clip_01_first_frame.png",
                 "end_image": "02_clip_01_last_frame.png",
                 "prompt_file": "clip_01_installed_showcase.txt",
-            },
-        ],
-    },
-
-    # ========================================================
-    # MASK
-    # ========================================================
-    "mask": {
-        "products_dir": os.path.join(
-            PRODUCTS_ROOT,
-            "mask"
-        ),
-
-        "prompt_dir": os.path.join(
-            PROMPTS_ROOT,
-            "mask",
-            "video_generation"
-        ),
-
-        "clips": [
-            {
-                # Mask chỉ có 1 clip:
-                # side / 3-4 view -> front view.
-                "clip_index": "1",
-                "start_image": "01_side_view.png",
-                "end_image": "02_front_view.png",
-                "prompt_file": "clip_01_showcase.txt",
             },
         ],
     },
@@ -637,16 +569,10 @@ def print_summary(
         for row in rows
     })
 
-    lipstick_jobs = sum(
+    snack_jobs = sum(
         1
         for row in rows
-        if row["category"] == "lipstick"
-    )
-
-    sandal_jobs = sum(
-        1
-        for row in rows
-        if row["category"] == "sandal"
+        if row["category"] == "snack"
     )
 
     keychain_jobs = sum(
@@ -659,12 +585,6 @@ def print_summary(
         1
         for row in rows
         if row["category"] == "phone_case"
-    )
-
-    mask_jobs = sum(
-        1
-        for row in rows
-        if row["category"] == "mask"
     )
 
     print("=" * 60)
@@ -680,12 +600,8 @@ def print_summary(
         queued_product_count
     )
     print(
-        "Lipstick jobs:",
-        lipstick_jobs
-    )
-    print(
-        "Sandal jobs:",
-        sandal_jobs
+        "Snack jobs:",
+        snack_jobs
     )
     print(
         "Keychain jobs:",
@@ -694,10 +610,6 @@ def print_summary(
     print(
         "Phone case jobs:",
         phone_case_jobs
-    )
-    print(
-        "Mask jobs:",
-        mask_jobs
     )
     print(
         "Jobs:",

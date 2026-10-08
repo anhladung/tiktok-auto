@@ -1,0 +1,795 @@
+Create a highly realistic vertical lifestyle product photograph using two input reference images.
+
+REFERENCE USAGE
+
+Image A is the PRIMARY PRODUCT REFERENCE.
+
+Use Image A as the authoritative reference for the eyeglasses or sunglasses product.
+
+The eyewear is the most important element in the generated image.
+
+Preserve the exact recognizable physical identity of the eyewear from Image A, including:
+
+overall frame shape
+
+exact lens shape
+
+frame proportions
+
+bridge shape
+
+rim thickness
+
+hinge placement
+
+temple-arm shape
+
+frame color
+
+transparency or opacity
+
+material appearance
+
+surface finish
+
+decorative hardware
+
+visible construction details
+
+realistic scale and geometry
+
+The generated eyewear must look like the SAME physical product shown in Image A.
+
+Do not redesign, simplify, stylize, beautify, reinterpret, or replace the eyewear.
+
+Do not change the product geometry merely to make it easier for the hand to hold.
+
+TEMPORARY STICKER REMOVAL
+
+If Image A contains any temporary retail sticker, removable label, product information sticker, lens sticker, promotional decal, barcode, temporary text, protective marking, or removable graphic attached to either lens, remove it completely.
+
+The final lenses must look clean and natural, as if the temporary retail sticker had already been removed.
+
+Do not remove any permanent structural or decorative feature that is physically part of the eyewear.
+
+BACKGROUND REFERENCE
+
+Image B is the PRIMARY ENVIRONMENT REFERENCE.
+
+Use Image B as the exact background and environmental reference.
+
+Treat Image B as a LOCKED BACKGROUND.
+
+Preserve:
+
+the same room or setting
+
+the same furniture
+
+the same objects
+
+the same object positions
+
+the same spacing between objects
+
+the same perspective
+
+the same background composition
+
+the same camera direction
+
+the same lighting direction
+
+the same brightness
+
+the same exposure
+
+the same shadows
+
+the same white balance
+
+the same color temperature
+
+the same overall atmosphere
+
+The environment must remain visually continuous with Image B.
+
+DO NOT:
+
+move existing objects
+
+rotate existing objects
+
+replace existing objects
+
+resize existing objects
+
+remove existing objects
+
+rearrange the scene
+
+add decorative objects
+
+add flowers
+
+add books
+
+add cups
+
+add jewelry
+
+add cosmetics
+
+add trays
+
+add plants
+
+add accessories
+
+add packaging
+
+add another pair of glasses
+
+invent additional background details
+
+improve or redesign the room
+
+Only introduce:
+
+the exact eyewear from Image A
+
+one female hand holding it
+
+the visible knitted cardigan sleeve connected naturally to that hand
+
+SCENE
+
+Create a natural handheld smartphone lifestyle product photograph.
+
+Show one young woman's hand physically holding the eyewear from Image A in front of the original environment from Image B.
+
+The eyewear is the clear main subject.
+
+The result should feel like a real casual product showcase photographed with a smartphone inside the original room.
+
+The product must look physically present in the environment rather than pasted into the image.
+
+Keep the original environment recognizable and structurally unchanged.
+
+Match Image B's existing:
+
+light direction
+
+light softness
+
+brightness
+
+exposure
+
+white balance
+
+ambient reflections
+
+shadow softness
+
+contrast
+
+perspective
+
+depth of field
+
+Do not make the generated image brighter or darker than Image B.
+
+EYEWEAR STATE
+
+The eyewear is FULLY FOLDED.
+
+Both temple arms are naturally folded inward behind the front frame according to the product's real hinge geometry.
+
+Keep the folding simple and physically realistic.
+
+Do not invent complicated folding geometry.
+
+Do not distort the temple arms.
+
+Do not create impossible hinges.
+
+Do not create extra temple arms.
+
+Do not duplicate temple arms.
+
+Do not remove temple arms.
+
+Do not create broken joints.
+
+Do not merge separate product components.
+
+The front frame faces generally toward the camera.
+
+Show primarily the FRONT of the eyewear.
+
+Both lenses should remain clearly recognizable.
+
+The overall front silhouette must remain easy to inspect.
+
+Do not rotate the eyewear so far that the rear becomes the dominant view.
+
+The exact product silhouette from Image A has priority.
+
+HAND AND EYEWEAR INTERACTION
+
+Use a SIMPLE, PHYSICALLY REALISTIC THREE-FINGER SUPPORT GRIP.
+
+The hand approaches naturally from BELOW the eyewear.
+
+Hold the folded glasses around the CENTRAL area of the product, close to the bridge.
+
+Use the thumb, index finger, and middle finger to create one stable physical grip.
+
+The INDEX FINGER and MIDDLE FINGER sit underneath and slightly behind the central part of the folded eyewear.
+
+These two fingers form a small natural supporting platform underneath the product.
+
+The weight of the eyewear visibly rests on the index and middle fingers.
+
+The THUMB rests gently against the opposite side of the same central area.
+
+The thumb provides light counter-pressure and stabilizes the glasses so they cannot slide or fall.
+
+The three contact points must create one simple, believable grip.
+
+The eyewear must visibly REST ON the fingers.
+
+There must be clear physical contact between the fingers and the product.
+
+The glasses must not appear to float in front of the hand.
+
+The grip should immediately look stable enough that a real person could naturally hold the glasses in this position.
+
+Keep the contact area compact and centered.
+
+Do not spread the fingers across the product.
+
+The RING FINGER and LITTLE FINGER remain naturally relaxed and curled toward the palm.
+
+They do not interact with the eyewear.
+
+The wrist remains relaxed.
+
+PHYSICAL HOLDING LOGIC
+
+The grip must clearly communicate real weight and physical support.
+
+The index finger and middle finger SUPPORT THE WEIGHT from below.
+
+The thumb STABILIZES the product from the opposite side.
+
+The eyewear is gently secured between these contact points.
+
+Do not make the fingers merely hover near the eyewear.
+
+Do not leave an unrealistic visible gap between the gripping fingers and the product.
+
+Do not make the glasses float above the hand.
+
+Do not balance the entire product unrealistically on one fingertip.
+
+Do not use a delicate two-finger fingertip-only pinch.
+
+Do not hold the glasses only by one thin temple arm.
+
+Do not weave fingers through the folded temple arms.
+
+Do not require fingers to locate the crossing point of the temple arms.
+
+Do not create complicated finger positions.
+
+Do not force the fingers into unnatural angles merely to keep the product visible.
+
+PRODUCT OCCLUSION
+
+A SMALL amount of natural finger overlap around the central lower area of the frame is acceptable.
+
+Real physical contact is more important than making every millimeter of the frame visible.
+
+The hand should remain mostly BELOW and slightly BEHIND the eyewear.
+
+The fingers may naturally cover a very small portion of the central lower frame where physical contact occurs.
+
+Do not cover the main area of either lens.
+
+Do not place a finger across either lens.
+
+Do not cover large portions of the bridge.
+
+Do not cover the outer frame edges.
+
+Both lens shapes must remain clearly readable.
+
+Most of the front frame must remain visible.
+
+The eyewear remains the visual focus.
+
+HAND
+
+Show only ONE feminine hand.
+
+The hand should have:
+
+realistic feminine proportions
+
+natural slender fingers
+
+anatomically correct joints
+
+realistic skin texture
+
+natural skin tone
+
+clean grooming
+
+relaxed posture
+
+The hand has exactly:
+
+one thumb
+
+four fingers
+
+The thumb, index finger, and middle finger interact with the product.
+
+The ring finger and little finger remain naturally curled and relaxed.
+
+No extra fingers.
+
+No missing fingers.
+
+No duplicated fingers.
+
+No fused fingers.
+
+No duplicated fingertips.
+
+No unnaturally long fingers.
+
+No malformed joints.
+
+No twisted fingers.
+
+No broken wrist.
+
+No impossible hand pose.
+
+Prioritize simple realistic anatomy over an exaggerated elegant hand pose.
+
+NAILS
+
+Use simple feminine manicured nails.
+
+Keep the nails short to medium length.
+
+Use a subtle, tasteful style such as:
+
+soft neutral polish
+
+natural glossy finish
+
+subtle French manicure
+
+very minimal delicate nail details
+
+Avoid elaborate or highly detailed nail art.
+
+Avoid excessive nail length.
+
+Do not make the nails the visual focus.
+
+Keep every nail anatomically attached to the correct finger.
+
+CARDIGAN
+
+The woman wears a soft KNITTED CARDIGAN.
+
+Use a light neutral cardigan color such as:
+
+cream
+
+ivory
+
+off-white
+
+soft beige
+
+The cardigan should have:
+
+realistic knitted textile texture
+
+visible subtle knit pattern
+
+soft fabric thickness
+
+natural fabric folds
+
+realistic cuff construction
+
+The sleeve extends naturally to the wrist.
+
+The cuff sits naturally around the wrist.
+
+The hand emerges naturally from the cardigan sleeve.
+
+The cardigan should look like real knitted clothing.
+
+Do not use faux fur.
+
+Do not use fluffy fleece.
+
+Do not make the sleeve excessively fluffy.
+
+Do not make the sleeve oversized.
+
+Do not let the sleeve cover the fingers.
+
+Do not let the sleeve touch or cover the eyewear.
+
+Match the cardigan lighting naturally to Image B.
+
+PRODUCT PRESENTATION
+
+Position the eyewear prominently in the foreground.
+
+Place it approximately around the central viewing area while respecting the original composition of Image B.
+
+The eyewear should be large enough to inspect clearly.
+
+Keep the entire important frame inside the image.
+
+Do not crop important product details.
+
+Show primarily the front of the glasses.
+
+Use a mostly front-facing presentation with only a slight natural handheld angle.
+
+Do not use an extreme three-quarter angle.
+
+Do not turn the product around.
+
+Do not make the back of the glasses the main view.
+
+Maintain realistic optical perspective.
+
+Do not make the eyewear unnaturally flat.
+
+Do not stretch the frame horizontally.
+
+Do not stretch the frame vertically.
+
+Do not change the lens proportions.
+
+Do not change circular lenses into oval lenses.
+
+Do not change rectangular lenses into another shape.
+
+Do not change cat-eye lenses into round lenses.
+
+Do not alter the original silhouette.
+
+PRODUCT FIDELITY IS MORE IMPORTANT THAN HAND STYLING.
+
+If preserving an attractive hand pose conflicts with preserving the exact eyewear, preserve the eyewear.
+
+If necessary, slightly adjust the hand position instead of modifying the glasses.
+
+DEPTH OF FIELD
+
+Use realistic smartphone-style depth of field.
+
+The eyewear must be sharp.
+
+The gripping fingers should also be sufficiently sharp to clearly show physical contact.
+
+The background may be slightly softer according to realistic smartphone optics.
+
+However, the background must remain recognizable.
+
+Do not create heavy artificial bokeh.
+
+Do not blur the background enough to hide changes in composition.
+
+LIGHTING
+
+Lighting must come entirely from the environment shown in Image B.
+
+Do not invent unrelated studio lighting.
+
+Preserve the same:
+
+light direction
+
+light softness
+
+brightness
+
+exposure
+
+white balance
+
+color temperature
+
+contrast
+
+Create realistic environmental reflections on the lenses and frame.
+
+Create realistic subtle highlights on the skin and cardigan.
+
+Create believable small contact shadows where the fingers physically touch the eyewear.
+
+These contact shadows should help communicate that the fingers are genuinely supporting the product.
+
+Do not create dramatic artificial shadows.
+
+Do not brighten the scene.
+
+Do not darken the scene.
+
+Do not change exposure.
+
+Do not change white balance.
+
+Do not introduce a new color grade.
+
+REFLECTIONS AND MATERIALS
+
+Preserve the original material appearance from Image A.
+
+For transparent or semi-transparent frames:
+
+preserve realistic transparency
+
+preserve subtle refraction
+
+preserve edge reflections
+
+keep the original frame color
+
+do not turn transparent material opaque
+
+For glossy frames:
+
+use realistic controlled reflections
+
+preserve the original surface finish
+
+do not create metallic reflections unless the original product is metallic
+
+For lenses:
+
+preserve realistic transparent lens behavior
+
+allow subtle environmental reflections
+
+keep the lenses visually clean
+
+do not turn normal lenses into mirrored sunglasses unless Image A shows mirrored lenses
+
+avoid reflections that hide the frame shape
+
+BACKGROUND CONTINUITY
+
+Treat Image B as a locked photographic background plate.
+
+Imagine naturally placing the hand and eyewear into the existing photograph rather than rebuilding the room.
+
+All existing background objects should remain in their original locations.
+
+Do not shift the background to make room for the hand.
+
+Instead, place the hand and eyewear naturally within the available foreground area.
+
+REALISM
+
+The final result must look like a genuine smartphone photograph.
+
+Avoid the appearance of CGI.
+
+Avoid the appearance of a commercial 3D render.
+
+Prioritize:
+
+exact product identity
+
+realistic hand anatomy
+
+believable physical grip
+
+visible product weight
+
+believable contact between fingers and product
+
+correct eyewear construction
+
+correct hinge logic
+
+realistic knitted cardigan texture
+
+realistic skin texture
+
+natural reflections
+
+correct scale
+
+consistent depth
+
+consistent perspective
+
+consistent lighting
+
+CRITICAL PRODUCT ERROR PREVENTION
+
+DO NOT:
+
+redesign the glasses
+
+change the frame shape
+
+change the lens shape
+
+change frame proportions
+
+change frame color
+
+change material
+
+change bridge geometry
+
+change rim thickness
+
+add logos
+
+invent logos
+
+add text
+
+add stickers
+
+retain temporary retail stickers
+
+create extra lenses
+
+create extra hinges
+
+create extra temple arms
+
+duplicate temple arms
+
+remove temple arms
+
+create broken hinges
+
+create asymmetrical components unless present in Image A
+
+merge separate product components
+
+distort the glasses around the fingers
+
+deform the frame to accommodate the grip
+
+make the frame thicker or thinner without reason
+
+CRITICAL HAND ERROR PREVENTION
+
+DO NOT:
+
+create a second hand
+
+create extra fingers
+
+remove fingers
+
+duplicate fingertips
+
+fuse fingers
+
+distort hand anatomy
+
+twist fingers unnaturally
+
+make fingers pass through the glasses
+
+merge fingers into the frame
+
+merge fingers into the lenses
+
+place fingers across the lenses
+
+create a grip with no visible physical contact
+
+make the eyewear float
+
+create a complicated decorative hand pose
+
+CRITICAL BACKGROUND ERROR PREVENTION
+
+DO NOT:
+
+add any new object except the hand, cardigan sleeve, and eyewear
+
+delete existing objects
+
+move existing objects
+
+rearrange the scene
+
+change furniture
+
+change decorations
+
+change wall details
+
+change window placement
+
+change curtains or blinds
+
+change background colors
+
+clean up the environment
+
+make the environment more luxurious
+
+add aesthetic props
+
+change the lighting
+
+change the exposure
+
+make the background darker
+
+make the background brighter
+
+FINAL PRIORITY ORDER
+
+When instructions conflict, follow this priority:
+
+Preserve the exact recognizable eyewear identity from Image A.
+
+Preserve the exact frame, lens, bridge, hinge, and temple-arm geometry.
+
+Make the hand visibly and physically support the eyewear.
+
+Use the simple three-finger center support grip.
+
+Keep the index and middle fingers underneath the product and the thumb stabilizing it.
+
+Keep both lenses clearly readable and most of the front frame visible.
+
+Maintain physically correct hand anatomy.
+
+Preserve the exact background composition from Image B.
+
+Preserve the original brightness, exposure, lighting, and white balance.
+
+Use a natural light knitted cardigan sleeve.
+
+Do not introduce additional objects or unnecessary visual details.
+
+FINAL IMAGE GOAL
+
+Create a highly realistic handheld smartphone lifestyle photograph of one feminine hand emerging naturally from a light knitted cardigan sleeve and physically holding the exact folded eyewear from Image A.
+
+The hand uses a simple, believable three-finger center support grip.
+
+The index finger and middle finger support the central area of the folded glasses from underneath and slightly behind, visibly carrying the weight of the product.
+
+The thumb gently stabilizes the same central area from the opposite side.
+
+The glasses visibly rest on the fingers and do not float.
+
+A small amount of natural finger overlap at the central lower frame is acceptable because realistic physical contact is more important than artificially keeping every part unobstructed.
+
+Both lenses remain clearly readable, most of the front frame remains visible, and the exact recognizable product geometry from Image A is preserved.
+
+The hand anatomy is simple and natural.
+
+The original environment, object positions, perspective, lighting, brightness, exposure, white balance, and atmosphere from Image B remain unchanged.
+
+The final result should immediately look like a real person is genuinely holding a real pair of glasses inside the original environment.

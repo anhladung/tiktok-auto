@@ -6,8 +6,14 @@ import math
 import csv
 import re
 import random
+import sys
 import pyautogui
 import pyperclip
+
+if sys.stdout and hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if sys.stderr and hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 
 FLOW_URL = "https://flow.google.com/"
@@ -46,21 +52,24 @@ QUEUE_FILE = os.path.join(
 )
 
 
-FLOW_PROFILES = [
-    r"C:\flow_auto_profile_01",
-    r"C:\flow_auto_profile_02",
-    r"C:\flow_auto_profile_03",
-    r"C:\flow_auto_profile_04",
-    r"C:\flow_auto_profile_05",
-    r"C:\flow_auto_profile_06",
-    r"C:\flow_auto_profile_07",
-    r"C:\flow_auto_profile_08",
-    r"C:\flow_auto_profile_09",
-    r"C:\flow_auto_profile_10",
-    r"C:\flow_auto_profile_11",
-    r"C:\flow_auto_profile_12",
-    r"C:\flow_auto_profile_14",
-]
+try:
+    from profiles_manager import get_active_flow_profiles, load_profiles_config
+    FLOW_PROFILES = get_active_flow_profiles()
+    _cfg = load_profiles_config()
+    print("=" * 60)
+    print("🔧 CHROME PROFILES CẤU HÌNH CHO GOOGLE FLOW:")
+    print(f"   Chế độ: {_cfg.get('run_mode', 'single')} | Profile chính: {_cfg.get('active_flow_profile')}")
+    print(f"   Danh sách sử dụng ({len(FLOW_PROFILES)}): {FLOW_PROFILES}")
+    print("=" * 60)
+except Exception as _e:
+    print(f"⚠️ Không thể đọc profiles_manager: {_e}. Dùng danh sách mặc định.")
+    FLOW_PROFILES = [
+        r"C:\flow_auto_profile_01",
+        r"C:\flow_auto_profile_02",
+        r"C:\flow_auto_profile_03",
+        r"C:\flow_auto_profile_04",
+        r"C:\flow_auto_profile_05",
+    ]
 
 
 VIDEOS_PER_PROFILE = 3
@@ -539,11 +548,9 @@ def get_ai_image_path(
     products/{category}/{product_id}/images/ai/{filename}
 
     Ví dụ:
-        products/lipstick/LP001/images/ai/...
-        products/sandal/SDL001/images/ai/...
+        products/snack/SNK001/images/ai/...
         products/keychain/KC001/images/ai/...
         products/phone_case/PC001/images/ai/...
-        products/mask/MSK001/images/ai/...
         products/eyeglasses/GL001/images/ai/...
     """
 
@@ -566,7 +573,6 @@ def get_ai_image_path(
     return path
 
 
-
 def validate_render_pair(
     category,
     clip_index,
@@ -576,6 +582,11 @@ def validate_render_pair(
     """
     Kiểm tra các category đã đổi pipeline để bảo đảm
     render_queue bám đúng frame pair hiện tại.
+
+    snack:
+        chỉ có Clip 01
+        01_hand_holding.png
+        -> 01_hand_holding.png
 
     keychain:
         chỉ còn Clip 02
@@ -587,17 +598,10 @@ def validate_render_pair(
         01_clip_01_first_frame.png
         -> 02_clip_01_last_frame.png
 
-    mask:
-        chỉ có Clip 01
-        01_side_view.png
-        -> 02_front_view.png
-
     eyeglasses:
         chỉ có Clip 01
         01_hand_holding.png
         -> 02_closeup.png
-
-    lipstick và sandal giữ nguyên logic queue hiện tại.
     """
 
     normalized_category = (
@@ -607,9 +611,9 @@ def validate_render_pair(
     )
 
     if normalized_category not in {
+        "snack",
         "keychain",
         "phone_case",
-        "mask",
         "eyeglasses",
     }:
         return
@@ -633,6 +637,12 @@ def validate_render_pair(
     )
 
     expected_by_category = {
+        "snack": {
+            1: (
+                "01_hand_holding.png",
+                "01_hand_holding.png",
+            ),
+        },
         "keychain": {
             2: (
                 "03_hand_holding.png",
@@ -643,12 +653,6 @@ def validate_render_pair(
             1: (
                 "01_clip_01_first_frame.png",
                 "02_clip_01_last_frame.png",
-            ),
-        },
-        "mask": {
-            1: (
-                "01_side_view.png",
-                "02_front_view.png",
             ),
         },
         "eyeglasses": {
@@ -869,251 +873,605 @@ def click_image_card(
     time.sleep(0.5)
 
 
+def detect_video_card_selector(page, timeout_sec=20):
+    """
+    Tự động nhận diện selector cho video card trên Google Flow:
+    Ưu tiên 'flow-grid-tile-container:has(flow-video-tile)', sau đó 'flow-video-tile', 'flow-tile-container:has(flow-video-tile)'.
+    """
+    for _ in range(timeout_sec):
+        if page.locator("flow-grid-tile-container:has(flow-video-tile)").count() > 0:
+            return "flow-grid-tile-container:has(flow-video-tile)"
+        if page.locator("flow-video-tile").count() > 0:
+            return "flow-video-tile"
+        if page.locator("flow-tile-container:has(flow-video-tile)").count() > 0:
+            return "flow-tile-container:has(flow-video-tile)"
+        time.sleep(1)
+    return "flow-grid-tile-container:has(flow-video-tile), flow-video-tile"
+
+
+# ─────────────────────────────────────────────
+# Context menu (chuột phải) của video card
+# ─────────────────────────────────────────────
+VIDEO_MENU_ITEM_SELECTOR = (
+    "flow-video-context-menu-items button[mat-menu-item], "
+    "flow-media-context-menu-items button[mat-menu-item]"
+)
+DOWNLOAD_LABEL_RE = re.compile(r"^\s*(Download|Tải xuống)\s*$", re.IGNORECASE)
+
+
+def get_video_card_locator(page, card_selector, idx):
+    """Trả về locator của video card thứ idx (None nếu không có card nào)."""
+    loc = page.locator(card_selector)
+    if loc.count() == 0:
+        loc = page.locator("flow-video-tile")
+    total = loc.count()
+    if total == 0:
+        return None
+    if idx is None or idx < 0 or idx >= total:
+        idx = 0
+    return loc.nth(idx)
+
+
+def find_download_menu_item(page):
+    """
+    Tìm mục 'Download' đang HIỂN THỊ và KHÔNG bị disable trong menu chuột phải
+    (<flow-video-context-menu-items> / <flow-media-context-menu-items>).
+    Trả về locator hoặc None.
+    """
+    candidates = [
+        page.locator(VIDEO_MENU_ITEM_SELECTOR).filter(
+            has=page.locator(".label", has_text=DOWNLOAD_LABEL_RE)
+        ),
+        page.locator(
+            "div[role='menu'] button[mat-menu-item], .mat-mdc-menu-panel button[mat-menu-item]"
+        ).filter(
+            has=page.locator("mat-icon", has_text=re.compile(r"^\s*download\s*$"))
+        ),
+    ]
+    for cand in candidates:
+        try:
+            if cand.count() == 0:
+                continue
+            item = cand.first
+            if not item.is_visible():
+                continue
+            disabled = (
+                item.get_attribute("disabled") is not None
+                or item.get_attribute("aria-disabled") == "true"
+            )
+            if disabled:
+                continue
+            return item
+        except Exception:
+            continue
+    return None
+
+
+def close_video_context_menu(page):
+    """Đóng mọi menu đang mở (Escape), đảm bảo không còn backdrop che card."""
+    for _ in range(3):
+        try:
+            if page.locator(".mat-mdc-menu-panel:visible, div[role='menu']:visible").count() == 0:
+                break
+            page.keyboard.press("Escape")
+            time.sleep(0.25)
+        except Exception:
+            break
+
+
+def _poll_download_item(page, timeout_sec=2.5):
+    """Chờ tối đa timeout_sec giây cho mục Download xuất hiện."""
+    end = time.time() + timeout_sec
+    while time.time() < end:
+        item = find_download_menu_item(page)
+        if item is not None:
+            return item
+        time.sleep(0.15)
+    return None
+
+
+def open_video_context_menu(page, card_loc, card_selector="", card_index=0, full_fallback=True):
+    """
+    Mở menu của video card và trả về locator mục 'Download' nếu mở thành công,
+    ngược lại trả về None. Dùng làm phép KIỂM TRA VIDEO READY:
+    video chỉ có mục Download bấm được khi đã render xong.
+
+    Thứ tự thử (mỗi cách tự dọn menu cũ trước khi thử cách mới):
+      A. Chuột phải THẬT (human_click, button='right') vào ảnh thumbnail
+      B. Hover card -> bấm nút 3 chấm 'More options' trên hotbar
+      C. Phát sự kiện contextmenu giả lên đúng phần tử có class mat-context-menu-trigger
+    """
+    close_video_context_menu(page)
+
+    try:
+        card_loc.scroll_into_view_if_needed(timeout=3000)
+    except Exception:
+        pass
+    time.sleep(0.3)
+
+    # ── A. Chuột phải thật vào thumbnail ──
+    try:
+        target = card_loc.locator("img.thumbnail").first
+        if target.count() == 0:
+            target = card_loc.locator("flow-video-tile, .container").first
+        if target.count() == 0:
+            target = card_loc
+        human_click(page, target, name="video card (right-click)", button="right", timeout=4000)
+        item = _poll_download_item(page, 2.5)
+        if item is not None:
+            return item
+    except Exception as e:
+        print(f"  [menu] Chuột phải thật lỗi: {e}")
+
+    if not full_fallback:
+        close_video_context_menu(page)
+        return None
+
+    # ── B. Nút 3 chấm trên hotbar (chỉ hiện khi hover) ──
+    close_video_context_menu(page)
+    try:
+        hover_target = card_loc.locator("img.thumbnail, flow-video-tile").first
+        if hover_target.count() == 0:
+            hover_target = card_loc
+        hover_target.hover(force=True, timeout=3000)
+        time.sleep(0.5)
+        more_btn = card_loc.locator(
+            "button[aria-label='More options'], button[aria-label='Tuỳ chọn khác'], "
+            "button:has(mat-icon:has-text('more_vert'))"
+        ).first
+        if more_btn.count() > 0:
+            more_btn.click(force=True, timeout=3000)
+            item = _poll_download_item(page, 2.5)
+            if item is not None:
+                return item
+    except Exception as e:
+        print(f"  [menu] Nút 3 chấm lỗi: {e}")
+
+    # ── C. contextmenu giả, nhắm vào phần tử có mat-context-menu-trigger ──
+    close_video_context_menu(page)
+    try:
+        page.evaluate(
+            """
+            (args) => {
+                let cards = Array.from(document.querySelectorAll(args.sel));
+                if (cards.length === 0) cards = Array.from(document.querySelectorAll('flow-video-tile'));
+                const card = cards[args.idx] || cards[0];
+                if (!card) return false;
+                const trigger = card.matches('.mat-context-menu-trigger')
+                    ? card
+                    : (card.closest('.mat-context-menu-trigger') || card.querySelector('.mat-context-menu-trigger') || card);
+                const inner = card.querySelector('img.thumbnail') || trigger;
+                const r = inner.getBoundingClientRect();
+                const init = {bubbles: true, cancelable: true, composed: true, view: window,
+                              clientX: r.left + r.width / 2, clientY: r.top + r.height / 2,
+                              button: 2, buttons: 2};
+                inner.dispatchEvent(new MouseEvent('contextmenu', init));
+                return true;
+            }
+            """,
+            {"sel": card_selector or "flow-video-tile", "idx": card_index or 0},
+        )
+        item = _poll_download_item(page, 2.5)
+        if item is not None:
+            return item
+    except Exception as e:
+        print(f"  [menu] contextmenu giả lỗi: {e}")
+
+    close_video_context_menu(page)
+    return None
+
+
 def wait_and_download_video_card(
     page,
-    card_index,
-    save_path
+    card_index=0,
+    save_path="",
+    prompt_text=""
 ):
-    VIDEO_CARD_SELECTOR = "flow-grid-tile-container"
+    """
+    Chờ video render hoàn tất trên thẻ video card và tải về.
+    Hỗ trợ nhận diện chính xác card mới tạo qua:
+    1. Card đang có tiến trình sinh (.progress-bar hoặc overlay-has-progress-bar)
+    2. Card có aria-label / footer-title khớp từ khóa prompt
+    3. Thẻ img.thumbnail có src hợp lệ, badge play_arrow / footer play_circle, hotbar nút 3 chấm
+    4. Kích hoạt menu chuột phải (<flow-video-context-menu-items>) hoặc nút 3 chấm để tải video
+    """
+    prompt_keywords = []
+    if prompt_text:
+        raw_words = re.findall(r"\b[a-zA-Z0-9_-]{4,}\b", prompt_text)
+        stop_words = {"cinematic", "commercial", "shot", "ultra", "realistic", "high", "quality", "with", "from", "video"}
+        prompt_keywords = [w for w in raw_words if w.lower() not in stop_words][:6]
 
-    video_cards = page.locator(VIDEO_CARD_SELECTOR)
-    count = video_cards.count()
+    card_selector = detect_video_card_selector(page, timeout_sec=20)
+    print(f"Bắt đầu theo dõi video card ({card_selector}). Từ khóa prompt: {prompt_keywords}")
 
-    print(
-        f"Found {count} video cards. "
-        f"Targeting index {card_index}."
-    )
+    target_index = card_index
+    locked_index = None
+    last_probe_attempt = -100
 
-    if count <= card_index:
-        page.screenshot(
-            path="debug_video_card_not_found.png",
-            full_page=True
-        )
-        raise Exception(
-            f"Video card {card_index} not found. "
-            f"Found {count} cards."
-        )
-
-    print(f"Waiting for video card {card_index} to be ready...")
-
-    # KHÔNG hover trong lúc chờ. Hover có thể bật preview và làm Flow
-    # thay đổi DOM/card liên tục.
     for attempt in range(240):
         time.sleep(1)
 
+        eval_data = {
+            "cardSelector": card_selector,
+            "targetIndex": target_index if locked_index is None else locked_index,
+            "promptKeywords": prompt_keywords
+        }
+
         debug_info = page.evaluate(
-            f"""
-            () => {{
-                const cards = document.querySelectorAll(
-                    '{VIDEO_CARD_SELECTOR}'
-                );
-                const card = cards[{card_index}];
+            r"""
+            (args) => {
+                const selector = args.cardSelector;
+                const targetIdx = args.targetIndex;
+                const keywords = args.promptKeywords || [];
 
-                if (!card) {{
-                    return {{
+                // 1. Tìm tất cả các thẻ video trên trang
+                let cards = Array.from(document.querySelectorAll(selector));
+                if (cards.length === 0) {
+                    cards = Array.from(document.querySelectorAll('flow-video-tile'));
+                }
+                if (cards.length === 0) {
+                    cards = Array.from(document.querySelectorAll('flow-grid-tile-container')).filter(c => {
+                        return c.querySelector('flow-video-tile, .mobile-play-badge, flow-video-hotbar, video, img.thumbnail');
+                    });
+                }
+
+                if (cards.length === 0) {
+                    return {
                         ready: false,
-                        reason: 'card_not_found',
+                        reason: 'no_cards_found',
+                        total_cards: 0
+                    };
+                }
+
+                // 2. Xác định đúng thẻ card đang tạo / cần lấy:
+                let targetCard = null;
+                let finalIdx = -1;
+
+                // A. Ưu tiên card đang có thanh tiến trình (đang generate)
+                for (let i = 0; i < cards.length; i++) {
+                    const c = cards[i];
+                    const hasProgressBar = Boolean(c.querySelector('.progress-bar, mat-progress-bar, [class*="progress-bar"]'));
+                    const hasProgressClass = Boolean(c.querySelector('.hover-overlay-has-progress-bar, .footer-overlay-has-progress-bar'));
+                    if (hasProgressBar || hasProgressClass) {
+                        targetCard = c;
+                        finalIdx = i;
+                        break;
+                    }
+                }
+
+                // B. Nếu không có card nào đang render dở, tìm theo từ khóa prompt
+                if (!targetCard && keywords.length > 0) {
+                    for (let i = 0; i < cards.length; i++) {
+                        const c = cards[i];
+                        const titleEl = c.querySelector('.footer-title, [class*="footer-title"]');
+                        const labelText = ((c.getAttribute('aria-label') || '') + ' ' + (titleEl ? titleEl.innerText : '')).toLowerCase();
+                        const matches = keywords.filter(k => labelText.includes(k.toLowerCase())).length;
+                        if (matches >= 2 || (keywords.length === 1 && matches === 1)) {
+                            targetCard = c;
+                            finalIdx = i;
+                            break;
+                        }
+                    }
+                }
+
+                // C. Nếu không khớp từ khóa, lấy theo targetIdx (mặc định 0 - mới nhất)
+                if (!targetCard) {
+                    let idx = targetIdx;
+                    if (idx < 0 || idx >= cards.length) {
+                        idx = 0;
+                    }
+                    targetCard = cards[idx];
+                    finalIdx = idx;
+                }
+
+                if (!targetCard) {
+                    return {
+                        ready: false,
+                        reason: 'card_not_resolved',
                         total_cards: cards.length
-                    }};
-                }}
+                    };
+                }
 
-                const videoTile = card.querySelector('flow-video-tile');
-                const thumb = card.querySelector('img.thumbnail');
-
-                if (!videoTile) {{
-                    return {{
+                // 3. Kiểm tra thông báo lỗi sinh video
+                const cardText = (targetCard.innerText || '').toLowerCase();
+                if (cardText.includes('failed to generate') || cardText.includes('không thể tạo') || cardText.includes('generation error') || cardText.includes('thử lại sau')) {
+                    return {
                         ready: false,
-                        reason: 'video_tile_not_found',
-                        total_cards: cards.length,
-                        card_html: (card.outerHTML || '').slice(0, 800)
-                    }};
-                }}
+                        reason: 'generation_failed',
+                        card_text: cardText.slice(0, 150),
+                        card_index: finalIdx,
+                        total_cards: cards.length
+                    };
+                }
 
-                if (!thumb) {{
-                    return {{
-                        ready: false,
-                        reason: 'thumb_not_found',
-                        total_cards: cards.length,
-                        card_html: (card.outerHTML || '').slice(0, 800)
-                    }};
-                }}
+                // 4. Kiểm tra tiến trình render
+                const progressBar = targetCard.querySelector('.progress-bar, mat-progress-bar, [class*="progress-bar"]');
+                const hasProgressClass = Boolean(targetCard.querySelector('.hover-overlay-has-progress-bar, .footer-overlay-has-progress-bar'));
 
-                const src = thumb.getAttribute('src') || '';
-                const currentSrc = thumb.currentSrc || '';
-                const alt = thumb.getAttribute('alt') || '';
-                const thumbnailUrl = currentSrc || src;
+                let progressPercent = null;
+                if (progressBar) {
+                    const style = progressBar.getAttribute('style') || '';
+                    const match = style.match(/--progress-percent:\s*([\d.]+)%/);
+                    if (match) {
+                        progressPercent = parseFloat(match[1]);
+                    }
+                }
 
-                // Không bắt buộc thumb.complete/naturalWidth > 0 nữa.
-                // Chỉ cần đúng video card + thumbnail đã có URL thực.
-                const ready = Boolean(
-                    thumbnailUrl &&
-                    /^(https?:|blob:|data:)/i.test(thumbnailUrl)
-                );
+                let isGenerating = false;
+                if (progressBar) {
+                    if (progressPercent !== null) {
+                        isGenerating = progressPercent < 99.0;
+                    } else {
+                        isGenerating = true;
+                    }
+                } else if (hasProgressClass) {
+                    isGenerating = true;
+                }
 
-                return {{
+                // 5. Kiểm tra tài nguyên media & các thành phần UI hoàn tất
+                const video = targetCard.querySelector('video');
+                const videoSrc = video ? (video.getAttribute('src') || video.currentSrc || '') : '';
+                const hasValidVideoSrc = Boolean(videoSrc && /^(https?:|blob:)/i.test(videoSrc));
+
+                const thumb = targetCard.querySelector('img.thumbnail, img');
+                const thumbSrc = thumb ? (thumb.currentSrc || thumb.getAttribute('src') || '') : '';
+                const hasValidThumb = Boolean(thumbSrc && /^(https?:|blob:)/i.test(thumbSrc) && !thumbSrc.includes('placeholder'));
+
+                // Play badge / Play icon
+                const playBadge = targetCard.querySelector('.mobile-play-badge, mat-icon:not(.fill):not(.flow-icon-m), mat-icon');
+                const playIconText = playBadge ? (playBadge.innerText || '').trim() : '';
+                const hasPlayIcon = Boolean(playIconText === 'play_arrow' || playIconText === 'play_circle' || targetCard.querySelector('.mobile-play-badge'));
+
+                // Hotbar nút 3 chấm / Tùy chọn khác
+                const hotbar = targetCard.querySelector('flow-video-hotbar, .hotbar-container, button[aria-label="More options"], button[aria-label="Tuỳ chọn khác"], button[aria-label="Favorite"]');
+
+                // Video được coi là READY khi:
+                // - Không còn đang sinh (isGenerating = false)
+                // - Đã có ảnh thumbnail hoặc video src hợp lệ
+                // - Đã xuất hiện icon Play (play_arrow / play_circle) hoặc hotbar menu
+                const ready = (!isGenerating) && (hasValidVideoSrc || hasValidThumb) && (hasPlayIcon || Boolean(hotbar));
+
+                return {
                     ready: ready,
-                    reason: ready ? 'ready' : 'thumbnail_url_not_ready',
-                    total_cards: cards.length,
-                    src_prefix: src.slice(0, 80),
-                    current_src_prefix: currentSrc.slice(0, 80),
-                    alt: alt,
-                    complete: thumb.complete,
-                    natural_width: thumb.naturalWidth,
-                    natural_height: thumb.naturalHeight
-                }};
-            }}
-            """
+                    reason: ready ? 'ready' : (isGenerating ? 'generating' : 'waiting_media_ready'),
+                    card_index: finalIdx,
+                    progress: progressPercent,
+                    has_progress_bar: Boolean(progressBar),
+                    has_progress_class: hasProgressClass,
+                    video_src_prefix: videoSrc.slice(0, 80),
+                    thumb_src_prefix: thumbSrc.slice(0, 80),
+                    has_play_icon: hasPlayIcon,
+                    has_hotbar: Boolean(hotbar),
+                    total_cards: cards.length
+                };
+            }
+            """,
+            eval_data
         )
 
-        if debug_info.get("ready", False):
-            print(
-                f"Video card {card_index} ready | "
-                f"src={debug_info.get('src_prefix', '')!r} | "
-                f"currentSrc={debug_info.get('current_src_prefix', '')!r}"
-            )
-            break
+        resolved_idx = debug_info.get("card_index")
+        if resolved_idx is not None and locked_index is None:
+            locked_index = resolved_idx
 
+        if debug_info.get("reason") == "generation_failed":
+            page.screenshot(path="debug_video_generation_failed.png", full_page=True)
+            raise Exception(f"Video generation failed: {debug_info.get('card_text')}")
+
+        # ── READY = chuột phải vào video và menu hiện mục 'Download' bấm được ──
+        # Chỉ chuột phải khi DOM đã báo ready (hết progress bar + có thumbnail + play/hotbar).
+        # Nếu DOM chưa báo ready thì KHÔNG chuột phải liên tục (card đang generating chỉ có
+        # menu Delete). Chỉ thăm dò nhẹ (1 lần chuột phải, không fallback) mỗi 20 giây sau 60 giây
+        # đầu, phòng khi heuristic DOM bị sai.
+        reason = debug_info.get("reason")
+        dom_ready = bool(debug_info.get("ready", False))
+        if dom_ready:
+            should_probe = (attempt - last_probe_attempt) >= 4
+            full_fb = True
+        else:
+            should_probe = (
+                reason == "waiting_media_ready"
+                and attempt >= 60
+                and (attempt - last_probe_attempt) >= 20
+            )
+            full_fb = False
+
+        if should_probe:
+            last_probe_attempt = attempt
+            probe_loc = get_video_card_locator(
+                page, card_selector,
+                locked_index if locked_index is not None else target_index
+            )
+            if probe_loc is not None:
+                menu_download_item = open_video_context_menu(
+                    page, probe_loc, card_selector,
+                    locked_index if locked_index is not None else target_index,
+                    full_fallback=full_fb
+                )
+                if menu_download_item is not None:
+                    print(
+                        f"✅ Video card {locked_index} ĐÃ HOÀN TẤT (menu chuột phải có 'Download') | "
+                        f"dom_ready={dom_ready} | thumb_src={debug_info.get('thumb_src_prefix', '')!r}"
+                    )
+                    break
+                print(
+                    f"  [Check Video {attempt + 1}/240] Menu chưa có 'Download' "
+                    f"(dom_ready={dom_ready}, reason={reason}) -> đợi thêm"
+                )
+
+        progress_str = f"{debug_info.get('progress'):.1f}%" if debug_info.get("progress") is not None else "N/A"
         print(
-            f"  waiting... {attempt + 1}/120 | "
-            f"reason={debug_info.get('reason')} | "
-            f"total_cards={debug_info.get('total_cards')} | "
-            f"src={debug_info.get('src_prefix', '')!r} | "
-            f"currentSrc={debug_info.get('current_src_prefix', '')!r} | "
-            f"complete={debug_info.get('complete')} | "
-            f"natural={debug_info.get('natural_width')}x"
-            f"{debug_info.get('natural_height')}"
+            f"  [Check Video {attempt + 1}/240] status={debug_info.get('reason')} | "
+            f"progress={progress_str} | card_idx={locked_index} | total_cards={debug_info.get('total_cards')}"
         )
-
-        if debug_info.get("reason") in {
-            "video_tile_not_found",
-            "thumb_not_found"
-        }:
-            print(
-                "  card_html: "
-                f"{debug_info.get('card_html', '')}"
-            )
-
     else:
-        page.screenshot(
-            path="debug_video_card_not_ready.png",
-            full_page=True
-        )
-        raise Exception(
-            f"Timeout waiting for video card {card_index}. "
-            f"Saved debug_video_card_not_ready.png"
-        )
+        page.screenshot(path="debug_video_card_timeout.png", full_page=True)
+        raise Exception(f"Hết thời gian chờ video render (timeout 240s). Đã lưu debug_video_card_timeout.png")
 
-    # Flow có thể replace DOM sau khi thumbnail ready -> lấy lại card.
-    card = page.locator(VIDEO_CARD_SELECTOR).nth(card_index)
-    card.scroll_into_view_if_needed()
+    time.sleep(1)
+    target_idx = locked_index if locked_index is not None else 0
+
+    # Lấy locator card đã hoàn tất
+    card_loc = page.locator(card_selector).nth(target_idx)
+    if card_loc.count() == 0:
+        card_loc = page.locator("flow-video-tile").nth(target_idx)
+    card_loc.scroll_into_view_if_needed()
     time.sleep(0.5)
 
-    box = card.bounding_box()
-    if not box:
-        raise Exception(
-            f"Cannot get bounding box of video card {card_index}"
-        )
-
-    cx = box["x"] + box["width"] / 2
-    cy = box["y"] + box["height"] / 2
-
-    # Từ thời điểm video đã render xong, không dùng human_click /
-    # pyautogui nữa. Click trực tiếp bằng Playwright để tránh việc
-    # di chuyển chuột vật lý làm menu bị mất focus hoặc đóng ngoài ý muốn.
-    card.click(
-        button="right",
-        force=True,
-        timeout=10000
-    )
-
-    print(f"Right clicked video card {card_index} (direct Playwright click)")
-    time.sleep(2)
-
-    download_menu_item = page.locator(
-        "button[mat-menu-item]"
-    ).filter(
-        has=page.locator("mat-icon:text('download')")
-    ).first
-
-    download_menu_item.wait_for(
-        state="visible",
-        timeout=10000
-    )
-
-    download_menu_item.click(
-        force=True,
-        timeout=10000
-    )
-
-    print("Clicked Tải xuống (direct Playwright click)")
-    time.sleep(2)
-
-    with page.expect_download(timeout=180000) as dl_info:
-        # Flow UI hiện tại: 720p nằm trong
-        # <button mat-menu-item> -> <span class="item-text">
-        # -> <span class="label">720p</span>.
-        # Khớp trực tiếp label để không phụ thuộc caption/language.
-        resolution_menu_item = page.locator(
-            "button[mat-menu-item]"
-        ).filter(
-            has=page.locator(
-                "span.item-text span.label"
-            ).filter(
-                has_text=re.compile(r"^\s*720p\s*$")
-            )
-        ).first
-
-        # Fallback 1: class item-text thay đổi nhưng span.label vẫn còn.
-        if resolution_menu_item.count() == 0:
-            resolution_menu_item = page.locator(
-                "button[mat-menu-item]"
-            ).filter(
-                has=page.locator(
-                    "span.label"
-                ).filter(
-                    has_text=re.compile(r"^\s*720p\s*$")
-                )
-            ).first
-
-        # Fallback 2: match trực tiếp text của menu item. HTML hiện tại
-        # có cả "720p" và caption "Original size", nên dùng regex chứa 720p.
-        if resolution_menu_item.count() == 0:
-            resolution_menu_item = page.locator(
-                "button[mat-menu-item]"
-            ).filter(
-                has_text=re.compile(r"\b720p\b", re.IGNORECASE)
-            ).first
-
-        resolution_menu_item.wait_for(
-            state="visible",
-            timeout=15000
-        )
-
-        print("720p download menu item found, clicking directly...")
-
-        # Không dùng human_click ở bước download. Menu Angular Material
-        # có thể đóng nếu con trỏ vật lý di chuyển/focus thay đổi.
-        resolution_menu_item.click(
-            force=True,
-            timeout=10000
-        )
-
-        print("Clicked 720p download option (direct Playwright click)")
-
-    download = dl_info.value
-
+    # Thử lấy link video trực tiếp từ thẻ video nếu có
+    video_src = ""
     try:
-        download.save_as(save_path)
-    except Exception as save_error:
-        print(
-            "LOI KHI LUU DOWNLOAD - browser/context co the "
-            "da bi dong giua chung (khong phai do click sai "
-            "nut). Chi tiet:",
-            save_error
-        )
-        raise
+        v_elem = card_loc.locator("video").first
+        if v_elem.count() > 0:
+            video_src = v_elem.get_attribute("src") or ""
+    except Exception:
+        pass
 
-    print(f"Saved: {save_path}")
+    download_success = False
+
+    # ─────────────────────────────────────────────
+    # PHƯƠNG ÁN 1: Tải trực tiếp siêu tốc từ CDN nếu có thẻ <video src="...">
+    # ─────────────────────────────────────────────
+    if video_src and re.match(r"^https?://", video_src, re.IGNORECASE):
+        print(f"🚀 Tải trực tiếp video từ CDN Google Flow: {video_src[:80]}...")
+        try:
+            import urllib.request
+            req = urllib.request.Request(
+                video_src,
+                headers={
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                    "Referer": "https://flow.google.com/"
+                }
+            )
+            with urllib.request.urlopen(req, timeout=120) as resp:
+                if resp.status == 200:
+                    with open(save_path, "wb") as f:
+                        while True:
+                            chunk = resp.read(64 * 1024)
+                            if not chunk:
+                                break
+                            f.write(chunk)
+
+                    if os.path.exists(save_path) and os.path.getsize(save_path) > 10000:
+                        file_mb = os.path.getsize(save_path) / (1024 * 1024)
+                        print(f"✅ Tải video thành công từ CDN: {save_path} ({file_mb:.2f} MB)")
+                        download_success = True
+        except Exception as cdn_err:
+            print(f"Tải qua CDN không thành công: {cdn_err}, chuyển sang Menu UI...")
+
+    # ─────────────────────────────────────────────
+    # PHƯƠNG ÁN 2: Nhấn CHUỘT PHẢI vào Video Card để mở Menu -> Click Tải xuống
+    # ─────────────────────────────────────────────
+    if not download_success:
+        print(f"🖱️ Đang mở menu chuột phải của video card (index {target_idx}) để tải...")
+        try:
+            # Nếu menu từ bước check READY vẫn đang mở thì dùng luôn, không thì mở lại
+            download_item = find_download_menu_item(page)
+            if download_item is None:
+                download_item = open_video_context_menu(page, card_loc, card_selector, target_idx)
+            if download_item is None:
+                page.screenshot(path="debug_video_menu_not_open.png", full_page=True)
+                raise Exception("Không mở được menu chuột phải / 3 chấm có mục Download (đã lưu debug_video_menu_not_open.png)")
+
+            download_item.wait_for(state="visible", timeout=8000)
+            print("Đã thấy mục 'Download' trong Context Menu, bắt đầu xử lý tải...")
+
+            # 6. Nút Download là một Submenu trigger (chứa svg mũi tên). Hover hoặc click để mở submenu độ phân giải
+            try:
+                download_item.hover(force=True)
+                time.sleep(0.3)
+            except Exception:
+                pass
+
+            try:
+                # Thử kích hoạt download trực tiếp nếu click download tải ngay
+                with page.expect_download(timeout=5000) as quick_dl:
+                    download_item.click(force=True)
+                download = quick_dl.value
+                download.save_as(save_path)
+                download_success = True
+                print("✅ Đã tải video ngay sau khi click Download")
+            except Exception:
+                # Nếu mở Submenu độ phân giải (720p / 1080p / Original), click vào tùy chọn độ phân giải
+                print("Submenu độ phân giải xuất hiện, click chọn độ phân giải...")
+                with page.expect_download(timeout=180000) as full_dl:
+                    # Submenu là panel menu MỚI NHẤT (panel cuối cùng), không phải mục 'Download' cha
+                    res_item = page.locator(
+                        ".mat-mdc-menu-panel button[mat-menu-item]"
+                    ).filter(
+                        has_text=re.compile(r"(\b720p\b|\b1080p\b|\b4K\b|Original|Gốc)", re.IGNORECASE)
+                    ).first
+                    if res_item.count() == 0:
+                        res_item = page.locator(".mat-mdc-menu-panel").last.locator("button[mat-menu-item]").first
+                    res_item.wait_for(state="visible", timeout=8000)
+                    res_item.click(force=True)
+
+                download = full_dl.value
+                download.save_as(save_path)
+                download_success = True
+
+            if os.path.exists(save_path) and os.path.getsize(save_path) > 10000:
+                file_mb = os.path.getsize(save_path) / (1024 * 1024)
+                print(f"✅ Tải video thành công qua Menu chuột phải: {save_path} ({file_mb:.2f} MB)")
+        except Exception as ui_err:
+            print(f"Tải qua Menu chuột phải thất bại: {ui_err}")
+
+    # ─────────────────────────────────────────────
+    # PHƯƠNG ÁN 3 (Dự phòng tối thượng): Click mở Modal Player để lấy link <video> phát thật
+    # ─────────────────────────────────────────────
+    if not download_success:
+        print("🔄 Thử phương án dự phòng 3: Mở modal player để trích xuất link video...")
+        try:
+            # Nhấn vào giữa thẻ video card để mở popup player
+            card_loc.click(force=True)
+            time.sleep(2)
+
+            modal_video_src = page.evaluate(
+                """
+                () => {
+                    const video = document.querySelector('video[src], video source[src]');
+                    if (video) {
+                        return video.getAttribute('src') || video.currentSrc || '';
+                    }
+                    return '';
+                }
+                """
+            )
+
+            if modal_video_src and modal_video_src.startswith("http"):
+                print(f"Tìm thấy link video từ Modal Player: {modal_video_src[:80]}...")
+                import urllib.request
+                req = urllib.request.Request(
+                    modal_video_src,
+                    headers={
+                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                        "Referer": "https://flow.google.com/"
+                    }
+                )
+                with urllib.request.urlopen(req, timeout=120) as resp:
+                    if resp.status == 200:
+                        with open(save_path, "wb") as f:
+                            while True:
+                                chunk = resp.read(64 * 1024)
+                                if not chunk:
+                                    break
+                                f.write(chunk)
+                        if os.path.exists(save_path) and os.path.getsize(save_path) > 10000:
+                            download_success = True
+                            print(f"✅ Tải video thành công từ Modal Player: {save_path}")
+
+            # Đóng modal player bằng phím Escape
+            try:
+                page.keyboard.press("Escape")
+            except Exception:
+                pass
+        except Exception as modal_err:
+            print(f"Phương án Modal Player thất bại: {modal_err}")
+
+    if not download_success:
+        page.screenshot(path="debug_video_download_failed.png", full_page=True)
+        raise Exception(f"Không thể tải video từ card {target_idx} qua bất kỳ phương thức nào.")
+
+    print(f"🎉 Hoàn thành lưu video: {save_path}")
 
 
 # ─────────────────────────────────────────────
@@ -1255,15 +1613,29 @@ def setup_new_project(page):
             timeout=15000
         )
 
-        for attempt in range(1, max_attempts + 1):
-            already_checked = (
-                button.get_attribute(
-                    "aria-checked"
+        def is_btn_checked(btn):
+            try:
+                if btn.get_attribute("aria-checked") == "true":
+                    return True
+                parent_checked = btn.evaluate(
+                    """(el) => {
+                        const toggle = el.closest('mat-button-toggle');
+                        return Boolean(
+                            toggle && (
+                                toggle.classList.contains('mat-button-toggle-checked')
+                                || toggle.getAttribute('aria-checked') === 'true'
+                            )
+                        );
+                    }"""
                 )
-                == "true"
-            )
+                if parent_checked:
+                    return True
+            except Exception:
+                pass
+            return False
 
-            if already_checked:
+        for attempt in range(1, max_attempts + 1):
+            if is_btn_checked(button):
                 print(
                     f"{name}: already selected, skip click"
                 )
@@ -1274,21 +1646,25 @@ def setup_new_project(page):
                 name
             )
 
-            page.wait_for_timeout(250)
+            page.wait_for_timeout(350)
 
-            now_checked = (
-                button.get_attribute(
-                    "aria-checked"
-                )
-                == "true"
-            )
-
-            if now_checked:
+            if is_btn_checked(button):
                 print(
                     f"{name}: selected OK "
                     f"(attempt {attempt})"
                 )
                 return True
+
+            # Nếu thử lần 2 trở đi mà chưa đổi trạng thái, thử click trực tiếp qua DOM
+            if attempt >= 2:
+                try:
+                    button.click(force=True, timeout=2000)
+                    page.wait_for_timeout(300)
+                    if is_btn_checked(button):
+                        print(f"{name}: selected OK via force click (attempt {attempt})")
+                        return True
+                except Exception:
+                    pass
 
             print(
                 f"{name}: click chưa đổi trạng thái, "
@@ -1615,46 +1991,57 @@ def setup_new_project(page):
 
     human_delay(0.20, 0.45)
 
-    # Thời lượng 10s: Chủ động chọn 10s
+    # ============================================================
+    # THỜI LƯỢNG 10s: Hỗ trợ tiếng Việt ("10 giây") và tiếng Anh ("10s")
+    # ============================================================
     duration_10s = page.locator(
+        "mat-button-toggle button.mat-button-toggle-button, "
         "button.mat-button-toggle-button"
     ).filter(
-        has_text=re.compile(r"^\s*10s\s*$", re.IGNORECASE)
+        has_text=re.compile(r"^\s*10\s*(s|giây|sec|seconds)?\s*$", re.IGNORECASE)
     ).first
 
     if duration_10s.count() == 0:
-        duration_10s = page.locator(
-            "button"
-        ).filter(
-            has_text=re.compile(r"\b10\s*(s|giây)\b", re.IGNORECASE)
-        ).first
+        duration_10s = page.locator("mat-button-toggle").filter(
+            has_text=re.compile(r"^\s*10\s*(s|giây|sec|seconds)?\s*$", re.IGNORECASE)
+        ).locator("button").first
 
     if duration_10s.count() > 0:
         click_toggle_and_verify(
             duration_10s,
             "10s duration"
         )
-
         human_delay(0.20, 0.45)
     else:
         print("Warning: 10s duration button not found")
 
+    # ============================================================
+    # SỐ LƯỢNG CLIP / TỐC ĐỘ: x1
+    # ============================================================
     speed_x1 = page.locator(
+        "mat-button-toggle button.mat-button-toggle-button, "
         "button.mat-button-toggle-button"
     ).filter(
-        has_text="x1"
-    )
+        has_text=re.compile(r"^\s*x1\s*$", re.IGNORECASE)
+    ).first
 
-    click_toggle_and_verify(
-        speed_x1,
-        "x1 speed"
-    )
+    if speed_x1.count() == 0:
+        speed_x1 = page.locator("mat-button-toggle").filter(
+            has_text=re.compile(r"^\s*x1\s*$", re.IGNORECASE)
+        ).locator("button").first
 
-    human_delay(0.20, 0.45)
+    if speed_x1.count() > 0:
+        click_toggle_and_verify(
+            speed_x1,
+            "x1 speed"
+        )
+        human_delay(0.20, 0.45)
+    else:
+        print("Warning: x1 speed button not found")
 
 
 # ─────────────────────────────────────────────
-# Upload 2 ảnh của một clip
+# Upload ảnh của một clip
 # ─────────────────────────────────────────────
 
 def upload_clip_images(
@@ -1666,46 +2053,25 @@ def upload_clip_images(
     end_image
 ):
     """
-    Giữ nguyên thao tác upload ảnh vào Google Flow.
+    Upload ảnh vào Google Flow.
 
     Tên ảnh thực tế luôn được đọc từ render_queue.csv.
 
     Pipeline hiện tại:
 
-    Son:
-        clip 1: 01_hand_holding + 02_opened_product
-        clip 2: 03_mid_swatch + 04_final_swatch
-
-    Dép:
-        clip 1: 01_hand_holding + 02_product_closeup
-        clip 2: 03_on_foot + 04_on_foot_next_frame
+    Snack:
+        clip 1: 01_hand_holding.png (upload 1 ảnh dùng cho cả start và end)
 
     Móc khóa:
-        chỉ còn clip 2:
-        03_hand_holding + 04_hand_holding_next_frame
+        clip 2: 03_hand_holding + 04_hand_holding_next_frame
 
     Ốp lưng:
-        chỉ còn clip 1:
-        01_clip_01_first_frame
-        + 02_clip_01_last_frame
-
-    Khẩu trang:
-        chỉ có clip 1:
-        01_side_view + 02_front_view
+        clip 1: 01_clip_01_first_frame + 02_clip_01_last_frame
 
     Mắt kính:
-        chỉ có clip 1:
-        01_hand_holding + 02_closeup
+        clip 1: 01_hand_holding + 02_closeup
     """
 
-    # QUAN TRỌNG: KHÔNG dùng cứng
-    # products/{category}/{product_id}/images/ai vì
-    # ảnh giờ nằm trong subfolder theo channel
-    # (images/ai/channel_1 ... channel_5). Lấy đúng
-    # thư mục chứa ảnh từ start_image đã resolve
-    # (đường dẫn đầy đủ từ render_queue.csv) để hộp
-    # thoại Windows mở đúng nơi, không bị kẹt ở
-    # images/ai.
     ai_dir = os.path.dirname(
         os.path.abspath(
             start_image
@@ -1733,18 +2099,9 @@ def upload_clip_images(
         end_image
     )
 
-    images_to_upload = [
-        start_image_name,
-        end_image_name
-    ]
+    # Loại bỏ trùng lặp nếu start_image == end_image (như snack)
+    unique_names = list(dict.fromkeys([start_image_name, end_image_name]))
 
-    # QUAN TRỌNG: dùng thẳng start_image/end_image đã
-    # được resolve từ render_queue.csv (giữ nguyên
-    # subfolder channel, vd images/ai/channel_3/...).
-    # KHÔNG dựng lại path qua get_ai_image_path vì hàm
-    # đó giả định ảnh nằm trực tiếp trong images/ai/,
-    # sẽ làm mất phần channel_X và gây lỗi
-    # "Missing AI image".
     for image_path in (
         start_image,
         end_image
@@ -1755,11 +2112,6 @@ def upload_clip_images(
             raise FileNotFoundError(
                 f"Missing AI image: {image_path}"
             )
-
-    image_paths = [
-        start_image,
-        end_image
-    ]
 
     # FLOW UI MỚI:
     # + button -> Upload
@@ -1829,8 +2181,8 @@ def upload_clip_images(
     human_delay(0.35, 0.70)
 
     file_names_text = " ".join([
-        f'"{os.path.basename(path)}"'
-        for path in image_paths
+        f'"{name}"'
+        for name in unique_names
     ])
 
     # GIỮ NGUYÊN THỨ TỰ THAO TÁC HỘP THOẠI WINDOWS
@@ -1883,8 +2235,8 @@ def upload_clip_images(
     human_delay(0.40, 0.80)
 
     print(
-        f"2 images uploaded for clip "
-        f"{clip_num}: {images_to_upload}"
+        f"Uploaded {len(unique_names)} image(s) for clip "
+        f"{clip_num}: {unique_names}"
     )
 
     human_delay(0.40, 0.80)
@@ -1915,6 +2267,9 @@ def create_clip(
     end_image_name = os.path.basename(
         end_image
     )
+
+    unique_names = list(dict.fromkeys([start_image_name, end_image_name]))
+    expected_image_count = len(unique_names)
 
     # FLOW UI MỚI:
     # Phải mở Add media -> Upload trước
@@ -1958,7 +2313,7 @@ def create_clip(
     # không phải ngay sau khi upload xong.
     wait_image_cards_stable(
         page,
-        expected_count=2
+        expected_count=expected_image_count
     )
 
     click_image_card(
@@ -2042,7 +2397,7 @@ def create_clip(
     # chờ card ảnh hiện ra sau khi bấm mới chọn được.
     wait_image_cards_stable(
         page,
-        expected_count=2
+        expected_count=expected_image_count
     )
 
     click_image_card(
@@ -2302,11 +2657,9 @@ def render_single_clip(
     Thử lần lượt các profile chưa bị block trong ngày.
 
     Dùng chung cho:
-    - lipstick
-    - sandal
+    - snack
     - keychain
     - phone_case
-    - mask
     - eyeglasses
     - category mới thêm sau này
 
@@ -2314,15 +2667,15 @@ def render_single_clip(
     trực tiếp từ render_queue.csv.
 
     Worker validate riêng các pipeline đã đổi:
+    - snack:
+        Clip 01: 01_hand_holding
+        -> 01_hand_holding
     - keychain:
         Clip 02: 03_hand_holding
         -> 04_hand_holding_next_frame
     - phone_case:
         Clip 01: 01_clip_01_first_frame
         -> 02_clip_01_last_frame
-    - mask:
-        Clip 01: 01_side_view
-        -> 02_front_view
     - eyeglasses:
         Clip 01: 01_hand_holding
         -> 02_closeup
@@ -2565,26 +2918,21 @@ def render_single_clip(
 
                 time.sleep(3)
 
-                total_cards = page.locator(
-                    "flow-grid-tile-container"
-                ).count()
+                # Tự động nhận diện selector card
+                card_selector = detect_video_card_selector(page, timeout_sec=20)
+                total_cards = page.locator(card_selector).count()
 
                 print(
-                    f"Total video cards: "
+                    f"Total video cards hiện tại ({card_selector}): "
                     f"{total_cards}"
                 )
 
-                if total_cards <= 0:
-                    raise Exception(
-                        "No video cards found "
-                        "after generation."
-                    )
-
-                # Card cuối cùng là clip vừa generate.
+                # Chờ video render xong và tải về (tự động nhận diện đúng card qua progress bar/từ khóa prompt/vị trí mới nhất)
                 wait_and_download_video_card(
                     page,
-                    card_index=total_cards - 1,
-                    save_path=save_path
+                    card_index=0,
+                    save_path=save_path,
+                    prompt_text=prompt_text
                 )
 
                 print(
@@ -2602,13 +2950,14 @@ def render_single_clip(
 # Queue helpers
 # ─────────────────────────────────────────────
 
-def get_pending_jobs(rows):
+def get_pending_jobs(rows, target_category=None):
     """
     Trả về list các job pending,
     mỗi job là một clip độc lập.
+    Nếu có target_category thì lọc theo ngành hàng đó.
     """
 
-    return [
+    jobs = [
         row
         for row in rows
         if (
@@ -2618,6 +2967,10 @@ def get_pending_jobs(rows):
             == "pending"
         )
     ]
+    if target_category:
+        cat_clean = target_category.strip().lower()
+        jobs = [j for j in jobs if (j.get("category") or "").strip().lower() == cat_clean]
+    return jobs
 
 
 def mark_job_status(
@@ -2825,11 +3178,16 @@ def get_flow_credits(page):
 # Mỗi job (clip) dùng 1 session riêng
 # ─────────────────────────────────────────────
 
+target_category = sys.argv[1].strip() if len(sys.argv) > 1 and sys.argv[1].strip() else None
+if target_category:
+    print(f"🎯 Target category: {target_category}")
+
 while True:
     rows = load_queue()
 
     pending_jobs = get_pending_jobs(
-        rows
+        rows,
+        target_category
     )
 
     if not pending_jobs:
@@ -2883,14 +3241,20 @@ while True:
 
     print(
         "Multi-category render worker:",
-        "lipstick / sandal / keychain / phone_case / mask / eyeglasses"
+        "snack / keychain / phone_case / eyeglasses"
     )
 
     normalized_category = (
         category.lower()
     )
 
-    if normalized_category == "keychain":
+    if normalized_category == "snack":
+        print(
+            "Snack pipeline:",
+            "ONLY clip1 01_hand_holding -> 01_hand_holding"
+        )
+
+    elif normalized_category == "keychain":
         print(
             "Keychain pipeline:",
             "ONLY clip2 03->04"
@@ -2900,12 +3264,6 @@ while True:
         print(
             "Phone-case pipeline:",
             "ONLY clip1 01->02"
-        )
-
-    elif normalized_category == "mask":
-        print(
-            "Mask pipeline:",
-            "ONLY clip1 side_view->front_view"
         )
 
     elif normalized_category == "eyeglasses":
@@ -2963,9 +3321,9 @@ while True:
         # products/{category}/{product_id}/output/videos
         #
         # Ví dụ:
+        # products/snack/SNK001/output/videos
         # products/keychain/KC001/output/videos
         # products/phone_case/PC001/output/videos
-        # products/mask/MSK001/output/videos
         # products/eyeglasses/GL001/output/videos
         video_output_dir = os.path.abspath(
             os.path.join(

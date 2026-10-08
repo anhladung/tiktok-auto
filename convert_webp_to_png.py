@@ -19,14 +19,13 @@ PRODUCTS_DIR = os.path.join(
 
 # Chỉ quét ảnh đầu vào gốc.
 #
-# Lipstick:
-#   images/raw/product
-#   images/raw/shade
-#
-# Sandal:
+# Snack:
 #   images/raw/product
 #
 # Keychain:
+#   images/raw/product
+#
+# Phone Case:
 #   images/raw/product
 #
 # Nếu một category không có folder nào đó,

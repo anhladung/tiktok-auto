@@ -1,0 +1,112 @@
+1080x1920 vertical TikTok lifestyle product image.
+Reference Usage
+Use Image A as the primary visual reference for the featured keychain.
+Maintain the keychain's recognizable appearance, overall design,
+proportions, colors, materials, textures and important structural
+details.
+Use Image B only as reference for: - environment - background
+composition - lighting direction - exposure - color mood - overall
+visual atmosphere
+Do not include the backpack or any bag from Image B in the final image.
+Use only the room, lighting and atmosphere from the reference.
+If additional aesthetic references are provided, use them only for
+lighting, exposure, color mood and atmosphere.
+Scene
+Create a highly realistic TikTok-style lifestyle product image for Frame
+2A, the first frame of the second 8-second clip.
+The scene should feel like the same cozy bedroom or study-desk
+environment as Clip 1.
+Show one young woman's left hand holding one complete keychain close to
+the camera.
+The keychain is already detached and presented as an individual product
+showcase.
+The keychain should be held naturally by: - the original ring - clasp -
+connector - or a small lower edge that does not cover important details
+The product must remain the sharpest and most visually dominant subject.
+Keychain size: - approximately 35-45% of the vertical frame - large
+enough to inspect material, texture, design and construction - naturally
+proportioned relative to the hand
+Product Consistency
+Maintain: - overall silhouette - proportions - recognizable design -
+original color impression - material characteristics - surface texture -
+decorative details - stitching, printing or patterns - connector
+structure - ring, clasp, chain and attached components
+Do not: - redesign the keychain - create a different product - simplify
+important details - change the main colors - change the material
+appearance - distort the shape - add extra components - remove existing
+components
+Show exactly one physical keychain.
+Avoid: - duplicate keychains - duplicate rings - duplicate clasps -
+floating hardware - impossible geometry
+Product Position
+The keychain should: - stay near the center visual area - remain mainly
+front-facing - use a natural 3-8 degree initial tilt - keep the front
+design readable
+Do not show: - strong side profile - rear side - full rotation - artwork
+hidden by perspective
+This frame should feel like the calm moment before the following video
+movement where the hand moves the product closer and rotates it
+slightly.
+Hand and Sleeve
+Include exactly: - one feminine left hand - one wrist - one white
+knitted sweater sleeve
+Hand requirements: - realistic anatomy - five fingers - natural joints -
+relaxed grip - natural nails - believable support of the product
+Avoid: - extra fingers - missing fingers - fused fingers - distorted
+wrist - hand covering the main design
+The sleeve must remain: - soft white - warm white / ivory - knitted
+texture - cozy fabric - realistic folds
+Do not make the sleeve: - beige - yellow - gray - colored - patterned -
+synthetic - logo-covered
+The sweater color must remain independent from the environment.
+Background
+Create a cozy youthful bedroom or study desk atmosphere: - softly
+blurred background - warm natural lighting - organized lifestyle
+setting - subtle desk details - soft decorations - Pinterest-inspired
+cozy aesthetic
+Do not include: - backpack - bag - other products - another keychain -
+another person - distracting objects - readable text - watermark
+Composition
+Vertical smartphone composition.
+Camera: - close handheld product showcase - front-biased angle - natural
+smartphone photography look
+Avoid: - wide-angle distortion - fisheye effect - extreme macro -
+extreme perspective distortion
+Depth of field: - keychain sharpest - hand slightly softer - background
+softly blurred naturally
+Lighting and Color
+Match Clip 1 continuity: - same lighting direction - similar
+brightness - cozy warm atmosphere
+Use: - soft pale-yellow ambient light - balanced exposure - natural
+shadows - realistic smartphone rendering - subtle cinematic warmth
+Avoid: - excessive yellow/orange tint - dark underexposure - harsh
+flash - artificial HDR - plastic AI surfaces
+Clip 1 Continuity
+Frame 2A must feel like the same TikTok video as Clip 1.
+Preserve: - keychain identity - left hand continuity - white knitted
+sleeve - cozy environment - lighting mood - smartphone realism
+The visual story: Clip 1 showed the keychain in use. Frame 2A shows the
+same keychain now held alone closer to the camera for inspection.
+Hard Constraints
+1080x1920 vertical image
+one keychain only
+one left hand only
+one sleeve only
+no backpack
+no bag
+keychain detached from all objects
+product front visible
+product sharply focused
+realistic anatomy
+natural depth of field
+no duplicate components
+no distorted hand
+no text
+no watermark
+Final Result
+A realistic TikTok product frame showing a cute keychain held alone near
+the camera by a young woman's left hand wearing a soft white knitted
+sweater.
+The product is clearly visible, naturally presented, front-facing,
+detailed and consistent with the reference image while placed inside a
+cozy lifestyle environment.

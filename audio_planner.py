@@ -38,60 +38,18 @@ TEMPLATE_DIR = os.path.join(
 # =====================================
 
 ENABLED_CATEGORIES = [
-    "lipstick",
-    "sandal",
+    "snack",
     "keychain",
     "phone_case",
-    "mask",
 ]
 
 
-# Số clip theo pipeline hiện tại:
-#
-# lipstick:
-#   assets/templates/lipstick/clip_01.json
-#   assets/templates/lipstick/clip_02.json
-#
-# sandal:
-#   assets/templates/sandal/clip_01.json
-#   assets/templates/sandal/clip_02.json
-#
-# keychain:
-#   chỉ còn assets/templates/keychain/clip_02.json
-#
-# phone_case:
-#   chỉ còn assets/templates/phone_case/clip_01.json
-#
-# mask:
-#   chỉ có assets/templates/mask/clip_01.json
-#
-# Lưu ý:
-# keychain cố ý giữ clip_index = 2 để đồng bộ với
-# render_queue / render_worker và tên video clip_02.
-
 CATEGORY_CONFIG = {
-    "lipstick": {
+    "snack": {
         "clips": [
             {
                 "clip_index": 1,
                 "template_name": "clip_01",
-            },
-            {
-                "clip_index": 2,
-                "template_name": "clip_02",
-            },
-        ],
-    },
-
-    "sandal": {
-        "clips": [
-            {
-                "clip_index": 1,
-                "template_name": "clip_01",
-            },
-            {
-                "clip_index": 2,
-                "template_name": "clip_02",
             },
         ],
     },
@@ -114,17 +72,6 @@ CATEGORY_CONFIG = {
                 # Pipeline hiện tại chỉ còn Clip 01:
                 # 01_clip_01_first_frame
                 # -> 02_clip_01_last_frame.
-                "clip_index": 1,
-                "template_name": "clip_01",
-            },
-        ],
-    },
-
-    "mask": {
-        "clips": [
-            {
-                # Mask chỉ có 1 clip:
-                # 01_side_view -> 02_front_view.
                 "clip_index": 1,
                 "template_name": "clip_01",
             },

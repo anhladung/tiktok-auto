@@ -1,0 +1,799 @@
+# PRIMARY OBJECTIVE — PRODUCT IDENTITY HAS HIGHEST PRIORITY
+
+Create one 10-second vertical short-form product video using the provided first frame and last frame as visual references.
+
+The exact snack product shown in the reference images is the highest-priority locked subject.
+
+Throughout the entire 10-second video, preserve the SAME physical snack package.
+
+Never replace, redesign, reinterpret, regenerate or substitute the snack product with another product.
+
+The snack package must remain instantly recognizable as the exact reference product in every frame and after every cut.
+
+If any instruction conflicts with product identity, preserve the exact snack product instead of following that instruction.
+
+
+# REFERENCE PRIORITY
+
+Reference Image A
+
+- exact opening frame
+- authoritative snack product identity
+- authoritative hand and grip
+- authoritative physical environment
+- authoritative background layout
+- authoritative lighting
+- authoritative packaging appearance
+
+Reference Image B
+
+- use only as guidance for the desired final product size and final framing
+- it must NOT redefine the snack product
+- it must NOT redefine the packaging
+- it must NOT introduce a different product
+- it must NOT introduce a different hand, grip or environment
+
+When uncertain, preserve Reference Image A.
+
+
+# SNACK PRODUCT IDENTITY — ABSOLUTE LOCK
+
+The snack package is a persistent physical object, not a product that may be regenerated independently in each shot.
+
+Preserve exactly:
+
+- same snack product
+- same brand
+- same flavor
+- same package design
+- same package silhouette
+- same package proportions
+- same package dimensions
+- same dominant colors
+- same logo
+- same product name
+- same flavor name
+- same illustrations
+- same food imagery
+- same printed graphics
+- same decorative elements
+- same seals and visual marks
+- same typography structure
+- same package material
+- same surface texture
+- same printed details
+- same package opening/sealing structure
+- same package edges
+- same package thickness
+- same physical wrinkles and folds where visible
+
+The package must remain the same physical package throughout the entire video.
+
+Do NOT:
+
+- replace it with another snack
+- create a similar snack
+- redesign the packaging
+- reinterpret the artwork
+- change the brand
+- change the flavor
+- change the package color
+- change the logo
+- change the product name
+- change the food illustration
+- simplify important packaging details
+- add packaging details
+- remove packaging details
+- invent promotional stickers
+- invent price labels
+- invent discount labels
+- add fictional claims
+- add another logo
+- change the package proportions
+- change the package structure
+- make it into a box
+- make it into a bottle
+- make it into a different type of pouch
+- duplicate the product
+- morph the package between shots
+- regenerate the package after a cut
+
+Show exactly ONE complete original snack package throughout the video.
+
+The product remains physically continuous across all cuts.
+
+A hard cut must never trigger a new version of the snack package.
+
+
+# FRONT PACKAGING LOCK
+
+Keep the main front-facing packaging visible throughout the complete video.
+
+Required:
+
+- front packaging visible: approximately 90–100%
+- rear packaging visible: 0%
+- side profile: maximum approximately 10%
+- main logo clearly visible
+- main product name clearly visible
+- major product artwork clearly visible
+- flavor identity clearly visible
+- package remains recognizable at every moment
+
+The package may have a very subtle natural physical angle caused by the hand holding it.
+
+Do NOT create:
+
+- strong side profile
+- backside reveal
+- full package rotation
+- flipping
+- spinning
+- twisting
+- excessive bending
+- mirrored packaging artwork
+- reversed text
+- upside-down packaging
+
+Do not make the package perfectly rigid.
+
+Because the product is a real flexible snack package, allow only subtle natural bends, folds and surface wrinkles caused by the hand holding it.
+
+If maintaining camera movement risks changing or reconstructing the packaging, reduce the camera movement instead.
+
+Product fidelity is more important than camera movement.
+
+
+# ONE CONTINUOUS PHYSICAL SCENE
+
+Treat the complete video as footage of ONE real snack package, held by ONE real hand, inside ONE real unchanged room.
+
+Cuts are editing cuts between camera positions inside the SAME physical scene.
+
+They are NOT scene resets.
+
+After every cut preserve:
+
+- exact same snack package
+- exact same packaging artwork
+- exact same logo
+- exact same product name
+- exact same flavor
+- exact same left hand
+- exact same grip
+- exact same fingers
+- exact same sleeve
+- exact same room
+- exact same background objects
+- exact same lighting
+- exact same color temperature
+
+Do not regenerate the snack package, hand or environment independently after a cut.
+
+
+# HAND AND PRODUCT GRIP LOCK
+
+Show exactly ONE young woman's left hand wearing the same white knitted sweater sleeve.
+
+The same hand holds the same snack package throughout the entire clip.
+
+Keep:
+
+- same left hand
+- same skin tone
+- same fingernails
+- same wrist
+- same sleeve
+- same finger proportions
+- same general grip
+- same hand entry direction
+
+The snack package remains physically supported by the same hand.
+
+The hand may make only extremely subtle natural adjustments caused by holding a flexible package.
+
+Allowed:
+
+- tiny natural finger pressure
+- extremely subtle finger relaxation
+- minimal natural movement caused by camera movement
+- slight natural package compression where the fingers touch the packaging
+
+Do NOT:
+
+- release the product
+- drop the product
+- re-grab the product
+- switch hands
+- change to the right hand
+- rotate the package dramatically
+- flip the package
+- turn the package to the back
+- cover the logo
+- cover the product name
+- cover the main product illustration
+- squeeze the package excessively
+- deform the package unnaturally
+
+No second hand.
+
+No duplicated fingers.
+
+No duplicated wrist.
+
+No duplicated sleeve.
+
+
+# CAMERA MOTION + NATURAL PRODUCT PRESENTATION
+
+The main movement should come from the CAMERA gradually moving closer to the stationary hand and snack product.
+
+The hand should remain mostly stable.
+
+The package should remain mostly front-facing.
+
+Allowed:
+
+- straight forward camera movement
+- progressively tighter framing
+- extremely subtle natural handheld stabilization
+- tiny natural perspective change caused by forward camera movement
+- very slight natural movement of the flexible package
+
+Do NOT use:
+
+- camera orbit
+- sideways tracking
+- large vertical movement
+- dramatic angle changes
+- dramatic perspective changes
+- digital zoom effects
+- rapid camera shake
+- cinematic orbit shots
+- rotating product shots
+
+The camera should feel like a person naturally filming a snack product with a smartphone for TikTok.
+
+The movement should feel casual, realistic and easy to reproduce in a short-form product video.
+
+Product identity and packaging readability always have priority over camera movement.
+
+
+# 10-SECOND EDITING STRUCTURE
+
+Create exactly five shots with four plain hard cuts:
+
+- Shot 1: 0.0–1.4s
+- Shot 2: 1.4–3.0s
+- Shot 3: 3.0–5.0s
+- Shot 4: 5.0–7.2s
+- Shot 5: 7.2–10.0s
+
+All five shots show the SAME exact physical snack product and SAME physical scene.
+
+Hard cuts change only camera distance and framing.
+
+They must NOT regenerate the scene.
+
+
+# SHOT 1 — OPENING PRODUCT INTRODUCTION
+
+0.0–1.4s
+
+Begin exactly from Reference Image A.
+
+Immediately perform a short straight frontal camera push-in.
+
+Move approximately 5–7% closer.
+
+Keep:
+
+- exact original snack package
+- exact original packaging artwork
+- exact logo
+- exact product name
+- exact hand
+- exact grip
+- package mainly front-facing
+- same camera axis
+- same background
+
+The package should feel naturally held and clearly presented to the viewer.
+
+No product rotation.
+
+No flipping.
+
+No sideways camera movement.
+
+The opening should immediately communicate:
+
+“This is the product being shown.”
+
+
+# CUT 1 — 1.4s
+
+Plain hard cut only.
+
+Cut to a slightly closer framing on essentially the same frontal camera axis.
+
+Do not regenerate the snack package or background after the cut.
+
+No transition effect.
+
+
+# SHOT 2 — PRODUCT INSPECTION
+
+1.4–3.0s
+
+Continue with the same exact snack package.
+
+Perform another short straight push-in, approximately 5–7%.
+
+Maintain:
+
+- same product identity
+- same packaging design
+- same logo
+- same product name
+- same flavor
+- same hand
+- same grip
+- same camera height
+- same frontal direction
+- same physical background
+
+The front packaging should remain easy to inspect.
+
+The viewer should be able to clearly recognize the snack product.
+
+Allow subtle realistic reflections and small packaging wrinkles caused by the physical plastic material.
+
+No camera orbit.
+
+No lateral movement.
+
+No package rotation.
+
+No new food products.
+
+
+# CUT 2 — 3.0s
+
+Plain hard cut to another slightly tighter frontal framing.
+
+The scene remains physically continuous.
+
+Same snack package before and after the cut.
+
+No product regeneration.
+
+No background regeneration.
+
+
+# SHOT 3 — PACKAGING DETAIL
+
+3.0–5.0s
+
+Show a slightly tighter frontal product view.
+
+Use a subtle 4–6% forward camera movement.
+
+Do not introduce a new camera angle.
+
+Keep the snack package centered and mainly front-facing.
+
+Preserve every recognizable packaging detail:
+
+- logo
+- brand identity
+- product name
+- flavor
+- main illustration
+- food imagery
+- dominant color blocks
+- important printed graphics
+
+The package should look like a real flexible food package being held by a real person.
+
+Show realistic:
+
+- subtle surface reflections
+- small wrinkles
+- natural package curvature
+- slight compression near the fingers
+- realistic plastic texture
+
+Do not make the packaging look like a CGI render.
+
+Do not make the packaging perfectly flat or unnaturally rigid.
+
+Maintain the same background geometry.
+
+
+# CUT 3 — 5.0s
+
+Plain hard cut.
+
+Only framing and distance change.
+
+No product regeneration.
+
+No background regeneration.
+
+No change of hand.
+
+
+# SHOT 4 — MEDIUM-TIGHT PRODUCT BEAUTY VIEW
+
+5.0–7.2s
+
+Continue progressively closer.
+
+Use one subtle 4–5% frontal camera push-in.
+
+This is only a new framing beat.
+
+It is NOT a new product view.
+
+Preserve:
+
+- exact snack package
+- exact packaging artwork
+- exact logo
+- exact flavor
+- exact product name
+- exact hand
+- exact grip
+- exact sleeve
+- exact room
+- exact background layout
+- exact lighting
+
+Keep the complete snack package visible.
+
+The product should now occupy more of the frame while remaining naturally proportioned relative to the hand.
+
+Do not crop away the main product identity.
+
+Do not reveal the rear of the package.
+
+
+# CUT 4 — 7.2s
+
+Plain hard cut to the final closer framing.
+
+Same physical scene.
+
+Same exact snack package.
+
+No morphing.
+
+No reconstruction.
+
+
+# SHOT 5 — FINAL SNACK PRODUCT CLOSE-UP
+
+7.2–10.0s
+
+Create a centered frontal product beauty close-up.
+
+Move the camera gradually closer during approximately the first 1.8–2.0 seconds.
+
+Near the end:
+
+- snack package occupies approximately 55–65% of frame height
+- complete main package remains visible
+- front packaging remains sharp
+- logo remains recognizable
+- product name remains recognizable
+- flavor remains recognizable
+- major food illustration remains visible
+- hand remains naturally positioned
+- background becomes naturally softer from depth of field
+- camera movement gradually slows
+
+During the final 0.3–0.5 seconds, allow only tiny natural handheld movement.
+
+Reference Image B may guide the final scale and framing only.
+
+Do NOT transform the snack package to match any conflicting appearance in Reference Image B.
+
+The final frame should feel like a strong TikTok product showcase moment where the viewer gets a clear look at the actual snack package.
+
+
+# BACKGROUND — PHYSICAL SET LOCK
+
+Reference Image A is the authoritative environment.
+
+The room is a FIXED physical set, not a style reference.
+
+Preserve:
+
+- same room
+- same wall
+- same desk
+- same furniture
+- same shelves
+- same visible decorations
+- same visible objects
+- same object positions
+- same object count
+- same spatial relationships
+- same lighting direction
+- same color temperature
+
+Do NOT:
+
+- reconstruct the room
+- create a similar room
+- change furniture
+- move background objects
+- replace objects
+- duplicate objects
+- remove objects
+- add new objects
+- change wall decorations
+- change room geometry
+- morph the background after cuts
+
+Only natural perspective scaling and depth-of-field changes caused by the camera moving forward are allowed.
+
+Do not reveal large new areas of the room.
+
+
+# NO BACKPACK OR BAG
+
+No backpack, bag, zipper, backpack strap, bag handle, zipper pull or backpack-like object appears anywhere.
+
+Do not introduce one even if it exists in another reference.
+
+
+# NO EXTRA FOOD OR PROPS
+
+The featured snack package is the ONLY food product in the scene.
+
+Do not add:
+
+- another snack package
+- another food product
+- bowl of snacks
+- plate of snacks
+- loose snack pieces
+- ingredients
+- drinks
+- cups
+- utensils
+- decorative food props
+
+Do not make the scene look like a food photography studio.
+
+The purpose is to showcase the exact packaged snack product naturally in a lifestyle environment.
+
+
+# LIGHTING LOCK
+
+Maintain the reference lighting throughout all 10 seconds:
+
+- moderately bright exposure
+- soft pale-yellow ambient light
+- balanced midtones
+- softly lifted shadows
+- subtle warm highlights
+- realistic smartphone rendering
+- natural product colors
+- realistic skin tones
+- realistic packaging reflections
+
+No exposure flicker.
+
+No color-temperature shift.
+
+No flash.
+
+No harsh lighting.
+
+No artificial HDR.
+
+No excessive glow.
+
+No overexposure on the packaging.
+
+
+# PACKAGING TEXT AND GRAPHICS LOCK
+
+Preserve the original visible packaging information from Reference Image A as accurately as possible.
+
+Important elements such as:
+
+- brand logo
+- product name
+- flavor name
+- main Vietnamese text
+- major illustrations
+- food imagery
+- graphic elements
+- recognizable symbols
+
+must remain in their original positions and proportions.
+
+Do not generate random replacement text.
+
+Do not add:
+
+- fake promotional text
+- fake prices
+- fake discounts
+- fake slogans
+- fake nutritional claims
+- fake logos
+- random typography
+- random stickers
+- random badges
+
+If small packaging text cannot be reproduced perfectly, prioritize preserving the original visual structure, logo shape, typography placement, color blocks and overall packaging identity rather than inventing new text.
+
+
+# PRODUCT MATERIAL REALISM
+
+The snack package must look like a real physical food package.
+
+If the reference shows flexible plastic packaging:
+
+- preserve flexible plastic behavior
+- show subtle natural wrinkles
+- show realistic highlights
+- show slight bending around the hand
+- preserve sealed package edges
+- maintain believable package thickness
+
+Do not make the package:
+
+- metallic
+- glass
+- cardboard
+- completely rigid
+- excessively glossy
+- transparent unless the reference is actually transparent
+- artificially reflective
+- rubber-like
+- liquid-like
+
+The printed artwork must remain physically integrated with the package surface.
+
+
+# CLEAN RAW VIDEO — NO PLATFORM ELEMENTS
+
+The output must look like clean raw vertical smartphone footage before upload to any social-media platform.
+
+Absolutely no:
+
+- TikTok logo
+- TikTok watermark
+- platform logo
+- watermark
+- username
+- account handle
+- captions
+- generated text
+- social-media UI
+- like/comment/share icons
+- profile icon
+- music icon
+- progress bar
+- interface buttons
+- QR code
+- creator branding
+- AI watermark
+
+Do not simulate a TikTok post or screen recording.
+
+No visual effects.
+
+No transition effects.
+
+No crossfades.
+
+No flashes.
+
+No wipes.
+
+No glitches.
+
+No speed ramps.
+
+Use only four simple hard cuts.
+
+
+# REALISTIC FOOD PRODUCT PRESENTATION
+
+The video should feel suitable for selling a snack product on TikTok.
+
+The presentation should communicate:
+
+- recognizable product
+- real physical packaging
+- clear flavor identity
+- clean appearance
+- casual lifestyle use
+- easy-to-understand product showcase
+- visually appealing but not overly commercial
+
+The video should NOT feel like:
+
+- a luxury commercial
+- a supermarket catalog
+- a CGI product advertisement
+- a food photography studio
+- an exaggerated cinematic advertisement
+
+It should feel like a real person naturally showing a snack product to viewers.
+
+
+# FINAL PRIORITY LOCK — MUST FOLLOW
+
+The most important requirement is IDENTITY CONTINUITY.
+
+From frame 1 through 10 seconds:
+
+SAME EXACT SNACK PACKAGE
++
+SAME PACKAGING DESIGN
++
+SAME BRAND
++
+SAME FLAVOR
++
+SAME COLORS
++
+SAME LOGO
++
+SAME PRODUCT NAME
++
+SAME HAND
++
+SAME GRIP
++
+SAME SLEEVE
++
+SAME ROOM
++
+SAME LIGHTING.
+
+Never substitute the reference snack with another product.
+
+Never create a new interpretation of the packaging after a cut.
+
+Never allow the product design, logo, flavor, artwork, proportions, material or package structure to change.
+
+Never regenerate the background into a different or merely similar room.
+
+The only intentional progression is:
+
+same exact scene
+→ camera gradually becomes closer
+→ four plain hard cuts
+→ final frontal close-up.
+
+When instructions compete, use this priority order:
+
+1. Preserve exact snack product identity
+2. Preserve exact packaging design and printed graphics
+3. Preserve brand, flavor and product recognition
+4. Preserve same hand and natural grip
+5. Preserve same physical background
+6. Preserve front-facing product visibility
+7. Preserve realistic flexible packaging
+8. Camera movement and shot variation
+
+Camera movement is optional if necessary for stability.
+
+Product identity and scene continuity are mandatory.
+
+FINAL RESULT:
+
+One realistic smartphone appears to film the SAME EXACT REFERENCE SNACK PRODUCT continuously in the SAME UNCHANGED ROOM for 10 seconds, with five progressively tighter product framings and four plain hard cuts.
+
+The snack package remains recognizable and physically consistent throughout the entire video.
+
+The final result should look like authentic TikTok lifestyle footage created to showcase and sell a real packaged snack product, with realistic hand interaction, natural smartphone camera movement, accurate packaging, clean product visibility and no product replacement, product morphing, background reconstruction, text generation, watermark or platform UI.

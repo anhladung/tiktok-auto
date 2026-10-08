@@ -35,73 +35,39 @@ QUEUE_FILE = os.path.join(
 # CATEGORY CONFIG
 # ============================================================
 
-# Chạy son, dép, móc khóa, ốp lưng và khẩu trang
+# Chạy đồ ăn vặt, móc khóa, ốp lưng
 ENABLED_CATEGORIES = [
-    "lipstick",
-    "sandal",
+    "snack",
     "keychain",
     "phone_case",
-    "mask",
 ]
 
-# Test riêng son:
-# ENABLED_CATEGORIES = ["lipstick"]
-
-# Test riêng dép:
-# ENABLED_CATEGORIES = ["sandal"]
-
-# Test riêng móc khóa:
+# Test riêng:
+# ENABLED_CATEGORIES = ["snack"]
 # ENABLED_CATEGORIES = ["keychain"]
-
-# Test riêng ốp lưng:
 # ENABLED_CATEGORIES = ["phone_case"]
-
-# Test riêng khẩu trang:
-# ENABLED_CATEGORIES = ["mask"]
 
 
 CATEGORY_CONFIG = {
     # ========================================================
-    # LIPSTICK
+    # SNACK (ĐỒ ĂN VẶT)
     # ========================================================
-    "lipstick": {
+    "snack": {
         "products_dir": os.path.join(
             PRODUCTS_ROOT_DIR,
-            "lipstick"
+            "snack"
         ),
 
         "prompt_file": os.path.join(
             PROMPTS_ROOT_DIR,
-            "lipstick",
+            "snack",
             "script_generation",
-            "lip_script.txt"
+            "snack_script.txt"
         ),
 
+        # Dùng Frame 01 là ảnh cầm sản phẩm trên tay
+        # làm input duy nhất cho script generation.
         "script_images": [
-            "02_opened_product.png",
-            "03_mid_swatch.png",
-        ],
-    },
-
-    # ========================================================
-    # SANDAL
-    # ========================================================
-    "sandal": {
-        "products_dir": os.path.join(
-            PRODUCTS_ROOT_DIR,
-            "sandal"
-        ),
-
-        "prompt_file": os.path.join(
-            PROMPTS_ROOT_DIR,
-            "sandal",
-            "script_generation",
-            "sandal_script.txt"
-        ),
-
-        "script_images": [
-        # Chỉ dùng 1 ảnh input để tiết kiệm tài nguyên:
-        # ảnh cầm sản phẩm trên tay.
             "01_hand_holding.png",
         ],
     },
@@ -151,28 +117,6 @@ CATEGORY_CONFIG = {
         "script_images": [
             "01_clip_01_first_frame.png",
         ],
-    },
-
-    # ========================================================
-    # MASK
-    # ========================================================
-    "mask": {
-        "products_dir": os.path.join(
-            PRODUCTS_ROOT_DIR,
-            "mask"
-        ),
-
-        "prompt_file": os.path.join(
-            PROMPTS_ROOT_DIR,
-            "mask",
-            "script_generation",
-            "mask_script.txt"
-        ),
-
-        # Script của mask dùng trực tiếp ảnh RAW PRODUCT.
-        # Tự tìm ảnh đầu tiên trong images/raw/product/
-        # và hỗ trợ .png, .jpg, .jpeg, .webp.
-        "script_image_source": "raw_product",
     },
 }
 
@@ -610,16 +554,10 @@ def print_summary(
         if row["status"] == "pending"
     )
 
-    lipstick_jobs = sum(
+    snack_jobs = sum(
         1
         for row in rows
-        if row["category"] == "lipstick"
-    )
-
-    sandal_jobs = sum(
-        1
-        for row in rows
-        if row["category"] == "sandal"
+        if row["category"] == "snack"
     )
 
     keychain_jobs = sum(
@@ -632,12 +570,6 @@ def print_summary(
         1
         for row in rows
         if row["category"] == "phone_case"
-    )
-
-    mask_jobs = sum(
-        1
-        for row in rows
-        if row["category"] == "mask"
     )
 
     queued_products = len({
@@ -661,12 +593,8 @@ def print_summary(
         queued_products
     )
     print(
-        "Lipstick jobs:",
-        lipstick_jobs
-    )
-    print(
-        "Sandal jobs:",
-        sandal_jobs
+        "Snack jobs:",
+        snack_jobs
     )
     print(
         "Keychain jobs:",
@@ -675,10 +603,6 @@ def print_summary(
     print(
         "Phone case jobs:",
         phone_case_jobs
-    )
-    print(
-        "Mask jobs:",
-        mask_jobs
     )
     print(
         "Total jobs:",

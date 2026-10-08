@@ -1,0 +1,619 @@
+1080 × 1920 — Vertical 9:16 — Total duration exactly 8 seconds
+
+Use TWO provided reference images as STRICT TEMPORAL AND VISUAL REFERENCES.
+
+REFERENCE IMAGE A = EXACT FIRST FRAME OF CLIP 02.
+REFERENCE IMAGE B = EXACT LAST FRAME OF CLIP 02.
+
+Both references show the EXACT SAME physical product:
+
+ONE SMARTPHONE
+ALREADY FULLY INSTALLED
+INSIDE THE EXACT SAME PHONE CASE.
+
+Create one highly realistic silent TikTok affiliate-style product showcase connecting:
+
+REFERENCE IMAGE A
+→ short back-side product showcase
+→ REFERENCE IMAGE B.
+
+
+--------------------------------------------------
+AUDIO
+--------------------------------------------------
+
+The complete video must be SILENT.
+
+No:
+- voice
+- speech
+- music
+- sound effects
+- ambient audio
+
+Output:
+
+VISUAL VIDEO ONLY.
+
+
+--------------------------------------------------
+MAIN VIDEO GOAL
+--------------------------------------------------
+
+Create a clean back-side showcase of the same installed phone case.
+
+Show:
+
+- exact installed phone case
+- rear artwork/design
+- camera region
+- overall case fit
+- final closer hero view
+
+The ONLY main movement is:
+
+> MOVE THE SAME INSTALLED PHONE CLOSER TO THE CAMERA.
+
+The product should feel like:
+
+SHOT A:
+normal holding distance
+
+→
+
+SHOT B:
+slightly closer inspection view
+
+
+Do NOT create:
+
+- rotation showcase
+- side showcase
+- front showcase
+- dramatic angle change
+
+
+--------------------------------------------------
+REFERENCE CONTINUITY
+--------------------------------------------------
+
+Reference Image A and B define the complete visual identity.
+
+Preserve exactly:
+
+- same smartphone
+- same phone case
+- same SKU
+- same artwork
+- same product colors
+- same camera geometry
+- same hand
+- same manicure
+- same clothing
+- same background
+- same perspective
+- same exposure
+- same white balance
+- same lighting style
+
+
+The video must feel like:
+
+ONE CONTINUOUS RECORDING SESSION.
+
+
+Hard cuts are only editing changes.
+
+They are NOT new scenes.
+
+
+--------------------------------------------------
+INSTALLED PRODUCT LOCK
+--------------------------------------------------
+
+Throughout the entire video show:
+
+ONE SMARTPHONE
+FULLY INSTALLED
+INSIDE ONE PHONE CASE.
+
+
+The phone and case behave as:
+
+ONE COMPLETE RIGID PHYSICAL ASSEMBLY.
+
+
+Never generate:
+
+- empty case
+- separate case
+- second phone
+- second case
+- loose case
+- detached bumper
+- installation process
+- removal process
+- packaging
+- protective film
+
+
+--------------------------------------------------
+PRODUCT IDENTITY LOCK
+--------------------------------------------------
+
+Preserve the exact same product in every shot.
+
+Maintain:
+
+- same smartphone
+- same case silhouette
+- same proportions
+- same corners
+- same bumper
+- same material
+- same finish
+- same artwork
+- same typography
+- same graphics
+- same colors
+- same camera opening
+
+
+Artwork is:
+
+A PERMANENT PRINTED TEXTURE ON THE CASE.
+
+
+Do NOT:
+
+- redesign
+- redraw
+- move graphics
+- change text
+- distort artwork
+- replace the product
+
+
+The product identity must remain unchanged.
+
+
+--------------------------------------------------
+CAMERA REGION LOCK
+--------------------------------------------------
+
+Preserve the rear camera area exactly.
+
+Maintain:
+
+- lens count
+- lens position
+- lens spacing
+- flash position
+- camera opening geometry
+- camera border
+- raised camera protection
+
+
+Do NOT create:
+
+- extra lenses
+- missing lenses
+- fake camera island
+- changed camera structure
+- enlarged black camera panel
+
+
+Camera reflections must remain:
+
+SMALL
++
+NEUTRAL
++
+REALISTIC.
+
+
+No:
+
+- rainbow reflections
+- colored lens rings
+- glowing effects
+- metallic color shifts
+
+
+--------------------------------------------------
+ORIENTATION LOCK
+--------------------------------------------------
+
+The BACK of the phone remains dominant throughout the entire video.
+
+The viewer should always see:
+
+- rear artwork
+- rear camera area
+
+
+Never show:
+
+- front screen
+- display
+- bezel
+- front camera
+
+
+Front visibility:
+
+0%.
+
+
+Keep the same orientation as Reference Image A.
+
+Do NOT intentionally:
+
+- rotate the phone
+- tilt the phone
+- flip the phone
+- reveal the side profile
+- create three-quarter angle
+
+
+The phone should simply move closer while maintaining the same back-facing presentation.
+
+
+--------------------------------------------------
+SCALE PROGRESSION
+--------------------------------------------------
+
+The product gradually becomes larger because it moves closer.
+
+SHOT 1:
+34–42% of frame height
+
+SHOT 2:
+38–45%
+
+SHOT 3:
+42–50%
+
+SHOT 4:
+48–55%
+
+SHOT 5:
+52–60%
+
+
+Preferred final:
+
+approximately 55%.
+
+
+Do NOT create extreme macro.
+
+
+--------------------------------------------------
+HAND CONTINUITY
+--------------------------------------------------
+
+Use exactly:
+
+ONE FEMININE LEFT HAND.
+
+
+Preserve:
+
+- same hand
+- same skin tone
+- same manicure
+- same wrist
+- same grip style
+
+
+The hand only moves slightly forward together with the phone.
+
+Do NOT add:
+
+- second hand
+- extra fingers
+- distorted fingers
+- impossible grip
+
+
+--------------------------------------------------
+CLOTHING CONTINUITY
+--------------------------------------------------
+
+Preserve the exact clothing from reference images.
+
+Keep:
+
+- oversized cream-white / off-white long sleeve
+- thin black horizontal stripes
+- soft cotton texture
+- same sleeve proportions
+- same folds
+
+
+Do NOT change into:
+
+- sweater
+- hoodie
+- different fabric
+- different stripe pattern
+
+
+--------------------------------------------------
+BACKGROUND — STRICT INPUT ONLY
+--------------------------------------------------
+
+Reference Image A and B define the complete background.
+
+Use ONLY the actual environment shown in the references.
+
+Preserve:
+
+- same room
+- same wall
+- same furniture
+- same objects
+- same object positions
+- same perspective
+- same lighting environment
+
+
+IMPORTANT:
+
+Do NOT reconstruct the background from text.
+
+Do NOT add any new objects.
+
+Do NOT invent decorations.
+
+Do NOT redesign the room.
+
+
+Never generate:
+
+- extra furniture
+- extra accessories
+- extra decorations
+- extra lights
+- extra wall objects
+- extra gadgets
+- logos
+- branding
+- TikTok logo
+- text elements
+
+
+The background must remain:
+
+EXACTLY THE SAME PHYSICAL PLACE FROM THE INPUT IMAGES.
+
+
+--------------------------------------------------
+COLOR AND LIGHTING
+--------------------------------------------------
+
+Reference Image A and B define the final color style.
+
+Maintain exactly:
+
+- same brightness
+- same exposure
+- same white balance
+- same contrast
+- same saturation
+- same shadow character
+- same highlight character
+
+
+Do NOT create:
+
+- brighter environment
+- darker environment
+- new color grade
+- warm filter
+- cool filter
+- dramatic lighting
+
+
+Lighting remains:
+
+- soft
+- diffused
+- natural indoor ambient light
+- realistic smartphone lighting
+- controlled highlights
+- soft shadows
+
+
+The phone becomes closer through:
+
+DISTANCE + FOCUS ONLY.
+
+
+Not through:
+
+- spotlight
+- glow
+- exposure increase
+
+
+--------------------------------------------------
+SHOT STRUCTURE
+--------------------------------------------------
+
+SHOT 1
+0.00–1.20s
+
+Match Reference Image A.
+
+Show:
+
+- full product
+- artwork
+- camera region
+- hand
+- original background
+
+
+Movement:
+
+Very subtle handheld stability only.
+
+
+--------------------------------------------------
+
+SHOT 2
+1.20–2.60s
+
+Move the phone slightly closer.
+
+Keep:
+
+- same orientation
+- same back view
+- same background
+
+
+No rotation.
+
+
+--------------------------------------------------
+
+SHOT 3
+2.60–4.10s
+
+Continue a gentle push-in.
+
+Show:
+
+- artwork
+- camera region
+- product details more clearly
+
+
+No angle change.
+
+
+--------------------------------------------------
+
+SHOT 4
+4.10–5.70s
+
+Bring the product closer.
+
+Maintain:
+
+- back-facing view
+- stable hand position
+- same lighting
+
+
+No side reveal.
+
+
+--------------------------------------------------
+
+SHOT 5
+5.70–8.00s
+
+Match Reference Image B.
+
+Final hero view:
+
+- closer product
+- clearer case details
+- same back-facing orientation
+- stable hold
+
+
+The final frame should feel like:
+
+THE SAME PRODUCT WAS SIMPLY BROUGHT CLOSER TO THE CAMERA.
+
+
+--------------------------------------------------
+MOTION QUALITY
+--------------------------------------------------
+
+Use:
+
+- subtle handheld movement
+- realistic inertia
+- smooth forward movement
+- natural smartphone footage
+
+
+Do NOT use:
+
+- shaking
+- snapping
+- spinning
+- rotating
+- floating movement
+- dramatic camera movement
+
+
+--------------------------------------------------
+REALISM
+--------------------------------------------------
+
+The final video should look like:
+
+REAL SMARTPHONE-CAPTURED TIKTOK PRODUCT FOOTAGE.
+
+
+Avoid:
+
+- CGI
+- 3D render
+- fake HDR
+- AI plastic texture
+- unrealistic reflections
+- product morphing
+
+
+--------------------------------------------------
+HARD CONSTRAINTS
+--------------------------------------------------
+
+- 1080 × 1920
+- Vertical 9:16
+- Exactly 8 seconds
+- Silent video
+
+Maintain:
+
+- same installed smartphone
+- same phone case
+- same artwork
+- same camera geometry
+- same hand
+- same clothing
+- same background
+- same color
+- same lighting
+
+
+No:
+
+- screen reveal
+- empty case
+- product replacement
+- background reconstruction
+- new objects
+- logos
+- text
+- TikTok branding
+- extra decorations
+
+
+FINAL RESULT:
+
+ONE CONTINUOUS REALISTIC PHONE CASE SHOWCASE.
+
+The only change is:
+
+> THE SAME INSTALLED PHONE CASE MOVES CLOSER TO THE CAMERA.
+
+Everything else remains identical to the reference images.

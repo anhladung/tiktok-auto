@@ -27,15 +27,10 @@ FACEBOOK_QUEUE_FILE = (
 # ============================================================
 
 ENABLED_CATEGORIES = [
-    "lipstick",
-    "sandal",
+    "snack",
     "keychain",
+    "phone_case",
 ]
-
-# Chỉ tạo queue cho một loại:
-# ENABLED_CATEGORIES = ["lipstick"]
-# ENABLED_CATEGORIES = ["sandal"]
-# ENABLED_CATEGORIES = ["keychain"]
 
 
 # ============================================================
@@ -484,22 +479,22 @@ def build_facebook_queue():
     # SUMMARY
     # ========================================================
 
-    lipstick_jobs = sum(
+    snack_jobs = sum(
         1
         for row in discovered_rows
-        if row.get("category") == "lipstick"
-    )
-
-    sandal_jobs = sum(
-        1
-        for row in discovered_rows
-        if row.get("category") == "sandal"
+        if row.get("category") == "snack"
     )
 
     keychain_jobs = sum(
         1
         for row in discovered_rows
         if row.get("category") == "keychain"
+    )
+
+    phone_case_jobs = sum(
+        1
+        for row in discovered_rows
+        if row.get("category") == "phone_case"
     )
 
     pending_jobs = sum(
@@ -542,18 +537,18 @@ def build_facebook_queue():
     )
 
     print(
-        "Lipstick jobs:",
-        lipstick_jobs
-    )
-
-    print(
-        "Sandal jobs:",
-        sandal_jobs
+        "Snack jobs:",
+        snack_jobs
     )
 
     print(
         "Keychain jobs:",
         keychain_jobs
+    )
+
+    print(
+        "Phone case jobs:",
+        phone_case_jobs
     )
 
     print(

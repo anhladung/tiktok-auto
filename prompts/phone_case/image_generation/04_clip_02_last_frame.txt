@@ -1,0 +1,1294 @@
+1080 × 1920 — Vertical 9:16
+
+Use the provided input image as the PRIMARY AND STRICT CONTINUITY REFERENCE.
+
+The input image is IMAGE 03 / the FIRST FRAME OF CLIP 02.
+
+Create the LAST FRAME OF CLIP 02, captured only a short moment later in the EXACT SAME recording session.
+
+Preserve EVERYTHING already established in IMAGE 03 unless this prompt explicitly requests a change.
+
+This includes:
+
+- exact smartphone
+- exact installed phone case
+- exact SKU
+- exact case fit
+- exact silhouette and proportions
+- exact camera-area geometry
+- exact phone-camera hardware
+- exact material
+- exact transparency / opacity
+- exact texture and finish
+- exact authentic product colors
+- artwork / graphics / typography IF PRESENT
+- plain surface IF THE CASE IS PLAIN
+- same feminine LEFT hand
+- same manicure
+- same clothing
+- same grip family
+- same physical background
+- same room geometry
+- same major objects
+- same camera viewpoint
+- same environmental perspective
+- same lighting direction
+- same lighting softness
+- same exposure
+- same color balance
+- same contrast
+- same saturation
+- same overall smartphone-photo character
+- same recording session
+
+The ONLY meaningful changes are:
+
+> MOVE THE INSTALLED PHONE NOTICEABLY CLOSER
+> + MAKE IT LARGER IN FRAME
+> + ROTATE IT ONLY SLIGHTLY
+> + REVEAL ONE NARROW SIDE EDGE
+> + HOLD STEADY.
+
+--------------------------------------------------
+MAIN ACTION
+--------------------------------------------------
+
+Bring the exact same installed smartphone-case product noticeably closer to the camera.
+
+The closer distance is:
+
+> THE PRIMARY VISUAL CHANGE.
+
+At the same time, apply only a SMALL wrist rotation into:
+
+> A SHALLOW THREE-QUARTER BACK VIEW.
+
+The intended progression is:
+
+> STRAIGHT BACK
+> → MOVE CLOSER
+> → VERY SMALL WRIST ROTATION
+> → SHALLOW BACK-DOMINANT VIEW
+> → STABLE HOLD.
+
+Most of the visual difference from IMAGE 03 must come from:
+
+> DISTANCE + SCALE,
+
+not from:
+
+> ROTATION.
+
+Do NOT create a dramatic endpoint.
+
+Do NOT make the phone look like it is continuing toward the front screen.
+
+--------------------------------------------------
+PRODUCT SCALE
+--------------------------------------------------
+
+Compared with IMAGE 03:
+
+> approximately 20–28% LARGER.
+
+Final installed-product scale:
+
+> approximately 50–60% OF TOTAL FRAME HEIGHT.
+
+Preferred:
+
+> approximately 54–58%.
+
+The phone should clearly feel closer,
+
+but NOT like an extreme macro shot.
+
+Keep nearly the entire installed product readable.
+
+Prioritize:
+
+- complete camera region
+- both top corners where possible
+- majority of the main case surface
+- lower case
+- one narrow side edge
+- natural holding hand
+
+--------------------------------------------------
+ANGLE — STRICT
+--------------------------------------------------
+
+Use:
+
+> SHALLOW THREE-QUARTER BACK VIEW.
+
+Recommended yaw:
+
+> approximately 8–12°.
+
+Preferred:
+
+> approximately 10°.
+
+Maximum:
+
+> approximately 14°.
+
+Keep:
+
+ROLL:
+> approximately 0–1.5°.
+
+PITCH:
+> approximately 0–2°.
+
+Do NOT create:
+
+- 18–28° rotation
+- strong three-quarter angle
+- side-dominant view
+- near-side profile
+- front-facing transition
+- phone flip
+- complicated multi-axis wrist pose
+
+The phone remains vertically stable.
+
+--------------------------------------------------
+BACK-DOMINANT RULE
+--------------------------------------------------
+
+The MAIN EXTERIOR BACK SURFACE remains overwhelmingly dominant.
+
+Target:
+
+> approximately 90–95% BACK SURFACE
+> + approximately 5–8% ONE SIDE EDGE
+> + 0% FRONT SCREEN.
+
+The viewer should immediately feel:
+
+> I AM STILL LOOKING AT THE BACK OF THE PHONE CASE.
+
+Not:
+
+> THE PHONE IS TURNING TOWARD THE FRONT.
+
+--------------------------------------------------
+VISIBLE SIDE EDGE
+--------------------------------------------------
+
+Reveal only ONE narrow side edge.
+
+The side edge exists only to communicate:
+
+- side-wall depth
+- bumper thickness
+- protective edge
+- installed fit
+- physical product construction
+
+Recommended visible side width:
+
+> approximately 5–8% OF APPARENT PHONE WIDTH.
+
+Do NOT reveal both side edges equally.
+
+Do NOT rotate farther just to show more thickness.
+
+If more depth is needed:
+
+> MOVE CLOSER
+> + USE NATURAL PERSPECTIVE
+> + USE A VERY SMALL CAMERA OFFSET.
+
+Do NOT increase yaw.
+
+--------------------------------------------------
+FRONT SCREEN — COMPLETELY HIDDEN
+--------------------------------------------------
+
+The front screen must remain naturally invisible.
+
+Do NOT show:
+
+- front glass strip
+- black screen sliver
+- bezel
+- lock screen
+- wallpaper
+- display content
+
+The shallow BACK angle should naturally keep the front plane out of view.
+
+--------------------------------------------------
+UNIVERSAL PHONE-CASE RULE
+--------------------------------------------------
+
+This prompt must work for MANY DIFFERENT PHONE CASES.
+
+The case may be:
+
+- plain
+- solid-color
+- minimalist
+- printed
+- illustrated
+- patterned
+- text-based
+- multicolor
+- transparent
+- semi-transparent
+- translucent
+- frosted
+- opaque
+- matte
+- glossy
+- TPU
+- silicone-like
+- rigid plastic
+- mixed-material
+
+Preserve whatever product actually exists in IMAGE 03.
+
+If the case is PLAIN:
+
+> KEEP IT PLAIN.
+
+Do NOT invent:
+
+- artwork
+- characters
+- graphics
+- typography
+- text
+- patterns
+- logos
+- stickers
+
+If artwork / graphics / text are present:
+
+> PRESERVE THEM EXACTLY.
+
+Do NOT:
+
+- redraw
+- mirror
+- move
+- stretch
+- recolor
+- simplify
+- duplicate
+- regenerate
+
+any design element.
+
+Perspective changes.
+
+Product identity does NOT.
+
+--------------------------------------------------
+MATERIAL / TRANSPARENCY LOCK
+--------------------------------------------------
+
+Preserve the exact material behavior from IMAGE 03.
+
+If the case is OPAQUE:
+
+> KEEP OPAQUE AREAS OPAQUE.
+
+If the case is TRANSPARENT:
+
+> PRESERVE THE EXACT TRANSPARENCY.
+
+If it is TRANSLUCENT / FROSTED:
+
+> PRESERVE THE EXACT TRANSLUCENCY.
+
+Do NOT:
+
+- make opaque material transparent
+- make transparent material opaque
+- make frosted material crystal-clear
+- turn matte material glossy
+- turn TPU into glass
+- invent new material behavior
+- remove real transparency
+
+The closer distance and small angle must NOT alter product material identity.
+
+--------------------------------------------------
+INSTALLED PRODUCT — ABSOLUTE
+--------------------------------------------------
+
+Show exactly:
+
+> ONE SMARTPHONE
+> FULLY INSTALLED
+> INSIDE ONE PHONE CASE.
+
+Treat phone + case as:
+
+> ONE COMPLETE RIGID INSTALLED PHYSICAL ASSEMBLY.
+
+Do NOT show:
+
+- empty case
+- second smartphone
+- second case
+- loose corner
+- lifted bumper
+- detached case
+- gap between phone and case
+- partially removed case
+- installation action
+- removal action
+
+The case fit must remain unchanged.
+
+--------------------------------------------------
+PRODUCT IDENTITY — ABSOLUTE
+--------------------------------------------------
+
+Preserve exactly:
+
+- smartphone model
+- smartphone proportions
+- phone-case SKU
+- case silhouette
+- width-to-height ratio
+- corner radius
+- bumper
+- border
+- border color
+- side-wall structure
+- openings
+- camera-area geometry
+- case thickness
+- material
+- finish
+- transparency / opacity
+- exact authentic colors
+- installed fit
+
+If artwork exists, preserve:
+
+- graphics
+- characters
+- faces
+- expressions
+- typography
+- letters
+- icons
+- patterns
+- spacing
+- scale
+- placement
+- exact colors
+
+Do NOT reconstruct the product simply because the viewpoint changes.
+
+> VIEWING ANGLE CHANGES.
+> SKU DOES NOT.
+
+--------------------------------------------------
+CAMERA REGION — VERY HIGH PRIORITY
+--------------------------------------------------
+
+Preserve the exact camera region from IMAGE 03.
+
+Maintain the exact relationship between:
+
+CASE-OWNED STRUCTURES:
+
+- camera border
+- raised rim
+- molded surround
+- case openings
+
+and
+
+PHONE-OWNED STRUCTURES:
+
+- camera lenses
+- lens rings
+- flash
+- sensors
+- visible smartphone hardware
+
+Preserve:
+
+- exact lens count
+- exact lens size
+- exact lens spacing
+- exact flash position
+- exact sensor placement
+- exact opening geometry
+- exact camera-rim geometry
+
+Do NOT generate:
+
+- extra lenses
+- missing lenses
+- shifted lenses
+- altered spacing
+- generic camera island
+- enlarged black panel
+- merged openings
+- floating hardware
+
+--------------------------------------------------
+CAMERA COLOR LOCK
+--------------------------------------------------
+
+Preserve the exact camera-area colors from IMAGE 03.
+
+The small angle change must NOT recolor:
+
+- case camera border
+- phone lens rings
+- phone frame
+- flash
+- sensors
+
+If the case camera border is non-black:
+
+> KEEP IT NON-BLACK.
+
+If it is black:
+
+> KEEP THE SAME BLACK.
+
+Do NOT create angle-induced:
+
+- black crescent
+- dark charcoal arc
+- metallic recoloring
+- rainbow reflection
+- iridescence
+- color-shifting lens rings
+
+Allowed:
+
+> SMALL + NEUTRAL + LOCALIZED NATURAL HIGHLIGHTS.
+
+Communicate depth through:
+
+> GEOMETRY
+> + PERSPECTIVE
+> + OCCLUSION
+> + SOFT LOCAL SHADOW.
+
+Not through dramatic reflections.
+
+--------------------------------------------------
+HAND CONTINUITY
+--------------------------------------------------
+
+Use exactly:
+
+> THE SAME FEMININE LEFT HAND FROM IMAGE 03.
+
+Preserve:
+
+- hand identity
+- skin tone
+- proportions
+- manicure
+- wrist
+- same general grip family
+
+A very small grip adjustment is acceptable because the phone is closer.
+
+Keep the grip:
+
+- natural
+- stable
+- secure
+- relaxed
+
+Do NOT generate:
+
+- second hand
+- right-hand substitution
+- extra fingers
+- missing fingers
+- fused fingers
+- duplicated fingertips
+- impossible wrist
+- fingers clipping through the phone
+
+--------------------------------------------------
+CLOTHING CONTINUITY
+--------------------------------------------------
+
+Preserve the exact clothing from IMAGE 03.
+
+When using the established clothing, maintain:
+
+> AN OVERSIZED CREAM-WHITE / OFF-WHITE
+> BRETON / MARINIÈRE-INSPIRED
+> LONG-SLEEVE COTTON T-SHIRT
+> WITH THIN BLACK HORIZONTAL STRIPES.
+
+Preserve:
+
+- same off-white base
+- same thin black horizontal stripes
+- same stripe spacing
+- same sleeve proportions
+- soft cotton jersey
+- matte finish
+- natural folds
+
+Do NOT mutate it into:
+
+- knitted sweater
+- ribbed knit
+- wool
+- fuzzy fabric
+- sweatshirt
+- hoodie
+- plain-white sleeve
+- different stripe direction
+- different stripe thickness
+
+--------------------------------------------------
+BACKGROUND — STRICT CONTINUITY
+--------------------------------------------------
+
+Do NOT describe, redesign or rebuild a new background.
+
+Instead:
+
+> KEEP THE EXACT PHYSICAL BACKGROUND FROM IMAGE 03.
+
+This rule works with ANY environment.
+
+Do NOT assume the scene contains:
+
+- pegboard
+- digital clock
+- cloud decoration
+- laptop
+- keyboard
+- shelves
+- lamp
+- figurines
+- white furniture
+- any specific decoration
+
+unless those objects genuinely exist in IMAGE 03.
+
+Preserve:
+
+- same room
+- same wall
+- same furniture
+- same objects
+- same decorations
+- same major object placement
+- same practical lights
+- same camera viewpoint
+- same environmental perspective
+- same actual object colors
+
+Do NOT:
+
+- redesign the room
+- replace the background
+- add major objects
+- remove major objects
+- relocate landmarks
+- change environment identity
+
+Because the phone moves closer, allow only:
+
+> SMALL NATURAL PARALLAX
+> + MINOR OCCLUSION CHANGE
+> + MINOR CROP DIFFERENCE
+> + SLIGHTLY SOFTER BACKGROUND FOCUS.
+
+--------------------------------------------------
+IMAGE 03 COLOR — ABSOLUTE MASTER REFERENCE
+--------------------------------------------------
+
+IMAGE 03 already contains the correct final color.
+
+Therefore:
+
+> COPY IMAGE 03'S ACTUAL COLOR DIRECTLY.
+
+Do NOT independently re-grade IMAGE 04.
+
+Do NOT intentionally make IMAGE 04:
+
+- darker
+- brighter
+- warmer
+- cooler
+- more gray
+- more beige
+- more saturated
+- less saturated
+- more contrasty
+- flatter
+
+than IMAGE 03.
+
+IMAGE 03 controls:
+
+- actual perceived brightness
+- exposure
+- white level
+- black level
+- midtone placement
+- shadow character
+- highlight character
+- contrast
+- white balance
+- saturation
+- skin tone
+- clothing tone
+- background colors
+- phone-case colors
+- phone hardware colors
+
+The intended rule is:
+
+> COPY THE INPUT FRAME.
+> DO NOT CREATE A NEW COLOR LOOK.
+
+--------------------------------------------------
+NO ADDITIONAL DARKENING — CRITICAL
+--------------------------------------------------
+
+Do NOT apply any additional:
+
+- exposure reduction
+- brightness reduction
+- white-point reduction
+- midtone darkening
+- shadow darkening
+- dark-greige treatment
+- taupe overlay
+- extra muted-dark grade
+
+to IMAGE 04.
+
+Do NOT use previous logic such as:
+
+- make IMAGE 04 slightly darker
+- lower the white point more
+- increase midtone density
+- deepen shadows
+- reduce environmental brightness
+
+Those corrections are NOT needed.
+
+IMAGE 03 already establishes the desired final color.
+
+Therefore:
+
+> IMAGE 04 MUST INHERIT IMAGE 03'S COLOR DIRECTLY.
+
+--------------------------------------------------
+NO ADDITIONAL BRIGHTENING
+--------------------------------------------------
+
+Do not brighten IMAGE 04 either.
+
+The phone becomes larger and closer,
+
+but this must NOT trigger automatic exposure compensation.
+
+Therefore:
+
+> IMAGE 04 SHOULD BE ESSENTIALLY EQUAL
+> IN PERCEIVED BRIGHTNESS TO IMAGE 03.
+
+Not darker.
+
+Not brighter.
+
+The visual difference comes from:
+
+> DISTANCE + SCALE + SMALL ANGLE,
+
+not from exposure.
+
+--------------------------------------------------
+EXPOSURE LOCK
+--------------------------------------------------
+
+Simulate:
+
+> LOCKED SMARTPHONE EXPOSURE.
+
+The camera exposure established in IMAGE 03 remains fixed.
+
+Therefore:
+
+> PHONE CLOSER
+> ≠
+> BRIGHTER BACKGROUND.
+
+and:
+
+> PHONE CLOSER
+> ≠
+> DARKER BACKGROUND.
+
+Do NOT automatically:
+
+- raise overall exposure
+- lower overall exposure
+- brighten the wall
+- darken the wall
+- raise shadows
+- deepen shadows
+- change white point
+- change skin brightness
+- change sleeve brightness
+
+because the phone occupies more of the frame.
+
+--------------------------------------------------
+LIGHTING — SAME AS IMAGE 03 / PREVIOUS FRAMES
+--------------------------------------------------
+
+Preserve the same lighting character already established in IMAGE 03 and the previous successful phone-case frames.
+
+The lighting should remain:
+
+> BROAD
+> + SOFT
+> + DIFFUSED
+> + NATURAL
+> + COMFORTABLY ILLUMINATED
+> + REALISTIC INDOOR AMBIENT LIGHT.
+
+Use the same:
+
+- soft daytime / afternoon indoor ambient feel
+- broad diffused illumination
+- gentle front / upper-front light
+- natural ambient fill
+- smooth light falloff
+- soft contact shadows
+- controlled highlights
+- clear product visibility
+- realistic skin visibility
+- natural fabric texture
+
+The scene should remain:
+
+> SOFT
+> + COZY
+> + CHILL
+> + CLEAR
+> + NATURAL.
+
+--------------------------------------------------
+STATIC LIGHT PRINCIPLE
+--------------------------------------------------
+
+Only the installed phone moves.
+
+The room light remains:
+
+> COMPLETELY STATIC.
+
+Do NOT create:
+
+- new lamp
+- new practical light
+- new window source
+- flash
+- spotlight
+- bright light sweep
+- dramatic rim light
+- harsh sunlight
+- commercial softbox appearance
+- RGB
+- neon
+- changing light intensity
+
+If a practical light exists in IMAGE 03:
+
+> PRESERVE IT EXACTLY.
+
+Do not change its intensity, color or position.
+
+--------------------------------------------------
+SHADOW CONTINUITY
+--------------------------------------------------
+
+Copy the exact shadow behavior from IMAGE 03.
+
+Shadows remain:
+
+- soft
+- natural
+- readable
+- detailed
+- physically consistent
+
+Do NOT intentionally:
+
+- deepen shadows
+- brighten shadows
+- neutralize shadows
+- warm shadows further
+- cool shadows further
+
+Tiny local changes caused naturally by the phone's new position are acceptable.
+
+The overall shadow character must remain unchanged.
+
+--------------------------------------------------
+HIGHLIGHT CONTINUITY
+--------------------------------------------------
+
+Copy IMAGE 03's highlight response.
+
+Maintain:
+
+- same highlight intensity
+- same soft rolloff
+- same skin highlights
+- same product reflections
+- same surface brightness
+
+Do NOT:
+
+- brighten highlights
+- suppress highlights further
+- create glowing product edges
+- create stronger glossy reflections
+- blow white surfaces
+
+The closer phone does NOT receive a new highlight treatment.
+
+--------------------------------------------------
+WHITE BALANCE — COPY INPUT
+--------------------------------------------------
+
+Use the exact same white-balance character as IMAGE 03.
+
+Do NOT intentionally add or remove:
+
+- warmth
+- yellow
+- orange
+- blue
+- cyan
+- magenta
+- green
+
+If IMAGE 03 has the established:
+
+> SOFT LIGHT WARM-GRAY / LIGHT GREIGE
+> + VERY SLIGHTLY WARM-NEUTRAL
+
+appearance,
+
+copy it exactly.
+
+Do not exaggerate it.
+
+--------------------------------------------------
+PRODUCT COLOR ACCURACY
+--------------------------------------------------
+
+The phone case and smartphone must retain exactly the same colors as IMAGE 03.
+
+Do NOT allow the new angle to alter:
+
+- case base color
+- artwork colors
+- camera-border color
+- lens-ring color
+- phone-frame color
+- material saturation
+- transparency
+- opacity
+
+If the case is decorated:
+
+> PRESERVE EXACT ARTWORK COLORS.
+
+If it is plain:
+
+> PRESERVE EXACT BASE COLOR.
+
+If transparent:
+
+> PRESERVE EXACT TRANSPARENT MATERIAL RESPONSE.
+
+--------------------------------------------------
+SKIN / CLOTHING COLOR CONTINUITY
+--------------------------------------------------
+
+Preserve the exact same:
+
+- skin tone
+- skin brightness
+- nail color
+- sleeve color
+- stripe color
+- fabric tonal range
+
+from IMAGE 03.
+
+Do NOT independently brighten or darken the hand or sleeve because they move closer.
+
+--------------------------------------------------
+DEPTH OF FIELD
+--------------------------------------------------
+
+Because the installed phone is closer:
+
+> INSTALLED PHONE + HAND = PRIMARY FOCUS.
+
+The background may become:
+
+> SLIGHTLY SOFTER THAN IMAGE 03
+
+due only to natural smartphone depth behavior.
+
+Do NOT create:
+
+- extreme DSLR bokeh
+- fake portrait-mode masking
+- artificial cutout
+- smeared room
+- sudden focus pumping
+
+The environment must remain recognizable.
+
+--------------------------------------------------
+FINAL FRAME STABILITY
+--------------------------------------------------
+
+This is the LAST FRAME OF CLIP 02.
+
+The installed product should appear:
+
+- settled
+- steady
+- controlled
+- intentionally held
+
+No:
+
+- motion blur
+- mid-flip appearance
+- unresolved rotation
+- unstable wrist
+- aggressive movement
+
+The intended visual feeling is:
+
+> BROUGHT CLOSER
+> → TURNED SLIGHTLY
+> → PAUSED.
+
+--------------------------------------------------
+REALISM
+--------------------------------------------------
+
+The final image must look like:
+
+> A REAL MODERN SMARTPHONE PHOTO
+> CAPTURED MOMENTS AFTER IMAGE 03.
+
+Preserve:
+
+- realistic hand anatomy
+- believable phone weight
+- exact product material
+- authentic transparency / opacity
+- realistic camera glass
+- restrained reflections
+- natural fabric
+- real-world perspective
+- natural parallax
+- subtle smartphone optical softness
+
+Avoid:
+
+- CGI
+- 3D rendering
+- product mockup
+- fake HDR
+- hyper-sharp AI texture
+- waxy skin
+- glowing plastic
+- floating phone
+- commercial studio appearance
+
+--------------------------------------------------
+NO EXTRA OBJECTS
+--------------------------------------------------
+
+Do NOT add:
+
+- empty phone case
+- second smartphone
+- second case
+- second hand
+- packaging
+- protective film
+- OPP bag
+- charger
+- cable
+- unrelated product
+- captions
+- text overlay
+- watermark
+
+Keep only what is physically established in IMAGE 03.
+
+--------------------------------------------------
+PRIORITY HIERARCHY
+--------------------------------------------------
+
+If anything conflicts, prioritize:
+
+1. exact same installed smartphone + phone-case identity
+2. exact camera geometry
+3. exact material / transparency / opacity
+4. exact authentic product colors
+5. exact installed fit
+6. shallow BACK-dominant orientation
+7. front screen completely hidden
+8. closer product scale
+9. EXACT IMAGE 03 COLOR / EXPOSURE
+10. exact physical background continuity
+11. same hand / clothing
+12. photorealism
+
+If more thickness is needed:
+
+> MOVE CLOSER.
+
+If still needed:
+
+> USE A TINY CAMERA OFFSET.
+
+Do NOT:
+
+> ROTATE FARTHER.
+
+If IMAGE 04 becomes darker:
+
+> RESTORE IMAGE 03 BRIGHTNESS AND COLOR DIRECTLY.
+
+If IMAGE 04 becomes brighter:
+
+> RESTORE IMAGE 03 BRIGHTNESS AND COLOR DIRECTLY.
+
+If the color shifts:
+
+> COPY IMAGE 03 AGAIN.
+
+Do NOT create a new grade.
+
+--------------------------------------------------
+HARD CONSTRAINTS
+--------------------------------------------------
+
+FORMAT:
+- 1080 × 1920
+- Vertical 9:16
+- IMAGE 03 = strict input / FIRST FRAME OF CLIP 02
+- IMAGE 04 = LAST FRAME OF CLIP 02
+
+PRODUCT:
+- same exact smartphone
+- same exact installed phone case
+- same exact SKU
+- plain stays plain
+- decorated stays decorated
+- transparent stays transparent
+- translucent stays translucent
+- opaque stays opaque
+- exact material
+- exact transparency / opacity
+- exact camera geometry
+- exact phone-camera hardware
+- exact installed fit
+- exact authentic product colors
+
+ACTION:
+- move noticeably closer
+- approximately 20–28% larger than IMAGE 03
+- final scale approximately 50–60% frame height
+- preferred 54–58%
+- yaw approximately 8–12°
+- preferred approximately 10°
+- maximum approximately 14°
+- roll approximately 0–1.5°
+- pitch approximately 0–2°
+- back approximately 90–95% dominant
+- one side edge approximately 5–8%
+- front screen 0%
+- no strong three-quarter rotation
+- no front-facing transition
+- no flip
+- no motion blur
+
+HAND / CLOTHING:
+- ONE feminine LEFT hand
+- same hand
+- same manicure
+- same grip family
+- same clothing
+- same sleeve style
+
+BACKGROUND:
+- same exact physical environment
+- same room
+- same objects
+- same object placement
+- same practical lights
+- same perspective
+- no background reconstruction
+- no major object changes
+
+COLOR:
+- IMAGE 03 = ABSOLUTE MASTER COLOR REFERENCE
+- COPY INPUT COLOR DIRECTLY
+- same perceived brightness
+- same exposure
+- same white point
+- same black point
+- same midtone placement
+- same shadow character
+- same highlight character
+- same contrast
+- same saturation
+- same white balance
+- same skin tone
+- same clothing tone
+- same background colors
+- same product colors
+- NO intentional darkening
+- NO intentional brightening
+- NO extra white-point reduction
+- NO extra dense-midtones treatment
+- NO extra dark-greige treatment
+- NO additional warm filter
+- NO re-grading
+- NO exposure pumping
+
+LIGHTING:
+- same lighting as IMAGE 03
+- same soft broad ambient indoor light
+- same daytime / afternoon indoor feel
+- same gentle natural fill
+- same soft contact shadows
+- same controlled highlights
+- static light source
+- no new light
+- no flash
+- no spotlight
+- no harsh daylight
+- no dramatic lighting
+
+REALISM:
+- realistic smartphone depth of field
+- realistic hand
+- realistic product material
+- realistic camera glass
+- no CGI
+- no fake HDR
+- no text
+- no watermark
+
+--------------------------------------------------
+FINAL RESULT
+--------------------------------------------------
+
+Create the direct LAST-FRAME continuation of IMAGE 03.
+
+Show:
+
+> THE EXACT SAME INSTALLED SMARTPHONE + PHONE CASE
+> + SAME LEFT HAND
+> + SAME CLOTHING
+> + SAME PHYSICAL BACKGROUND
+> + SAME COLOR
+> + SAME EXPOSURE
+> + SAME LIGHTING.
+
+Change only:
+
+> MOVE THE PHONE NOTICEABLY CLOSER
+> + MAKE IT 20–28% LARGER
+> + ROTATE ONLY ABOUT 8–12°
+> + REVEAL ONE NARROW SIDE EDGE
+> + SHOW SLIGHTLY MORE CASE DEPTH
+> + HOLD STEADY.
+
+Final product size:
+
+> approximately 50–60% OF FRAME HEIGHT,
+> preferably 54–58%.
+
+The main back remains:
+
+> approximately 90–95% DOMINANT.
+
+One side edge:
+
+> approximately 5–8%.
+
+Front screen:
+
+> 0%.
+
+Preserve whatever actual case exists:
+
+> PLAIN STAYS PLAIN.
+> DECORATED STAYS DECORATED.
+> TRANSPARENT STAYS TRANSPARENT.
+> TRANSLUCENT STAYS TRANSLUCENT.
+> OPAQUE STAYS OPAQUE.
+
+Preserve whatever actual background exists in IMAGE 03.
+
+Most importantly:
+
+> IMAGE 04 = IMAGE 03, ONLY CLOSER AND SLIGHTLY ANGLED.
+
+> DO NOT DARKEN IMAGE 04.
+
+> DO NOT BRIGHTEN IMAGE 04.
+
+> DO NOT APPLY A NEW COLOR GRADE.
+
+> DO NOT APPLY AN EXTRA DARK-GREIGE / TAUPE TREATMENT.
+
+> COPY IMAGE 03'S ACTUAL COLOR DIRECTLY.
+
+> COPY IMAGE 03'S ACTUAL EXPOSURE DIRECTLY.
+
+> COPY IMAGE 03'S WHITE BALANCE DIRECTLY.
+
+> COPY IMAGE 03'S CONTRAST AND SATURATION DIRECTLY.
+
+> KEEP THE SAME SOFT, BROAD, NATURAL INDOOR AMBIENT LIGHT.
+
+> KEEP THE SAME NATURAL SHADOWS.
+
+> KEEP THE SAME CONTROLLED HIGHLIGHTS.
+
+> CHANGE PRODUCT DISTANCE AND A SMALL VIEWING ANGLE ONLY.
+
+> SAME PRODUCT.
+> SAME ROOM.
+> SAME COLOR.
+> SAME LIGHT.
+> ONLY CLOSER + SLIGHTLY ANGLED.

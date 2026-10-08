@@ -1,0 +1,511 @@
+# PHONE CASE SCRIPT GENERATION PROMPT
+
+Hãy viết một đoạn script ngắn dùng để đọc bằng giọng AI cho video TikTok dài khoảng **8 giây**.
+
+Hình ảnh đầu vào là khung hình liên tiếp từ một video, trong đó **điện thoại đã được gắn sẵn cùng một chiếc ốp lưng**.
+
+Hình ảnh có thể cho thấy:
+
+* mặt lưng điện thoại
+* ốp được cầm trên tay
+* góc nghiêng / góc gần
+* artwork / hình in / nhân vật
+* khu vực camera
+* cạnh và viền
+* tổng thể điện thoại sau khi gắn ốp
+
+Hãy hiểu toàn bộ hình ảnh là các khoảnh khắc nối tiếp của **cùng một chiếc điện thoại và cùng một chiếc ốp**, không phải các sản phẩm khác nhau.
+
+---
+
+## 1. YÊU CẦU ĐẦU RA
+
+* Ngôn ngữ: Tiếng Việt.
+* Giọng văn: tự nhiên, thân thiện, giống người miền Bắc trò chuyện.
+* Viết thành **một đoạn nói liền mạch**.
+* Độ dài phù hợp **7–9 giây**, mục tiêu khoảng 8 giây.
+* Câu ngắn, dễ đọc bằng AI.
+* Không đọc dồn hoặc tăng tốc bất thường để kịp video.
+* Không hashtag.
+* Không tiêu đề.
+* Không gạch đầu dòng.
+* Chỉ trả về **một đoạn script hoàn chỉnh**.
+
+---
+
+## 2. TRỌNG TÂM NỘI DUNG
+
+Không cố mô tả toàn bộ chiếc ốp.
+
+Ưu tiên:
+
+* Cảm xúc đầu tiên khi nhìn thấy điện thoại đã gắn ốp.
+* Vibe tổng thể.
+* Chiếc ốp làm điện thoại trông như thế nào.
+* 1–2 chi tiết hình ảnh nổi bật nhất.
+* Phản ứng tự nhiên khi nhìn gần hoặc nhìn ở góc khác.
+
+Tỷ lệ nội dung:
+
+* **70% cảm xúc / vibe / phản ứng.**
+* **30% mô tả 1–2 điểm nổi bật nhìn thấy được.**
+
+Chỉ chọn tối đa **1–2 đặc điểm nổi bật nhất**.
+
+Do video chỉ dài khoảng 8 giây, ưu tiên **một ý chính rõ ràng** thay vì cố đưa nhiều nhận xét vào cùng một script.
+
+Script phải nghe như một người vừa nhìn thấy chiếc điện thoại thú vị và buột miệng bình luận với bạn bè, **không giống nhân viên bán hàng, đọc thông số hoặc quảng cáo**.
+
+Trọng tâm của phone case:
+
+> **“Lên máy trông như thế nào?”**
+
+Có thể nói về:
+
+* nhìn cưng / xinh / vui mắt
+* mặt lưng có điểm nhấn
+* bớt đơn điệu
+* artwork có nét
+* nhân vật / biểu cảm thú vị
+* phối màu dịu hoặc nổi bật
+* nhìn gần càng cuốn
+* góc nghiêng đẹp về mặt thị giác
+* tổng thể hài hòa / gọn
+
+Không bắt buộc phải nói “ốp lưng” nhiều lần.
+
+---
+
+## 3. KHÔNG GIẢ VỜ TRẢI NGHIỆM
+
+Chỉ bình luận về **những gì nhìn thấy trong hình ảnh và cảm giác thị giác**.
+
+Không được giả vờ:
+
+* đã mua / nhận hàng
+* đã sở hữu sản phẩm
+* đã tự lắp / thay ốp
+* đã sử dụng lâu dài
+* đã kiểm tra chất liệu
+* đã thử khả năng bảo vệ
+* đã làm rơi điện thoại
+
+Không dùng:
+
+* “Mình mới mua em này.”
+* “Mình vừa nhận được ốp.”
+* “Mình vừa thay ốp.”
+* “Mình dùng mấy hôm rồi.”
+* “Cầm rất chắc tay.”
+* “Cầm không bị trơn.”
+* “Ốp ôm máy rất chắc.”
+* “Ngoài đời đẹp hơn ảnh.”
+* “Chất lượng rất tốt.”
+
+Chỉ dùng các nhận xét kiểu:
+
+* “Lên máy nhìn cưnggg thật.”
+* “Cái mặt lưng này vui mắt ghê.”
+* “Nhìn gần mới thấy cái hình này có nét.”
+* “Phối màu nhìn dịu mắt phết.”
+* “Lên máy nhìn có điểm nhấn hẳn.”
+
+---
+
+## 4. TUYỆT ĐỐI KHÔNG BỊA TÍNH NĂNG
+
+Không suy đoán hoặc khẳng định:
+
+* chống sốc / chống rơi / chống va đập
+* chống xước / chống nước / chống ố vàng
+* bảo vệ camera / màn hình
+* chống trơn / chống bám vân tay
+* tản nhiệt / MagSafe / sạc không dây
+* độ bền / độ chắc chắn / khả năng bảo vệ
+
+Ví dụ: nếu thấy viền camera nhô lên, chỉ được nói:
+
+> “Phần viền quanh camera nhìn khá nổi.”
+
+Không biến đặc điểm thị giác thành cam kết chức năng.
+
+---
+
+## 5. KHÔNG SUY ĐOÁN CHẤT LIỆU
+
+Không tự xác định chất liệu như:
+
+* silicone
+* TPU / PC
+* acrylic / kính / kim loại
+* da
+* chống sốc nhiều lớp
+
+nếu hình ảnh không đủ rõ.
+
+Không nói:
+
+* “silicone mềm”
+* “nhựa cứng cao cấp”
+* “chất liệu xịn”
+* “sờ mịn”
+* “cầm êm”
+* “cạnh mềm”
+* “không trơn tay”
+
+Chỉ mô tả những gì thực sự nhìn thấy:
+
+* “Bề mặt nhìn khá bóng.”
+* “Phần viền trông khá rõ khi nhìn nghiêng.”
+* “Nhìn góc này thấy ốp có độ dày nhất định.”
+* “Mặt lưng nhìn khá trong.”
+* “Phần cạnh nhìn gọn.”
+
+---
+
+## 6. KHÔNG SUY ĐOÁN MODEL ĐIỆN THOẠI
+
+Không tự xác định iPhone, Samsung, OPPO, Xiaomi hoặc model cụ thể nếu hình ảnh không rõ và không cần thiết.
+
+**Không cần nói tên model điện thoại.**
+
+Trọng tâm là chiếc ốp và tổng thể điện thoại khi đã gắn ốp.
+
+---
+
+## 7. HOOK TRONG 3 GIÂY ĐẦU
+
+Câu đầu tiên phải tạo chú ý nhưng vẫn giống **phản ứng tự nhiên**.
+
+Do toàn bộ video chỉ dài khoảng 8 giây, hook cần **ngắn, trực tiếp và vào cảm xúc ngay**, không chiếm quá nhiều thời lượng của script.
+
+Hook phải liên quan trực tiếp đến:
+
+* artwork
+* màu sắc
+* thiết kế
+* vibe thực tế trong hình.
+
+Có thể mở đầu theo nhiều hướng:
+
+* “Ê khoan, lên máy nhìn cưnggg thế…”
+* “Ơ cái mặt lưng này yêu thế…”
+* “Này nha, lên máy cuốnnn phết…”
+* “Khoan, nhìn cái hình phía sau này…”
+* “Ủa sao lên máy có nét thế…”
+* “Trời ơi, mặt lưng nhìn vui ghêeee…”
+* “Nhìn đơn giản mà cuốn thật…”
+* “Ơ cái biểu cảm này là sao đây…”
+* “Ê cái vibe này yêu thật đấy…”
+
+**Không mở đầu bằng quảng cáo**, ví dụ:
+
+* “Đây là một chiếc ốp lưng.”
+* “Hôm nay mình sẽ giới thiệu…”
+* “Sản phẩm hôm nay là…”
+* “Mình sẽ review cho mọi người…”
+* “Chiếc ốp must-have.”
+* “Phải mua ngay.”
+* “Mọi người nhất định phải mua.”
+
+Đa dạng hook giữa các video, không lặp “Ê khoan…” cho mọi SKU.
+
+---
+
+## 8. CÁCH XỬ LÝ HÌNH ẢNH
+
+Hãy hiểu toàn bộ hình ảnh là **một video liên tục**.
+
+Không nói:
+
+* “Ở ảnh đầu tiên…”
+* “Ở ảnh thứ hai…”
+* “Sang ảnh tiếp theo…”
+* “Trong khung hình này…”
+* “Sau đó người quay…”
+* “Tiếp theo sản phẩm…”
+* “Ở góc quay cuối…”
+
+Không kể lại video theo thứ tự hành động.
+
+Hình ảnh chỉ giúp xác định:
+
+* vibe tổng thể
+* màu sắc nổi bật
+* artwork / nhân vật / biểu cảm
+* cách ốp làm điện thoại thay đổi về mặt thị giác
+* camera nếu thực sự nổi bật
+* cạnh / viền nếu góc nghiêng cho thấy rõ
+* một chi tiết đáng nhớ khi nhìn gần
+
+Script phải là phản ứng với **tổng thể video**, không phải thuyết minh từng shot.
+
+---
+
+## 9. KHÔNG NHẮC HÀNH ĐỘNG KHÔNG CÓ TRONG HÌNH
+
+Nếu hình ảnh chỉ cho thấy điện thoại đã gắn ốp, không nói:
+
+* bóc film
+* mở hộp / unbox
+* tháo túi
+* lắp / thay ốp
+* nhận hàng
+
+Chỉ dùng trạng thái thực tế:
+
+> **Điện thoại đã được gắn ốp và đang được trình bày trước camera.**
+
+---
+
+## 10. ƯU TIÊN CẢM XÚC TỰ NHIÊN
+
+Có thể tập trung vào:
+
+* cưng
+* vui mắt
+* tinh nghịch
+* đáng yêu
+* cá tính
+* trẻ trung
+* có điểm nhấn
+* artwork có nét riêng
+* nhìn gần thú vị
+* phối màu dịu mắt
+* tổng thể hài hòa
+
+Có thể dùng:
+
+* “Tự nhiên nhìn mặt lưng này thấy vui vui.”
+* “Cái biểu cảm nhìn ngơ ngơ mà yêu thật.”
+* “Lên máy là tổng thể có điểm nhấn hẳn.”
+* “Không cần cầu kỳ mà nhìn vẫn có nét.”
+* “Nhìn gần cái hình này cuốnnn ghê.”
+* “Cái vibe này nhìn là thấy cưng.”
+
+Không phải câu nào cũng cần cung cấp thông tin. Một phần script có thể chỉ là **phản ứng + cảm xúc**.
+
+Với clip 8 giây, không cố giải thích quá nhiều. Một phản ứng tự nhiên kết hợp với một chi tiết nổi bật thường hiệu quả hơn việc mô tả nhiều đặc điểm.
+
+---
+
+## 11. CHỈ CHỌN 1–2 ĐIỂM NỔI BẬT
+
+Không cố nhắc cùng lúc:
+
+> artwork + viền + cạnh + camera + màu + nhân vật + độ dày + họa tiết.
+
+Hãy tự hỏi:
+
+> **“Điều gì đập vào mắt nhất?”**
+
+Nếu nhân vật nổi bật → tập trung nhân vật / biểu cảm.
+
+Nếu màu nổi bật → tập trung màu và tổng thể.
+
+Nếu artwork đặc trưng → tập trung artwork.
+
+Nếu thiết kế camera đặc biệt → có thể dùng làm điểm thứ hai.
+
+Nếu cạnh / viền không đáng chú ý → bỏ qua.
+
+**Ít thông tin nhưng đúng trọng tâm tốt hơn nhiều thông tin.**
+
+Với thời lượng khoảng 8 giây, **một điểm nổi bật duy nhất cũng hoàn toàn đủ** nếu giúp script nghe tự nhiên hơn.
+
+---
+
+## 12. KHÔNG TỰ GÁN PHONG CÁCH
+
+Không tự gọi sản phẩm là:
+
+* Korean / Hàn Quốc
+* Nhật Bản
+* anime / manga
+* Y2K
+* vintage
+* Pinterest
+* kawaii
+* luxury
+* streetwear
+
+nếu hình ảnh không thực sự thể hiện rõ.
+
+Nếu chỉ đơn giản là dễ thương, hãy nói:
+
+> “nhìn cưng”
+
+thay vì tự gắn một phong cách cụ thể.
+
+---
+
+## 13. KHÔNG SUY ĐOÁN THÔNG TIN KHÁC
+
+Không khẳng định:
+
+* độ bền / độ chắc
+* trọng lượng
+* cảm giác cầm
+* độ mềm / cứng
+* chất lượng
+* giá
+* thương hiệu
+* nguồn gốc
+* chất liệu chính xác
+* khả năng sử dụng lâu dài
+* khả năng bảo vệ.
+
+Tránh các từ khi dùng như khẳng định trải nghiệm:
+
+> “xịn”, “cao cấp”, “bền”, “chắc”, “nhẹ”, “êm”, “chất lượng tốt”.
+
+Ưu tiên các từ đánh giá **thị giác**:
+
+> cưng, xinh, vui mắt, có nét, cuốn, nổi bật, dịu mắt, hài hòa.
+
+---
+
+## 14. PHONG CÁCH NÓI
+
+Script phải:
+
+* tự nhiên
+* đời thường
+* có cảm xúc
+* giống phản ứng thật
+* không diễn quá mức
+* không giống quảng cáo
+* không cố thuyết phục mua hàng
+* không liên tục gọi “mấy bà”, “chị em”, “mọi người”
+* không nhồi quá nhiều tính từ
+* không biến thành danh sách đặc điểm
+* không dùng câu quá dài.
+
+Có thể dùng các cách nói:
+
+> “Ê khoan…”, “Ơ từ từ…”, “Này nha…”, “Trời ơi…”, “Nhìn cưng ghê…”, “Có nét thật đấy…”, “Nhìn vui mắt phết…”, “Nhìn gần cuốn ghê…”
+
+Chỉ dùng khi phù hợp với hình ảnh.
+
+---
+
+## 15. NHỊP ĐỌC
+
+Dùng khoảng **1–2 từ được kéo dài tự nhiên** để giọng AI sinh động hơn:
+
+> cưnggg / xinhhhh / cuốnnn / yêu quáaaa / vui ghêeee / có nét ghêeee / thíchhhh
+
+Chỉ kéo dài ở điểm có cảm xúc.
+
+Không kéo dài quá nhiều từ hoặc khiến giọng bị diễn.
+
+Vì clip chỉ dài khoảng 8 giây, từ kéo dài phải ngắn vừa phải và không được làm script vượt thời lượng.
+
+---
+
+## 16. CẤU TRÚC GỢI Ý
+
+Với clip khoảng 8 giây, ưu tiên cấu trúc **3 nhịp ngắn**:
+
+1. **Hook** — phản ứng ngay khi nhìn thấy ốp trên máy.
+2. **Điểm chính** — nói một chi tiết nổi bật hoặc cảm giác mà chiếc ốp tạo ra cho tổng thể điện thoại.
+3. **Reaction cuối** — phản ứng ngắn khi nhìn gần hoặc một câu cảm thán tự nhiên.
+
+Ví dụ logic:
+
+> **Hook → điểm nổi bật / vibe → reaction cuối**
+
+Không cần cố đưa đủ:
+
+> hook → artwork → màu → tổng thể → camera → cạnh → nhìn gần → kết.
+
+Nếu chỉ có một đặc điểm thực sự nổi bật, hãy tập trung vào đặc điểm đó thay vì cố tìm thêm thông tin.
+
+Không bắt buộc bám cứng cấu trúc nếu cách khác tự nhiên hơn.
+
+---
+
+## 17. MỤC TIÊU CẢM XÚC
+
+Người nghe **không nên** có cảm giác:
+
+> “Ai đó đang review thông số một chiếc ốp.”
+
+Mà nên có cảm giác:
+
+> “Ai đó vừa nhìn thấy chiếc điện thoại này, thấy cái ốp khá cưng / có nét nên buột miệng nói ra.”
+
+Đây là mục tiêu quan trọng nhất.
+
+Với clip 8 giây, script nên giống **một phản ứng ngắn và tự nhiên**, không phải một bài review thu nhỏ.
+
+---
+
+## 18. ĐA DẠNG HÓA SCRIPT
+
+Không dùng cùng một hook hoặc cùng một cấu trúc cho mọi SKU.
+
+Có thể thay đổi trọng tâm:
+
+* artwork
+* biểu cảm nhân vật
+* màu
+* tổng thể lên máy
+* chi tiết nhìn gần
+* góc nghiêng
+
+Mục tiêu là các video khác nhau phải nghe **khác nhau tự nhiên**, không phải cùng một template đổi sản phẩm.
+
+Do thời lượng ngắn, mỗi script chỉ cần chọn **một trọng tâm chính**. Không cần cố kết hợp nhiều trọng tâm trong cùng một video.
+
+---
+
+## 19. QUY TẮC CUỐI CÙNG
+
+Hãy viết script như một người vừa nhìn thấy chiếc điện thoại đã được gắn chiếc ốp này và chia sẻ cảm xúc đầu tiên với bạn bè.
+
+Ưu tiên:
+
+> **CẢM GIÁC + VIBE + PHẢN ỨNG TỰ NHIÊN**
+
+hơn:
+
+> **THÔNG SỐ + LIỆT KÊ CHI TIẾT**
+
+Bắt buộc:
+
+* Chỉ nhắc 1–2 đặc điểm nổi bật.
+* Một đặc điểm nổi bật là đủ nếu phù hợp hơn với thời lượng.
+* Không giả vờ đã mua / nhận / sử dụng / lắp sản phẩm.
+* Không khẳng định chất lượng, độ bền, chất liệu hoặc khả năng bảo vệ nếu không thể xác minh.
+* Không kể từng cảnh quay.
+* Không nhắc “ảnh”, “frame”, “khung hình” hoặc quá trình quay.
+* Không cố bán hàng.
+* Giọng gần gũi, tự nhiên, có nhịp điệu, hơi cảm xúc, phù hợp giọng AI miền Bắc.
+* Độ dài đọc khoảng **7–9 giây**, mục tiêu khoảng **8 giây**.
+* Không viết dài rồi yêu cầu giọng AI đọc nhanh để kịp thời lượng.
+
+---
+
+## 20. ĐỊNH DẠNG ĐẦU RA — BẮT BUỘC
+
+Chỉ trả về **MỘT đoạn văn chat bình thường duy nhất**.
+
+Không:
+
+* tiêu đề
+* câu dẫn
+* hashtag
+* code block
+* markdown
+* blockquote
+* Writing Block / Artifact / Canvas
+* khung nội dung hoặc định dạng đặc biệt.
+
+Tin nhắn phải **bắt đầu ngay bằng câu đầu tiên của script và kết thúc ngay sau câu cuối cùng**.
+
+Ví dụ:
+
+Ê khoan, cái ốp này lên máy nhìn cưnggg thật… Cái hình phía sau có nét ghê, nhìn gần lại càng cuốnnn.
+
+Ví dụ chỉ dùng để hiểu phong cách và độ dài. Không được sao chép nguyên văn nếu không phù hợp với hình ảnh.

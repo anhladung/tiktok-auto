@@ -1,0 +1,554 @@
+Create a realistic lifestyle product showcase image, 1080 × 1920 vertical 9:16.
+
+Use TWO provided reference images with STRICT roles:
+
+IMAGE A = PRIMARY EXISTING HAND + BACKGROUND + ENVIRONMENT REFERENCE
+
+IMAGE B = PRIMARY SMARTPHONE + PHONE CASE PRODUCT IDENTITY REFERENCE
+
+There are NO other reference images.
+
+--------------------------------------------------
+REFERENCE PRIORITY
+--------------------------------------------------
+
+IMAGE A controls the entire physical scene:
+
+- exact background environment
+- room layout
+- desk / shelf / surface
+- furniture
+- decorative objects
+- object placement
+- camera perspective
+- lighting direction
+- shadows
+- depth relationship
+- existing feminine hand
+- hand anatomy
+- hand pose
+- finger position
+- sleeve
+- nails
+- jewelry
+- skin texture
+
+Preserve IMAGE A exactly.
+
+IMPORTANT:
+
+IMAGE A already contains the real hand.
+
+The existing hand is the ONLY hand allowed.
+
+Do NOT recreate the hand.
+
+Do NOT replace the hand.
+
+Do NOT modify the hand appearance.
+
+Keep:
+
+- same fingers
+- same finger proportions
+- same nail design
+- same nail color
+- same sleeve
+- same jewelry
+- same skin tone
+- same wrist position
+- same hand pose
+
+The final image should feel like the same real photo taken in the same location.
+
+--------------------------------------------------
+IMAGE B PRODUCT IDENTITY
+--------------------------------------------------
+
+IMAGE B controls the complete smartphone product:
+
+- exact smartphone model
+- exact phone case SKU
+- exact case design
+- exact silhouette
+- exact proportions
+- exact width-to-height ratio
+- exact corner radius
+- exact bumper
+- exact border
+- exact camera opening
+- exact camera geometry
+- exact phone hardware
+- exact material
+- exact transparency
+- exact texture
+- exact finish
+- exact colors
+- artwork / graphics / patterns / typography if present
+
+The phone and case must be identical to IMAGE B.
+
+Do NOT redesign the product.
+
+Do NOT create a similar phone case.
+
+Do NOT change product identity.
+
+--------------------------------------------------
+MAIN TASK
+--------------------------------------------------
+
+Transform IMAGE A into a realistic phone-case showcase image.
+
+Insert:
+
+ONE SMARTPHONE
+
+already fully installed inside:
+
+THE EXACT PHONE CASE FROM IMAGE B
+
+into the EXISTING FEMININE HAND from IMAGE A.
+
+The smartphone must look naturally held by the original hand.
+
+The final image should show:
+
+- one existing feminine hand
+- one smartphone
+- one installed phone case
+- the same original environment
+
+The woman herself must NOT be visible.
+
+--------------------------------------------------
+HAND HOLDING REALISM — CRITICAL
+--------------------------------------------------
+
+The original hand from IMAGE A must hold the smartphone in a natural, secure, everyday grip.
+
+The phone should feel physically supported by the hand.
+
+The grip should look:
+
+- firm
+- stable
+- comfortable
+- natural
+- believable
+- like a real person holding a smartphone
+
+Preserve realistic hand mechanics:
+
+- fingers naturally wrapping around the phone edges
+- thumb supporting the device naturally
+- palm contacting the phone realistically
+- realistic finger pressure
+- believable smartphone weight
+
+The phone must NOT look:
+
+- floating
+- lightly touching the hand
+- pasted onto fingers
+- unstable
+- incorrectly positioned
+
+Do NOT change the original hand pose unnecessarily.
+
+Instead:
+
+Adapt the phone placement to fit the existing grip.
+
+--------------------------------------------------
+PHONE SHAPE & PHYSICAL STRUCTURE — CRITICAL
+--------------------------------------------------
+
+The smartphone must look like a real rigid physical device.
+
+Preserve:
+
+- normal rectangular smartphone shape
+- straight edges
+- correct thickness
+- realistic corner radius
+- correct perspective
+- accurate proportions
+- believable weight distribution
+
+The phone must NOT be:
+
+- bent
+- curved
+- melted
+- stretched
+- compressed
+- warped
+- twisted
+- distorted
+
+Avoid AI-generated phone deformation.
+
+The phone should look exactly like a real smartphone being held in a real hand.
+
+--------------------------------------------------
+INSTALLED PRODUCT RULE
+--------------------------------------------------
+
+Show:
+
+ONE smartphone
+
++
+
+ONE fully installed phone case.
+
+Treat phone + case as:
+
+ONE COMPLETE RIGID INSTALLED ASSEMBLY.
+
+Maintain:
+
+- snug fit
+- correct corner coverage
+- correct bumper thickness
+- correct side coverage
+- correct camera alignment
+- realistic physical thickness
+
+Do NOT show:
+
+- empty case
+- separate phone
+- spare case
+- installation process
+- loose case
+- floating border
+- detached bumper
+- packaging
+- protective film
+
+--------------------------------------------------
+PHONE CASE UNIVERSAL RULE
+--------------------------------------------------
+
+This prompt must work for many different phone cases.
+
+The case may be:
+
+- transparent
+- translucent
+- frosted
+- matte
+- glossy
+- silicone
+- TPU
+- rigid plastic
+- printed
+- illustrated
+- patterned
+- plain
+- colorful
+
+If IMAGE B shows a plain case:
+
+KEEP IT PLAIN.
+
+Do NOT add:
+
+- graphics
+- stickers
+- characters
+- text
+- logos
+- patterns
+
+If IMAGE B contains artwork:
+
+Preserve exactly:
+
+- position
+- scale
+- color
+- spacing
+- shape
+- details
+
+Do NOT:
+
+- redraw
+- simplify
+- mirror
+- stretch
+- recolor
+- regenerate
+
+--------------------------------------------------
+CAMERA AREA ACCURACY
+--------------------------------------------------
+
+Preserve the exact camera relationship from IMAGE B.
+
+Maintain:
+
+- camera lens position
+- lens count
+- lens size
+- flash position
+- camera border
+- protective rim
+- case opening
+
+Do NOT generate:
+
+- extra lenses
+- missing lenses
+- wrong camera layout
+- generic camera module
+- distorted camera opening
+
+--------------------------------------------------
+PRODUCT ORIENTATION
+--------------------------------------------------
+
+Show primarily the BACK of the smartphone.
+
+The phone should appear:
+
+- mostly straight toward camera
+- upright
+- stable
+- clean
+- balanced
+- easy to understand
+
+The phone should remain visually flat and natural, like a real person normally holding a smartphone for a product showcase photo.
+
+Only allow a VERY SLIGHT natural perspective angle.
+
+Recommended:
+
+- yaw approximately 0–5°
+- preferred approximately 0–3°
+- roll approximately 0–1°
+- pitch approximately 0–2°
+
+The viewer should immediately understand:
+
+> THIS IS A STRAIGHT OR NEAR-STRAIGHT BACK VIEW OF THE PHONE CASE.
+
+Do NOT let the phone lean or rotate too much.
+
+Avoid:
+
+- strong three-quarter angle
+- obvious side view
+- dramatic perspective
+- tilted phone position
+- rotated wrist pose
+- front screen visibility
+- exaggerated product presentation angle
+
+The main case design must remain clearly visible.
+
+The phone should feel like:
+
+> A REAL SMARTPHONE HELD UPRIGHT IN A NATURAL HAND POSITION.
+
+Not:
+
+> A PHONE BEING TURNED SIDEWAYS FOR A CAMERA ANGLE.
+
+--------------------------------------------------
+ANGLE CONTROL — CRITICAL
+--------------------------------------------------
+
+The phone angle must remain extremely controlled.
+
+The product showcase effect should come mainly from:
+
+- accurate product placement
+- clear case visibility
+- realistic hand grip
+- natural camera perspective
+
+NOT from:
+
+- rotating the phone
+- twisting the wrist
+- showing side thickness aggressively
+- creating a dramatic angle
+
+The smartphone must stay:
+
+- vertically aligned
+- visually stable
+- naturally held
+- close to parallel with the camera plane
+
+If more product visibility is needed:
+
+> MOVE THE PHONE SLIGHTLY CLOSER
+> + MAKE THE PRODUCT CLEARER IN FRAME
+
+Do NOT solve visibility problems by increasing rotation.
+
+The phone should look like a normal everyday phone-holding pose, similar to someone showing the back of their phone case to the camera.
+
+--------------------------------------------------
+PRODUCT SCALE & COMPOSITION
+--------------------------------------------------
+
+Keep the phone size realistic relative to the hand.
+
+The smartphone should feel naturally sized for the person's hand.
+
+Do NOT make:
+
+- oversized phone
+- tiny phone
+- stretched phone
+- unrealistic proportions
+
+The final composition should feel like:
+
+a real casual smartphone lifestyle photo.
+
+--------------------------------------------------
+BACKGROUND PRESERVATION
+--------------------------------------------------
+
+Keep IMAGE A unchanged.
+
+Preserve:
+
+- room identity
+- objects
+- decorations
+- furniture
+- camera viewpoint
+- lighting
+- depth
+
+Do NOT:
+
+- redesign the room
+- remove objects
+- add objects
+- change the environment
+
+--------------------------------------------------
+LIGHTING & REALISM
+--------------------------------------------------
+
+Match IMAGE A lighting.
+
+The phone and case must receive the same:
+
+- light direction
+- shadow direction
+- reflections
+- exposure
+- color tone
+
+The product should naturally belong in the scene.
+
+Style:
+
+- realistic smartphone photography
+- lifestyle product photography
+- natural indoor lighting
+- soft shadows
+- authentic materials
+
+Avoid:
+
+- CGI
+- 3D render
+- product mockup
+- artificial studio lighting
+- fake HDR
+
+--------------------------------------------------
+DEPTH OF FIELD
+--------------------------------------------------
+
+Use realistic smartphone camera depth.
+
+Sharpest:
+
+- phone
+- phone case
+- hand
+
+Background:
+
+- slightly softer
+- still recognizable
+
+Avoid:
+
+- extreme DSLR blur
+- fake portrait mode
+- artificial cutout
+
+--------------------------------------------------
+NEGATIVE CONSTRAINTS
+--------------------------------------------------
+
+Do NOT create:
+
+- phone tilted too much
+- strong three-quarter angle
+- strong side profile
+- obvious phone slant
+- rotated phone pose
+- twisted wrist angle
+- exaggerated hand rotation
+- front screen visible
+- dramatic perspective distortion
+- warped smartphone
+- bent phone
+- stretched phone
+- compressed phone
+- distorted phone proportions
+- floating phone
+- phone not touching hand
+- weak grip
+- unrealistic grip
+- new hand
+- second hand
+- changed nails
+- changed sleeve
+- changed jewelry
+- distorted fingers
+- extra fingers
+- missing fingers
+- wrong phone proportions
+- wrong case design
+- wrong camera layout
+- extra objects
+- packaging
+- text
+- watermark
+- CGI appearance
+
+--------------------------------------------------
+FINAL RESULT
+--------------------------------------------------
+
+Create one highly realistic vertical 9:16 lifestyle product showcase image.
+
+The final image must look like:
+
+A real person is naturally holding the exact smartphone with the exact phone case from IMAGE B inside the original environment from IMAGE A.
+
+Priority:
+
+1. Exact phone + case identity from IMAGE B
+2. Normal realistic smartphone shape
+3. Secure believable hand grip
+4. Preservation of original hand from IMAGE A
+5. Preservation of original background from IMAGE A
+6. Natural lighting integration
+7. Real smartphone photography quality

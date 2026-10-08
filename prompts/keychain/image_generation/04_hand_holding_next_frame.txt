@@ -1,0 +1,691 @@
+1080x1920 vertical TikTok lifestyle product photograph.
+
+# PRIMARY OBJECTIVE
+
+Create a highly realistic image-to-image transformation based strictly on the single provided input image.
+
+The input image is FRAME 01 and contains the complete original physical scene:
+
+* exact keychain
+* woman's left hand
+* white knitted sweater sleeve
+* original environment
+* original lighting
+* original camera capture
+* original color mood
+
+Create FRAME 02B as a natural consecutive moment from the same handheld smartphone video.
+
+The result must look like the same woman physically moved the keychain closer and slightly repositioned the phone moments later.
+
+The scene must remain physically continuous.
+
+This is NOT a new product photograph inspired by the input.
+
+This is NOT a digital zoom.
+
+This is NOT a background replacement.
+
+Think:
+
+**same woman + same hand + same keychain + same sleeve + same physical environment + slightly different camera position + closer product + stronger product rotation.**
+
+---
+
+# TRANSFORMATION
+
+Make the following changes from FRAME 01:
+
+1. Bring the keychain noticeably closer to the camera, approximately 25–35% closer.
+2. Make the keychain significantly larger, occupying approximately 60–70% of the frame height.
+3. Rotate the keychain approximately 25–32° around its vertical axis.
+4. Turn the woman's wrist naturally inward to explain the product rotation.
+5. Move the smartphone slightly lower, approximately 5–10°.
+6. Shift the smartphone moderately sideways, approximately 8–15°.
+7. Tighten the framing.
+8. Increase natural shallow depth of field because the product is closer.
+9. Allow mild natural background parallax and perspective change.
+
+The numerical values are visual targets, not rigid mathematical requirements.
+
+Prioritize natural physical photography over exact angles.
+
+The camera movement must remain MODERATE.
+
+The product rotation should create most of the visible change.
+
+---
+
+# CAMERA MOVEMENT — MODERATE ONLY
+
+The smartphone camera should move enough to create a clearly different photograph, but should remain relatively close to the original viewing direction.
+
+The intended movement is:
+
+**closer + slightly lower + slightly sideways.**
+
+Allow:
+
+* modest horizontal viewpoint change
+* modest vertical viewpoint change
+* tighter framing
+* natural perspective change
+* mild parallax
+
+Do NOT make the camera dramatically rotate around the product.
+
+Do NOT create a strong low-angle shot.
+
+Do NOT create a Dutch angle.
+
+Do NOT create a heavily diagonal composition.
+
+Do NOT look sharply upward or downward at the product.
+
+Do NOT move the camera to the opposite side of the room.
+
+The final image should still feel like a casual smartphone photograph taken from roughly the same general direction.
+
+If there is a conflict between stronger visual difference and natural camera perspective, prioritize natural perspective.
+
+---
+
+# PRODUCT ROTATION
+
+The exact keychain should rotate approximately 25–32° around its vertical axis.
+
+Create a clearly visible but front-biased three-quarter view.
+
+The viewer should see:
+
+* most of the original front artwork
+* one clear side edge
+* real product thickness
+* front-to-side transition
+* natural edge construction
+* original hardware connection
+
+The product must no longer appear completely flat toward the camera.
+
+The side edge should be visible enough to clearly communicate physical depth.
+
+However, the front design must remain dominant and immediately recognizable.
+
+The keychain itself should rotate more noticeably than the camera.
+
+Avoid:
+
+* almost straight-on view
+* tiny rotation
+* full side profile
+* edge-on view
+* dominant backside
+* mirrored artwork
+* invented rear details
+
+Do not force an exact angle if the product geometry makes another nearby angle look more physically realistic.
+
+---
+
+# PRODUCT IDENTITY — ABSOLUTE
+
+The keychain in FRAME 02B must be the exact same physical product shown in FRAME 01.
+
+Preserve exactly:
+
+* silhouette
+* proportions
+* shape
+* character/object design
+* artwork
+* facial features
+* expression
+* colors
+* printed details
+* embroidery
+* stitching
+* borders
+* decorative elements
+* material
+* surface texture
+* surface finish
+* thickness
+* volume
+* edge construction
+* chain
+* cord
+* beads
+* connectors
+* metal ring
+* clasp
+* hook
+* loop
+* number of components
+
+Do not redesign, reinterpret, stylize or improve the product.
+
+Do not change its colors.
+
+Do not add or remove details.
+
+Do not invent decorations or seams.
+
+Do not modify the hardware.
+
+Do not artificially increase or reduce thickness.
+
+The visible side thickness must be the REAL physical thickness implied by the original product.
+
+Show exactly ONE complete keychain.
+
+---
+
+# PRODUCT DISTANCE AND FRAMING
+
+The keychain must look physically closer to the smartphone, not digitally enlarged.
+
+Target:
+
+* approximately 25–35% closer than FRAME 01
+* approximately 60–70% of frame height
+* tight framing
+* limited negative space
+* complete product visible
+
+Keep visible:
+
+* entire main product body
+* important artwork
+* top and bottom edges
+* visible side edge
+* metal ring
+* clasp
+* connector
+
+Do not crop important product components.
+
+The product may approach the frame edges but should not touch or extend beyond them.
+
+Avoid extreme macro distortion, fisheye distortion, stretched proportions or oversized hardware.
+
+---
+
+# HAND AND WRIST
+
+Use exactly the same feminine LEFT hand from FRAME 01.
+
+Preserve:
+
+* skin tone
+* hand proportions
+* nails
+* wrist
+* overall hand identity
+* white knitted sweater sleeve
+
+Change the grip naturally.
+
+The wrist should rotate inward enough to explain the keychain's three-quarter rotation.
+
+Preferred grip:
+
+* thumb and index finger hold the original upper ring or clasp
+* wrist turned naturally inward
+* middle finger may lightly support the connector
+* palm mostly outside the frame
+* remaining fingers continue naturally outside the crop
+
+The hand should look like it physically moved the keychain.
+
+Do not twist the hand unnaturally just to satisfy the angle.
+
+Do not allow fingers to cover the main artwork, important facial details, side edge, ring or clasp.
+
+Maintain realistic contact between fingers and hardware.
+
+---
+
+# HAND ANATOMY
+
+Exactly ONE anatomically correct feminine left hand.
+
+No:
+
+* second hand
+* extra fingers
+* duplicated fingers
+* missing fingers
+* fused fingers
+* extra thumb
+* malformed joints
+* impossible bends
+* floating fingertips
+* fingers passing through the product
+* fingers merged with the hardware
+
+The hand may be partially cropped naturally because of the tighter framing.
+
+Do not show all five fingers spread around the product.
+
+---
+
+# SLEEVE
+
+Preserve the same white knitted sweater sleeve from FRAME 01.
+
+Maintain:
+
+* white or warm white color
+* knitted texture
+* soft matte fabric
+* natural folds
+* slightly loose fit
+* realistic wrist transition
+
+Only a small amount of sleeve may remain visible due to the tighter crop.
+
+Do not change the clothing.
+
+No dark sleeve, colored sleeve, patterned sleeve, bare arm, logo or text.
+
+---
+
+# HARDWARE
+
+Preserve the exact original hardware.
+
+Maintain:
+
+* ring shape
+* clasp
+* hook
+* connector
+* chain
+* joining rings
+* metal color
+* metal finish
+* proportions
+* number of components
+
+The closer view may reveal more detail, but the hardware design must remain unchanged.
+
+Do not create:
+
+* extra rings
+* extra clasps
+* extra chains
+* missing components
+* broken metal
+* melted metal
+* distorted rings
+* floating hardware
+* impossible connections
+* metal fused with fingers
+
+---
+
+# BACKGROUND — SAME PLACE, NOT FROZEN
+
+The original background is the reference for the physical environment.
+
+Preserve the identity of the original location:
+
+* same room or space
+* same general furniture
+* same desk or surrounding environment
+* same walls
+* same major decorative elements
+* same architectural characteristics
+* same overall atmosphere
+* same general lighting environment
+
+However, DO NOT treat the background as a frozen 2D image.
+
+The camera is allowed to move moderately within the same physical space.
+
+Therefore the background may naturally:
+
+* shift within the frame
+* change perspective
+* change apparent scale
+* show different relative spacing
+* become partially hidden
+* move toward the edges
+* disappear outside the crop
+* reveal a small amount of previously unseen area
+* become more or less visible because of the new framing
+
+These changes are desirable when caused by realistic camera movement.
+
+The background does NOT need to match FRAME 01 pixel-for-pixel.
+
+Do not force every object to remain in the exact same position.
+
+Prioritize:
+
+**same physical environment > identical background composition.**
+
+---
+
+# BACKGROUND FREEDOM LIMIT
+
+Allow natural viewpoint changes, but keep them moderate.
+
+The output should still immediately feel like the same physical place.
+
+Think:
+
+**same room, nearby camera position.**
+
+Not:
+
+**same room, camera moved to another side of the room.**
+
+Do not transform the environment into:
+
+* another room
+* generic bedroom
+* generic desk setup
+* studio
+* different house
+* different interior
+* unrelated aesthetic
+
+Do not redesign the room.
+
+Do not add major environmental elements that have no basis in FRAME 01.
+
+Minor previously unseen details are acceptable only when naturally implied by the same physical environment.
+
+---
+
+# BACKGROUND PARALLAX
+
+Create mild, physically plausible parallax caused by the camera movement.
+
+Nearer objects may shift more than distant objects.
+
+The larger foreground keychain may hide more of the background.
+
+Some objects may move toward the edge of the frame or disappear because of the tighter crop.
+
+Distant walls and large structures should remain relatively stable.
+
+Do NOT move the entire background as one flat layer.
+
+Do NOT simply blur FRAME 01.
+
+Do NOT create warped walls, floating objects or impossible spatial relationships.
+
+The background should behave like a real three-dimensional environment.
+
+---
+
+# DEPTH OF FIELD
+
+Because the keychain is closer to the smartphone, create stronger but realistic shallow depth of field.
+
+Keep sharply focused:
+
+* front artwork
+* facial details
+* visible side edge
+* product thickness
+* stitching
+* surface texture
+* ring
+* clasp
+* connector
+* fingertips touching the hardware
+
+The hand and sleeve may be slightly softer than the product.
+
+The background may become significantly softer.
+
+However, the blurred background must retain recognizable environmental shapes and colors.
+
+The blur should come from realistic smartphone optics and subject distance.
+
+Do NOT use:
+
+* artificial cutout blur
+* smeared background
+* fake cinematic bokeh
+* random sharp background objects
+* blurred product edges
+* blurred artwork
+* blurred hardware
+
+---
+
+# LIGHTING
+
+Preserve the original lighting environment from FRAME 01.
+
+Maintain the same general:
+
+* light direction
+* light source characteristics
+* ambient illumination
+* shadow softness
+* exposure character
+* color temperature
+* tonal balance
+
+Small exposure changes caused by camera movement are acceptable.
+
+Do not introduce a new studio light.
+
+Do not dramatically relight the scene.
+
+Do not create cinematic lighting that was not present in the original.
+
+The product, hand and sleeve should remain naturally illuminated.
+
+---
+
+# COLOR AND PHOTO STYLE
+
+Preserve the original color mood.
+
+Maintain:
+
+* original product colors
+* original artwork colors
+* natural skin tone
+* original sleeve appearance
+* similar environmental color balance
+* natural warmth/coolness
+
+Use realistic smartphone-camera rendering.
+
+The final image should look:
+
+* casual
+* natural
+* clean
+* aesthetically pleasing
+* physically photographed
+* suitable for TikTok
+
+Avoid:
+
+* CGI
+* 3D render
+* commercial studio photography
+* hyper-polished advertising
+* excessive HDR
+* extreme color grading
+* neon colors
+* plastic skin
+* artificial sharpness
+* glossy fake materials
+* fisheye distortion
+
+---
+
+# COMPOSITION
+
+Use vertical 1080x1920 composition.
+
+The keychain is the dominant subject.
+
+Use:
+
+* tight framing
+* strong product readability
+* limited negative space
+* natural hand placement
+* moderate three-quarter perspective
+* upright overall composition
+
+The product does not need to remain perfectly centered.
+
+It may shift slightly left or right because of natural handheld movement.
+
+Avoid dramatic diagonal composition.
+
+The photograph should feel like a real person casually repositioned their smartphone.
+
+---
+
+# NO BAG / NO BACKPACK
+
+Do not introduce any backpack, handbag, tote bag, bag strap, bag handle or other bag-like object as a new foreground subject.
+
+The keychain must be held freely by the woman's hand.
+
+If a bag already exists somewhere in the original environment, it may remain only as a normal background element if it naturally remains within the new framing.
+
+Do not invent a new bag.
+
+---
+
+# DIFFERENCE CHECK
+
+FRAME 02B must be clearly different from FRAME 01.
+
+The difference should come primarily from:
+
+1. closer product
+2. larger product
+3. stronger product rotation
+4. changed wrist position
+5. tighter framing
+6. modest camera movement
+7. mild background parallax
+8. stronger natural depth of field
+
+Do NOT create difference by:
+
+* changing the room
+* replacing the background
+* dramatically rotating the camera
+* changing the product
+* changing the hand
+* changing the clothing
+
+If the result looks too similar to FRAME 01, increase product closeness and product rotation first.
+
+Only then increase camera movement slightly.
+
+---
+
+# PRIORITY ORDER
+
+When instructions conflict, prioritize:
+
+1. exact keychain identity
+2. realistic product geometry
+3. natural hand anatomy
+4. believable product rotation
+5. natural camera movement
+6. same physical environment
+7. realistic perspective and parallax
+8. original lighting and color
+9. composition
+10. exact numerical angle targets
+
+Natural realism is more important than mathematical precision.
+
+Do not freeze the background merely to preserve its original composition.
+
+Do not exaggerate camera movement merely to create visual difference.
+
+---
+
+# HARD NEGATIVE CONSTRAINTS
+
+Do NOT create:
+
+* new product
+* redesigned product
+* duplicate product
+* different character
+* changed artwork
+* changed colors
+* altered hardware
+* extra hardware
+* missing hardware
+* second hand
+* extra fingers
+* malformed fingers
+* fused fingers
+* unnatural wrist
+* different sleeve
+* backpack
+* handbag
+* new bag
+* background replacement
+* unrelated room
+* redesigned environment
+* extreme camera angle
+* Dutch angle
+* dramatic low angle
+* extreme side view
+* full side profile
+* dominant backside
+* mirrored artwork
+* digital zoom appearance
+* artificial background blur
+* CGI
+* 3D render
+* fisheye distortion
+* motion blur
+* excessive HDR
+* text
+* watermark
+
+---
+
+# FINAL VISUAL TARGET
+
+Create a highly realistic vertical TikTok lifestyle product frame that looks like a genuine second smartphone photograph.
+
+The exact same keychain is now approximately 25–35% closer and occupies roughly 60–70% of the frame height.
+
+The same woman's left hand holds the same product while naturally rotating her wrist.
+
+The keychain is rotated approximately 25–32° into a clear front-biased three-quarter view, revealing one side edge and the real physical thickness while keeping most of the original artwork visible.
+
+The smartphone camera has moved only moderately:
+
+**slightly closer, slightly lower and slightly sideways.**
+
+The camera movement should be noticeable but restrained.
+
+The overall photograph should remain upright and natural rather than dramatically tilted.
+
+The original physical environment remains the same, but its composition is allowed to change naturally because the camera has moved.
+
+Background objects may shift, become partially hidden, move toward the edges, disappear outside the crop or reveal small portions of the same environment.
+
+Mild perspective change and parallax are encouraged.
+
+The background should become naturally softer because the product is closer, while still retaining recognizable environmental identity.
+
+The final result should feel like:
+
+**the same person, same product, same hand, same sleeve, same place, same lighting — photographed moments later with the product brought closer and rotated into a more detailed three-quarter view.**
+
+It must look physically photographed, not digitally regenerated.

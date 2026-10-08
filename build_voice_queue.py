@@ -31,19 +31,15 @@ VOICE_QUEUE_FILE = os.path.join(
 # ============================================================
 
 ENABLED_CATEGORIES = [
-    "lipstick",
-    "sandal",
+    "snack",
     "keychain",
     "phone_case",
-    "mask",
 ]
 
 # Chạy riêng một loại để kiểm tra:
-# ENABLED_CATEGORIES = ["lipstick"]
-# ENABLED_CATEGORIES = ["sandal"]
+# ENABLED_CATEGORIES = ["snack"]
 # ENABLED_CATEGORIES = ["keychain"]
 # ENABLED_CATEGORIES = ["phone_case"]
-# ENABLED_CATEGORIES = ["mask"]
 
 
 # ============================================================
@@ -493,16 +489,10 @@ def build_voice_queue():
     # Summary
     # --------------------------------------------------------
 
-    lipstick_jobs = sum(
+    snack_jobs = sum(
         1
         for row in all_rows
-        if row.get("category") == "lipstick"
-    )
-
-    sandal_jobs = sum(
-        1
-        for row in all_rows
-        if row.get("category") == "sandal"
+        if row.get("category") == "snack"
     )
 
     keychain_jobs = sum(
@@ -515,12 +505,6 @@ def build_voice_queue():
         1
         for row in all_rows
         if row.get("category") == "phone_case"
-    )
-
-    mask_jobs = sum(
-        1
-        for row in all_rows
-        if row.get("category") == "mask"
     )
 
     pending_jobs = sum(
@@ -563,12 +547,8 @@ def build_voice_queue():
         len(new_rows)
     )
     print(
-        "Lipstick jobs:",
-        lipstick_jobs
-    )
-    print(
-        "Sandal jobs:",
-        sandal_jobs
+        "Snack jobs:",
+        snack_jobs
     )
     print(
         "Keychain jobs:",
@@ -577,10 +557,6 @@ def build_voice_queue():
     print(
         "Phone case jobs:",
         phone_case_jobs
-    )
-    print(
-        "Mask jobs:",
-        mask_jobs
     )
     print(
         "Pending jobs:",

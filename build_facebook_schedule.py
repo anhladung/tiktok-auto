@@ -325,16 +325,22 @@ def build_facebook_schedule():
         if row.get("job_id", "").strip()
     )
 
-    lipstick_slots = sum(
+    snack_slots = sum(
         1
         for row in all_rows
-        if row.get("category") == "lipstick"
+        if row.get("category") == "snack"
     )
 
-    sandal_slots = sum(
+    keychain_slots = sum(
         1
         for row in all_rows
-        if row.get("category") == "sandal"
+        if row.get("category") == "keychain"
+    )
+
+    phone_case_slots = sum(
+        1
+        for row in all_rows
+        if row.get("category") == "phone_case"
     )
 
     print("=" * 60)
@@ -370,13 +376,18 @@ def build_facebook_schedule():
     )
 
     print(
-        "Lipstick slots:",
-        lipstick_slots
+        "Snack slots:",
+        snack_slots
     )
 
     print(
-        "Sandal slots:",
-        sandal_slots
+        "Keychain slots:",
+        keychain_slots
+    )
+
+    print(
+        "Phone case slots:",
+        phone_case_slots
     )
 
     print("=" * 60)

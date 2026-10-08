@@ -1,0 +1,936 @@
+Create a highly realistic vertical lifestyle product photograph using the SINGLE PROVIDED INPUT IMAGE as the strict visual and physical reference.
+
+PRIMARY OBJECTIVE
+
+The input image is the PREVIOUS FRAME and already contains the complete correct scene:
+
+the exact eyewear product
+
+the exact folded state of the eyewear
+
+the exact female hand
+
+the exact hand-to-product contact
+
+the exact manicure
+
+the exact knitted cardigan sleeve
+
+the exact background environment
+
+the exact background objects
+
+the exact lighting
+
+the exact exposure
+
+the exact color mood
+
+the exact photographic style
+
+Create a NEW CONSECUTIVE FRAME from the same handheld smartphone video.
+
+The woman has simply brought the SAME folded glasses noticeably closer to the camera and gently rotated them to a clear three-quarter oblique angle for closer product inspection.
+
+This must look like a physical movement occurring only a moment after the input frame.
+
+SAME woman.
+SAME hand.
+SAME nails.
+SAME knitted cardigan.
+SAME exact glasses.
+SAME folded configuration.
+SAME fundamental grip.
+SAME room.
+SAME background.
+SAME lighting.
+SAME exposure.
+
+Only the position and orientation of the hand and glasses have changed.
+
+This is NOT a new product photograph.
+
+This is NOT a newly generated room.
+
+This is NOT a background replacement.
+
+This is NOT a digital zoom.
+
+The woman physically moves the glasses closer to the smartphone camera in three-dimensional space.
+
+TRANSFORMATION FROM THE INPUT FRAME
+
+Make ONLY these primary changes:
+
+Move the folded eyewear approximately 25–35% closer to the camera.
+
+Allow the eyewear to become naturally larger in the frame because it is physically closer to the camera.
+
+Rotate the eyewear approximately 20–30 degrees into a clear but moderate three-quarter oblique product view.
+
+Rotate the woman's hand and wrist naturally together with the eyewear.
+
+Everything else remains as continuous with the input frame as physically possible.
+
+The result should immediately look like the next moment of the SAME handheld video.
+
+PHYSICAL MOVE — NOT DIGITAL ZOOM
+
+Do not enlarge the entire input image.
+
+Do not digitally zoom or crop the original frame.
+
+Do not enlarge the background together with the product.
+
+Instead, physically bring the hand and eyewear toward the camera.
+
+Therefore:
+
+the eyewear becomes noticeably larger
+
+the hand becomes somewhat larger
+
+foreground perspective becomes slightly stronger
+
+product detail becomes easier to inspect
+
+the background stays essentially in the same physical position
+
+background objects do not scale up together with the product
+
+The movement must create genuine foreground-to-background depth.
+
+CLOSER PRODUCT POSITION
+
+The eyewear should become noticeably more prominent than in the input frame.
+
+Target approximately 55–65% of the useful frame width, depending on the natural proportions of the product.
+
+Keep the product close and detailed without making it excessively oversized.
+
+Prefer keeping the complete eyewear inside the frame.
+
+Do not unnecessarily crop:
+
+either lens
+
+the bridge
+
+the important outer frame edges
+
+the visible folded structure
+
+The viewer should immediately understand that the woman has moved the product closer to the phone for inspection.
+
+THREE-QUARTER PRODUCT VIEW
+
+Rotate the eyewear approximately 20–30 degrees horizontally relative to the camera.
+
+The rotation should be clearly noticeable compared with the input frame, but not extreme.
+
+Show primarily the FRONT of the eyewear.
+
+The new angle should reveal:
+
+both lens shapes
+
+the front frame
+
+some frame thickness
+
+natural product depth
+
+a small amount of hinge or folded structure where naturally visible
+
+One side of the eyewear may naturally appear slightly closer to the camera than the other.
+
+This perspective difference is intentional.
+
+Do not rotate the eyewear into a full side profile.
+
+Do not show mainly the back of the glasses.
+
+Both lenses should remain easy to recognize.
+
+The product must remain instantly recognizable as the exact same eyewear.
+
+NATURAL PERSPECTIVE
+
+Because the eyewear is physically closer to the smartphone camera, introduce subtle realistic perspective.
+
+The nearer side may appear slightly larger.
+
+The farther side may appear slightly smaller.
+
+Frame thickness may become more visible.
+
+Reflections may shift naturally with the new orientation.
+
+Keep this perspective subtle and realistic.
+
+Do not exaggerate wide-angle distortion.
+
+Do not warp the lenses.
+
+Do not stretch the bridge.
+
+Do not make the left and right sides structurally different.
+
+Do not change the real geometry of the product.
+
+EXACT PRODUCT IDENTITY LOCK
+
+The eyewear in the new frame MUST be the EXACT SAME physical eyewear shown in the input image.
+
+Preserve:
+
+exact frame design
+
+exact lens shape
+
+exact frame silhouette
+
+exact proportions
+
+exact bridge
+
+exact nose area
+
+exact rim thickness
+
+exact frame color
+
+exact transparency or opacity
+
+exact material
+
+exact surface finish
+
+exact hinges
+
+exact temple-arm design
+
+exact decorative details
+
+exact hardware
+
+exact lens appearance
+
+Changing the viewing angle must NOT cause the AI to reinterpret or redesign the product.
+
+The three-quarter view must be a geometrically plausible rotated view of the SAME physical object.
+
+DO NOT RESTORE REMOVED STICKERS
+
+The current input frame is authoritative.
+
+If temporary retail stickers, lens labels, barcodes, promotional markings, or temporary text are absent from the input frame, they must remain absent.
+
+Do not invent:
+
+stickers
+
+labels
+
+text
+
+logos
+
+symbols
+
+watermarks
+
+lens printing
+
+Keep the lenses clean exactly as established in the input frame.
+
+FOLDED EYEWEAR STATE
+
+The eyewear remains FULLY FOLDED.
+
+Preserve the same folded configuration established in the input frame.
+
+Both temple arms remain naturally folded behind the front frame according to the real hinge geometry of the product.
+
+Do not open the temple arms.
+
+Do not partially unfold them.
+
+Do not alter the folded configuration simply because the viewing angle changes.
+
+Do not create:
+
+extra temple arms
+
+missing temple arms
+
+duplicated temple arms
+
+floating temple arms
+
+extra hinges
+
+broken hinges
+
+impossible intersections
+
+invented structural components
+
+Keep the folded geometry simple and physically believable.
+
+CRITICAL GRIP CONTINUITY
+
+Preserve the SAME fundamental holding method established in the input frame.
+
+The woman is genuinely supporting the weight of the eyewear with her hand.
+
+Use a simple THREE-FINGER SUPPORT GRIP centered around the middle of the folded eyewear.
+
+The INDEX FINGER and MIDDLE FINGER support the central area of the eyewear from underneath and slightly behind.
+
+These two fingers form a small natural support underneath the product and visibly carry its weight.
+
+The THUMB gently stabilizes the same central area from the opposite side.
+
+The thumb provides light counter-pressure so the glasses remain securely held.
+
+The eyewear visibly rests on the supporting fingers.
+
+There must be clear physical contact between the hand and the product.
+
+The grip must look stable enough that a real person could actually hold the glasses in this position.
+
+The RING FINGER and LITTLE FINGER remain naturally relaxed and curled toward the palm.
+
+They do not need to interact with the eyewear.
+
+The hand remains mostly underneath and slightly behind the product.
+
+PHYSICAL CONTACT IS IMPORTANT
+
+The eyewear must NOT appear to float near the hand.
+
+The gripping fingers must visibly touch and support the product.
+
+Do not leave unrealistic gaps between the glasses and the supporting fingers.
+
+Do not balance the glasses on one fingertip.
+
+Do not use a delicate fingertip-only pinch.
+
+Do not hold the product only by one thin temple arm.
+
+Do not weave fingers through the folded temple arms.
+
+Do not create complicated finger positions.
+
+Do not make fingers pass through the product.
+
+Do not deform the glasses to accommodate the fingers.
+
+The fingers conform naturally to the existing product geometry.
+
+The product itself remains unchanged.
+
+NATURAL OCCLUSION
+
+Realistic physical contact has priority over artificially keeping every millimeter of the frame visible.
+
+A SMALL amount of natural finger overlap around the central lower part of the eyewear is acceptable.
+
+This small overlap should make the product look genuinely held rather than floating.
+
+However:
+
+do not cover the main area of either lens
+
+do not place a finger across a lens
+
+do not cover large areas of the front frame
+
+do not hide the overall product silhouette
+
+Both lens shapes must remain clearly readable.
+
+Most of the front frame must remain visible.
+
+HAND ROTATION DURING THE MOVEMENT
+
+The hand and glasses behave as ONE physically connected system.
+
+When the glasses rotate toward the three-quarter angle, the woman's wrist rotates naturally with them.
+
+The fingers maintain contact with the SAME general central support area.
+
+Do not independently rotate the glasses inside a stationary hand.
+
+Do not suddenly change to a completely different grip.
+
+Do not reposition the fingers to arbitrary new parts of the product.
+
+A small natural adjustment of finger curvature is acceptable if required by the new angle.
+
+The movement should look like:
+
+the woman holds the glasses securely,
+moves her whole hand toward the camera,
+and gently turns her wrist to show another angle.
+
+SAME HAND CONTINUITY
+
+The hand must look like the SAME woman's hand shown in the input frame.
+
+Preserve:
+
+skin tone
+
+hand size
+
+finger proportions
+
+nail length
+
+nail shape
+
+manicure
+
+nail color
+
+realistic skin texture
+
+overall grooming
+
+Do not generate a different hand.
+
+Do not randomly redesign the manicure.
+
+The hand should change only as required by the natural movement toward the camera and wrist rotation.
+
+HAND ANATOMY
+
+Show exactly ONE hand.
+
+The hand has:
+
+one thumb
+
+four fingers
+
+Maintain realistic human anatomy.
+
+No extra fingers.
+
+No missing fingers.
+
+No duplicated fingers.
+
+No fused fingers.
+
+No floating fingertips.
+
+No detached nails.
+
+No malformed joints.
+
+No impossible finger bends.
+
+No twisted wrist.
+
+No broken anatomy.
+
+Keep the pose simple.
+
+Avoid unnecessarily elegant or complicated finger arrangements.
+
+NAIL CONTINUITY
+
+Preserve the same manicure already visible in the input frame.
+
+Keep the same:
+
+nail shape
+
+approximate nail length
+
+nail colors
+
+decorative details
+
+glossy or natural finish
+
+Do not redesign the nails because the hand is closer to the camera.
+
+Because the hand is physically closer, existing nail details may naturally become easier to see.
+
+CARDIGAN CONTINUITY
+
+Preserve the SAME knitted cardigan sleeve shown in the input frame.
+
+Maintain:
+
+same cardigan color
+
+same knitted texture
+
+same knit pattern
+
+same fabric thickness
+
+same cuff design
+
+same relationship to the wrist
+
+same natural folds
+
+The cardigan sleeve moves naturally together with the woman's wrist and arm.
+
+Do not replace it with:
+
+fluffy faux fur
+
+fleece
+
+a different sweater
+
+cotton sleeve
+
+satin
+
+lace
+
+jacket cuff
+
+another garment
+
+Do not make the sleeve oversized.
+
+Do not allow the sleeve to cover or interfere with the eyewear.
+
+BACKGROUND — STRICTLY LOCKED
+
+Treat the background of the input image as a LOCKED PHYSICAL ENVIRONMENT.
+
+THE HAND AND PRODUCT MOVE.
+
+THE ROOM DOES NOT MOVE.
+
+Preserve every existing background object.
+
+Maintain each object's:
+
+identity
+
+number
+
+position
+
+orientation
+
+relative size
+
+spacing
+
+arrangement
+
+color
+
+Do not:
+
+move objects
+
+reorganize objects
+
+remove objects
+
+replace objects
+
+duplicate objects
+
+rotate objects
+
+clean up the scene
+
+add decorations
+
+fill empty areas with new props
+
+Do not add:
+
+flowers
+
+books
+
+candles
+
+cups
+
+jewelry
+
+cosmetics
+
+trays
+
+plants
+
+bags
+
+boxes
+
+ribbons
+
+decorations
+
+glasses cases
+
+additional eyewear
+
+text elements
+
+The original background must remain visually continuous with the input frame.
+
+CAMERA CONTINUITY
+
+The result must feel like another frame from the SAME smartphone recording.
+
+Keep approximately the same:
+
+camera height
+
+camera direction
+
+vertical framing
+
+smartphone lens characteristics
+
+exposure
+
+white balance
+
+color processing
+
+A tiny amount of natural handheld camera movement is acceptable.
+
+Do not completely recompose the scene.
+
+Do not move the camera to the opposite side.
+
+Do not create a dramatically different viewpoint.
+
+The main visual change must come from the HAND moving the PRODUCT closer and rotating it.
+
+FOCUS AND DEPTH OF FIELD
+
+Focus primarily on the eyewear.
+
+Because the product is now closer:
+
+product details become more prominent
+
+the eyewear should appear crisp
+
+the gripping fingers should remain sufficiently detailed
+
+the physical contact between hand and product should remain visible
+
+the background may become slightly softer due to natural focus falloff
+
+Use realistic smartphone optics.
+
+Do not create extreme portrait-mode blur.
+
+Do not artificially erase background details.
+
+Do not transform the environment into creamy artificial bokeh.
+
+The original background must remain recognizable.
+
+LIGHTING CONTINUITY — STRICT
+
+Use ONLY the lighting already established by the input image.
+
+The hand and eyewear are moving through the SAME physical environment.
+
+Preserve:
+
+same primary light direction
+
+same light softness
+
+same ambient fill
+
+same brightness
+
+same exposure
+
+same color temperature
+
+same white balance
+
+same overall color mood
+
+DO NOT make the new frame darker.
+
+DO NOT make the new frame brighter.
+
+DO NOT introduce exposure breathing.
+
+DO NOT introduce a new color grade.
+
+DO NOT add studio lighting.
+
+DO NOT add dramatic highlights.
+
+As the eyewear rotates, reflections may change naturally according to the new physical orientation.
+
+This natural reflection change is acceptable.
+
+Do not change the overall illumination of the scene.
+
+CONTACT SHADOWS
+
+Use subtle realistic contact shadows where the fingers physically touch the eyewear.
+
+These small shadows should reinforce the impression that the product is actually resting on and being supported by the fingers.
+
+Keep them subtle and consistent with the existing light source.
+
+Do not create artificial dark outlines around the fingers or product.
+
+MATERIAL CONTINUITY
+
+Preserve the exact material appearance established in the input frame.
+
+For transparent or semi-transparent frames:
+
+preserve realistic transparency
+
+preserve subtle refraction
+
+preserve edge reflections
+
+maintain the same frame color
+
+do not turn transparent material opaque
+
+For glossy frames:
+
+preserve realistic controlled reflections
+
+maintain the same surface finish
+
+do not introduce metallic reflections unless they already exist
+
+For lenses:
+
+maintain realistic transparency
+
+allow subtle environmental reflections
+
+do not introduce random dark patches
+
+do not change clear lenses into sunglasses
+
+do not change tinted lenses into clear lenses
+
+do not invent mirrored coatings
+
+REALISTIC CLOSE-UP DETAIL
+
+Because the product is physically closer, existing details may naturally become more visible:
+
+frame edges
+
+material texture
+
+hinge details
+
+frame thickness
+
+transparent material depth
+
+subtle reflections
+
+lens reflections
+
+skin texture
+
+nail details
+
+cardigan knit texture
+
+Do not artificially sharpen the entire image.
+
+It should still look like a genuine smartphone-video frame.
+
+NATURAL HANDHELD FEEL
+
+Avoid an overly perfect studio composition.
+
+The image should feel like a woman casually filming a short lifestyle product video.
+
+She is holding the folded glasses securely in one hand.
+
+She brings them closer to the phone.
+
+At the same time, she gently rotates her wrist to reveal a slightly oblique product angle.
+
+The movement should feel:
+
+natural
+
+casual
+
+controlled
+
+physically plausible
+
+continuous with the previous frame
+
+DO NOT CREATE A SECOND PRODUCT
+
+There must be exactly ONE eyewear product.
+
+Do not:
+
+duplicate the glasses
+
+create another pair in the background
+
+create ghosting
+
+create motion duplicates
+
+generate overlapping alternate product positions
+
+DO NOT CREATE A SECOND HAND
+
+There must be exactly ONE visible hand.
+
+Do not introduce another hand to support the product.
+
+The same single hand performs the entire movement.
+
+CRITICAL ERROR PREVENTION
+
+Avoid:
+
+digital zoom,
+whole-frame enlargement,
+background zoom,
+background replacement,
+background rearrangement,
+new objects,
+extra decorations,
+different room,
+different glasses,
+redesigned frame,
+changed lens shape,
+changed frame proportions,
+changed frame color,
+changed material,
+opened temple arms,
+partially opened temple arms,
+extra temple arms,
+missing temple arms,
+duplicated temples,
+extra hinges,
+broken hinges,
+warped frame,
+asymmetrical lenses,
+distorted bridge,
+finger passing through product,
+finger merged with frame,
+finger merged with lens,
+product floating above hand,
+unrealistic gaps between fingers and product,
+complicated finger grip,
+product excessively hidden by hand,
+extra fingers,
+missing fingers,
+fused fingers,
+deformed anatomy,
+different manicure,
+different cardigan,
+fluffy sleeve,
+second hand,
+second pair of glasses,
+stickers,
+labels,
+random text,
+invented logos,
+watermarks,
+excessive lens reflections,
+fake studio lighting,
+changed exposure,
+darker image,
+brighter image,
+extreme bokeh,
+CGI appearance,
+plastic-looking skin,
+over-retouching.
+
+FINAL PRIORITY ORDER
+
+If any instruction conflicts, follow this priority:
+
+Preserve the EXACT SAME eyewear identity from the input image.
+
+Preserve the SAME fully folded configuration.
+
+Preserve a physically believable connection between the hand and eyewear.
+
+Keep the index and middle fingers supporting the product from underneath and the thumb stabilizing the central area.
+
+Keep the glasses visibly resting on the hand rather than floating.
+
+Physically move the hand and glasses closer to the camera.
+
+Rotate the hand and glasses together approximately 20–30 degrees into a three-quarter oblique view.
+
+Keep both lens shapes clearly readable and most of the front frame visible.
+
+Preserve the SAME hand and manicure.
+
+Preserve the SAME knitted cardigan.
+
+Preserve the background and all existing object positions.
+
+Preserve exactly the same lighting, brightness, exposure, white balance, and color mood.
+
+Add absolutely no new objects.
+
+FINAL TARGET
+
+Generate a highly realistic consecutive smartphone-video frame showing the SAME woman physically holding the SAME folded eyewear from the input image.
+
+She has brought her hand and glasses approximately 25–35% closer to the smartphone camera.
+
+At the same time, she has gently rotated her wrist so the glasses are now shown at a clear but moderate 20–30 degree three-quarter oblique angle.
+
+The glasses appear larger because they are PHYSICALLY CLOSER to the camera, not because the entire image has been digitally zoomed.
+
+The same three-finger support grip remains physically believable.
+
+The index and middle fingers visibly support the central area of the eyewear from underneath and slightly behind.
+
+The thumb gently stabilizes the product from the opposite side.
+
+The glasses visibly rest on the fingers and have believable weight.
+
+A small amount of natural finger overlap around the central lower frame is acceptable and desirable if necessary to communicate real physical contact.
+
+Do not allow the eyewear to float.
+
+Do not deform the product around the hand.
+
+Both lenses remain clearly readable.
+
+Most of the front frame remains visible.
+
+The product remains fully folded.
+
+The exact product geometry, material, color, proportions, and construction remain unchanged.
+
+The same woman, same hand, same manicure, same knitted cardigan, same background, same background-object arrangement, same lighting, same brightness, same exposure, same white balance, and same photographic character are preserved.
+
+The result should look like the immediate next natural moment from the exact same handheld smartphone product video.

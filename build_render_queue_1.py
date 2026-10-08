@@ -40,8 +40,8 @@ os.makedirs(
 # CHANNEL CONFIG
 # ============================================================
 
-# Chỉ áp dụng nhân 5 channel cho keychain
-KEYCHAIN_CHANNEL_COUNT = 5
+# Chạy 1 channel duy nhất cho tất cả categories
+KEYCHAIN_CHANNEL_COUNT = 1
 DEFAULT_CHANNEL_COUNT = 1
 
 
@@ -49,32 +49,34 @@ DEFAULT_CHANNEL_COUNT = 1
 # CATEGORY CONFIG
 # ============================================================
 
-# Chạy son, dép, móc khóa, ốp lưng và khẩu trang
+# Chạy đồ ăn vặt, móc khóa, ốp lưng
 ENABLED_CATEGORIES = [
+    "snack",
     "keychain",
+    "phone_case",
+    "eyeglasses",
 ]
 
 # Test riêng:
-# ENABLED_CATEGORIES = ["lipstick"]
-# ENABLED_CATEGORIES = ["sandal"]
+# ENABLED_CATEGORIES = ["snack"]
 # ENABLED_CATEGORIES = ["keychain"]
 # ENABLED_CATEGORIES = ["phone_case"]
-# ENABLED_CATEGORIES = ["mask"]
+# ENABLED_CATEGORIES = ["eyeglasses"]
 
 
 CATEGORY_CONFIG = {
     # ========================================================
-    # LIPSTICK
+    # SNACK (ĐỒ ĂN VẶT)
     # ========================================================
-    "lipstick": {
+    "snack": {
         "products_dir": os.path.join(
             PRODUCTS_ROOT,
-            "lipstick"
+            "snack"
         ),
 
         "prompt_dir": os.path.join(
             PROMPTS_ROOT,
-            "lipstick",
+            "snack",
             "video_generation"
         ),
 
@@ -82,45 +84,8 @@ CATEGORY_CONFIG = {
             {
                 "clip_index": "1",
                 "start_image": "01_hand_holding.png",
-                "end_image": "02_opened_product.png",
+                "end_image": "01_hand_holding.png",
                 "prompt_file": "clip_01_product_showcase.txt",
-            },
-            {
-                "clip_index": "2",
-                "start_image": "03_mid_swatch.png",
-                "end_image": "04_final_swatch.png",
-                "prompt_file": "clip_02_swatch.txt",
-            },
-        ],
-    },
-
-    # ========================================================
-    # SANDAL
-    # ========================================================
-    "sandal": {
-        "products_dir": os.path.join(
-            PRODUCTS_ROOT,
-            "sandal"
-        ),
-
-        "prompt_dir": os.path.join(
-            PROMPTS_ROOT,
-            "sandal",
-            "video_generation"
-        ),
-
-        "clips": [
-            {
-                "clip_index": "1",
-                "start_image": "01_hand_holding.png",
-                "end_image": "02_product_closeup.png",
-                "prompt_file": "clip_01_product_showcase.txt",
-            },
-            {
-                "clip_index": "2",
-                "start_image": "03_on_foot.png",
-                "end_image": "04_on_foot_next_frame.png",
-                "prompt_file": "clip_02_on_foot.txt",
             },
         ],
     },
@@ -180,28 +145,26 @@ CATEGORY_CONFIG = {
     },
 
     # ========================================================
-    # MASK
+    # EYEGLASSES
     # ========================================================
-    "mask": {
+    "eyeglasses": {
         "products_dir": os.path.join(
             PRODUCTS_ROOT,
-            "mask"
+            "eyeglasses"
         ),
 
         "prompt_dir": os.path.join(
             PROMPTS_ROOT,
-            "mask",
+            "eyeglasses",
             "video_generation"
         ),
 
         "clips": [
             {
-                # Mask chỉ có 1 clip:
-                # side / 3-4 view -> front view.
                 "clip_index": "1",
-                "start_image": "01_side_view.png",
-                "end_image": "02_front_view.png",
-                "prompt_file": "clip_01_showcase.txt",
+                "start_image": "01_hand_holding.png",
+                "end_image": "02_closeup.png",
+                "prompt_file": "clip_01_backpack_swing.txt",
             },
         ],
     },

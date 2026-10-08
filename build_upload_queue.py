@@ -31,13 +31,10 @@ UPLOAD_QUEUE_FILE = os.path.join(
 # ============================================================
 
 ENABLED_CATEGORIES = [
-    "lipstick",
-    "sandal",
+    "snack",
+    "keychain",
+    "phone_case",
 ]
-
-# Chỉ tạo queue cho một category:
-# ENABLED_CATEGORIES = ["lipstick"]
-# ENABLED_CATEGORIES = ["sandal"]
 
 
 # ============================================================
@@ -443,16 +440,22 @@ def build_upload_queue():
     # SUMMARY
     # --------------------------------------------------------
 
-    lipstick_jobs = sum(
+    snack_jobs = sum(
         1
         for row in all_rows
-        if row.get("category") == "lipstick"
+        if row.get("category") == "snack"
     )
 
-    sandal_jobs = sum(
+    keychain_jobs = sum(
         1
         for row in all_rows
-        if row.get("category") == "sandal"
+        if row.get("category") == "keychain"
+    )
+
+    phone_case_jobs = sum(
+        1
+        for row in all_rows
+        if row.get("category") == "phone_case"
     )
 
     pending_jobs = sum(
@@ -495,12 +498,16 @@ def build_upload_queue():
         len(new_rows)
     )
     print(
-        "Lipstick jobs:",
-        lipstick_jobs
+        "Snack jobs:",
+        snack_jobs
     )
     print(
-        "Sandal jobs:",
-        sandal_jobs
+        "Keychain jobs:",
+        keychain_jobs
+    )
+    print(
+        "Phone case jobs:",
+        phone_case_jobs
     )
     print(
         "Pending jobs:",

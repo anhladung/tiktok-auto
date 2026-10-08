@@ -1,0 +1,492 @@
+# SNACK FOOD SCRIPT GENERATION PROMPT
+
+Hãy viết một đoạn script ngắn dùng để đọc bằng giọng nói AI cho video TikTok bán đồ ăn vặt dài khoảng **8 giây**.
+
+Hình ảnh đầu vào là **một bàn tay đang cầm một sản phẩm đồ ăn vặt đóng gói để trình bày trước camera**.
+
+Hãy sử dụng ảnh này làm nguồn thông tin thị giác duy nhất để nhận biết sản phẩm, bao bì, tên món, hương vị nếu nhìn thấy rõ, vibe tổng thể và những chi tiết nổi bật có thể quan sát được.
+
+Không giả định có thêm cảnh khác ngoài hình ảnh được cung cấp.
+
+## Yêu cầu đầu ra
+
+* Ngôn ngữ: Tiếng Việt.
+* Giọng văn: Tự nhiên, thân thiện, giống người miền Bắc trò chuyện.
+* Viết thành một đoạn nói liền mạch.
+* Độ dài phù hợp để đọc trong khoảng **7–9 giây**.
+* Câu ngắn, dễ đọc bằng giọng AI.
+* Không hashtag.
+* Không tiêu đề.
+* Không gạch đầu dòng trong kết quả.
+* Chỉ trả về nội dung script hoàn chỉnh.
+
+---
+
+## Định hướng nội dung quan trọng
+
+Không cần cố gắng mô tả chi tiết toàn bộ bao bì sản phẩm.
+
+Không liệt kê lần lượt màu sắc, kích thước, chất liệu bao bì, logo, chữ trên gói và từng hình minh họa.
+
+Thay vào đó, hãy ưu tiên thể hiện:
+
+* Cảm xúc đầu tiên khi nhìn thấy món ăn.
+* Cảm giác món ăn mang lại về mặt thị giác.
+* Tên món hoặc hương vị nếu thực sự nhìn thấy rõ trên bao bì.
+* Một điểm nổi bật nhất của sản phẩm hoặc bao bì khiến món ăn nhìn hấp dẫn.
+* Phản ứng tự nhiên khi nhìn sản phẩm đang được cầm trên tay.
+* Ấn tượng tổng thể khiến người xem chú ý đến món ăn.
+
+Tỷ lệ nội dung nên ưu tiên khoảng:
+
+* **60–70% cảm xúc, vibe và phản ứng tự nhiên.**
+* **30–40% thông tin hoặc điểm nổi bật có thể nhìn thấy rõ.**
+
+Do video chỉ dài khoảng 8 giây, chỉ chọn tối đa **1–2 đặc điểm nổi bật nhất**.
+
+Không cố nói hết những gì xuất hiện trên bao bì.
+
+Script phải nghe giống một người vừa nhìn thấy một món ăn vặt khá hấp dẫn và buột miệng chia sẻ với bạn bè, không giống người đang đọc thông tin sản phẩm.
+
+---
+
+## Không giả vờ đã ăn hoặc trải nghiệm thật
+
+Đây là video được tạo bằng AI.
+
+Không được viết theo hướng người nói đã mua, ăn, sở hữu hoặc sử dụng sản phẩm.
+
+Không sử dụng những câu như:
+
+* “Mình mới ăn thử em này.”
+* “Mình ăn rồi thấy ngon lắm.”
+* “Vị này ngon cực.”
+* “Ăn giòn lắm.”
+* “Ăn rất thơm.”
+* “Vị chua cay vừa miệng.”
+* “Mình ăn một lần là nghiện.”
+* “Mình mua mấy gói rồi.”
+* “Nhà mình ai cũng thích.”
+* “Ăn thử rồi mới biết.”
+* “Mình ăn em này nhiều lần rồi.”
+* “Đúng kiểu ăn là mê.”
+
+Không kể chuyện giả như vừa mua hàng, vừa mở gói, vừa ăn hoặc đã sử dụng sản phẩm trong thời gian dài.
+
+Chỉ bình luận về những gì nhìn thấy và cảm giác mà hình ảnh sản phẩm gợi lên.
+
+Có thể nói:
+
+* “Nhìn gói này là thấy muốn thử ghê.”
+* “Bao bì nhìn bắt mắt thật.”
+* “Nhìn vị này có vẻ cuốn đấy.”
+* “Cái tên nghe đã thấy tò mò rồi.”
+* “Nhìn gói nhỏ nhỏ mà nổi bật ghê.”
+* “Màu này nhìn khá bắt mắt.”
+* “Nhìn thôi đã thấy đúng kiểu đồ ăn vặt rồi.”
+* “Vị này nhìn khá thú vị.”
+* “Nhìn gói này tự nhiên thấy thèm đồ ăn vặt.”
+
+Lưu ý: những câu như “thấy muốn thử” hoặc “thấy thèm” chỉ thể hiện phản ứng trước hình ảnh, không được biến thành khẳng định rằng sản phẩm thực sự ngon hoặc đã được ăn.
+
+---
+
+## Hook trong 3 giây đầu
+
+Câu đầu tiên phải tạo được sự chú ý nhưng vẫn tự nhiên.
+
+Hook nên giống phản ứng bật ra ngay khi nhìn thấy món ăn vặt, không giống câu quảng cáo được viết sẵn.
+
+Vì toàn bộ video chỉ dài khoảng 8 giây, hook cần **ngắn, vào thẳng cảm xúc hoặc sự tò mò và không chiếm quá nhiều thời lượng**.
+
+Có thể mở đầu theo những hướng như:
+
+* “Ê khoan, món này nhìn cuốn ghê…”
+* “Ơ từ từ, vị này là sao đây…”
+* “Này nha, nhìn gói này bắt mắt phết…”
+* “Khoan lướt, nhìn món này nè…”
+* “Trời ơi, nhìn là thấy thèm đồ ăn vặt rồi…”
+* “Ủa, vị này nghe lạ ghê…”
+* “Nhìn nhỏ vậy mà cuốn phết…”
+* “Ơ cái vị này nhìn thú vị thật đấy…”
+* “Khoan, món này nhìn khá cuốn nha…”
+* “Nhìn gói này tự nhiên muốn thử ghê…”
+
+Hook cần liên quan trực tiếp đến những gì thực sự nhìn thấy trên sản phẩm.
+
+Nếu bao bì có tên hương vị nổi bật, có thể sử dụng chính hương vị đó để tạo hook.
+
+Ví dụ:
+
+* “Ủa, chanh sả á? Nghe lạ ghê…”
+* “Vị này nhìn thú vị thật đấy…”
+* “Chanh sả mà làm bánh tráng trộn á…”
+* “Ơ vị này nghe khá cuốn nha…”
+
+Không tự tạo ra hương vị không xuất hiện trên bao bì.
+
+Không mở đầu bằng:
+
+* “Đây là một món ăn vặt.”
+* “Hôm nay mình sẽ giới thiệu.”
+* “Sản phẩm hôm nay là.”
+* “Mình sẽ review cho mọi người.”
+* “Món ăn vặt quốc dân.”
+* “Sản phẩm must-have.”
+* “Phải mua ngay.”
+* “Không mua là tiếc.”
+* “Ăn là nghiện.”
+* “Ngon nhất thị trường.”
+
+---
+
+## Cách dùng hình ảnh
+
+Hình ảnh đầu vào chỉ gồm **MỘT ảnh duy nhất của bàn tay đang cầm sản phẩm đồ ăn vặt**.
+
+Không giả định rằng có nhiều ảnh, nhiều frame hoặc nhiều cảnh khác nhau.
+
+Không nói:
+
+* “Ở ảnh đầu tiên…”
+* “Sang ảnh tiếp theo…”
+* “Trong khung hình tiếp theo…”
+* “Sau đó người quay đưa sản phẩm lại gần…”
+* “Ở cảnh cuối…”
+* “Tiếp theo có thể nhìn thấy…”
+* “Khi chuyển sang góc khác…”
+
+Không kể lại hoặc tự tưởng tượng diễn biến của video không có trong input.
+
+Hãy dùng hình ảnh để nhận ra:
+
+* Tên sản phẩm nếu nhìn thấy rõ.
+* Hương vị nếu được thể hiện rõ trên bao bì.
+* Loại đồ ăn vặt nếu có thể xác định từ hình ảnh.
+* Màu sắc bao bì nổi bật.
+* Hình ảnh món ăn hoặc nguyên liệu được in trên bao bì.
+* Một chi tiết trên bao bì khiến sản phẩm nổi bật.
+* Vibe tổng thể như vui mắt, trẻ trung, bắt mắt, dễ thương, thú vị hoặc kích thích sự tò mò.
+* Ấn tượng tổng thể khi sản phẩm được cầm trên tay và trình bày trước camera.
+
+Chỉ sử dụng những mô tả thực sự phù hợp với hình ảnh.
+
+Không suy diễn những phần không nhìn thấy rõ.
+
+Không tự động gọi mọi sản phẩm là:
+
+* cay
+* chua
+* ngọt
+* giòn
+* thơm
+* đậm vị
+* béo
+* ngon
+
+nếu những đặc điểm đó không thể được xác nhận từ hình ảnh hoặc thông tin rõ ràng trên bao bì.
+
+Không tự động gọi mọi sản phẩm là phong cách Hàn Quốc, Nhật Bản, Thái Lan, Y2K, vintage hoặc Pinterest nếu hình ảnh không thể hiện rõ.
+
+---
+
+## Ưu tiên cảm xúc tự nhiên
+
+Script có thể tập trung vào những cảm giác như:
+
+* Nhìn bắt mắt.
+* Nhìn khá cuốn.
+* Nhìn là thấy tò mò.
+* Nhìn muốn thử.
+* Nhìn vui mắt.
+* Nhìn đúng kiểu đồ ăn vặt.
+* Tên vị nghe thú vị.
+* Bao bì có điểm nhấn.
+* Màu sắc nổi bật.
+* Nhìn nhỏ nhưng có sức hút.
+* Gợi cảm giác muốn tìm hiểu món này.
+* Nhìn khá hợp để ăn vặt.
+* Có một chi tiết khiến người xem chú ý ngay.
+
+Có thể dùng các câu mang tính phản ứng như:
+
+* “Nhìn gói này tự nhiên thấy cuốn ghê.”
+* “Vị này nghe lạ mà thú vị thật.”
+* “Nhìn thôi đã thấy tò mò rồi.”
+* “Nhỏ nhỏ vậy mà nhìn bắt mắt phết.”
+* “Cái màu này nhìn nổi bật ghê.”
+* “Tên vị nghe khá hay đấy.”
+* “Nhìn là biết kiểu món ăn vặt rồi.”
+* “Tự nhiên nhìn em này thấy muốn thử.”
+* “Cái vị này nhìn khá cuốn nha.”
+* “Nhìn bao bì thôi đã thấy tò mò rồi.”
+
+Không cần câu nào cũng chứa thông tin về sản phẩm.
+
+Có thể dành một phần script để thể hiện cảm giác hoặc phản ứng tự nhiên.
+
+Do thời lượng chỉ khoảng 8 giây, ưu tiên **một ý chính rõ ràng** thay vì cố đưa nhiều nhận xét vào cùng một script.
+
+---
+
+## Có thể nhắc đến hương vị, nhưng phải dựa trên hình ảnh
+
+Nếu tên hương vị được in rõ trên bao bì, có thể sử dụng nó như một điểm nhấn.
+
+Ví dụ nếu nhìn thấy:
+
+“Vị Chanh Sả”
+
+có thể viết:
+
+* “Ủa, chanh sả á? Nghe lạ ghê…”
+* “Bánh tráng vị chanh sả, nghe khá cuốn nha.”
+* “Chanh sả mà đi với bánh tráng, tự nhiên thấy tò mò ghê.”
+* “Vị chanh sả này nhìn khá thú vị đấy.”
+
+Không được chuyển thông tin về hương vị thành đánh giá trải nghiệm thực tế.
+
+Không viết:
+
+* “Vị chanh sả này ngon lắm.”
+* “Chanh sả ăn rất thơm.”
+* “Vị này chua chua cay cay ngon cực.”
+* “Ăn vào chắc chắn rất cuốn.”
+
+Chỉ có thể phản ứng với **ý tưởng về hương vị hoặc thông tin nhìn thấy trên bao bì**.
+
+---
+
+## Không suy đoán
+
+Không khẳng định những điều không thể kiểm chứng qua hình ảnh, bao gồm:
+
+* Độ ngon.
+* Độ giòn.
+* Độ mềm.
+* Độ thơm.
+* Độ cay.
+* Độ chua.
+* Độ ngọt.
+* Hương vị thực tế.
+* Cảm giác khi ăn.
+* Khối lượng thực tế nếu không nhìn thấy rõ.
+* Kích thước thực tế nếu không có vật tham chiếu.
+* Thành phần bên trong nếu không được thể hiện rõ.
+* Chất lượng sản phẩm.
+* Độ tươi.
+* Hạn sử dụng.
+* Độ an toàn.
+* Giá tiền.
+* Nguồn gốc.
+* Thương hiệu nếu không nhìn thấy rõ.
+
+Không dùng các từ như:
+
+* “ngon”
+* “giòn”
+* “thơm”
+* “đậm vị”
+* “chuẩn vị”
+* “béo”
+* “cay”
+* “chua”
+* “mềm”
+* “chất lượng tốt”
+
+để khẳng định trải nghiệm thực tế nếu hình ảnh không chứng minh được.
+
+Không nói:
+
+* “Ăn giòn lắm.”
+* “Vị rất thơm.”
+* “Cắn một miếng là mê.”
+* “Ăn vào đậm vị cực.”
+* “Cay nhưng ngon.”
+* “Chua chua ngọt ngọt rất vừa miệng.”
+* “Ăn cực cuốn.”
+
+Không được suy ra trải nghiệm ăn uống chỉ vì bao bì có hình món ăn hoặc tên hương vị.
+
+---
+
+## Phong cách nói
+
+Script phải:
+
+* Tự nhiên.
+* Đời thường.
+* Có cảm xúc.
+* Có chút tò mò hoặc thích thú.
+* Không diễn quá mức.
+* Không giống quảng cáo.
+* Không cố thuyết phục người xem mua hàng.
+* Không liên tục gọi “mấy bà”, “chị em” hoặc “mọi người”.
+* Không dùng quá nhiều tính từ trong một câu.
+* Không biến script thành danh sách mô tả bao bì.
+* Không đọc tên sản phẩm một cách máy móc.
+
+Có thể dùng cách nói như:
+
+* “Ê khoan…”
+* “Ơ từ từ…”
+* “Này nha…”
+* “Trời ơi…”
+* “Nhìn cuốn ghê…”
+* “Có nét thật đấy…”
+* “Nhìn bắt mắt phết…”
+* “Tự nhiên thấy tò mò ghê…”
+* “Vị này thú vị thật…”
+* “Nhìn là muốn thử rồi…”
+* “Cái gói này nhìn cuốn nha…”
+* “Nhỏ nhỏ mà nổi bật phết…”
+
+---
+
+## Nhịp đọc
+
+Trong script nên có khoảng **1–2 từ được kéo dài tự nhiên** để giọng AI nghe sinh động hơn.
+
+Ví dụ:
+
+* cuốnnn
+* lạ ghêeee
+* tò mò quáaa
+* bắt mắt ghêeee
+* thú vị thật đấyyy
+* muốn thử ghêeee
+* nhìn cuốn phếttt
+
+Chỉ kéo dài ở những vị trí phù hợp.
+
+Không kéo dài quá nhiều từ liên tiếp và không làm câu trở nên khó nghe.
+
+Vì video chỉ dài khoảng 8 giây, không kéo dài từ quá mức khiến script bị chậm hoặc vượt thời lượng.
+
+---
+
+## Cấu trúc gợi ý
+
+Với video khoảng 8 giây, ưu tiên cấu trúc ngắn gọn:
+
+1. Mở đầu ngay bằng một phản ứng hoặc cảm xúc gây chú ý.
+2. Nhắc một điểm nổi bật nhất có thể nhìn thấy trên sản phẩm.
+3. Nếu có hương vị/tên món rõ ràng, có thể đưa vào như một điểm tò mò.
+4. Kết thúc bằng một phản ứng tự nhiên về món ăn.
+
+Không cần cố nhồi đủ nhiều ý.
+
+Nếu thời lượng không cho phép, ưu tiên:
+
+**hook + điểm nổi bật hoặc hương vị + phản ứng cuối**
+
+Không cần mô tả hành động của bàn tay.
+
+Không cần nói:
+
+* “đang cầm trên tay”
+* “đưa lên camera”
+* “đưa lại gần”
+* “xoay sang bên”
+* “mở gói”
+* “ăn thử”
+
+trừ khi một hành động thực sự được thể hiện rõ trong dữ liệu đầu vào.
+
+Với input hiện tại chỉ là một ảnh tĩnh, hãy ưu tiên phản ứng với **bản thân món ăn và bao bì**, không xây dựng script dựa trên diễn biến không tồn tại.
+
+Không bắt buộc phải bám cứng từng bước nếu một cách diễn đạt khác nghe tự nhiên hơn.
+
+Mục tiêu quan trọng nhất là script phải có cảm giác như lời nói bật ra tự nhiên, không phải đoạn mô tả được viết theo công thức.
+
+---
+
+## Ví dụ về hướng viết mong muốn
+
+Nếu hình ảnh là bánh tráng trộn vị chanh sả:
+
+Hướng phù hợp:
+
+“Ê khoan, chanh sả á? Nghe lạ ghê… Nhìn gói này bắt mắt thật, tự nhiên thấy tò mò muốn thử ghêeee.”
+
+Hướng phù hợp:
+
+“Ủa, bánh tráng trộn vị chanh sả luôn á… Nghe cái vị đã thấy thú vị rồi, nhìn gói cũng cuốn phết.”
+
+Hướng không phù hợp:
+
+“Bánh tráng này giòn ngon, vị chanh sả thơm lừng, ăn vào chắc chắn rất cuốn.”
+
+Hướng này không phù hợp vì đang khẳng định trải nghiệm ăn uống không thể biết chỉ từ hình ảnh.
+
+Hướng không phù hợp vì tự bịa trải nghiệm:
+
+“Mình vừa ăn thử em này, chua chua cay cay mà ngon cực.”
+
+Hướng không phù hợp vì tự bịa hành động:
+
+“Mở gói ra là thơm nức luôn, ăn thử một miếng thấy đã.”
+
+Ví dụ chỉ dùng để hiểu phong cách. Không được sao chép nguyên văn nếu không phù hợp với hình ảnh.
+
+---
+
+## Yêu cầu cuối cùng
+
+Hãy viết một đoạn script nghe giống một người vừa nhìn thấy một món đồ ăn vặt đang được trình bày trên tay và chia sẻ phản ứng đầu tiên với bạn bè.
+
+Ưu tiên cảm giác, sự tò mò, vibe và phản ứng tự nhiên hơn việc mô tả chi tiết bao bì.
+
+Chỉ nhắc đến **1–2 đặc điểm thực sự nổi bật** trong hình ảnh.
+
+Nếu tên món hoặc hương vị nhìn thấy rõ, có thể sử dụng nó làm điểm nhấn.
+
+Không giả vờ đã mua, ăn hoặc sử dụng sản phẩm.
+
+Không khẳng định món ăn ngon, giòn, thơm, cay, chua, ngọt hoặc bất kỳ đặc điểm trải nghiệm nào không thể kiểm chứng.
+
+Không tự tưởng tượng sản phẩm được mở gói, ăn thử, nếm, cắn, chia sẻ cho người khác hoặc thực hiện bất kỳ hành động nào không có trong hình ảnh đầu vào.
+
+Không kể lại hình ảnh một cách máy móc.
+
+Giọng văn gần gũi, có nhịp điệu và phù hợp để đọc bằng giọng AI trong video TikTok dài khoảng **8 giây**.
+
+Script cần đủ ngắn để có thể đọc tự nhiên trong khoảng **7–9 giây**, không đọc dồn hoặc tăng tốc bất thường để kịp video.
+
+Chỉ trả về một đoạn script hoàn chỉnh, không kèm giải thích, tiêu đề hoặc nội dung bổ sung.
+
+---
+
+## ĐỊNH DẠNG ĐẦU RA — BẮT BUỘC
+
+Kết quả phải được trả về dưới dạng văn bản chat bình thường trực tiếp trong câu trả lời.
+
+Không sử dụng Writing Block, Artifact, Canvas hoặc bất kỳ khung soạn thảo/nội dung đặc biệt nào.
+
+Không đặt nội dung trong:
+
+* code block
+* markdown block
+* blockquote
+* writing block
+* hộp nội dung
+* định dạng tài liệu
+* định dạng có nút chỉnh sửa hoặc sao chép riêng
+
+Không thêm tiêu đề như “Script”, “Kịch bản”, “Nội dung” hoặc “Kết quả”.
+
+Không viết câu dẫn như:
+
+* “Đây là script của bạn:”
+* “Bạn có thể dùng đoạn sau:”
+* “Script gợi ý:”
+
+Tin nhắn trả lời phải bắt đầu ngay bằng câu đầu tiên của script và kết thúc ngay sau câu cuối cùng của script.
+
+Chỉ xuất ra MỘT đoạn văn chat bình thường duy nhất.
+
+Ví dụ định dạng đầu ra đúng:
+
+Ê khoan, chanh sả á? Nghe lạ ghê… Nhìn gói này bắt mắt thật, tự nhiên thấy tò mò muốn thử ghêeee.
+
+Tuyệt đối không bao quanh đoạn script bằng bất kỳ khung, dấu ``` hoặc định dạng đặc biệt nào.

@@ -1,0 +1,559 @@
+# PRIMARY OBJECTIVE — PRODUCT IDENTITY HAS HIGHEST PRIORITY
+
+Create one **10-second vertical short-form product video** using the provided first frame and last frame as visual references.
+
+The **exact keychain shown in the reference images is the highest-priority locked subject**.
+
+Throughout the entire 10-second video, preserve the SAME physical keychain.
+
+**Never replace, redesign, reinterpret, regenerate or substitute the keychain with another keychain.**
+
+The keychain must remain instantly recognizable as the exact reference product in every frame and after every cut.
+
+If any instruction conflicts with product identity, **preserve the exact keychain instead of following that instruction**.
+
+## REFERENCE PRIORITY
+
+**Reference Image A**
+
+* exact opening frame
+* authoritative keychain identity
+* authoritative hand and grip
+* authoritative physical environment
+* authoritative background layout
+* authoritative lighting
+
+**Reference Image B**
+
+* use only as guidance for the desired final product size and final framing
+* it must NOT redefine the keychain
+* it must NOT redefine the room
+* it must NOT introduce a different hand, grip, product design or background
+
+When uncertain, preserve Reference Image A.
+
+---
+
+# KEYCHAIN IDENTITY — ABSOLUTE LOCK
+
+The keychain is a **persistent physical object**, not a product that may be regenerated independently in each shot.
+
+Preserve exactly:
+
+* same keychain
+* same silhouette
+* same overall shape
+* same proportions
+* same front artwork
+* same character/face
+* same facial features
+* same decorative details
+* same colors
+* same material
+* same texture
+* same stitching
+* same printed details
+* same thickness
+* same edge construction
+* same metal hardware
+* same original ring
+* same clasp
+* same chain
+* same connector
+* same number of components
+* same component positions
+
+Do NOT:
+
+* replace it with another keychain
+* create a similar keychain
+* redesign it
+* reinterpret its artwork
+* change the character
+* change the face
+* change facial features
+* change colors
+* change proportions
+* change material
+* change texture
+* simplify details
+* add details
+* remove details
+* change the ring
+* change the clasp
+* change the chain
+* change the connector
+* duplicate hardware
+* duplicate the product
+* morph the product between shots
+
+Show exactly **one complete original keychain** throughout the video.
+
+The product remains physically continuous across all cuts.
+
+**A hard cut must never trigger a new version of the keychain.**
+
+---
+
+# FRONT-FACING PRODUCT LOCK
+
+Keep the exact keychain front-facing throughout the complete video.
+
+Required:
+
+* front surface visible: approximately 95–100%
+* rear surface visible: 0%
+* side edge visible: maximum approximately 5%
+* product rotation relative to the hand: 0°
+* camera remains approximately within 5–8° of the frontal axis
+
+Do not create:
+
+* three-quarter product angle
+* side view
+* backside reveal
+* partial rear reveal
+* flipping
+* spinning
+* twisting
+* mirrored artwork
+* product rotation
+
+If maintaining a camera move risks changing or reconstructing the keychain, reduce the camera movement instead.
+
+**Product fidelity is more important than camera movement.**
+
+---
+
+# ONE CONTINUOUS PHYSICAL SCENE
+
+Treat the complete video as footage of **one real keychain, held by one real hand, inside one real unchanged room**.
+
+Cuts are editing cuts between camera positions inside the SAME physical scene.
+
+They are NOT scene resets.
+
+After every cut preserve:
+
+* exact same keychain
+* exact same product artwork
+* exact same hardware
+* exact same left hand
+* exact same grip
+* exact same sleeve
+* exact same room
+* exact same background objects
+* exact same lighting
+
+Do not regenerate the keychain, hand or environment independently after a cut.
+
+---
+
+# HAND AND GRIP LOCK
+
+Show exactly **one young woman’s left hand** wearing the same white knitted sweater sleeve.
+
+The same fingers hold the same original ring, clasp or connector throughout the entire clip.
+
+Keep:
+
+* same left hand
+* same skin tone
+* same fingernails
+* same wrist
+* same sleeve
+* same grip point
+* same finger placement
+* same hand entry direction
+
+The keychain remains fixed relative to the fingers and wrist.
+
+The hand does NOT:
+
+* rotate the keychain
+* tilt it
+* twist it
+* swing it
+* push it toward the camera
+* pull it away
+* release it
+* re-grab it
+* change grip
+* reposition fingers
+
+No second hand.
+
+No duplicated fingers.
+
+No duplicated wrist or sleeve.
+
+The product remains physically supported by the same grip throughout the video.
+
+---
+
+# CAMERA MOTION ONLY
+
+The hand does not move the product closer.
+
+Instead, the **camera moves closer to the stationary hand and keychain**.
+
+Keep the camera on essentially the same frontal optical axis throughout the video.
+
+Allowed:
+
+* straight forward camera movement
+* progressively tighter framing
+* extremely subtle natural handheld stabilization
+
+Do NOT use:
+
+* camera orbit
+* sideways tracking
+* large vertical movement
+* large angle changes
+* dramatic perspective changes
+* digital zoom effects
+
+Camera movement must be conservative.
+
+If a camera movement causes the model to alter the keychain or background, **reduce the movement and preserve continuity instead**.
+
+---
+
+# 10-SECOND EDITING STRUCTURE
+
+Create exactly **five shots with four plain hard cuts**:
+
+* Shot 1: 0.0–1.4s
+* Shot 2: 1.4–3.0s
+* Shot 3: 3.0–5.0s
+* Shot 4: 5.0–7.2s
+* Shot 5: 7.2–10.0s
+
+All five shots show the **same exact physical product and same physical scene**.
+
+Hard cuts change only camera distance/framing.
+
+They must NOT regenerate the scene.
+
+---
+
+# SHOT 1 — OPENING PUSH-IN
+
+## 0.0–1.4s
+
+Begin exactly from Reference Image A.
+
+Immediately perform a short straight frontal camera push-in.
+
+Move approximately 6–8% closer.
+
+Keep:
+
+* exact original keychain
+* exact original artwork
+* exact hand
+* exact grip
+* keychain fully front-facing
+* same camera axis
+* same background
+
+No product movement.
+
+No product rotation.
+
+No sideways camera movement.
+
+---
+
+# CUT 1 — 1.4s
+
+Plain hard cut only.
+
+Cut to a slightly closer framing on essentially the same frontal camera axis.
+
+**Do not regenerate the keychain or background after the cut.**
+
+No transition effect.
+
+---
+
+# SHOT 2 — TIGHTER FRONT VIEW
+
+## 1.4–3.0s
+
+Continue with the same exact keychain.
+
+Perform another short straight push-in, approximately 5–7%.
+
+Maintain:
+
+* same product identity
+* same front artwork
+* same hardware
+* same hand
+* same grip
+* same camera height
+* same frontal direction
+* same physical background
+
+No camera orbit.
+
+No lateral movement.
+
+No product rotation.
+
+---
+
+# CUT 2 — 3.0s
+
+Plain hard cut to another slightly tighter frontal framing.
+
+The scene remains physically continuous.
+
+**Same keychain before and after the cut.**
+
+---
+
+# SHOT 3 — FRONTAL DETAIL
+
+## 3.0–5.0s
+
+Show a slightly tighter frontal product view.
+
+Use a subtle 4–6% forward camera movement.
+
+Do not introduce a new camera angle.
+
+Keep the keychain centered and fully front-facing.
+
+Preserve every recognizable product detail.
+
+Maintain the same background geometry.
+
+---
+
+# CUT 3 — 5.0s
+
+Plain hard cut.
+
+Only framing/distance changes.
+
+No product regeneration.
+
+No background regeneration.
+
+---
+
+# SHOT 4 — MEDIUM-TIGHT BEAUTY VIEW
+
+## 5.0–7.2s
+
+Continue progressively closer.
+
+Use one subtle 4–5% frontal camera push-in.
+
+This is only a new framing beat.
+
+It is NOT a new product view.
+
+Preserve:
+
+* exact keychain
+* exact artwork
+* exact hardware
+* exact hand
+* exact grip
+* exact room
+* exact background layout
+
+Keep the complete keychain visible.
+
+---
+
+# CUT 4 — 7.2s
+
+Plain hard cut to the final closer framing.
+
+Same physical scene.
+
+Same exact keychain.
+
+No morphing or reconstruction.
+
+---
+
+# SHOT 5 — FINAL BEAUTY CLOSE-UP
+
+## 7.2–10.0s
+
+Create a centered frontal beauty close-up.
+
+Move the camera gradually closer during approximately the first 1.8–2.0 seconds.
+
+Near the end:
+
+* keychain occupies approximately 55–65% of frame height
+* complete product remains visible
+* front artwork remains sharp and recognizable
+* ring, clasp and connector remain visible
+* background becomes naturally softer from depth of field
+* camera movement gradually slows
+
+During the final 0.3–0.5 seconds, allow only tiny natural handheld movement.
+
+Reference Image B may guide the **final scale and framing only**.
+
+Do NOT transform the keychain to match any conflicting appearance in Reference Image B.
+
+---
+
+# BACKGROUND — PHYSICAL SET LOCK
+
+Reference Image A is the authoritative environment.
+
+The room is a **fixed physical set**, not a style reference.
+
+Preserve:
+
+* same room
+* same wall
+* same desk
+* same shelves/pegboard
+* same furniture
+* same decorations
+* same visible objects
+* same object positions
+* same object count
+* same spatial relationships
+* same lighting direction
+* same color temperature
+
+Do NOT:
+
+* reconstruct the room
+* create a similar room
+* change furniture
+* move background objects
+* replace objects
+* duplicate objects
+* remove objects
+* add new objects
+* change wall decorations
+* change room geometry
+* morph the background after cuts
+
+Only natural perspective scaling and depth-of-field changes caused by the camera moving forward are allowed.
+
+Do not reveal large new areas of the room.
+
+---
+
+# NO BACKPACK OR BAG
+
+No backpack, bag, zipper, backpack strap, bag handle, zipper pull or backpack-like object appears anywhere.
+
+Do not introduce one even if it exists in another reference.
+
+---
+
+# LIGHTING LOCK
+
+Maintain the reference lighting throughout all 10 seconds:
+
+* moderately bright exposure
+* soft pale-yellow ambient light
+* balanced midtones
+* softly lifted shadows
+* subtle warm highlights
+* realistic smartphone rendering
+* natural product colors
+
+No exposure flicker.
+
+No color-temperature shift.
+
+No flash.
+
+No harsh lighting.
+
+---
+
+# CLEAN RAW VIDEO — NO PLATFORM ELEMENTS
+
+The output must look like **clean raw vertical smartphone footage before upload to any social-media platform**.
+
+Absolutely no:
+
+* TikTok logo
+* TikTok watermark
+* platform logo
+* watermark
+* username
+* account handle
+* captions
+* generated text
+* social-media UI
+* like/comment/share icons
+* profile icon
+* music icon
+* progress bar
+* interface buttons
+* QR code
+* creator branding
+* AI watermark
+
+Do not simulate a TikTok post or screen recording.
+
+No visual effects.
+
+No transition effects.
+
+No crossfades.
+
+No flashes.
+
+No wipes.
+
+No glitches.
+
+No speed ramps.
+
+Use only four simple hard cuts.
+
+---
+
+# FINAL PRIORITY LOCK — MUST FOLLOW
+
+The most important requirement is **IDENTITY CONTINUITY**.
+
+From frame 1 through frame 10 seconds:
+
+**SAME EXACT KEYCHAIN + SAME ARTWORK + SAME SHAPE + SAME COLORS + SAME MATERIAL + SAME HARDWARE + SAME LEFT HAND + SAME GRIP + SAME ROOM.**
+
+Never substitute the reference keychain with another product.
+
+Never create a new interpretation of the keychain after a cut.
+
+Never allow the product design, face, artwork, proportions, material, ring, clasp, chain or connector to change.
+
+Never regenerate the background into a different or merely similar room.
+
+The only intentional progression is:
+
+**same exact scene → camera gradually becomes closer → four plain hard cuts → final frontal close-up.**
+
+When instructions compete, use this priority order:
+
+**1. Preserve exact keychain identity
+2. Preserve exact keychain artwork and hardware
+3. Preserve same hand and fixed grip
+4. Preserve same physical background
+5. Keep product front-facing
+6. Camera movement and shot variation**
+
+Camera movement is optional if necessary for stability.
+
+**Product identity and scene continuity are mandatory.**
+
+Final result: one real smartphone appears to film **the same exact reference keychain continuously in the same unchanged room for 10 seconds**, with five progressively tighter frontal framings and absolutely no product replacement, product morphing, background reconstruction, TikTok logo, watermark, text or platform UI.

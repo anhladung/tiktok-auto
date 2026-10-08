@@ -392,9 +392,9 @@ def validate_render_pair(
     )
 
     if normalized_category not in {
+        "snack",
         "keychain",
         "phone_case",
-        "mask",
     }:
         return
 
@@ -417,6 +417,12 @@ def validate_render_pair(
     )
 
     expected_by_category = {
+        "snack": {
+            1: (
+                "01_hand_holding.png",
+                "01_hand_holding.png",
+            ),
+        },
         "keychain": {
             2: (
                 "03_hand_holding.png",
@@ -427,12 +433,6 @@ def validate_render_pair(
             1: (
                 "01_clip_01_first_frame.png",
                 "02_clip_01_last_frame.png",
-            ),
-        },
-        "mask": {
-            1: (
-                "01_side_view.png",
-                "02_front_view.png",
             ),
         },
     }

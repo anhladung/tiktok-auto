@@ -30,11 +30,8 @@ os.makedirs(
 # CATEGORY SETTINGS
 # ============================================================
 
-# Khi muốn test riêng dép:
-# ENABLED_CATEGORIES = ["sandal"]
-#
-# Khi muốn test riêng son:
-# ENABLED_CATEGORIES = ["lipstick"]
+# Khi muốn test riêng đồ ăn vặt:
+# ENABLED_CATEGORIES = ["snack"]
 #
 # Khi muốn test riêng móc khóa:
 # ENABLED_CATEGORIES = ["keychain"]
@@ -42,31 +39,26 @@ os.makedirs(
 # Khi muốn test riêng ốp lưng:
 # ENABLED_CATEGORIES = ["phone_case"]
 #
-# Khi muốn test riêng khẩu trang:
-# ENABLED_CATEGORIES = ["mask"]
-#
 # Khi muốn test riêng mắt kính:
 # ENABLED_CATEGORIES = ["eyeglasses"]
 #
 # Khi chạy pipeline chung:
 ENABLED_CATEGORIES = [
-    "lipstick",
-    "sandal",
+    "snack",
     "keychain",
     "phone_case",
-    "mask",
     "eyeglasses",
 ]
 
 
 CATEGORY_CONFIG = {
     # ========================================================
-    # LIPSTICK
+    # SNACK (ĐỒ ĂN VẶT)
     # ========================================================
-    "lipstick": {
+    "snack": {
         "products_dir": os.path.join(
             "products",
-            "lipstick"
+            "snack"
         ),
 
         "product_inputs": {
@@ -75,18 +67,13 @@ CATEGORY_CONFIG = {
                 "raw",
                 "product"
             ),
-            "shade_image": os.path.join(
-                "images",
-                "raw",
-                "shade"
-            ),
         },
 
         "shared_inputs": {
             "background_image": {
                 "folder": os.path.join(
                     "references",
-                    "lipstick",
+                    "snack",
                     "backgrounds"
                 ),
                 "mode": "first",
@@ -102,119 +89,11 @@ CATEGORY_CONFIG = {
                 "input_1": "{product_image}",
                 "input_2": "{background_image}",
             },
-            {
-                "step": "02_opened_product",
-                "step_order": 2,
-                "output_key": "frame_02",
-                "output_filename": "02_opened_product.png",
-                "input_1": "{frame_01}",
-                "input_2": "{product_image}",
-            },
-            {
-                "step": "03_mid_swatch",
-                "step_order": 3,
-                "output_key": "frame_03",
-                "output_filename": "03_mid_swatch.png",
-                "input_1": "{frame_02}",
-                "input_2": "{shade_image}",
-            },
-            {
-                "step": "04_final_swatch",
-                "step_order": 4,
-                "output_key": "frame_04",
-                "output_filename": "04_final_swatch.png",
-                "input_1": "{frame_03}",
-                "input_2": "{shade_image}",
-            },
         ],
     },
 
     # ========================================================
-    # SANDAL
-    # ========================================================
-    "sandal": {
-        "products_dir": os.path.join(
-            "products",
-            "sandal"
-        ),
-
-        "product_inputs": {
-            "product_image": os.path.join(
-                "images",
-                "raw",
-                "product"
-            ),
-        },
-
-        "shared_inputs": {
-            # 1.* là ảnh background bàn học
-            "desk_background": {
-                "folder": os.path.join(
-                    "references",
-                    "sandal",
-                    "backgrounds"
-                ),
-                "mode": "named",
-                "name": "1",
-            },
-
-            # 2.* là ảnh phòng có gương
-            "mirror_background": {
-                "folder": os.path.join(
-                    "references",
-                    "sandal",
-                    "backgrounds"
-                ),
-                "mode": "named",
-                "name": "2",
-            },
-        },
-
-        "steps": [
-            {
-                "step": "01_hand_holding",
-                "step_order": 1,
-                "output_key": "frame_01",
-                "output_filename": "01_hand_holding.png",
-
-                # Ảnh sản phẩm + background bàn học
-                "input_1": "{product_image}",
-                "input_2": "{desk_background}",
-            },
-            {
-                "step": "02_product_closeup",
-                "step_order": 2,
-                "output_key": "frame_02",
-                "output_filename": "02_product_closeup.png",
-
-                # Chỉ dùng Frame 01
-                "input_1": "{frame_01}",
-                "input_2": "",
-            },
-            {
-                "step": "03_on_foot",
-                "step_order": 3,
-                "output_key": "frame_03",
-                "output_filename": "03_on_foot.png",
-
-                # Background phòng có gương + ảnh sản phẩm
-                "input_1": "{mirror_background}",
-                "input_2": "{product_image}",
-            },
-            {
-                "step": "04_on_foot_next_frame",
-                "step_order": 4,
-                "output_key": "frame_04",
-                "output_filename": "04_on_foot_next_frame.png",
-
-                # Chỉ dùng Frame 03
-                "input_1": "{frame_03}",
-                "input_2": "",
-            },
-        ],
-    },
-    # ========================================================
-    # KEYCHAIN (UPDATED PIPELINE: 2 HAND-HOLDING FRAMES ONLY)
+    # KEYCHAIN (1 CHANNEL DUY NHẤT VỚI BACKGROUND SỐ 1)
     # ========================================================
     "keychain": {
         "products_dir": os.path.join(
@@ -231,39 +110,26 @@ CATEGORY_CONFIG = {
         },
 
         "shared_inputs": {
-            # Dùng để validate rằng category có ít nhất một background.
-            # Khi build queue, channel mode bên dưới sẽ lần lượt dùng
-            # toàn bộ ảnh có tên số: 1.*, 2.*, 3.* ...
+            # Sử dụng background số 1 duy nhất
             "hand_background": {
                 "folder": os.path.join(
                     "references",
                     "keychain",
                     "backgrounds"
                 ),
-                "mode": "first",
+                "mode": "named",
+                "name": "1",
             },
-        },
-
-        # Mỗi background số tạo một bộ output channel riêng.
-        "channel_backgrounds": {
-            "folder": os.path.join(
-                "references",
-                "keychain",
-                "backgrounds"
-            ),
-            "context_key": "hand_background",
         },
 
         "steps": [
             {
-                # Giữ nguyên tên step/file cũ để hạn chế ảnh hưởng
-                # tới các bước downstream.
                 "step": "03_hand_holding",
                 "step_order": 1,
                 "output_key": "frame_03",
                 "output_filename": "03_hand_holding.png",
 
-                # Ảnh sản phẩm + lifestyle hand background.
+                # Ảnh sản phẩm + lifestyle hand background số 1
                 "input_1": "{product_image}",
                 "input_2": "{hand_background}",
             },
@@ -273,7 +139,7 @@ CATEGORY_CONFIG = {
                 "output_key": "frame_04",
                 "output_filename": "04_hand_holding_next_frame.png",
 
-                # Chuyển động nối tiếp Frame 03.
+                # Chuyển động nối tiếp Frame 03
                 "input_1": "{frame_03}",
                 "input_2": "",
             },
@@ -281,7 +147,7 @@ CATEGORY_CONFIG = {
     },
 
     # ========================================================
-    # PHONE CASE (UPDATED PIPELINE: 2 FRAMES / 1 CLIP ONLY)
+    # PHONE CASE (2 FRAMES / 1 CLIP ONLY)
     # ========================================================
     "phone_case": {
         "products_dir": os.path.join(
@@ -290,8 +156,6 @@ CATEGORY_CONFIG = {
         ),
 
         "product_inputs": {
-            # Ảnh sản phẩm gốc của ốp lưng.
-            # Mỗi 1 ảnh product = 1 thư mục sản phẩm.
             "product_image": os.path.join(
                 "images",
                 "raw",
@@ -313,19 +177,6 @@ CATEGORY_CONFIG = {
 
         "steps": [
             {
-                # ------------------------------------------------
-                # GENERATION STEP 01
-                #
-                # CLIP 01 FIRST FRAME
-                #
-                # Thay thế trực tiếp cấu trúc Clip 02 cũ:
-                # phone đã được gắn sẵn trong case.
-                # Khách hàng xem video thấy ngay sản phẩm hoàn chỉnh.
-                #
-                # Input:
-                # - product reference
-                # - desk background
-                # ------------------------------------------------
                 "step": "01_clip_01_first_frame",
                 "step_order": 1,
                 "output_key": "frame_01",
@@ -335,15 +186,6 @@ CATEGORY_CONFIG = {
                 "input_2": "{desk_background}",
             },
             {
-                # ------------------------------------------------
-                # GENERATION STEP 02
-                #
-                # CLIP 01 LAST FRAME
-                #
-                # Chuyển động nối tiếp Frame 01 (continuity tuyệt đối):
-                # - cùng phone + cùng case, không lấy product độc lập
-                # - gần camera hơn, góc 3/4 rõ hơn
-                # ------------------------------------------------
                 "step": "02_clip_01_last_frame",
                 "step_order": 2,
                 "output_key": "frame_02",
@@ -351,67 +193,6 @@ CATEGORY_CONFIG = {
 
                 "input_1": "{frame_01}",
                 "input_2": "",
-            },
-        ],
-    },
-
-    # ========================================================
-    # MASK (2 FRAMES / 1 CLIP ONLY)
-    # ========================================================
-    "mask": {
-        "products_dir": os.path.join(
-            "products",
-            "mask"
-        ),
-
-        "product_inputs": {
-            # Ảnh khẩu trang gốc.
-            "product_image": os.path.join(
-                "images",
-                "raw",
-                "product"
-            ),
-        },
-
-        "shared_inputs": {
-            # Lifestyle background / hand reference dùng để
-            # tạo frame đầu tiên.
-            "hand_background": {
-                "folder": os.path.join(
-                    "references",
-                    "mask",
-                    "backgrounds"
-                ),
-                "mode": "first",
-            },
-        },
-
-        "steps": [
-            {
-                # Frame 01:
-                # Tay cầm khẩu trang, showcase mặt bên / góc cạnh.
-                "step": "01_side_view",
-                "step_order": 1,
-                "output_key": "frame_01",
-                "output_filename": "01_side_view.png",
-
-                "input_1": "{product_image}",
-                "input_2": "{hand_background}",
-            },
-            {
-                # Frame 02:
-                # Giữ continuity từ frame 01 nhưng xoay khẩu trang
-                # sang mặt trước / front view.
-                #
-                # Dùng thêm product_image làm reference để giữ
-                # chính xác identity và cấu trúc khẩu trang.
-                "step": "02_front_view",
-                "step_order": 2,
-                "output_key": "frame_02",
-                "output_filename": "02_front_view.png",
-
-                "input_1": "{product_image}",
-                "input_2": "{hand_background}",
             },
         ],
     },

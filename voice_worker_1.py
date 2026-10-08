@@ -54,11 +54,9 @@ RATE_LIMIT_TEXT = (
 )
 
 ENABLED_CATEGORIES = [
-    "lipstick",
-    "sandal",
+    "snack",
     "keychain",
     "phone_case",
-    "mask",
 ]
 
 

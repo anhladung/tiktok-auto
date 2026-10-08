@@ -43,19 +43,15 @@ SFX_DIR = os.path.join(
 # ============================================================
 
 ENABLED_CATEGORIES = [
-    "lipstick",
-    "sandal",
+    "snack",
     "keychain",
     "phone_case",
-    "mask",
 ]
 
 # Chạy riêng một loại:
-# ENABLED_CATEGORIES = ["lipstick"]
-# ENABLED_CATEGORIES = ["sandal"]
+# ENABLED_CATEGORIES = ["snack"]
 # ENABLED_CATEGORIES = ["keychain"]
 # ENABLED_CATEGORIES = ["phone_case"]
-# ENABLED_CATEGORIES = ["mask"]
 
 
 # ============================================================
@@ -67,9 +63,8 @@ MUSIC_VOLUME = 0.5
 CLIP_DURATION_SECONDS = 8
 
 # Duration cuối phụ thuộc số clip thực tế của từng category.
-# lipstick / sandal: 2 clip = 16s
-# keychain / phone_case / mask: 1 clip = 8s
-DEFAULT_FINAL_VIDEO_DURATION_SECONDS = 16
+# snack / keychain / phone_case: 1 clip = 8s
+DEFAULT_FINAL_VIDEO_DURATION_SECONDS = 8
 
 # ============================================================
 # PHONE CASE TITLE OVERLAY IMAGE
@@ -123,37 +118,21 @@ PHONE_CASE_BORDER_COLOR = "black"
 # ============================================================
 
 CATEGORY_CLIP_ORDER = {
-    # Lipstick:
-    # clip_01 showcase sản phẩm
-    # clip_02 swatch.
-    "lipstick": [
+    # Snack:
+    # CHỈ có clip_01.
+    "snack": [
         1,
-        2,
     ],
 
-    # Sandal:
-    # giữ 2 clip hiện tại.
-    "sandal": [
-        1,
-        2,
-    ],
-
-    # Keychain pipeline mới:
+    # Keychain:
     # CHỈ còn clip_02 = 03_hand_holding -> 04_hand_holding_next_frame.
-    # Cố ý giữ clip number 2, không renumber thành clip 01.
     "keychain": [
         2,
     ],
 
-    # Phone case pipeline mới:
+    # Phone case:
     # CHỈ có clip_01.
     "phone_case": [
-        1,
-    ],
-
-    # Mask pipeline mới:
-    # CHỈ có clip_01 = 01_side_view -> 02_front_view.
-    "mask": [
         1,
     ],
 }

@@ -1,0 +1,451 @@
+1080x1920 vertical TikTok lifestyle product image.
+
+Reference Usage
+
+Use Image A as the primary visual reference for the featured snack product.
+
+Maintain the snack product's recognizable appearance, exact packaging design, package proportions, colors, printed graphics, logo placement, typography, product name, illustrations, seals, decorative elements, package material, surface texture and all important visual details.
+
+The product shown in the final image must clearly be the same physical snack package as Image A.
+
+Do not redesign the packaging.
+Do not create a different flavor.
+Do not change the package color.
+Do not change the logo.
+Do not replace the illustrations.
+Do not invent new graphics.
+Do not simplify or remove important printed details.
+Do not alter the product's recognizable packaging structure.
+
+Use Image B only as reference for:
+- environment
+- background composition
+- lighting direction
+- exposure
+- color mood
+- overall visual atmosphere
+
+Do not include the backpack or any bag from Image B in the final image.
+
+Use only the room, lighting and atmosphere from the reference.
+
+If additional aesthetic references are provided, use them only for:
+- lighting
+- exposure
+- color mood
+- atmosphere
+- interior styling
+
+Scene
+
+Create a highly realistic TikTok-style lifestyle product image for Frame 2A, the first frame of the second 8-second clip.
+
+The scene should feel like the same cozy bedroom or study-desk environment as Clip 1.
+
+Show one young woman's left hand naturally holding one complete snack package close to the camera.
+
+The snack package is already separated from any other objects and is presented as an individual food product showcase.
+
+The package should be held naturally from the lower or side area so that the front packaging remains clearly visible.
+
+The hand must not cover:
+- the main product name
+- logo
+- major illustrations
+- flavor information
+- important packaging graphics
+
+The snack package must remain the sharpest and most visually dominant subject.
+
+Product size:
+- approximately 35-45% of the vertical frame
+- large enough to clearly inspect the packaging
+- naturally proportioned relative to the hand
+- physically believable size for a small snack package
+- close enough to camera to feel like a product recommendation or TikTok snack showcase
+
+Product Consistency
+
+Maintain:
+- exact overall package silhouette
+- package proportions
+- original package dimensions
+- original color impression
+- original background color of the packaging
+- logo
+- brand identity
+- product name
+- printed Vietnamese text
+- flavor designation
+- illustrations
+- food imagery
+- decorative graphics
+- seals and certification-style elements
+- printed patterns
+- package edges
+- plastic packaging material
+- subtle wrinkles and folds in the packaging
+- realistic reflective properties of the plastic surface
+
+The package should look like a real physical snack package photographed by a smartphone.
+
+Do not:
+- redesign the packaging
+- create a different product
+- change the flavor
+- change the brand
+- change the main colors
+- replace the food illustration
+- invent additional food ingredients
+- add extra logos
+- add promotional stickers
+- add price tags
+- add fictional labels
+- remove existing packaging details
+- distort the package shape
+- make the package look like a rigid box
+- make the package look like a pouch with a different structure
+
+Show exactly one physical snack package.
+
+Avoid:
+- duplicate packages
+- multiple bags
+- floating packaging
+- duplicated logos
+- duplicated product graphics
+- impossible package geometry
+- extra snack products
+- multiple copies of the same product
+
+Product Position
+
+The snack package should:
+- stay near the center visual area
+- remain mainly front-facing
+- use a natural 3-8 degree initial tilt
+- keep the front packaging clearly readable
+- show enough of the package edges to establish realistic depth
+- maintain a natural handheld presentation
+
+The package should NOT be perfectly flat like a catalog product image.
+
+It should have a subtle amount of natural physical curvature and realistic packaging wrinkles while keeping the printed design readable.
+
+Do not show:
+- strong side profile
+- rear side of the package
+- excessive rotation
+- extreme perspective
+- heavily folded packaging
+- packaging obscured by the hand
+- artwork hidden by perspective
+
+This frame should feel like the calm moment before the following video movement where the hand moves the snack slightly closer to the camera and subtly adjusts its angle for a better look at the packaging.
+
+Hand and Sleeve
+
+Include exactly:
+- one feminine left hand
+- one wrist
+- one white knitted sweater sleeve
+
+Hand requirements:
+- realistic human anatomy
+- five fingers
+- natural finger proportions
+- natural joints
+- relaxed grip
+- natural nails
+- believable interaction with the snack package
+- realistic finger pressure against the flexible packaging
+- fingers positioned naturally around the lower or side portion of the package
+
+The hand should physically support the package rather than appearing to float behind it.
+
+Avoid:
+- extra fingers
+- missing fingers
+- fused fingers
+- distorted fingers
+- unnatural finger bends
+- distorted wrist
+- oversized hand
+- tiny hand
+- hand covering the main product design
+- fingers appearing through the packaging
+- impossible grip
+
+The sleeve must remain:
+- soft white
+- warm white / ivory
+- knitted texture
+- cozy fabric
+- realistic folds
+- physically believable fabric thickness
+
+Do not make the sleeve:
+- beige
+- yellow
+- gray
+- colored
+- patterned
+- synthetic
+- logo-covered
+
+The sweater color must remain independent from the environment.
+
+Snack Packaging Material
+
+The package must behave like realistic thin flexible food packaging.
+
+Show subtle:
+- natural plastic reflections
+- small surface wrinkles
+- gentle bending around the hand
+- realistic sealed edges
+- slight tension where the fingers hold the package
+
+Do not make the package:
+- completely rigid
+- metallic
+- glass
+- cardboard
+- excessively glossy
+- artificially reflective
+- transparent unless the reference packaging is actually transparent
+
+The printed artwork must remain visually integrated with the physical packaging surface.
+
+Background
+
+Create a cozy youthful bedroom or study desk atmosphere:
+- softly blurred background
+- warm natural lighting
+- organized lifestyle setting
+- subtle desk details
+- soft decorations
+- Pinterest-inspired cozy aesthetic
+- youthful Vietnamese student lifestyle feeling
+- clean and visually pleasing environment
+
+The environment should support the snack product without competing with it.
+
+Do not include:
+- backpack
+- bag
+- other food products
+- another snack package
+- another person
+- another hand
+- another product
+- distracting objects
+- readable background text
+- random packaging
+- watermark
+
+Composition
+
+Vertical smartphone composition.
+
+Camera:
+- close handheld product showcase
+- front-biased angle
+- natural smartphone photography look
+- realistic smartphone camera perspective
+- natural handheld framing
+
+Avoid:
+- wide-angle distortion
+- fisheye effect
+- extreme macro
+- extreme perspective distortion
+- professional commercial studio look
+- sterile catalog photography
+- perfectly symmetrical product photography
+
+Depth of field:
+- snack package sharpest
+- hand slightly softer but still clearly recognizable
+- background naturally and softly blurred
+
+The product should feel physically close to the camera while the background remains naturally separated by depth of field.
+
+Lighting and Color
+
+Match Clip 1 continuity:
+- same lighting direction
+- similar brightness
+- cozy warm atmosphere
+- consistent visual environment
+
+Use:
+- soft pale-yellow ambient light
+- balanced exposure
+- natural shadows
+- realistic smartphone rendering
+- subtle cinematic warmth
+- soft highlights on the packaging
+- realistic skin tones
+
+The packaging must retain its original colors under the lighting.
+
+Avoid:
+- excessive yellow/orange tint
+- oversaturated colors
+- dark underexposure
+- harsh flash
+- artificial HDR
+- blown highlights
+- plastic AI surfaces
+- unrealistic food colors
+- excessive glow
+- fake commercial lighting
+
+Packaging Text and Graphics
+
+Preserve the original visible packaging information from Image A as accurately as possible.
+
+Important elements such as:
+- brand logo
+- product name
+- flavor name
+- main illustrations
+- printed graphics
+- major Vietnamese text
+- recognizable symbols
+
+must remain in their original positions and proportions.
+
+Do not generate random replacement text.
+
+Do not add:
+- fake promotional text
+- fake prices
+- fake discount labels
+- fake slogans
+- fake nutritional claims
+- fake logos
+- random typography
+
+If some small packaging text cannot be reproduced perfectly, prioritize maintaining the correct visual structure, typography placement, logo shape, color blocks and recognizable overall packaging identity rather than inventing new text.
+
+Food Product Identity
+
+The final image must immediately communicate that the featured object is a packaged Vietnamese snack product.
+
+The package should look:
+- fresh
+- clean
+- commercially packaged
+- realistic
+- physically handled
+- suitable for a TikTok snack recommendation
+
+Do not open the package.
+
+Do not show the snack outside the package.
+
+Do not add a bowl of food.
+
+Do not scatter snack pieces around the scene.
+
+Do not create additional food props that could confuse the featured product.
+
+Clip 1 Continuity
+
+Frame 2A must feel like the same TikTok video as Clip 1.
+
+Preserve:
+- exact snack product identity
+- same left hand
+- same white knitted sleeve
+- same cozy environment
+- same lighting direction
+- same general color mood
+- same smartphone realism
+- same lifestyle atmosphere
+
+The visual story:
+
+Clip 1 showed the snack product naturally within the lifestyle environment.
+
+Frame 2A now shows the same snack package held alone closer to the camera for inspection.
+
+The transition should feel natural, as if the person picked up the snack and brought it closer to show the viewer the packaging and flavor.
+
+The frame should look like a genuine continuation of the same recording rather than a completely different advertisement.
+
+Hard Constraints
+
+1080x1920 vertical image
+
+one snack package only
+
+one left hand only
+
+one wrist only
+
+one white knitted sleeve only
+
+no backpack
+
+no bag
+
+no other food products
+
+no second package
+
+no duplicate product
+
+no additional hands
+
+product held naturally by hand
+
+product front clearly visible
+
+original packaging identity preserved
+
+original packaging colors preserved
+
+original logo preserved
+
+original graphics preserved
+
+product sharply focused
+
+realistic flexible packaging
+
+realistic hand anatomy
+
+natural finger placement
+
+natural depth of field
+
+natural smartphone photography
+
+no duplicate packaging components
+
+no distorted hand
+
+no extreme perspective
+
+no excessive packaging deformation
+
+no invented promotional elements
+
+no random text
+
+no watermark
+
+Final Result
+
+A highly realistic TikTok lifestyle product frame showing one packaged Vietnamese snack held naturally near the camera by a young woman's left hand wearing a soft white knitted sweater.
+
+The snack package is the clear visual focus.
+
+The packaging must remain highly recognizable and visually consistent with Image A, including its original colors, logo, product name, graphics, illustrations, proportions and physical packaging characteristics.
+
+The product is presented naturally, slightly front-facing, close enough for the viewer to inspect the packaging, while remaining integrated into a cozy youthful bedroom or study-desk environment.
+
+The image should look like a real smartphone photograph captured during a TikTok snack recommendation video, not a studio catalog photo or an AI-generated product mockup.

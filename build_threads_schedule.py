@@ -26,9 +26,9 @@ SCHEDULE_FILE = (
 DAYS_TO_GENERATE = 30
 
 SUPPORTED_CATEGORIES = [
-    "lipstick",
-    "sandal",
+    "snack",
     "keychain",
+    "phone_case",
 ]
 
 
@@ -352,22 +352,22 @@ def build_threads_schedule():
         ).strip()
     )
 
-    lipstick_slots = sum(
+    snack_slots = sum(
         1
         for row in all_rows
-        if row.get("category") == "lipstick"
-    )
-
-    sandal_slots = sum(
-        1
-        for row in all_rows
-        if row.get("category") == "sandal"
+        if row.get("category") == "snack"
     )
 
     keychain_slots = sum(
         1
         for row in all_rows
         if row.get("category") == "keychain"
+    )
+
+    phone_case_slots = sum(
+        1
+        for row in all_rows
+        if row.get("category") == "phone_case"
     )
 
     print("=" * 60)
@@ -408,18 +408,18 @@ def build_threads_schedule():
     )
 
     print(
-        "Lipstick slots:",
-        lipstick_slots
-    )
-
-    print(
-        "Sandal slots:",
-        sandal_slots
+        "Snack slots:",
+        snack_slots
     )
 
     print(
         "Keychain slots:",
         keychain_slots
+    )
+
+    print(
+        "Phone case slots:",
+        phone_case_slots
     )
 
     print("=" * 60)

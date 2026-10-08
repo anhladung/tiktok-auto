@@ -34,21 +34,16 @@ IMAGE_EXTENSIONS = {
 # CATEGORY CONFIG
 # ============================================================
 
-# Muốn chạy cả son, dép, móc khóa, ốp lưng và khẩu trang:
+# Muốn chạy cả đồ ăn vặt, móc khóa, ốp lưng và mắt kính:
 ENABLED_CATEGORIES = [
-    "lipstick",
-    "sandal",
+    "snack",
     "keychain",
     "phone_case",
-    "mask",
     "eyeglasses",
 ]
 
-# Muốn test riêng dép:
-# ENABLED_CATEGORIES = ["sandal"]
-
-# Muốn test riêng son:
-# ENABLED_CATEGORIES = ["lipstick"]
+# Muốn test riêng đồ ăn vặt:
+# ENABLED_CATEGORIES = ["snack"]
 
 # Muốn test riêng móc khóa:
 # ENABLED_CATEGORIES = ["keychain"]
@@ -56,80 +51,30 @@ ENABLED_CATEGORIES = [
 # Muốn test riêng ốp lưng:
 # ENABLED_CATEGORIES = ["phone_case"]
 
-# Muốn test riêng khẩu trang:
-# ENABLED_CATEGORIES = ["mask"]
-
-# Muốn test riêng mắt kính:
-# ENABLED_CATEGORIES = ["eyeglasses"]
-
 
 CATEGORY_CONFIG = {
     # ========================================================
-    # LIPSTICK
+    # SNACK (ĐỒ ĂN VẶT)
     # ========================================================
-    "lipstick": {
+    "snack": {
         "input_dir": os.path.join(
             INPUT_PRODUCTS_DIR,
-            "lipstick"
+            "snack"
         ),
 
         "products_dir": os.path.join(
             PRODUCTS_DIR,
-            "lipstick"
+            "snack"
         ),
 
         # Mã sản phẩm:
-        # LP001, LP002, LP003...
-        "product_prefix": "LP",
+        # SNK001, SNK002, SNK003...
+        "product_prefix": "SNK",
 
         "product_id_digits": 3,
 
-        # Mỗi sản phẩm son cần 2 ảnh:
-        # Ảnh 1 = product
-        # Ảnh 2 = shade
-        "inputs": [
-            {
-                "label": "Product",
-                "target_folder": os.path.join(
-                    "images",
-                    "raw",
-                    "product"
-                ),
-                "target_filename": "1",
-            },
-            {
-                "label": "Shade",
-                "target_folder": os.path.join(
-                    "images",
-                    "raw",
-                    "shade"
-                ),
-                "target_filename": "1",
-            },
-        ],
-    },
-
-    # ========================================================
-    # SANDAL
-    # ========================================================
-    "sandal": {
-        "input_dir": os.path.join(
-            INPUT_PRODUCTS_DIR,
-            "sandal"
-        ),
-
-        "products_dir": os.path.join(
-            PRODUCTS_DIR,
-            "sandal"
-        ),
-
-        # Mã sản phẩm:
-        # SDL001, SDL002, SDL003...
-        "product_prefix": "SDL",
-
-        "product_id_digits": 3,
-
-        # Mỗi sản phẩm dép chỉ cần 1 ảnh sản phẩm.
+        # Mỗi sản phẩm đồ ăn vặt chỉ cần 1 ảnh sản phẩm.
+        # Background reference sẽ được xử lý ở build_image_queue.py.
         "inputs": [
             {
                 "label": "Product",
@@ -164,8 +109,6 @@ CATEGORY_CONFIG = {
         "product_id_digits": 3,
 
         # Mỗi sản phẩm móc khóa chỉ cần 1 ảnh sản phẩm.
-        # Ảnh balo và background lifestyle sẽ được xử lý
-        # ở bước build image queue, không copy vào từng sản phẩm.
         "inputs": [
             {
                 "label": "Product",
@@ -200,51 +143,6 @@ CATEGORY_CONFIG = {
         "product_id_digits": 3,
 
         # Mỗi sản phẩm ốp lưng chỉ cần 1 ảnh sản phẩm.
-        # Mỗi 1 ảnh trong input_products/phone_case
-        # tương đương với 1 thư mục sản phẩm riêng.
-        #
-        # Ví dụ:
-        # 01.png -> PC001
-        # 02.png -> PC002
-        # 03.png -> PC003
-        #
-        # Background/reference khác sẽ được xử lý
-        # ở các bước pipeline sau.
-        "inputs": [
-            {
-                "label": "Product",
-                "target_folder": os.path.join(
-                    "images",
-                    "raw",
-                    "product"
-                ),
-                "target_filename": "1",
-            },
-        ],
-    },
-
-    # ========================================================
-    # MASK
-    # ========================================================
-    "mask": {
-        "input_dir": os.path.join(
-            INPUT_PRODUCTS_DIR,
-            "mask"
-        ),
-
-        "products_dir": os.path.join(
-            PRODUCTS_DIR,
-            "mask"
-        ),
-
-        # Mã sản phẩm:
-        # MSK001, MSK002, MSK003...
-        "product_prefix": "MSK",
-
-        "product_id_digits": 3,
-
-        # Mỗi sản phẩm khẩu trang chỉ cần 1 ảnh sản phẩm gốc.
-        # Background/reference sẽ được xử lý ở build_image_queue.py.
         "inputs": [
             {
                 "label": "Product",

@@ -140,18 +140,9 @@ def get_script_input_images(
         reference_path
     )
 
-    if category == "lipstick":
+    if category == "snack":
         selected_images = [
-            image_1,
-            image_2,
-        ]
-
-    elif category == "sandal":
-        selected_images = [
-            os.path.join(
-                base_dir,
-                "01_hand_holding.png"
-            )
+            image_1
         ]
 
     elif category == "keychain":
@@ -163,15 +154,6 @@ def get_script_input_images(
         ]
 
     elif category == "phone_case":
-        # Pipeline mới chỉ còn 2 frame / 1 clip.
-        # build_script_queue.py đã đưa đúng Frame 01 vào image_1.
-        selected_images = [
-            image_1
-        ]
-
-    elif category == "mask":
-        # Dùng trực tiếp ảnh RAW PRODUCT được build_script_queue.py
-        # đưa vào image_1. Không tự đổi folder/tên file/extension.
         selected_images = [
             image_1
         ]

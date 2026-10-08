@@ -46,6 +46,8 @@ products/
 data/
 queue/
 *.txt
+!prompts/**/*.txt
+!prompts/*.txt
 
 # Keep empty folders / structure if needed, or environment files
 .env

@@ -1,0 +1,1595 @@
+1080 × 1920 — Vertical 9:16
+
+Use TWO provided reference images with these STRICT roles:
+
+IMAGE A = PRIMARY PHYSICAL BACKGROUND / ENVIRONMENT / ROOM-LAYOUT / OBJECT-PLACEMENT / PERSPECTIVE REFERENCE.
+
+IMAGE B = PRIMARY AND STRICT INSTALLED SMARTPHONE + PHONE-CASE PRODUCT IDENTITY REFERENCE.
+
+There is NO third reference image.
+
+The clothing style described below must be generated directly from the written instructions.
+
+--------------------------------------------------
+REFERENCE PRIORITY
+--------------------------------------------------
+
+IMAGE A controls the PHYSICAL ENVIRONMENT:
+
+- exact room / desk / bedroom / lifestyle environment
+- exact furniture
+- wall structure
+- major background objects
+- object placement
+- decorations
+- environmental perspective
+- camera viewpoint
+- spatial relationships
+- major visual landmarks
+
+Do NOT redesign the environment.
+
+Do NOT replace it with a generic room.
+
+IMPORTANT:
+
+> IMAGE A CONTROLS PHYSICAL ENVIRONMENT IDENTITY,
+> BUT THE FINAL COLOR / EXPOSURE MUST FOLLOW
+> THE SUCCESSFUL IMAGE 01 VISUAL TARGET DEFINED BELOW.
+
+Do NOT blindly copy an excessively bright exposure from Image A.
+
+But also:
+
+> DO NOT DARKEN THE ROOM AS MUCH AS THE PREVIOUS IMAGE 03 OUTPUT.
+
+IMAGE B controls the COMPLETE INSTALLED PRODUCT:
+
+- exact smartphone
+- exact phone-case SKU
+- exact silhouette
+- exact proportions
+- exact installed fit
+- exact corners
+- exact bumper / border
+- exact camera-area geometry
+- exact phone-camera hardware
+- exact material
+- exact transparency / opacity
+- exact texture
+- exact finish
+- exact authentic colors
+- any artwork / graphics / patterns / typography IF PRESENT
+- absence of artwork IF THE CASE IS PLAIN
+
+--------------------------------------------------
+MAIN TASK
+--------------------------------------------------
+
+Create the FIRST FRAME OF CLIP 2 for a TikTok affiliate-style phone-case video.
+
+Show:
+
+> ONE SMARTPHONE
+> ALREADY FULLY INSTALLED
+> INSIDE THE EXACT PHONE CASE FROM IMAGE B,
+
+held naturally by:
+
+> ONE FEMININE LEFT HAND,
+
+in front of:
+
+> THE SAME PHYSICAL ENVIRONMENT FROM IMAGE A.
+
+The installed smartphone is shown primarily from the BACK.
+
+Use a:
+
+> CLEAN
+> + SIMPLE
+> + STABLE
+> + MOSTLY STRAIGHT-BACK ESTABLISHING VIEW.
+
+This frame establishes:
+
+> THE EXACT PHONE CASE
+> ALREADY FULLY INSTALLED ON THE SMARTPHONE.
+
+Do NOT show:
+
+- installation
+- an empty case
+- separate phone and case
+- spare case
+- packaging
+- protective film
+
+--------------------------------------------------
+MAIN VISUAL GOAL
+--------------------------------------------------
+
+The viewer should immediately understand:
+
+- one smartphone
+- one exact installed phone case
+- case already fully fitted
+- main exterior back clearly visible
+- camera region clearly readable
+- case fit physically believable
+- complete silhouette clear
+- calm starting frame of Clip 2
+
+Later frames may bring the product closer.
+
+Therefore:
+
+> KEEP THIS FRAME MOSTLY STRAIGHT-BACK,
+> STABLE AND VISUALLY SIMPLE.
+
+Do NOT begin with a dramatic product angle.
+
+--------------------------------------------------
+UNIVERSAL PHONE-CASE RULE
+--------------------------------------------------
+
+This prompt must work for MANY DIFFERENT PHONE CASES.
+
+The case may be:
+
+- plain
+- solid-color
+- minimalist
+- printed
+- illustrated
+- patterned
+- text-based
+- multicolor
+- transparent
+- semi-transparent
+- translucent
+- frosted
+- opaque
+- matte
+- glossy
+- TPU
+- silicone-like
+- rigid plastic
+- mixed-material
+
+Do NOT assume artwork exists.
+
+If the reference case is PLAIN:
+
+> KEEP IT PLAIN.
+
+Do NOT invent:
+
+- characters
+- illustrations
+- graphics
+- text
+- typography
+- patterns
+- stickers
+- logos
+
+If artwork / graphics / text exist:
+
+> PRESERVE THEM EXACTLY.
+
+Do NOT:
+
+- redraw
+- simplify
+- mirror
+- move
+- stretch
+- recolor
+- duplicate
+- regenerate
+
+any product design element.
+
+--------------------------------------------------
+PRODUCT IDENTITY — ABSOLUTE
+--------------------------------------------------
+
+The generated phone + case must clearly be:
+
+> THE EXACT SAME INSTALLED PHYSICAL PRODUCT FROM IMAGE B.
+
+Preserve:
+
+- smartphone proportions
+- phone-case SKU
+- case silhouette
+- width-to-height ratio
+- corner radius
+- bumper
+- border
+- border color
+- side-wall design
+- button covers
+- openings
+- camera-area geometry
+- camera protection
+- case thickness
+- material
+- transparency / opacity
+- texture
+- finish
+- base color
+- accent colors
+- installed fit
+
+If artwork exists, preserve:
+
+- illustrations
+- characters
+- faces
+- expressions
+- typography
+- text
+- patterns
+- icons
+- graphics
+- scale
+- spacing
+- positions
+- exact colors
+
+Do NOT:
+
+- redesign the case
+- replace it with a similar SKU
+- alter proportions
+- alter camera geometry
+- change material
+- change transparency
+- change border color
+- recolor product surfaces
+- add graphics to a plain case
+- remove existing artwork
+- mutate text
+- warp the case fit
+
+Perspective may vary minimally.
+
+Product identity may NOT.
+
+--------------------------------------------------
+MATERIAL-AWARE RULE
+--------------------------------------------------
+
+Preserve the actual material behavior from Image B.
+
+If the case is OPAQUE:
+
+> KEEP OPAQUE PORTIONS OPAQUE.
+
+If the case is TRANSPARENT:
+
+> PRESERVE THE EXACT TRANSPARENCY.
+
+If it is TRANSLUCENT / FROSTED:
+
+> PRESERVE THE EXACT DEGREE OF TRANSLUCENCY.
+
+Do NOT:
+
+- turn opaque into transparent
+- turn transparent into opaque
+- turn frosted into crystal-clear
+- turn matte into glossy
+- turn TPU into glass
+- invent transparency
+- remove real transparency
+
+--------------------------------------------------
+INSTALLED PRODUCT — ABSOLUTE
+--------------------------------------------------
+
+Show exactly:
+
+> ONE SMARTPHONE
+> FULLY INSTALLED
+> INSIDE ONE PHONE CASE.
+
+Treat phone + case as:
+
+> ONE COMPLETE RIGID INSTALLED ASSEMBLY.
+
+Do NOT show:
+
+- separate empty case
+- spare phone
+- spare case
+- loose case corner
+- detached bumper
+- half-installed case
+- floating border
+- gaps between phone and case
+
+Maintain:
+
+- snug fit
+- correct four-corner coverage
+- correct bumper thickness
+- correct side coverage
+- correct opening alignment
+- correct camera protection
+- realistic physical thickness
+
+--------------------------------------------------
+CAMERA REGION — HIGH PRIORITY
+--------------------------------------------------
+
+Preserve the exact relationship between:
+
+CASE-OWNED STRUCTURES:
+
+- camera border
+- raised protective rim
+- molded camera surround
+- case-owned openings
+
+and
+
+PHONE-OWNED STRUCTURES:
+
+- lenses
+- lens rings
+- flash
+- sensors
+- visible phone hardware
+
+Follow the exact manufacturer-specific geometry shown in Image B.
+
+Do NOT standardize it into a generic smartphone camera.
+
+Do NOT generate:
+
+- extra lenses
+- missing lenses
+- moved lenses
+- wrong lens spacing
+- incorrect flash
+- oversized generic black camera island
+- floating camera circles
+- altered case openings
+
+--------------------------------------------------
+CAMERA / PRODUCT COLOR LOCK
+--------------------------------------------------
+
+Preserve the exact physical colors from Image B.
+
+Maintain:
+
+- case camera-border color
+- lens-ring colors
+- phone-frame color
+- flash color
+- sensor colors
+- material appearance
+
+The room grade must NOT recolor the product.
+
+Allow only:
+
+> SMALL + NEUTRAL + PHYSICALLY PLAUSIBLE REFLECTIONS.
+
+Do NOT generate:
+
+- rainbow reflections
+- iridescent effects
+- metallic color shifting
+- orange hardware
+- purple / blue camera rings unless actually present
+
+--------------------------------------------------
+PRODUCT COLOR ACCURACY
+--------------------------------------------------
+
+The environment receives the Image 01-style color treatment.
+
+The product remains authentic.
+
+Color relationship:
+
+> ENVIRONMENT =
+> SOFT + MEDIUM-LIGHT + SLIGHTLY SUBDUED + LIGHT WARM-GREIGE
+
+> PHONE CASE =
+> EXACT AUTHENTIC REFERENCE COLORS
+
+> PHONE HARDWARE =
+> EXACT AUTHENTIC HARDWARE COLORS
+
+> SKIN =
+> NATURAL
+
+> CLOTHING =
+> SOFT OFF-WHITE + BLACK.
+
+Do NOT warm or desaturate the product to make it match the room.
+
+--------------------------------------------------
+PRODUCT ORIENTATION
+--------------------------------------------------
+
+This is the FIRST FRAME OF CLIP 2.
+
+Show the installed smartphone primarily from the BACK.
+
+Recommended:
+
+> 0–5° FROM STRAIGHT-ON BACK.
+
+Preferred:
+
+> approximately 0–3°.
+
+The product should appear:
+
+> MOSTLY FLAT TOWARD THE CAMERA.
+
+Clearly show:
+
+- main case surface
+- complete camera region
+- installed fit
+- overall silhouette
+
+If artwork exists:
+
+> KEEP IT CLEARLY READABLE.
+
+If the case is plain:
+
+> CLEARLY SHOW ITS COLOR, MATERIAL AND FINISH.
+
+Do NOT begin with:
+
+- strong three-quarter angle
+- large side reveal
+- front-screen view
+- dramatic tilt
+- flipped phone
+
+--------------------------------------------------
+PRODUCT SCALE / COMPOSITION
+--------------------------------------------------
+
+The installed smartphone should occupy approximately:
+
+> 34–42% OF TOTAL FRAME HEIGHT.
+
+Keep enough surrounding room for later forward movement.
+
+Position near the center or slightly offset according to Image A.
+
+Keep visible:
+
+- complete camera region
+- major corners
+- main case surface
+- lower case
+- holding hand
+
+The frame should feel:
+
+- calm
+- stable
+- casual
+- natural
+- smartphone-captured
+- easy to continue into later movement
+
+--------------------------------------------------
+HAND
+--------------------------------------------------
+
+Show exactly:
+
+> ONE NATURAL FEMININE LEFT HAND.
+
+Use:
+
+- realistic finger lengths
+- correct joints
+- natural wrist
+- secure relaxed grip
+- believable smartphone weight
+
+Do not unnecessarily cover:
+
+- central artwork
+- camera area
+- identity-defining product details
+
+Do NOT generate:
+
+- second hand
+- right-hand substitution
+- extra fingers
+- missing fingers
+- fused fingers
+- duplicated fingertips
+- twisted wrist
+- fingers clipping through the phone
+
+--------------------------------------------------
+NAILS
+--------------------------------------------------
+
+Use:
+
+- nude
+- pale pink
+- natural beige
+- subtle gloss
+- short-to-medium length
+
+Avoid elaborate nail art and distracting jewelry.
+
+--------------------------------------------------
+CLOTHING
+--------------------------------------------------
+
+The wrist / lower forearm wears:
+
+> AN OVERSIZED CREAM-WHITE / OFF-WHITE
+> BRETON / MARINIÈRE-INSPIRED
+> LONG-SLEEVE COTTON T-SHIRT
+> WITH THIN BLACK HORIZONTAL STRIPES.
+
+Maintain:
+
+- cream-white / off-white base
+- thin evenly spaced black horizontal stripes
+- loose oversized silhouette
+- wide sleeve
+- slightly long sleeve
+- soft cotton jersey
+- matte surface
+- natural folds
+- relaxed drape
+
+Do NOT generate:
+
+- knitted sweater
+- ribbed knit
+- chunky knit
+- wool
+- cardigan
+- sweatshirt
+- hoodie
+- plain-white sleeve
+- vertical / diagonal stripes
+- thick rugby stripes
+
+The shirt should remain:
+
+> SOFT OFF-WHITE / MUTED CREAM,
+
+not luminous pure white.
+
+--------------------------------------------------
+UNIVERSAL BACKGROUND RULE
+--------------------------------------------------
+
+This prompt must work with MANY DIFFERENT BACKGROUNDS.
+
+Do NOT assume Image A contains:
+
+- pegboard
+- clock
+- cloud decoration
+- laptop
+- keyboard
+- shelves
+- figurines
+- white furniture
+- lamp
+- any particular desk object
+
+Instead:
+
+> PRESERVE WHATEVER PHYSICAL ENVIRONMENT
+> ACTUALLY EXISTS IN IMAGE A.
+
+The environment may be:
+
+- study desk
+- bedroom
+- home office
+- vanity
+- shelf area
+- decorated workspace
+- minimalist indoor space
+- another realistic lifestyle environment
+
+Image A controls the physical scene.
+
+Do NOT force all products into one fixed desk design.
+
+--------------------------------------------------
+BACKGROUND IDENTITY
+--------------------------------------------------
+
+Preserve from Image A:
+
+- exact room identity
+- wall structure
+- furniture
+- desk / surface if present
+- shelves if present
+- storage if present
+- windows if present
+- plants if present
+- practical lights if present
+- computer equipment if present
+- decorations
+- major object positions
+- perspective
+- camera viewpoint
+- actual environmental colors
+
+Do NOT:
+
+- redesign the room
+- remove major structures
+- replace furniture
+- add unrelated large objects
+- relocate major landmarks
+- convert the scene into another aesthetic
+
+--------------------------------------------------
+PRACTICAL LIGHT SOURCES
+--------------------------------------------------
+
+Follow Image A.
+
+If Image A contains a visible lamp or practical light:
+
+> PRESERVE IT NATURALLY.
+
+If no practical light is visible:
+
+> DO NOT INVENT ONE.
+
+Do not add a strong warm lamp just to create the color mood.
+
+--------------------------------------------------
+IMAGE 01 COLOR / LIGHTING TARGET — CRITICAL
+--------------------------------------------------
+
+MATCH THE SUCCESSFUL IMAGE 01 LOOK.
+
+The final Image 03 should feel:
+
+> SOFT
+> + COZY
+> + CHILL
+> + MEDIUM-LIGHT
+> + SLIGHTLY SUBDUED
+> + LIGHT WARM-GRAY / GREIGE
+> + NATURALLY SHADED
+> + CLEAR
+> + REALISTIC.
+
+IMPORTANT:
+
+The previous Image 03 treatment is producing results that are:
+
+> TOO DARK
+> + TOO DENSE
+> + TOO HEAVY IN THE SHADOW / MIDTONE RANGE.
+
+Therefore:
+
+> BRIGHTEN IMAGE 03 SLIGHTLY
+> COMPARED WITH THE OLD IMAGE 03 OUTPUT.
+
+But do NOT turn it into:
+
+> A BRIGHT HIGH-KEY WHITE IMAGE.
+
+The correct target is exactly between:
+
+> DARK / MOODY
+
+and:
+
+> BRIGHT / AIRY / HIGH-KEY.
+
+--------------------------------------------------
+BRIGHTNESS CORRECTION FROM OLD IMAGE 03
+--------------------------------------------------
+
+Compared with the previous darker Image 03 result:
+
+> RAISE THE ENVIRONMENTAL EXPOSURE SLIGHTLY.
+
+Target approximately:
+
+> +0.15 TO +0.25 STOP
+> RELATIVE TO THE PREVIOUS TOO-DARK IMAGE 03 RESULT.
+
+Equivalent visual intention:
+
+> APPROXIMATELY 4–7% BRIGHTER
+> THAN THE PREVIOUS TOO-DARK IMAGE 03 OUTPUT.
+
+This adjustment should come primarily from:
+
+- slightly more open midtones
+- slightly more readable shadows
+- slightly brighter ambient exposure
+
+NOT from:
+
+- blowing out whites
+- raising the white point aggressively
+- removing shadows
+- adding stronger lighting
+
+If numeric guidance conflicts with the desired Image 01 appearance:
+
+> IMAGE 01 COLOR CHARACTER WINS.
+
+--------------------------------------------------
+ABSOLUTE EXPOSURE TARGET
+--------------------------------------------------
+
+Relative to a NORMAL BRIGHT lifestyle / TikTok photograph:
+
+target approximately:
+
+> 0.2–0.35 STOP DARKER.
+
+Equivalent:
+
+> approximately 5–10% LOWER
+> perceived brightness than a bright lifestyle / Pinterest output.
+
+DO NOT use the old:
+
+> 0.4–0.7 STOP DARKER
+
+or:
+
+> 12–18% LOWER BRIGHTNESS
+
+target.
+
+That is too dark.
+
+The correct exposure should feel:
+
+> ONE SMALL STEP DARKER THAN BRIGHT,
+
+not:
+
+> TWO OR THREE STEPS DARKER.
+
+--------------------------------------------------
+MEDIUM-LIGHT EXPOSURE
+--------------------------------------------------
+
+The room should remain:
+
+- clearly visible
+- comfortable
+- softly illuminated
+- product-friendly
+- readable in the shadows
+- realistic for TikTok content
+
+The overall frame should feel:
+
+> MEDIUM-LIGHT
+> + SLIGHTLY SUBDUED
+> + WELL EXPOSED.
+
+Not:
+
+> DIM
+> + DARK
+> + MURKY.
+
+Do not confuse:
+
+> COZY
+
+with:
+
+> LOW EXPOSURE.
+
+--------------------------------------------------
+MANUAL EXPOSURE LOGIC
+--------------------------------------------------
+
+Simulate:
+
+> A MODERN SMARTPHONE PHOTO
+> WITH EXPOSURE MANUALLY LOWERED ONLY SLIGHTLY
+> AND THEN LOCKED.
+
+Do not maximize brightness.
+
+But do not aggressively suppress it either.
+
+Maintain:
+
+- comfortable room brightness
+- open midtones
+- readable shadows
+- restrained highlights
+- natural tonal depth
+
+--------------------------------------------------
+DARK FOREGROUND AUTO-EXPOSURE RULE
+--------------------------------------------------
+
+The installed smartphone may be visually darker than the environment.
+
+Do NOT allow this to make the background excessively bright.
+
+But equally important:
+
+> DO NOT OVER-COMPENSATE
+> BY DARKENING THE ENTIRE ROOM TOO MUCH.
+
+The exposure should be anchored to:
+
+> THE IMAGE 01 ENVIRONMENTAL BRIGHTNESS TARGET.
+
+The correct logic is:
+
+> DARKER PHONE
+> ≠
+> BRIGHT WHITE BACKGROUND
+
+and also:
+
+> DARKER PHONE
+> ≠
+> DARKER ENTIRE ROOM.
+
+Maintain a stable medium-light environmental exposure.
+
+--------------------------------------------------
+MIDTONES — PRIMARY BRIGHTNESS CORRECTION
+--------------------------------------------------
+
+The main correction from the old dark Image 03 should happen here.
+
+Open the midtones:
+
+> SLIGHTLY.
+
+Do NOT dramatically lift them.
+
+Keep walls, furniture and environmental objects in:
+
+> SOFT MEDIUM TO UPPER-MIDTONE VALUES.
+
+Preserve:
+
+- surface texture
+- room depth
+- furniture separation
+- sleeve folds
+- skin detail
+- product material
+
+Compared with the old Image 03 output:
+
+> MIDTONES SHOULD BE SLIGHTLY LIGHTER
+> AND EASIER TO READ.
+
+But compared with a bright high-key image:
+
+> MIDTONES SHOULD STILL BE SLIGHTLY DENSER.
+
+Target:
+
+> OPEN + SOFT + SLIGHTLY DENSE.
+
+--------------------------------------------------
+SHADOWS — OPEN SLIGHTLY
+--------------------------------------------------
+
+Shadows should remain:
+
+- visible
+- natural
+- smooth
+- detailed
+- neutral-gray to lightly warm-gray
+
+Compared with the previous dark Image 03:
+
+> OPEN THE DEEPEST ENVIRONMENTAL SHADOWS SLIGHTLY.
+
+Do NOT lift them all toward white.
+
+Do NOT remove depth.
+
+The target is:
+
+> SOFT READABLE SHADOWS
+> WITH REAL DEPTH.
+
+Avoid:
+
+- crushed black shadows
+- heavy dark corners
+- muddy gray-brown shadow masses
+- underexposed furniture
+
+Shadowed areas should remain darker than lit areas,
+
+but details should still be visible.
+
+--------------------------------------------------
+WHITE POINT — CONTROLLED, NOT TOO LOW
+--------------------------------------------------
+
+The previous darker treatment may suppress pale objects too strongly.
+
+For the corrected Image 03:
+
+> KEEP THE WHITE POINT SOFTLY REDUCED,
+> BUT NOT AGGRESSIVELY LOW.
+
+Light surfaces should remain recognizably:
+
+- white
+- off-white
+- ivory
+- pale gray
+
+depending on Image A.
+
+They should NOT become:
+
+- medium-gray from underexposure
+- muddy beige
+- dark greige
+
+But also should NOT become:
+
+- glowing white
+- pure digital white
+- blown out
+
+The target is:
+
+> SOFT LIGHT OFF-WHITE,
+> WITH VISIBLE TONAL INFORMATION.
+
+--------------------------------------------------
+HIGHLIGHTS
+--------------------------------------------------
+
+Highlights remain:
+
+> SOFT
+> + CONTROLLED
+> + GENTLY ROLLED OFF.
+
+Brightening Image 03 should NOT be achieved by pushing highlights aggressively.
+
+Do NOT create:
+
+- glowing wall
+- glowing furniture
+- overbright sleeve
+- blown skin
+- white halos
+- clipped reflections
+
+The brightness increase should come mainly from:
+
+> MIDTONES + AMBIENT EXPOSURE,
+
+not:
+
+> WHITE CLIPPING.
+
+--------------------------------------------------
+LIGHT GREIGE COLOR CHARACTER
+--------------------------------------------------
+
+Use:
+
+> LIGHT WARM-GRAY / LIGHT GREIGE NEUTRALS.
+
+Do NOT use a heavy:
+
+> DARK TAUPE / BROWN-GREIGE
+
+look.
+
+The successful Image 01 character is:
+
+- soft
+- gray-based
+- subtly warm
+- clean
+- slightly creamy
+- medium-light
+
+not:
+
+- brown
+- muddy
+- overly beige
+- strongly warm
+
+Compared with the old Image 03:
+
+> REDUCE THE HEAVINESS OF THE TAUPE / DARK-GREIGE IMPRESSION.
+
+Keep the neutral atmosphere lighter and cleaner.
+
+--------------------------------------------------
+WHITE BALANCE
+--------------------------------------------------
+
+Use:
+
+> NEUTRAL TO VERY SLIGHTLY WARM-NEUTRAL WHITE BALANCE.
+
+The warmth should feel:
+
+> GRAY-BASED / LIGHT GREIGE,
+
+not yellow-based.
+
+Use only a subtle creamy influence.
+
+Do NOT create:
+
+- yellow cast
+- orange cast
+- gold
+- amber
+- brown
+- sepia
+
+Do NOT shift strongly toward:
+
+- cyan
+- icy blue
+- cold clinical white
+
+The viewer should feel:
+
+> COZY
+
+before consciously perceiving:
+
+> WARM.
+
+--------------------------------------------------
+COLOR SATURATION
+--------------------------------------------------
+
+Keep environmental saturation:
+
+> SLIGHTLY MUTED.
+
+Background colors remain:
+
+- natural
+- soft
+- calm
+- restrained
+
+Do not make environmental pastels excessively vivid.
+
+But also do not make the room gray and lifeless.
+
+Preserve the actual environmental colors from Image A.
+
+--------------------------------------------------
+DO NOT FORCE BEIGE
+--------------------------------------------------
+
+Matching Image 01 does NOT mean repainting every background cream or beige.
+
+Preserve actual colors.
+
+For example:
+
+- white stays softly white / off-white
+- gray remains gray
+- wood remains natural wood
+- black remains black
+- blue remains blue
+- green remains green
+- colorful decorations stay recognizable
+- dark objects remain dark
+
+Apply the Image 01 visual character through:
+
+> EXPOSURE
+> + MIDTONE PLACEMENT
+> + WHITE POINT
+> + SHADOW DEPTH
+> + HIGHLIGHT ROLLOFF
+> + SUBTLE WHITE BALANCE,
+
+not by recoloring objects.
+
+--------------------------------------------------
+LIGHTING QUALITY — MATCH IMAGE 01
+--------------------------------------------------
+
+Use:
+
+> BROAD SOFT AMBIENT INDOOR LIGHT.
+
+The scene should feel like:
+
+> SOFT DAYTIME / AFTERNOON INDOOR AMBIENT LIGHT.
+
+Use:
+
+- broad diffused illumination
+- soft upper-front / frontal light
+- moderate ambient fill
+- gentle light falloff
+- soft contact shadows
+- controlled highlights
+
+The room should feel:
+
+> COMFORTABLY ILLUMINATED,
+
+not:
+
+> FLOODED WITH LIGHT,
+
+and not:
+
+> DIMLY LIT.
+
+Do NOT introduce:
+
+- flash
+- strong spotlight
+- commercial softbox appearance
+- harsh direct sunlight
+- dramatic rim light
+- RGB
+- neon
+- theatrical lighting
+
+--------------------------------------------------
+FOREGROUND EXPOSURE
+--------------------------------------------------
+
+Do NOT separately brighten:
+
+- smartphone
+- phone case
+- hand
+- sleeve
+
+Keep them integrated into the same physical room light.
+
+The product should stand out through:
+
+> FOCUS
+> + SCALE
+> + COMPOSITION
+> + AUTHENTIC PRODUCT COLORS.
+
+Do NOT use:
+
+- halo
+- spotlight
+- local exposure boost
+- glowing edge
+
+--------------------------------------------------
+SKIN TONE
+--------------------------------------------------
+
+Keep skin:
+
+- natural
+- softly illuminated
+- readable
+- realistic
+
+Compared with an underexposed result:
+
+> ALLOW SLIGHTLY MORE SKIN MIDTONE VISIBILITY.
+
+But do NOT create:
+
+- bright beauty-filter skin
+- orange skin
+- yellow skin
+- excessive pink
+- waxy texture
+
+--------------------------------------------------
+CLOTHING EXPOSURE
+--------------------------------------------------
+
+The striped shirt should remain:
+
+> SOFT CREAM-WHITE / OFF-WHITE.
+
+It should retain:
+
+- cotton texture
+- visible folds
+- subtle gray / cream shading
+- clearly readable black stripes
+
+Compared with the old darker Image 03:
+
+> THE SLEEVE MAY BE SLIGHTLY BRIGHTER AND CLEARER.
+
+But it must NOT become glowing pure white.
+
+--------------------------------------------------
+DEPTH OF FIELD
+--------------------------------------------------
+
+Use realistic smartphone-camera depth of field.
+
+Foreground:
+
+> INSTALLED PRODUCT + HAND = SHARPEST.
+
+Background:
+
+> SLIGHTLY SOFTER
+> BUT STILL RECOGNIZABLE.
+
+Do NOT use:
+
+- extreme DSLR bokeh
+- fake portrait-mode cutout
+- smeared room
+- artificial background blur
+
+--------------------------------------------------
+REALISM
+--------------------------------------------------
+
+The final image must look like:
+
+> A REAL MODERN SMARTPHONE-CAPTURED
+> TIKTOK AFFILIATE PRODUCT PHOTO.
+
+Preserve:
+
+- realistic skin
+- natural hand texture
+- believable smartphone weight
+- accurate phone-case material
+- authentic transparency / opacity
+- realistic camera glass
+- restrained reflections
+- natural cotton fabric
+- real-world perspective
+- natural tonal depth
+- subtle smartphone optical softness
+
+Avoid:
+
+- CGI
+- 3D render
+- product mockup
+- fake HDR
+- hyper-sharp AI texture
+- waxy skin
+- glowing plastic
+- floating phone
+- commercial studio rendering
+
+--------------------------------------------------
+NO EXTRA OBJECTS
+--------------------------------------------------
+
+Do NOT add:
+
+- second smartphone
+- second case
+- separate empty case
+- packaging
+- protective film
+- box
+- charger
+- cable
+- second hand
+- unrelated handheld prop
+- captions
+- text overlay
+- watermark
+
+Objects genuinely present in Image A may remain.
+
+--------------------------------------------------
+PRIORITY HIERARCHY
+--------------------------------------------------
+
+If anything conflicts, prioritize:
+
+1. exact installed smartphone + case identity from Image B
+2. exact camera geometry
+3. exact material / transparency / opacity
+4. artwork if present OR exact plain-surface identity
+5. authentic product colors
+6. correct installed fit
+7. realistic LEFT-hand anatomy
+8. physical background identity from Image A
+9. MATCH IMAGE 01 COLOR / EXPOSURE
+10. clothing
+11. photorealism
+
+If result is too dark:
+
+> OPEN MIDTONES SLIGHTLY
+> + OPEN DEEP SHADOWS SLIGHTLY
+> + RAISE AMBIENT EXPOSURE SLIGHTLY.
+
+Do NOT solve darkness by blowing highlights.
+
+If result is too bright:
+
+> LOWER MIDTONES SLIGHTLY
+> + CONTROL WHITE POINT
+> + KEEP SOFT SHADOW DEPTH.
+
+If result is too yellow:
+
+> REDUCE YELLOW / ORANGE
+> WHILE KEEPING THE LIGHT WARM-GRAY CHARACTER.
+
+--------------------------------------------------
+HARD CONSTRAINTS
+--------------------------------------------------
+
+FORMAT:
+- 1080 × 1920
+- Vertical 9:16
+- FIRST FRAME OF CLIP 2
+- exactly TWO references
+
+PRODUCT:
+- Image B = exact installed product
+- ONE smartphone + ONE fully installed case
+- no installation action
+- no empty case
+- no duplicate phone / case
+- exact SKU
+- exact silhouette
+- exact proportions
+- exact material
+- exact transparency / opacity
+- exact case fit
+- exact camera geometry
+- exact phone hardware
+- exact authentic product colors
+- plain stays plain
+- decorated stays decorated
+- transparent stays transparent
+- translucent stays translucent
+- opaque stays opaque
+
+ORIENTATION:
+- primarily BACK view
+- approximately 0–5°
+- preferred 0–3°
+- no strong side angle
+- no front-screen view
+
+SCALE:
+- approximately 34–42% of frame height
+- complete installed phone visible
+
+HAND / CLOTHING:
+- ONE feminine LEFT hand
+- nude / pale-pink manicure
+- realistic anatomy
+- cream-white / off-white striped cotton long-sleeve T-shirt
+- thin black horizontal stripes
+- NOT knitted sweater
+
+BACKGROUND:
+- Image A = exact physical environment
+- preserve whatever room actually exists
+- no fixed room-object assumptions
+- no forced white Korean-desk layout
+- preserve major objects
+- preserve perspective
+- no major redesign
+- practical lights follow Image A
+
+COLOR / EXPOSURE — MATCH IMAGE 01:
+- medium-light
+- softly illuminated
+- slightly subdued
+- clearly brighter than previous too-dark Image 03 result
+- approximately +0.15 to +0.25 stop relative to previous too-dark Image 03
+- approximately 4–7% brighter than previous too-dark output
+- approximately 0.2–0.35 stop darker than a normal bright lifestyle photo
+- approximately 5–10% below bright Pinterest / TikTok output
+- DO NOT use previous 0.4–0.7 stop reduction
+- DO NOT use previous 12–18% darker target
+- slightly opened midtones
+- slightly opened deep shadows
+- softly reduced white point
+- soft visible shadow depth
+- controlled rolled-off highlights
+- light warm-gray / light greige character
+- neutral to very slightly warm-neutral WB
+- subtle cream influence only
+- slightly muted environmental saturation
+- NO high-key white wash
+- NO glowing white surfaces
+- NO dark moody underexposure
+- NO crushed shadows
+- NO muddy dark taupe
+- NO strong yellow cast
+- NO orange / gold / amber
+- NO brown / sepia
+- NO cold cyan / icy blue processing
+- authentic background colors preserved
+- exact product colors preserved
+
+REALISM:
+- realistic smartphone depth of field
+- realistic skin
+- realistic material
+- no CGI
+- no fake HDR
+- no text
+- no watermark
+
+--------------------------------------------------
+FINAL RESULT
+--------------------------------------------------
+
+Create one highly realistic 1080 × 1920 vertical TikTok-style FIRST FRAME OF CLIP 2 showing:
+
+> ONE EXACT SMARTPHONE
+> ALREADY FULLY INSTALLED
+> INSIDE THE EXACT PHONE CASE FROM IMAGE B,
+
+held naturally by:
+
+> ONE FEMININE LEFT HAND,
+
+in:
+
+> THE SAME PHYSICAL ENVIRONMENT FROM IMAGE A.
+
+Show the installed product primarily from the BACK.
+
+Use:
+
+> approximately 0–5° rotation,
+> preferably 0–3°.
+
+Product scale:
+
+> approximately 34–42% OF FRAME HEIGHT.
+
+Preserve whatever product actually exists:
+
+> PLAIN STAYS PLAIN.
+> DECORATED STAYS DECORATED.
+> TRANSPARENT STAYS TRANSPARENT.
+> TRANSLUCENT STAYS TRANSLUCENT.
+> OPAQUE STAYS OPAQUE.
+
+Preserve whatever physical environment exists in Image A.
+
+Most importantly:
+
+> MATCH THE SUCCESSFUL IMAGE 01 COLOR / LIGHTING CHARACTER.
+
+The corrected Image 03 must be:
+
+> SLIGHTLY BRIGHTER THAN THE PREVIOUS IMAGE 03 OUTPUT,
+
+while remaining:
+
+> SLIGHTLY DARKER THAN A NORMAL BRIGHT TIKTOK / PINTEREST IMAGE.
+
+The target is:
+
+> MEDIUM-LIGHT
+> + SOFT
+> + COZY
+> + CHILL
+> + SLIGHTLY SUBDUED
+> + LIGHT WARM-GRAY / GREIGE
+> + CLEAR MIDTONES
+> + SOFT READABLE SHADOWS
+> + CONTROLLED HIGHLIGHTS
+> + NATURAL SMARTPHONE RENDERING.
+
+Compared with the previous dark Image 03:
+
+> RAISE AMBIENT EXPOSURE SLIGHTLY.
+
+> OPEN THE MIDTONES SLIGHTLY.
+
+> OPEN THE DEEPEST SHADOWS SLIGHTLY.
+
+> DO NOT RAISE THE WHITE POINT AGGRESSIVELY.
+
+> DO NOT REMOVE SHADOW DEPTH.
+
+The correct appearance should feel:
+
+> LIGHT ENOUGH TO SEE EVERYTHING CLEARLY
+> + DARK ENOUGH TO RETAIN NATURAL DEPTH.
+
+Do NOT create:
+
+> DARK / MOODY / MURKY.
+
+Do NOT create:
+
+> BRIGHT / AIRY / HIGH-KEY / PURE WHITE.
+
+Use:
+
+> LIGHT GREIGE,
+> NOT DARK TAUPE.
+
+Use:
+
+> SOFT OFF-WHITE,
+> NOT GLOWING WHITE.
+
+Use:
+
+> GENTLE READABLE SHADOWS,
+> NOT CRUSHED SHADOWS.
+
+Use:
+
+> OPEN BUT SLIGHTLY DENSE MIDTONES,
+> NOT DARK MIDTONES.
+
+CRITICAL:
+
+> THE DARK INSTALLED SMARTPHONE MUST NOT CAUSE
+> THE BACKGROUND TO BECOME BRIGHT WHITE.
+
+BUT ALSO:
+
+> DO NOT OVER-COMPENSATE
+> BY MAKING THE ENTIRE ROOM TOO DARK.
+
+Above all:
+
+> IMAGE A CONTROLS THE PHYSICAL BACKGROUND.
+
+> IMAGE B CONTROLS THE EXACT INSTALLED PRODUCT.
+
+> IMAGE 01 CONTROLS THE DESIRED COLOR / EXPOSURE CHARACTER.
+
+> PRESERVE EXACT PHONE-CASE COLORS.
+
+> PRESERVE TRUE BACKGROUND COLORS.
+
+> BRIGHTEN THE OLD IMAGE 03 RESULT ONLY SLIGHTLY.
+
+> KEEP THE FINAL RESULT SOFT, MEDIUM-LIGHT, COZY AND NATURAL.

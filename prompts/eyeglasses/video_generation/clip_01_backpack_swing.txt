@@ -1,0 +1,281 @@
+Create a realistic 10 second vertical 9 by 16 TikTok product video using the two provided images.
+
+Keep the exact same glasses, same female hand, same manicure, same white fluffy sleeve, same room, same background objects, and exactly the same lighting throughout the entire video.
+
+The glasses are the main subject.
+
+Most importantly, keep the FRONT of the glasses facing the viewer throughout the video.
+
+The front frame and both lenses must remain clearly visible in every viewpoint.
+
+Do not show the back of the glasses as the main view.
+
+Do not rotate the glasses far enough to expose too much of the rear side.
+
+The folded temple arms may be partially visible behind the front frame, but they must remain secondary.
+
+The front frame and lenses must always dominate the product view.
+
+CAMERA VIEWPOINT CHANGES
+
+Show four clearly different camera viewpoints during the 10 second video.
+
+Do not show the camera moving between these viewpoints.
+
+At approximately 2.5 seconds, 5 seconds, and 7.5 seconds, immediately begin from a substantially different camera position.
+
+There must be no visible camera travel between these positions.
+
+Do not create one continuous camera orbit.
+
+Do not gradually rotate around the glasses.
+
+The viewpoint changes must be obvious.
+
+However, every viewpoint must remain primarily front facing.
+
+Change camera position, camera height, camera distance, framing, and slight horizontal angle without moving around to the rear of the glasses.
+
+FROM 0 TO 2.5 SECONDS
+
+Begin from the provided first image.
+
+Show a clean front view of the folded glasses.
+
+Both lenses and the complete front frame should be clearly visible.
+
+Use a normal product showcase distance.
+
+Use only tiny natural hand movement.
+
+Keep the camera mostly stable.
+
+AT ABOUT 2.5 SECONDS
+
+Immediately begin from a new camera position.
+
+Do not show the camera moving to the new position.
+
+FROM 2.5 TO 5 SECONDS
+
+Show a slightly left front three quarter view.
+
+This is still primarily a FRONT VIEW.
+
+Keep approximately 80 percent of the visual emphasis on the front of the glasses.
+
+Both lenses must remain clearly visible.
+
+The bridge and overall front frame silhouette must remain easy to see.
+
+Move the camera noticeably to the left and slightly closer to create a clearly different composition.
+
+Use only a mild horizontal angle.
+
+Do not rotate far toward the side.
+
+Do not reveal the back of the glasses as the main subject.
+
+Use a small natural wrist tilt while keeping the front facing the viewer.
+
+AT ABOUT 5 SECONDS
+
+Immediately begin from another new camera position.
+
+Do not show the transition between camera positions.
+
+FROM 5 TO 7.5 SECONDS
+
+Show a closer front view from a slightly lower camera position.
+
+The camera is physically closer and slightly lower.
+
+The glasses appear significantly larger.
+
+Both lenses and the complete front frame remain clearly visible.
+
+This viewpoint should feel different because of camera height, distance, framing, and perspective.
+
+Do not achieve the difference by rotating the glasses toward their rear side.
+
+Keep the front face dominant.
+
+A small amount of frame thickness may be visible naturally.
+
+The folded temple arms remain behind the front frame and should not become the visual focus.
+
+AT ABOUT 7.5 SECONDS
+
+Immediately begin from the final camera position.
+
+Do not show camera travel.
+
+FROM 7.5 TO 10 SECONDS
+
+Show a close front dominant hero view.
+
+Use the provided last image as the main target while prioritizing clear visibility of the front frame.
+
+Keep both lenses clearly visible.
+
+Keep the bridge clearly visible.
+
+Keep the recognizable front silhouette clearly visible.
+
+A slight oblique angle is allowed, but the front of the glasses must remain dominant.
+
+Do not rotate toward a strong side view.
+
+Do not expose the rear construction more than necessary.
+
+Use only tiny natural hand movement.
+
+Finish with a clean product focused close up.
+
+FRONT VIEW PRIORITY
+
+This rule applies to the entire video.
+
+Always prioritize the front face of the glasses.
+
+Both lenses should remain visible in every major product view.
+
+The front frame silhouette should remain easy to recognize.
+
+The bridge should remain visible.
+
+The front rim should remain visible.
+
+Use camera angle changes without losing the front presentation.
+
+Prefer front view and mild front three quarter views.
+
+Avoid strong side views.
+
+Avoid rear three quarter views.
+
+Avoid back views.
+
+Avoid angles where one lens becomes mostly hidden.
+
+Avoid angles where the folded temple arms dominate the image.
+
+Avoid angles where the hinges become more visually important than the front frame.
+
+Do not turn the glasses around.
+
+Do not show the inside of the glasses as the main product view.
+
+Do not point the rear side of the glasses toward the camera.
+
+LIGHTING LOCK
+
+Keep the lighting exactly consistent with the provided images.
+
+Maintain the same brightness throughout the entire video.
+
+Maintain the same exposure.
+
+Maintain the same white balance.
+
+Maintain the same color temperature.
+
+Maintain the same light direction.
+
+Maintain the same shadows.
+
+Maintain the same highlights.
+
+Maintain the same background brightness.
+
+Never make the video darker.
+
+Never make the video brighter.
+
+Do not use automatic exposure adjustment.
+
+Do not use exposure breathing.
+
+Do not add light bloom.
+
+Do not add glow.
+
+Do not add light leaks.
+
+Do not add lens flare.
+
+Do not change lighting after a viewpoint change.
+
+Every viewpoint must look like it was filmed under exactly the same fixed lighting.
+
+PRODUCT LOCK
+
+Use the exact same physical pair of glasses throughout the video.
+
+Preserve the exact front frame shape, lens shape, bridge, proportions, rim thickness, color, transparency, material, hinges, temple arms, hardware, and visible details.
+
+The glasses remain fully folded.
+
+Both temple arms remain folded behind the front frame.
+
+Do not open the glasses.
+
+Do not redesign the glasses.
+
+Do not change product geometry between viewpoints.
+
+HAND AND GRIP
+
+Use the same female hand, manicure, nail art, and white fluffy sleeve throughout the video.
+
+The thumb and index finger hold the rear overlapping point of the folded temple arms behind the front frame.
+
+Keep the fingers behind the visible front of the glasses.
+
+Do not cover either lens.
+
+Do not cover the bridge.
+
+Do not cover important front frame details.
+
+The hand must not force the glasses into a rear facing presentation.
+
+BACKGROUND
+
+Use the same physical room throughout the entire video.
+
+Keep all existing background objects in their original physical locations.
+
+Do not add, remove, duplicate, or rearrange objects.
+
+Background perspective may naturally change when the camera position changes.
+
+The room itself must remain identical.
+
+The background brightness and lighting must remain unchanged.
+
+FINAL TARGET
+
+Create a 10 second TikTok product video with four clearly different camera viewpoints.
+
+The viewpoint changes must be immediately noticeable.
+
+Create the differences mainly through camera position, camera height, camera distance, framing, and mild front angle changes.
+
+Do not create the differences by rotating around to the back of the glasses.
+
+Viewpoint one is a clean front view.
+
+Viewpoint two is a slightly left but still front dominant view.
+
+Viewpoint three is a closer and slightly lower front view.
+
+Viewpoint four is a close front dominant hero view.
+
+The front frame and both lenses remain the main visual information throughout the entire video.
+
+The back of the glasses must never become the main view.
+
+Keep the original lighting completely unchanged from beginning to end.
+
+Keep the exact same glasses, hand, manicure, sleeve, room, and background throughout the video.

@@ -1,0 +1,384 @@
+# KEYCHAIN SCRIPT GENERATION PROMPT
+
+Hãy viết một đoạn script ngắn dùng để đọc bằng giọng nói AI cho video TikTok dài khoảng **8 giây**.
+
+Hình ảnh đầu vào là **một bàn tay đang cầm chiếc móc khóa để trình bày trước camera**.
+
+Hãy sử dụng ảnh này làm nguồn thông tin thị giác duy nhất để nhận biết chiếc móc khóa, vibe tổng thể và những chi tiết nổi bật có thể nhìn thấy.
+
+Không giả định có thêm cảnh khác ngoài hình ảnh được cung cấp.
+
+## Yêu cầu đầu ra
+
+* Ngôn ngữ: Tiếng Việt.
+* Giọng văn: Tự nhiên, thân thiện, giống người miền Bắc trò chuyện.
+* Viết thành một đoạn nói liền mạch.
+* Độ dài phù hợp để đọc trong khoảng **7–9 giây**.
+* Câu ngắn, dễ đọc bằng giọng AI.
+* Không hashtag.
+* Không tiêu đề.
+* Không gạch đầu dòng trong kết quả.
+* Chỉ trả về nội dung script hoàn chỉnh.
+
+---
+
+## Định hướng nội dung quan trọng
+
+Không cần cố gắng mô tả chi tiết toàn bộ chiếc móc khóa.
+
+Không liệt kê lần lượt màu sắc, hình dáng, dây treo, khoen móc, bề mặt, độ dày và từng chi tiết trang trí.
+
+Thay vào đó, hãy ưu tiên thể hiện:
+
+* Cảm xúc đầu tiên khi nhìn thấy móc khóa.
+* Cảm giác hoặc vibe mà sản phẩm mang lại.
+* Một chi tiết nổi bật nhất khiến sản phẩm nhìn có nét hoặc đáng nhớ.
+* Phản ứng tự nhiên khi nhìn chiếc móc khóa đang được cầm trên tay.
+* Ấn tượng tổng thể mà chiếc móc khóa tạo ra về mặt thị giác.
+
+Tỷ lệ nội dung nên ưu tiên khoảng:
+
+* **70% cảm xúc, vibe và phản ứng tự nhiên.**
+* **30% mô tả điểm nổi bật có thể nhìn thấy.**
+
+Do video chỉ dài khoảng 8 giây, chỉ chọn tối đa **1–2 đặc điểm nổi bật nhất**. Không cố nói hết những gì xuất hiện trong hình.
+
+Script phải nghe giống một người vừa nhìn thấy món đồ dễ thương và buột miệng chia sẻ với bạn bè, không giống người đang phân tích sản phẩm.
+
+---
+
+## Không giả vờ trải nghiệm thật
+
+Đây là video được tạo bằng AI.
+
+Không được viết theo hướng người nói đã mua, sở hữu hoặc sử dụng sản phẩm.
+
+Không sử dụng những câu như:
+
+* “Mình mới mua em này.”
+* “Mình dùng một thời gian thấy…”
+* “Mình treo lên balo rồi.”
+* “Cầm nhẹ lắm.”
+* “Móc rất chắc.”
+* “Dùng lâu không bị rơi.”
+* “Ngoài đời đẹp hơn.”
+* “Chất lượng rất tốt.”
+
+Không kể chuyện giả như vừa nhận hàng, vừa mở hộp hoặc đã dùng sản phẩm trong thời gian dài.
+
+Chỉ bình luận về những gì nhìn thấy và cảm giác thị giác mà hình ảnh mang lại.
+
+Có thể nói:
+
+* “Nhìn em này cưng thật.”
+* “Cái vibe trông vui mắt ghê.”
+* “Nhìn trên tay thế này có điểm nhấn thật.”
+* “Nhìn em này càng thấy có nét.”
+* “Cái biểu cảm nhìn ngộ ghê.”
+* “Phối màu nhìn dịu mắt thật.”
+* “Nhỏ nhỏ mà nhìn cuốn phết.”
+* “Nhìn kiểu này tự nhiên thấy vui vui.”
+
+---
+
+## Hook trong 3 giây đầu
+
+Câu đầu tiên phải tạo được sự chú ý nhưng vẫn tự nhiên.
+
+Hook nên giống phản ứng bật ra ngay khi nhìn thấy móc khóa, không giống câu quảng cáo được viết sẵn.
+
+Vì toàn bộ video chỉ dài khoảng 8 giây, hook cần **ngắn, vào thẳng cảm xúc và không chiếm quá nhiều thời lượng**.
+
+Có thể mở đầu theo những hướng như:
+
+* “Ê khoan, nhìn em này cưng chưa…”
+* “Ơ từ từ, cái mặt này là sao đây…”
+* “Này nha, nhỏ vậy mà có nét ghê…”
+* “Khoan lướt, nhìn biểu cảm em này nè…”
+* “Trời ơi, nhìn em này vui ghê…”
+* “Ủa sao nhìn cưng thế…”
+* “Nhỏ vậy mà cuốn phết…”
+* “Ơ cái vibe này yêu thật đấy…”
+
+Hook cần liên quan đến điểm nổi bật thực tế trong hình ảnh.
+
+Không mở đầu bằng:
+
+* “Đây là một chiếc móc khóa.”
+* “Hôm nay mình sẽ giới thiệu.”
+* “Sản phẩm hôm nay là.”
+* “Mình sẽ review cho mọi người.”
+* “Móc khóa quốc dân.”
+* “Sản phẩm must-have.”
+* “Phải mua ngay.”
+* “Không mua là tiếc.”
+
+---
+
+## Cách dùng hình ảnh
+
+Hình ảnh đầu vào chỉ gồm **MỘT ảnh duy nhất của bàn tay đang cầm chiếc móc khóa**.
+
+Không giả định rằng có nhiều ảnh, nhiều frame hoặc nhiều cảnh khác nhau.
+
+Không nói:
+
+* “Ở ảnh đầu tiên…”
+* “Sang ảnh tiếp theo…”
+* “Trong khung hình tiếp theo…”
+* “Sau đó người quay đưa sản phẩm lại gần…”
+* “Ở cảnh cuối…”
+* “Tiếp theo có thể nhìn thấy…”
+* “Khi chuyển sang góc khác…”
+
+Không kể lại hoặc tự tưởng tượng diễn biến của video không có trong input.
+
+Hãy dùng hình ảnh để nhận ra:
+
+* Cảm xúc hoặc biểu cảm nổi bật của nhân vật trên móc khóa.
+* Vibe tổng thể như đáng yêu, tinh nghịch, hài hước, nhẹ nhàng, cá tính hoặc vui mắt.
+* Màu sắc hoặc artwork nổi bật nếu thực sự đáng chú ý.
+* Một chi tiết khiến sản phẩm có nét riêng.
+* Ấn tượng tổng thể khi chiếc móc khóa được cầm trên tay và trình bày trước camera.
+
+Chỉ sử dụng những mô tả thực sự phù hợp với hình ảnh.
+
+Không suy diễn những phần không nhìn thấy rõ.
+
+Không tự động gọi mọi sản phẩm là phong cách Hàn Quốc, Nhật Bản, anime, Y2K, vintage hoặc Pinterest nếu hình ảnh không thể hiện rõ.
+
+---
+
+## Ưu tiên cảm xúc tự nhiên
+
+Script có thể tập trung vào những cảm giác như:
+
+* Nhìn cưng.
+* Nhìn vui mắt.
+* Có cảm giác tinh nghịch.
+* Nhìn nhỏ nhưng có điểm nhấn.
+* Biểu cảm khiến người xem buồn cười.
+* Có nét riêng.
+* Mang lại cảm giác trẻ trung.
+* Nhìn đáng yêu.
+* Mang lại cảm giác nhẹ nhàng hoặc dễ chịu.
+* Có một chi tiết khiến người xem chú ý ngay.
+
+Có thể dùng các câu mang tính phản ứng như:
+
+* “Tự nhiên nhìn em này thấy vui vui.”
+* “Cái mặt nhìn ngơ ngơ mà yêu thật.”
+* “Nhỏ nhỏ thôi mà có điểm nhấn ghê.”
+* “Không cần cầu kỳ mà vẫn có nét.”
+* “Nhìn cái biểu cảm này cuốn ghê.”
+* “Nhỏ nhỏ thôi mà cứ làm mình chú ý.”
+* “Cái vibe này nhìn là thấy cưng.”
+* “Nhìn đáng yêu mà hơi tinh nghịch.”
+
+Không cần câu nào cũng chứa thông tin về sản phẩm. Có thể dành một phần script để thể hiện cảm giác hoặc phản ứng tự nhiên.
+
+Do thời lượng chỉ khoảng 8 giây, ưu tiên **một ý chính rõ ràng** thay vì cố đưa nhiều nhận xét vào cùng một script.
+
+---
+
+## Không suy đoán
+
+Không khẳng định những điều không thể kiểm chứng qua hình ảnh, bao gồm:
+
+* Độ bền.
+* Độ chắc chắn.
+* Khả năng chịu lực.
+* Khả năng chống nước hoặc chống xước.
+* Trọng lượng.
+* Cảm giác cầm thật.
+* Độ mềm thật.
+* Chất lượng sản phẩm.
+* Khả năng sử dụng lâu dài.
+* Giá tiền.
+* Nguồn gốc.
+* Thương hiệu nếu không nhìn thấy rõ.
+
+Không dùng các từ như “xịn”, “cao cấp”, “bền”, “chắc”, “nhẹ”, “êm”, “chất lượng tốt” để khẳng định trải nghiệm.
+
+Việc móc khóa đang được cầm trên tay **không có nghĩa là được phép suy đoán cảm giác khi cầm**.
+
+Không nói:
+
+* “Cầm nhẹ.”
+* “Cầm mềm.”
+* “Sờ thích.”
+* “Cảm giác cầm chắc.”
+* “Cầm rất vừa tay.”
+
+Chỉ có thể nhận xét về những gì nhìn thấy.
+
+Có thể nói theo cảm nhận thị giác:
+
+* “Nhìn bề mặt có vẻ bông bông.”
+* “Phần thân trông khá dày khi nhìn nghiêng.”
+* “Màu nhìn dịu mắt.”
+* “Chi tiết kim loại làm tổng thể nổi bật hơn.”
+
+---
+
+## Phong cách nói
+
+Script phải:
+
+* Tự nhiên.
+* Đời thường.
+* Có cảm xúc.
+* Không diễn quá mức.
+* Không giống quảng cáo.
+* Không cố thuyết phục người xem mua hàng.
+* Không liên tục gọi “mấy bà”, “chị em” hoặc “mọi người”.
+* Không dùng quá nhiều tính từ trong một câu.
+* Không biến script thành danh sách mô tả sản phẩm.
+
+Có thể dùng cách nói như:
+
+* “Ê khoan…”
+* “Ơ từ từ…”
+* “Này nha…”
+* “Trời ơi…”
+* “Nhìn cưng ghê…”
+* “Có nét thật đấy…”
+* “Nhìn vui mắt phết…”
+* “Tự nhiên thấy yêu ghê…”
+* “Nhỏ vậy mà cuốn thật…”
+* “Cái vibe này thích ghê…”
+* “Nhìn ngơ ngơ mà cưng…”
+
+---
+
+## Nhịp đọc
+
+Trong script nên có khoảng **1–2 từ được kéo dài tự nhiên** để giọng AI nghe sinh động hơn.
+
+Ví dụ:
+
+* cưnggg
+* xinhhhh
+* cuốnnn
+* yêu quáaaa
+* vui ghêeee
+* có nét ghêeee
+* đáng yêu thật sựuu
+
+Chỉ kéo dài ở những vị trí phù hợp.
+
+Không kéo dài quá nhiều từ liên tiếp và không làm câu trở nên khó nghe.
+
+Vì video chỉ dài khoảng 8 giây, không kéo dài từ quá mức khiến script bị chậm hoặc vượt thời lượng.
+
+---
+
+## Cấu trúc gợi ý
+
+Với video khoảng 8 giây, ưu tiên cấu trúc ngắn gọn:
+
+1. Mở đầu ngay bằng một phản ứng hoặc cảm xúc gây chú ý.
+2. Nhắc một điểm nổi bật nhất có thể nhìn thấy trên chiếc móc khóa.
+3. Kết thúc bằng một phản ứng hoặc câu cảm thán tự nhiên về vibe tổng thể.
+
+Không cần cố nhồi đủ nhiều ý.
+
+Nếu thời lượng không cho phép, ưu tiên:
+
+**hook + một điểm nổi bật + phản ứng cuối**
+
+Không cần mô tả hành động của bàn tay.
+
+Không cần nói:
+
+* “đang cầm trên tay”
+* “đưa lên camera”
+* “đưa lại gần”
+* “xoay sang bên”
+* “gắn lên balo”
+
+trừ khi một hành động thực sự được thể hiện rõ trong dữ liệu đầu vào.
+
+Với input hiện tại chỉ là một ảnh tĩnh, hãy ưu tiên phản ứng với **bản thân chiếc móc khóa**, không xây dựng script dựa trên diễn biến không tồn tại.
+
+Không bắt buộc phải bám cứng từng bước nếu một cách diễn đạt khác nghe tự nhiên hơn.
+
+Mục tiêu quan trọng nhất là script phải có cảm giác như lời nói bật ra tự nhiên, không phải đoạn mô tả được viết theo công thức.
+
+---
+
+## Ví dụ về hướng viết mong muốn
+
+Hướng phù hợp:
+
+“Ê khoan, nhìn em này cưnggg chưa… Cái mặt ngơ ngơ nhìn vui ghê, nhỏ nhỏ vậy mà có nét cuốnnn thật.”
+
+Hướng không phù hợp:
+
+“Chiếc móc khóa có thiết kế hình nhân vật màu trắng, phần mắt màu đen, có dây treo và khoen kim loại. Sản phẩm có kích thước nhỏ gọn.”
+
+Hướng không phù hợp vì tự bịa thêm bối cảnh:
+
+“Gắn em này lên balo một cái là nhìn nổi bật hẳn, đưa gần camera lại càng thấy xinh.”
+
+Ví dụ chỉ dùng để hiểu phong cách. Không được sao chép nguyên văn nếu không phù hợp với hình ảnh.
+
+---
+
+## Yêu cầu cuối cùng
+
+Hãy viết một đoạn script nghe giống một người vừa nhìn thấy chiếc móc khóa đang được trình bày trên tay và chia sẻ cảm xúc đầu tiên với bạn bè.
+
+Ưu tiên cảm giác, vibe và phản ứng tự nhiên hơn việc mô tả chi tiết sản phẩm.
+
+Chỉ nhắc đến **1–2 đặc điểm thực sự nổi bật** trong hình ảnh.
+
+Không giả vờ đã mua hoặc sử dụng sản phẩm.
+
+Không khẳng định chất lượng, độ bền hoặc tính năng không thể kiểm chứng.
+
+Không tự tưởng tượng móc khóa được gắn lên balo, đưa lại gần camera, xoay, kéo, mở hoặc thực hiện bất kỳ hành động nào không có trong hình ảnh đầu vào.
+
+Không kể lại hình ảnh một cách máy móc.
+
+Giọng văn gần gũi, có nhịp điệu và phù hợp để đọc bằng giọng AI trong video TikTok dài khoảng **8 giây**.
+
+Script cần đủ ngắn để có thể đọc tự nhiên trong khoảng **7–9 giây**, không đọc dồn hoặc tăng tốc bất thường để kịp video.
+
+Chỉ trả về một đoạn script hoàn chỉnh, không kèm giải thích, tiêu đề hoặc nội dung bổ sung.
+
+---
+
+## ĐỊNH DẠNG ĐẦU RA — BẮT BUỘC
+
+Kết quả phải được trả về dưới dạng văn bản chat bình thường trực tiếp trong câu trả lời.
+
+Không sử dụng Writing Block, Artifact, Canvas hoặc bất kỳ khung soạn thảo/nội dung đặc biệt nào.
+
+Không đặt nội dung trong:
+
+* code block
+* markdown block
+* blockquote
+* writing block
+* hộp nội dung
+* định dạng tài liệu
+* định dạng có nút chỉnh sửa hoặc sao chép riêng
+
+Không thêm tiêu đề như “Script”, “Kịch bản”, “Nội dung” hoặc “Kết quả”.
+
+Không viết câu dẫn như:
+
+* “Đây là script của bạn:”
+* “Bạn có thể dùng đoạn sau:”
+* “Script gợi ý:”
+
+Tin nhắn trả lời phải bắt đầu ngay bằng câu đầu tiên của script và kết thúc ngay sau câu cuối cùng của script.
+
+Chỉ xuất ra MỘT đoạn văn chat bình thường duy nhất.
+
+Ví dụ định dạng đầu ra đúng:
+
+Ê khoan, nhìn em này cưnggg chưa… Cái mặt ngơ ngơ nhìn vui ghê, nhỏ nhỏ vậy mà có nét cuốnnn thật.
+
+Tuyệt đối không bao quanh đoạn script bằng bất kỳ khung, dấu ``` hoặc định dạng đặc biệt nào.

@@ -129,18 +129,9 @@ def get_script_input_images(
         reference_path
     )
 
-    if category == "lipstick":
+    if category == "snack":
         selected_images = [
-            image_1,
-            image_2,
-        ]
-
-    elif category == "sandal":
-        selected_images = [
-            os.path.join(
-                base_dir,
-                "01_hand_holding.png"
-            )
+            image_1
         ]
 
     elif category == "keychain":
