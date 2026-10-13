@@ -1,0 +1,421 @@
+﻿ULTRA-PHOTOREALISTIC SEATED FOOTWEAR POSE TRANSFORMATION
+SINGLE IMAGE INPUT | CROSSED LEGS → BOTH FEET ON FLOOR
+EXACT PRODUCT PRESERVATION | SAME PERSON | SAME SCENE
+1. ROLE AND PRIMARY OBJECTIVE
+You are an expert AI fashion photographer, footwear product visualization specialist, human anatomy reconstruction expert, and photorealistic image editing director.
+You are given ONE reference image showing a person sitting while showcasing a pair of footwear.
+In the reference image, one leg may be raised, crossed over the other leg, or extended diagonally, while the other foot is positioned closer to the floor.
+Your task is to generate ONE NEW ultra-photorealistic photograph showing the EXACT SAME PERSON, wearing the EXACT SAME FOOTWEAR and outfit, in the EXACT SAME ENVIRONMENT.
+THE ONLY INTENDED CHANGE IS THE SEATED LEG POSE.
+Transform the original crossed-leg or raised-leg position into a natural seated posture where:
+BOTH FEET ARE PLACED FLAT ON THE FLOOR.
+The person must remain seated throughout the imagined sequence.
+The final result should look like a second photograph captured moments later during the same footwear try-on session.
+This is a localized pose transformation task, NOT a new lifestyle image generation task.
+________________
+
+
+2. INPUT IMAGE — MASTER REFERENCE
+The uploaded image is the authoritative visual reference for the entire scene.
+Analyze and preserve all identifiable elements.
+A. FOOTWEAR
+Preserve:
+* Exact footwear model.
+* Exact colors and undertones.
+* Original silhouette.
+* Toe box shape.
+* Upper materials.
+* Sole thickness.
+* Heel height and geometry.
+* Straps, buckles, laces, and fasteners.
+* Stitching and decorative elements.
+* Logos and branding.
+* Surface texture and finish.
+Both shoes must remain the same matching left-and-right pair.
+B. PERSON
+Preserve:
+* Same person.
+* Skin tone.
+* Visible body proportions.
+* Thigh and lower-leg proportions.
+* Natural anatomical characteristics.
+* Clothing and accessories.
+Do not change the person's identity or appearance.
+C. OUTFIT
+Preserve the exact:
+* Pants, shorts, or skirt.
+* Socks.
+* Sock length.
+* Sock color.
+* Sock patterns.
+* Clothing materials.
+* Fabric texture.
+* Overall styling.
+Do not generate a new outfit.
+D. ENVIRONMENT
+Preserve:
+* Floor.
+* Furniture.
+* Chair or seating surface.
+* Walls.
+* Background objects.
+* Lighting conditions.
+* Environmental colors.
+* Camera perspective.
+* Overall photographic atmosphere.
+The new image must clearly belong to the same location and photographic sequence.
+________________
+
+
+3. MANDATORY NEW POSE — BOTH FEET FLAT ON THE FLOOR
+THIS SECTION HAS THE HIGHEST PRIORITY.
+The person must remain seated.
+Both legs must be lowered naturally.
+Both feet must rest on the floor.
+LEFT LEG
+The left thigh extends naturally forward from the seated position.
+The left knee is bent in a comfortable seated posture.
+The left lower leg descends toward the floor.
+The left foot rests naturally on the ground.
+The left shoe must have full, believable floor contact.
+RIGHT LEG
+The right thigh extends naturally forward from the seated position.
+The right knee is bent in a comfortable seated posture.
+The right lower leg descends toward the floor.
+The right foot rests naturally on the ground.
+The right shoe must have full, believable floor contact.
+FOOT POSITIONING
+Position both feet naturally in front of the seated person.
+Prefer:
+* Feet approximately hip-width apart.
+* Both soles resting flat on the floor.
+* Toes pointing generally forward.
+* Slight natural outward rotation when appropriate.
+* Small asymmetry in foot placement.
+* Relaxed ankle alignment.
+* Comfortable seated weight distribution.
+The two feet may be slightly staggered in depth to create a natural, casual appearance.
+However, neither foot may be raised.
+ABSOLUTE POSE CONSTRAINTS
+* Both feet must touch the floor.
+* Both heels must touch the floor.
+* Both forefeet must touch the floor.
+* Neither leg may cross over the other.
+* Neither foot may rest on the opposite knee.
+* Neither foot may be suspended in the air.
+* Neither foot may be positioned behind the other leg in a way that hides the footwear.
+THE FINAL POSE MUST CLEARLY SHOW TWO FEET RESTING ON THE GROUND WHILE THE PERSON REMAINS SEATED.
+________________
+
+
+4. TRANSFORMATION FROM THE ORIGINAL POSE
+Interpret the uploaded image as FRAME A.
+Generate FRAME B showing the natural final posture after the person has uncrossed and lowered their legs.
+PHYSICAL TRANSFORMATION LOGIC
+1. Identify which leg is raised or crossed.
+2. Preserve the original supporting leg where possible.
+3. Anatomically reposition the raised leg downward.
+4. Adjust the knee and ankle orientation naturally.
+5. Place the raised foot onto the floor.
+6. Adjust the other leg only as much as necessary.
+7. Reconstruct the natural fabric folds.
+8. Update the floor contact shadows.
+9. Maintain consistent footwear geometry.
+The new image represents the END STATE of this movement.
+Do not depict motion blur.
+Do not generate intermediate poses.
+Do not show multiple positions of the same leg.
+Do not generate a motion sequence or collage.
+________________
+
+
+5. STRICT FOOTWEAR PRODUCT IDENTITY LOCK
+The footwear is the HERO PRODUCT.
+The exact same pair of shoes from the input image must appear in the output.
+PRODUCT CONSISTENCY
+Preserve:
+* Shoe size and proportions.
+* Toe geometry.
+* Heel structure.
+* Sole construction.
+* Upper materials.
+* Color.
+* Surface texture.
+* Straps and buckles.
+* Laces and fasteners.
+* Logos.
+* Decorative details.
+Do not redesign the footwear.
+Do not substitute another model.
+Do not modify the sole thickness or heel height.
+Do not change the fastening system.
+LEFT–RIGHT ANATOMICAL ACCURACY
+Maintain exactly:
+* One LEFT shoe on the LEFT foot.
+* One RIGHT shoe on the RIGHT foot.
+The shoes must retain complementary anatomical construction.
+Do not duplicate the same-side shoe.
+Do not reverse logos or asymmetric design details.
+NEW VIEWING ANGLES
+Because the shoes are now both on the floor, their visible angles may differ from the original image.
+Reconstruct the same physical footwear accurately from the new perspective.
+Do not copy and paste the raised shoe into the lower position without correcting its three-dimensional geometry.
+________________
+
+
+6. PRESERVE THE EXACT OUTFIT
+The clothing must remain identical to the reference.
+Do not change:
+* Garment type.
+* Clothing colors.
+* Fabric materials.
+* Sock design.
+* Sock length.
+* Patterns.
+* Styling.
+NATURAL FABRIC ADAPTATION
+Allow fabric folds to change only as required by the new seated pose.
+For example:
+* Pants may crease differently around the knees.
+* Fabric may bunch naturally near the ankles.
+* Socks may stretch or relax slightly.
+* Shorts or skirts may settle naturally over the thighs.
+Do not introduce new clothing.
+Do not change the outfit's overall appearance.
+________________
+
+
+7. CAMERA ANGLE AND COMPOSITION LOCK
+Preserve the camera viewpoint established by the reference image.
+CAMERA REQUIREMENTS
+* Same approximate camera height.
+* Same front-side or three-quarter perspective.
+* Same smartphone lens appearance.
+* Same vertical framing.
+* Same image aspect ratio.
+* Same photographic style.
+The camera should remain focused on the person's lower body and footwear.
+FRAMING
+Show:
+* Seated thighs.
+* Both knees.
+* Both lower legs.
+* Socks or exposed ankles.
+* Both shoes.
+* The floor beneath the shoes.
+The person's face and upper torso should remain outside the frame.
+IMPORTANT COMPOSITION RULE
+Both shoes must be fully visible.
+Do not crop off either shoe.
+Do not hide one shoe behind the other.
+Do not position the feet so close together that the footwear becomes visually confusing.
+The two shoes should appear naturally separated, with enough space to appreciate their design.
+CAMERA CONTINUITY
+Do not change to a top-down POV.
+Do not introduce a dramatically different camera angle.
+Do not zoom excessively.
+Do not rotate the camera.
+Do not create a new fashion editorial composition.
+The output must feel like a second photograph taken from the same camera position.
+________________
+
+
+8. REALISTIC SEATED HUMAN ANATOMY
+Generate a physically plausible seated posture.
+Ensure:
+* Exactly two legs.
+* Exactly two feet.
+* Correct knee articulation.
+* Natural thigh positioning.
+* Realistic lower-leg proportions.
+* Correct ankle alignment.
+* Anatomically correct left/right orientation.
+* Believable seated weight distribution.
+KNEE AND ANKLE GEOMETRY
+Both knees should be comfortably bent.
+Both lower legs should extend naturally toward the floor.
+Both ankles should align correctly with the shoes.
+Avoid unnatural knee twisting.
+Avoid impossible foot rotation.
+Avoid stretching or shortening the legs.
+GROUND CONTACT
+Both shoes must rest naturally on the floor.
+The entire intended contact surface of each sole must align with the ground plane.
+The shoes must not float.
+The heels must not penetrate the floor.
+The soles must not appear bent unnaturally.
+________________
+
+
+9. BACKGROUND AND ENVIRONMENT PRESERVATION
+Treat the original background as a fixed physical environment.
+Preserve:
+* Floor material.
+* Floor perspective.
+* Tile lines or wood grain.
+* Furniture.
+* Shelves.
+* Chair.
+* Walls.
+* Background objects.
+* Lighting fixtures.
+* Environmental colors.
+Do not add new objects.
+Do not remove existing objects unnecessarily.
+Do not change the room layout.
+BACKGROUND RECONSTRUCTION
+The new leg positions may reveal areas of the background previously hidden by the crossed legs.
+Reconstruct these newly visible areas consistently with the surrounding environment.
+Maintain accurate floor geometry.
+Avoid duplicated textures or distorted furniture.
+________________
+
+
+10. LIGHTING AND CONTACT SHADOWS
+Preserve the original lighting.
+Maintain:
+* Same light direction.
+* Same ambient brightness.
+* Same color temperature.
+* Same contrast.
+* Same shadow softness.
+* Same environmental reflections.
+SHADOW UPDATES
+Both shoes must cast realistic contact shadows on the floor.
+The shadows must match the new foot positions.
+Remove shadows that belonged to the original raised-foot position.
+Generate natural shading between the legs.
+Do not change the overall lighting atmosphere.
+________________
+
+
+11. AUTHENTIC SMARTPHONE PHOTOGRAPHY
+The output must resemble a genuine casual photograph.
+Preserve:
+* Natural smartphone sharpness.
+* Realistic exposure.
+* Authentic skin texture.
+* Fine image noise.
+* Natural lens perspective.
+* Realistic footwear materials.
+* Everyday photographic imperfections.
+Avoid:
+* CGI appearance.
+* 3D render aesthetics.
+* Artificial skin smoothing.
+* Excessive HDR.
+* Overly polished materials.
+* Cinematic lighting.
+* Unrealistic depth of field.
+* Visible compositing artifacts.
+The photograph should look spontaneous and unedited.
+________________
+
+
+12. FOOTWEAR SHOWCASE OPTIMIZATION
+The new pose should showcase both shoes clearly.
+Unlike the original raised-leg pose, this image should emphasize how the footwear looks when both feet rest naturally on the ground.
+PRODUCT VISIBILITY
+Ensure:
+* Both toe boxes are visible.
+* Both shoe uppers are visible.
+* Both fastening systems are visible when the angle permits.
+* Both shoes have realistic proportions.
+* Both shoes are clearly separated.
+* The footwear remains the primary visual subject.
+The pose should feel casual and comfortable, not artificially arranged.
+________________
+
+
+13. STRICT NEGATIVE PROMPT
+No standing pose.
+No crossed legs.
+No raised leg.
+No suspended foot.
+No floating shoe.
+No foot resting on the opposite knee.
+No heel lifted off the floor.
+No tiptoe posture.
+No walking.
+No running.
+No dancing.
+No changed footwear.
+No shoe redesign.
+No changing shoe colors.
+No mismatched shoes.
+No two left shoes.
+No two right shoes.
+No duplicated limbs.
+No extra feet.
+No extra legs.
+No twisted knees.
+No distorted ankles.
+No unnatural leg lengths.
+No changed outfit.
+No changed socks.
+No changed background.
+No new furniture.
+No camera rotation.
+No dramatic zoom.
+No top-down standing POV.
+No CGI appearance.
+No artificial lighting.
+No motion blur.
+No multiple poses.
+No collage.
+No split-screen.
+No text overlays.
+No watermarks.
+________________
+
+
+14. FINAL QUALITY CONTROL
+Before finalizing, verify:
+1. The person is still seated.
+2. Both legs are uncrossed.
+3. Both feet are placed on the floor.
+4. Both heels touch the ground.
+5. Both shoes are fully visible.
+6. The shoes are the exact same product as the reference.
+7. The left and right shoes remain anatomically correct.
+8. The person and outfit remain unchanged.
+9. The background is consistent with the original.
+10. The camera perspective remains the same.
+11. Both shoes have realistic contact shadows.
+12. The legs and knees are anatomically plausible.
+13. The image looks like a genuine smartphone photograph.
+14. No unnecessary objects or visual effects are introduced.
+15. The new pose is clearly different from the original crossed-leg pose.
+________________
+
+
+15. FINAL EXECUTION COMMAND
+Generate ONE ultra-photorealistic vertical lifestyle photograph using the uploaded seated footwear image as the ONLY reference.
+The uploaded image shows a person sitting with one leg raised or crossed.
+Transform this into a new natural seated pose.
+THE PERSON MUST REMAIN SEATED.
+BOTH LEGS MUST BE UN-CROSSED.
+BOTH FEET MUST REST FLAT ON THE FLOOR.
+Preserve the exact same person, footwear, outfit, socks, chair, environment, lighting, and camera perspective.
+Both shoes must be clearly visible from a natural front-side or three-quarter smartphone camera angle.
+Maintain one anatomically correct left shoe and one right shoe.
+Do not change the footwear design.
+Do not change the outfit.
+Do not change the background.
+Do not generate a standing pose.
+Do not generate a new camera angle.
+Only modify the leg positions and the physically necessary clothing folds, occlusions, and shadows.
+OUTPUT FORMAT:
+* ONE image.
+* Vertical 9:16.
+* Photorealistic smartphone photography.
+* Same seated person.
+* Both legs uncrossed.
+* Both feet flat on the floor.
+* Both shoes clearly visible.
+* Same footwear product.
+* Same outfit and socks.
+* Same background and lighting.
+* No face or full-body portrait.
+FINAL GOAL:
+Create a realistic second photograph from the same footwear try-on session, showing the person comfortably seated with both feet resting naturally on the floor, allowing the viewer to see how the exact same pair of shoes looks when worn in a relaxed, grounded seated posture.

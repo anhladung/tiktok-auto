@@ -46,6 +46,7 @@ ENABLED_CATEGORIES = [
     "snack",
     "keychain",
     "phone_case",
+    "shoes",
 ]
 
 # Chạy riêng một loại:
@@ -135,6 +136,12 @@ CATEGORY_CLIP_ORDER = {
     "phone_case": [
         1,
     ],
+
+    # Shoes:
+    # CHỈ có clip_01.
+    "shoes": [
+        1,
+    ],
 }
 
 # ============================================================
@@ -165,7 +172,11 @@ def get_final_video_duration(category):
 
     lipstick / sandal = 2 clip = 16 giây
     keychain / phone_case / mask = 1 clip = 8 giây
+    shoes = 1 clip = 10 giây
     """
+
+    if category == "shoes":
+        return 10
 
     clip_order = CATEGORY_CLIP_ORDER.get(
         category

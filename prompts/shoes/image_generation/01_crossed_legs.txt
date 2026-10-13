@@ -1,0 +1,319 @@
+﻿9:16 IMAGE. UNIVERSAL MASTER PROMPT
+PHOTOREALISTIC AI FOOTWEAR REPLACEMENT — TWO-IMAGE INPUT SYSTEM
+ROLE
+You are an expert AI image editor specializing in photorealistic footwear replacement, virtual shoe try-on, product-accurate image compositing, and realistic lifestyle photography.
+Your task is to create ONE highly realistic photograph by intelligently combining two uploaded reference images.
+The result must look like an authentic photograph taken in the real world, not an AI-generated composite.
+This prompt is UNIVERSAL and must work with any shoe design, footwear category, outfit, camera angle, environment, or lighting condition.
+Do not assume any specific shoe color, style, brand, material, or silhouette.
+Analyze the actual uploaded images independently for every generation.
+________________
+
+
+1. INPUT IMAGE DEFINITIONS
+INPUT IMAGE 1 — FOOTWEAR PRODUCT REFERENCE
+This image contains the EXACT footwear product that must appear in the final output.
+Treat Image 1 as the authoritative reference for PRODUCT IDENTITY.
+Carefully analyze and reproduce:
+* Footwear category and overall silhouette.
+* Exact shape, proportions, and construction.
+* Toe box geometry.
+* Upper material and surface texture.
+* Color, shade, undertones, and material finish.
+* Outsole thickness, tread, and structure.
+* Heel shape and height.
+* Laces, straps, buckles, zippers, or other fastening systems.
+* Stitching, seams, panels, and overlays.
+* Brand markings, logos, and decorative details where visible.
+* Shoe opening and collar construction.
+* Distinctive design features that make this product recognizable.
+The footwear in Image 1 is the ONLY authorized product design.
+Do not invent an alternative shoe.
+Do not redesign, simplify, embellish, or stylistically reinterpret the product.
+If the reference shows only one shoe, reconstruct a physically plausible matching left-and-right pair while maintaining product identity.
+Any hidden product details must be inferred conservatively from the visible design.
+INPUT IMAGE 2 — LIFESTYLE / VIBE / BASE PHOTO
+This image shows a person wearing an existing pair of shoes.
+Treat Image 2 as the authoritative reference for PHOTOGRAPHIC COMPOSITION AND ENVIRONMENT.
+Analyze and preserve:
+* Camera viewpoint and shooting angle.
+* Framing and crop.
+* Foot positions and orientation.
+* Natural body posture.
+* Leg placement and proportions.
+* Pants, socks, and other visible clothing.
+* Clothing texture, folds, and fit.
+* Background and surrounding objects.
+* Ground or floor material.
+* Ambient lighting conditions.
+* Shadow direction and softness.
+* White balance and color temperature.
+* Overall photographic mood.
+* Camera characteristics and image quality.
+The shoes currently worn in Image 2 are placeholders.
+Their design, color, materials, logos, and construction must NOT influence the replacement footwear.
+Use Image 2 only to determine how the product from Image 1 should naturally appear in the scene.
+________________
+
+
+2. PRIMARY GENERATION OBJECTIVE
+Create a new photograph that retains the visual identity, composition, and lifestyle atmosphere of Image 2 while replacing the existing footwear with the exact product from Image 1.
+The final image must communicate:
+"This person was genuinely wearing the footwear from Image 1 when Image 2 was photographed."
+The replacement must be seamless, physically believable, and visually indistinguishable from real photography.
+PRIORITY HIERARCHY:
+1. Exact footwear identity from Image 1.
+2. Preservation of scene and composition from Image 2.
+3. Realistic fit and anatomical correctness.
+4. Natural lighting and environmental integration.
+5. Photographic authenticity.
+Never sacrifice product accuracy to create a more fashionable or visually appealing result.
+________________
+
+
+3. INTELLIGENT FOOTWEAR ADAPTATION
+Adapt the product from Image 1 to the actual perspective and foot positions shown in Image 2.
+This requires genuine three-dimensional understanding of footwear geometry.
+Do not simply paste, mirror, stretch, or rotate the original product photograph.
+Instead, reconstruct the same footwear design as it would naturally appear when worn by the person.
+Ensure:
+* Correct left and right shoe orientation.
+* Realistic perspective transformation.
+* Consistent footwear scale.
+* Anatomically plausible foot proportions.
+* Natural alignment between shoes, ankles, and legs.
+* Correct placement of fastening systems.
+* Realistic outsole-to-ground contact.
+* Accurate visibility of the upper, toe, sides, and heel according to camera angle.
+Preserve natural differences between the left and right feet.
+If one foot is rotated, angled, raised, or partially obscured, reproduce that spatial relationship accurately.
+Do not force symmetrical shoe positioning.
+Adaptation to different footwear categories
+The system must automatically accommodate:
+* Sneakers and athletic shoes.
+* Boots and ankle boots.
+* Mary Jane shoes.
+* Loafers and formal shoes.
+* Ballet flats.
+* Sandals and slides.
+* High heels.
+* Platform shoes.
+* Canvas shoes.
+* Other footwear designs.
+Adapt shoe opening, collar height, sole thickness, and fit according to the actual product reference.
+Never force the replacement shoe to inherit the silhouette of the original shoe.
+________________
+
+
+4. STRICT PRODUCT IDENTITY LOCK
+The product shown in Image 1 must remain recognizable and accurately reproduced.
+Preserve all visible distinguishing characteristics.
+Shape fidelity
+Match the original shoe silhouette and structural proportions.
+Do not make the shoe unnecessarily slimmer, wider, taller, shorter, or bulkier.
+Color fidelity
+Reproduce the product's original colors as accurately as possible while allowing physically realistic changes caused by the lighting in Image 2.
+Do not introduce new colorways.
+Material fidelity
+Maintain the authentic appearance of each material.
+For example:
+* Leather must retain natural grain, highlights, and creasing.
+* Mesh must show realistic woven structure.
+* Canvas must show fabric texture.
+* Suede must retain its soft matte surface.
+* Rubber must show believable density and molded details.
+* Metallic elements must reflect light appropriately.
+These are conditional examples, not mandatory product features.
+Only reproduce materials actually visible in Image 1.
+Construction fidelity
+Preserve the actual fastening system, stitching, sole construction, overlays, and decorative details.
+Do not add shoelaces to slip-on shoes.
+Do not add straps to shoes without straps.
+Do not remove distinctive design features.
+Do not replace product logos with invented markings.
+If a detail cannot be reliably determined, prioritize a subtle, plausible reconstruction rather than fabrication.
+________________
+
+
+5. PRESERVE THE LIFESTYLE PHOTO
+Use Image 2 as the visual foundation.
+Maintain the original composition as closely as possible.
+Do not change:
+* Camera position.
+* Perspective.
+* Body pose.
+* Leg orientation.
+* Clothing style.
+* Pants color.
+* Sock pattern.
+* Background objects.
+* Floor or ground texture.
+* Environmental layout.
+* Lighting direction.
+* Overall mood.
+Do not add fashion accessories, props, decorative objects, or new background elements.
+Do not transform the photograph into a studio product shoot.
+Do not make the environment more luxurious, cinematic, colorful, or aesthetically enhanced unless those characteristics already exist in Image 2.
+The original photograph's casual authenticity is essential.
+Clothing and footwear interaction
+Adjust only the small regions necessary to accommodate the replacement footwear.
+For example:
+If the replacement shoe has a lower collar, naturally reveal the corresponding sock or ankle area.
+If the replacement shoe has a higher collar, create realistic overlap with pants or socks.
+If the replacement has a different sole thickness, adjust the footwear-to-ground relationship without unnaturally moving the legs.
+If the footwear is open-toed or open-heeled, reconstruct only the anatomically necessary visible skin areas.
+Preserve the original clothing appearance wherever possible.
+________________
+
+
+6. PHOTOREALISTIC LIGHTING INTEGRATION
+The new footwear must inherit the lighting environment of Image 2.
+Analyze the scene's:
+* Primary light direction.
+* Ambient illumination.
+* Shadow intensity.
+* Color temperature.
+* Contrast.
+* Highlight distribution.
+* Surface reflections.
+* Environmental color bounce.
+Apply these lighting characteristics naturally to the replacement footwear.
+Generate accurate contact shadows where the footwear meets the ground.
+Ensure shadows correspond to the actual shoe geometry.
+Avoid floating shoes, inconsistent shadow directions, and unnatural bright outlines.
+Materials should react differently to light according to their physical properties.
+Do not apply generic studio highlights.
+________________
+
+
+7. AUTHENTIC CAMERA APPEARANCE
+Match the photographic characteristics of Image 2.
+Preserve:
+* Original aspect ratio.
+* Original image framing.
+* Camera perspective.
+* Natural lens distortion.
+* Depth of field.
+* Sharpness.
+* Grain and noise.
+* Exposure characteristics.
+* White balance.
+* Existing image imperfections.
+If Image 2 resembles a casual smartphone photograph, the output must retain that smartphone appearance.
+If Image 2 is a professional lifestyle photograph, match its photographic quality without introducing a different visual style.
+Avoid:
+* CGI rendering.
+* Plastic-looking materials.
+* Artificial HDR.
+* Over-sharpening.
+* Excessive skin smoothing.
+* Unrealistic reflections.
+* Perfectly uniform textures.
+* Overly clean AI-generated surfaces.
+The result should feel like a genuine photograph, not a digitally created product mockup.
+________________
+
+
+8. LOCALIZED EDITING AND BACKGROUND PRESERVATION
+Treat the footwear replacement as a localized image-editing operation.
+Identify the existing footwear regions in Image 2.
+Remove the original footwear completely.
+Reconstruct the replacement product in those regions.
+Modify adjacent areas only when necessary for:
+* Correct shoe geometry.
+* Natural clothing overlap.
+* Exposed socks or skin.
+* Ground reconstruction.
+* Contact shadows.
+* Realistic occlusion.
+Preserve unrelated image regions as faithfully as possible.
+Do not regenerate the entire environment unnecessarily.
+Do not alter the person's clothing, background, or body shape to accommodate a preferred product presentation.
+The new footwear must adapt to the scene, not the other way around.
+________________
+
+
+9. AUTOMATIC SCENE UNDERSTANDING
+Before generating, internally analyze both images.
+Analyze Image 1
+Determine:
+1. What footwear product is shown?
+2. What are its distinctive visual features?
+3. What is its actual silhouette?
+4. Which materials and colors are present?
+5. Which details must remain unchanged?
+6. How should the shoe appear from the camera perspective of Image 2?
+Analyze Image 2
+Determine:
+1. Where are the original shoes located?
+2. What are the foot orientations?
+3. What camera perspective is being used?
+4. Which clothing elements overlap the footwear?
+5. What lighting conditions are present?
+6. Which regions require reconstruction?
+7. What details create the photograph's authentic lifestyle appearance?
+Use these observations to perform the replacement automatically.
+Do not require manually specified shoe types, colors, materials, camera angles, or background descriptions.
+________________
+
+
+10. NEGATIVE CONSTRAINTS
+Strictly avoid:
+* Wrong footwear product.
+* Generic shoes replacing the reference design.
+* Product redesign.
+* Incorrect shoe color.
+* Inaccurate outsole construction.
+* Missing straps or laces.
+* Invented decorative details.
+* Distorted shoe proportions.
+* Identical mirrored shoes with incorrect anatomy.
+* Incorrect left-right shoe orientation.
+* Oversized or undersized footwear.
+* Floating feet.
+* Unnatural ankle connections.
+* Distorted legs.
+* Changed pants or socks.
+* Reconstructed or altered backgrounds.
+* Artificial lighting.
+* Inconsistent shadows.
+* Visible compositing artifacts.
+* Blurry product details.
+* Excessive smoothing.
+* Plastic-like textures.
+* CGI appearance.
+* Unnecessary image beautification.
+* Additional objects.
+* Text overlays.
+* Watermarks.
+________________
+
+
+11. FINAL QUALITY VALIDATION
+Before delivering the output, internally verify:
+PRODUCT ACCURACY:
+The new footwear matches the product reference as closely as the available visual information allows.
+SCENE PRESERVATION:
+The original photograph's framing, pose, outfit, environment, and atmosphere remain intact.
+PHYSICAL REALISM:
+The footwear fits naturally on the feet, with correct perspective, proportions, and ground contact.
+LIGHTING CONSISTENCY:
+The replacement shoes match the original scene's lighting and shadow behavior.
+PHOTOGRAPHIC AUTHENTICITY:
+The final image looks like a genuine real-world photograph.
+If any aspect appears artificial or inconsistent, correct it before finalizing.
+________________
+
+
+12. FINAL EXECUTION COMMAND
+Generate ONE final photorealistic image.
+Use:
+IMAGE 1 = EXACT FOOTWEAR PRODUCT IDENTITY.
+IMAGE 2 = BASE PHOTOGRAPH, POSE, OUTFIT, CAMERA PERSPECTIVE, ENVIRONMENT, AND VIBE.
+Replace ONLY the footwear in Image 2 with the footwear from Image 1.
+Automatically adapt the product to the person's feet and the scene's perspective.
+Preserve all unrelated visual details.
+Do not invent a different product.
+Do not change the original scene's aesthetic.
+Do not output explanations, comparisons, or alternative versions.
+FINAL GOAL: A seamless, natural, product-accurate lifestyle photograph that looks exactly as though the person in Image 2 was originally wearing the footwear shown in Image 1.

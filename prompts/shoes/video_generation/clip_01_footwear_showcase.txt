@@ -1,0 +1,84 @@
+﻿Create an ultra-realistic 10-second TikTok UGC footwear showcase video using TWO provided reference images.
+REFERENCE IMAGE ASSIGNMENT — CRITICAL
+IMAGE 1 — CROSSED-LEG POSE
+The model is seated with her legs crossed, showcasing the sneakers.
+Use Image 1 as the exact visual and anatomical reference for SHOTS 1 and 2.
+IMAGE 2 — BOTH FEET ON THE FLOOR
+The same model is seated normally, with both feet resting naturally on the floor.
+Use Image 2 as the exact visual and anatomical reference for SHOTS 3 and 4.
+Both reference images depict the same footwear, person, clothing, and environment.
+Do not reconstruct the second pose from the first image. Use the actual pose, leg placement, and shoe orientation shown in Image 2.
+CORE STYLE
+Ultra-realistic handheld smartphone fashion footage, relaxed TikTok UGC aesthetic, natural lighting, clean hard-cut editing, and exceptionally slow camera movements.
+Exactly 4 shots, 3 instantaneous hard cuts, 10 seconds total.
+SHOT SEQUENCE
+SHOT 1 (0–2.5s) — Crossed-Leg Overview
+Use IMAGE 1.
+Begin with the original crossed-leg composition, preserving the exact seated pose, leg placement, and sneaker orientation.
+Both legs and feet remain completely still.
+The camera performs an exceptionally slow, gentle handheld drift, maintaining a comfortable medium-wide composition.
+SHOT 2 (2.5–5s) — Crossed-Leg Closer Showcase
+HARD CUT to a slightly closer composition of IMAGE 1.
+Move the camera moderately closer to the elevated sneaker, highlighting its side profile, laces, stripes, texture, and sole.
+The shoe should appear noticeably larger than in Shot 1, but remain naturally framed.
+Maintain a realistic viewing angle close to the original reference.
+Use an extremely slow, smooth lateral camera drift.
+The legs and feet remain completely stationary.
+SHOT 3 (5–7.5s) — Both Feet on Floor Overview
+HARD CUT directly to IMAGE 2.
+Show the model seated normally with both feet resting on the tiled floor, exactly as shown in the second reference image.
+Preserve the actual leg positions, spacing between the feet, shoe orientations, and seated posture.
+Both sneakers must be clearly visible.
+The camera performs an exceptionally slow, gentle handheld drift.
+No leg or foot movement.
+SHOT 4 (7.5–10s) — Both Sneakers Closer Showcase
+HARD CUT to a moderately closer composition of IMAGE 2.
+Frame both sneakers more prominently, highlighting their shape, materials, laces, stripes, and soles.
+Both shoes should appear slightly larger than in Shot 3 while remaining fully recognizable and naturally positioned.
+Use a gentle three-quarter or slightly downward perspective consistent with Image 2.
+The camera performs an extremely slow, smooth lateral movement.
+Both feet remain completely motionless.
+End with a clear, balanced product showcase.
+CAMERA MOVEMENT — HIGHEST PRIORITY
+All camera movements must be exceptionally slow, steady, smooth, and comfortable to watch.
+Each shot should contain only one gentle camera movement.
+Camera movement must feel like a person holding a smartphone carefully and making a gradual framing adjustment.
+Avoid rapid panning, aggressive zooming, shaky footage, abrupt acceleration, or excessive camera motion.
+CLOSER FRAMING RULES
+Shots 2 and 4 must be moderately closer than Shots 1 and 3.
+Achieve this primarily through a closer camera position or tighter framing, not a fast animated zoom.
+The closer framing should already be established immediately after each hard cut.
+Do not perform dramatic zoom-ins during the shot.
+Do not crop the footwear excessively or create extreme macro close-ups.
+Preserve natural shoe proportions and realistic perspective.
+ABSOLUTE LEG AND FOOT IMMOBILITY
+The model must remain completely still within every shot.
+No foot swinging, swaying, kicking, tapping, rotating, lifting, lowering, or wiggling.
+No ankle adjustments, knee bouncing, leg shifting, or toe pointing.
+No decorative gestures or rhythmic footwear movements.
+All intentional motion comes exclusively from the camera.
+ANATOMY AND FOOTWEAR CONSISTENCY LOCK
+Exactly TWO legs, TWO feet, and TWO sneakers.
+Exactly one anatomically correct LEFT shoe and one RIGHT shoe.
+No third leg, extra foot, duplicated sneaker, ghost limb, fused legs, twisted ankles, or disconnected joints.
+Preserve the exact shoe design, colors, laces, stripes, materials, stitching, soles, socks, decorative bows, and clothing.
+Do not mirror, duplicate, reshape, recolor, or redesign the sneakers.
+Maintain realistic foot placement, correct anatomy, and believable shoe-floor contact.
+REFERENCE-BASED POSE CONTINUITY
+Shots 1–2 must follow Image 1.
+Shots 3–4 must follow Image 2.
+The pose change happens instantaneously at the hard cut between Shot 2 and Shot 3.
+Never animate the legs uncrossing or moving to the floor.
+Do not blend the two reference poses or generate intermediate leg positions.
+ENVIRONMENT CONSISTENCY
+Preserve the original indoor environment, tiled floor, shoe rack, lighting, shadows, and background objects.
+Do not invent additional people, furniture, or environmental details.
+EDITING RULES
+Exactly 4 independent shots connected by 3 clean, instantaneous HARD CUTS.
+No crossfades, morphing, whip pans, animated zoom transitions, or continuous camera movement between shots.
+STRICTLY AVOID
+Extra limbs, third legs, duplicated shoes, incorrect left-right footwear, foot movement, shoe deformation, unnatural anatomy, morphing poses, aggressive camera movement, rapid zooms, dramatic perspective changes, excessive close-ups, artificial transitions, and inconsistent backgrounds.
+OUTPUT
+Vertical 9:16, 10 seconds, ultra-photorealistic smartphone footage, authentic TikTok footwear UGC aesthetic, exactly 4 shots with 3 hard cuts, extremely slow camera movement, completely stationary legs and feet.
+FINAL PRIORITY
+Use each reference image as the anatomical ground truth for its assigned shots. Prioritize exact footwear identity, realistic anatomy, motionless feet, and stable visual consistency over creative camera movement.

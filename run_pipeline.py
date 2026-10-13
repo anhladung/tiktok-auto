@@ -54,38 +54,38 @@ def main():
     pipeline = [
 
         # IMAGE
-        #(
-        #    "Build Image Queue",
-        #    "build_image_queue_1.py"
-        #),
+        (
+            "Build Image Queue",
+            "build_image_queue.py"
+        ),
 
         (
             "Image Worker",
-            "image_worker_1.py"
+            "image_worker.py"
         ),
 
 
         # SCRIPT
-        #(
-        #    "Build Script Queue",
-        #    "build_script_queue.py"
-        #),
+        (
+            "Build Script Queue",
+            "build_script_queue.py"
+        ),
 
-        #(
-        #    "Script Worker",
-        #    "script_worker_1.py"
-        #),
+        (
+            "Script Worker",
+            "script_worker.py"
+        ),
 
 
         # RENDER
         (
             "Build Render Queue",
-            "build_render_queue_1.py"
+            "build_render_queue.py"
         ),
 
         (
             "Render Worker",
-            "render_worker_2.py"
+            "render_worker.py"
         ),
 
 

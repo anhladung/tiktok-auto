@@ -34,11 +34,13 @@ IMAGE_EXTENSIONS = {
 # CATEGORY CONFIG
 # ============================================================
 
-# Muốn chạy cả đồ ăn vặt, móc khóa và ốp lưng:
+# Muốn chạy cả đồ ăn vặt, móc khóa, ốp lưng và mắt kính:
 ENABLED_CATEGORIES = [
     "snack",
     "keychain",
     "phone_case",
+    "eyeglasses",
+    "shoes",
 ]
 
 # Muốn test riêng đồ ăn vặt:
@@ -108,8 +110,6 @@ CATEGORY_CONFIG = {
         "product_id_digits": 3,
 
         # Mỗi sản phẩm móc khóa chỉ cần 1 ảnh sản phẩm.
-        # Ảnh background lifestyle sẽ được xử lý
-        # ở bước build image queue, không copy vào từng sản phẩm.
         "inputs": [
             {
                 "label": "Product",
@@ -144,8 +144,77 @@ CATEGORY_CONFIG = {
         "product_id_digits": 3,
 
         # Mỗi sản phẩm ốp lưng chỉ cần 1 ảnh sản phẩm.
-        # Mỗi 1 ảnh trong input_products/phone_case
-        # tương đương với 1 thư mục sản phẩm riêng.
+        "inputs": [
+            {
+                "label": "Product",
+                "target_folder": os.path.join(
+                    "images",
+                    "raw",
+                    "product"
+                ),
+                "target_filename": "1",
+            },
+        ],
+    },
+
+    # ========================================================
+    # EYEGLASSES
+    # ========================================================
+    "eyeglasses": {
+        "input_dir": os.path.join(
+            INPUT_PRODUCTS_DIR,
+            "eyeglasses"
+        ),
+
+        "products_dir": os.path.join(
+            PRODUCTS_DIR,
+            "eyeglasses"
+        ),
+
+        # Mã sản phẩm:
+        # GL001, GL002, GL003...
+        "product_prefix": "GL",
+
+        "product_id_digits": 3,
+
+        # Mỗi sản phẩm mắt kính chỉ cần 1 ảnh sản phẩm gốc.
+        # Background aesthetic / hand reference sẽ được xử lý
+        # ở bước build image queue, không copy vào từng sản phẩm.
+        "inputs": [
+            {
+                "label": "Product",
+                "target_folder": os.path.join(
+                    "images",
+                    "raw",
+                    "product"
+                ),
+                "target_filename": "1",
+            },
+        ],
+    },
+
+    # ========================================================
+    # SHOES (GIÀY)
+    # ========================================================
+    "shoes": {
+        "input_dir": os.path.join(
+            INPUT_PRODUCTS_DIR,
+            "shoes"
+        ),
+
+        "products_dir": os.path.join(
+            PRODUCTS_DIR,
+            "shoes"
+        ),
+
+        # Mã sản phẩm:
+        # SH001, SH002, SH003...
+        "product_prefix": "SH",
+
+        "product_id_digits": 3,
+
+        # Mỗi sản phẩm giày chỉ cần 1 ảnh sản phẩm gốc.
+        # Background reference sẽ được xử lý ở bước build image queue.
         "inputs": [
             {
                 "label": "Product",
@@ -208,6 +277,7 @@ def create_product_structure(
     - keychain: product
     - phone_case: product
     - mask: product
+    - eyeglasses: product
     """
 
     folders = list(
@@ -409,6 +479,9 @@ def copy_product_inputs(
         source_images[0] -> raw/product
 
     Mask:
+        source_images[0] -> raw/product
+
+    Eyeglasses:
         source_images[0] -> raw/product
     """
 

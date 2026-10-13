@@ -39,11 +39,16 @@ os.makedirs(
 # Khi muốn test riêng ốp lưng:
 # ENABLED_CATEGORIES = ["phone_case"]
 #
+# Khi muốn test riêng mắt kính:
+# ENABLED_CATEGORIES = ["eyeglasses"]
+#
 # Khi chạy pipeline chung:
 ENABLED_CATEGORIES = [
     "snack",
     "keychain",
     "phone_case",
+    "eyeglasses",
+    "shoes",
 ]
 
 
@@ -187,6 +192,119 @@ CATEGORY_CONFIG = {
                 "output_key": "frame_02",
                 "output_filename": "02_clip_01_last_frame.png",
 
+                "input_1": "{frame_01}",
+                "input_2": "",
+            },
+        ],
+    },
+
+    # ========================================================
+    # EYEGLASSES (2 FRAMES / 1 CLIP, MULTI-CHANNEL BACKGROUNDS)
+    # ========================================================
+    "eyeglasses": {
+        "products_dir": os.path.join(
+            "products",
+            "eyeglasses"
+        ),
+
+        "product_inputs": {
+            # Ảnh sản phẩm kính gốc.
+            "product_image": os.path.join(
+                "images",
+                "raw",
+                "product"
+            ),
+        },
+
+        "shared_inputs": {
+            # Dùng để validate rằng thư mục background không rỗng.
+            # Channel mode sẽ thay hand_background bằng từng ảnh 1.*, 2.* ...
+            "hand_background": {
+                "folder": os.path.join(
+                    "references",
+                    "eyeglasses",
+                    "backgrounds"
+                ),
+                "mode": "first",
+            },
+        },
+
+        # Mỗi background có tên số tạo một variation/channel riêng.
+        "channel_backgrounds": {
+            "folder": os.path.join(
+                "references",
+                "eyeglasses",
+                "backgrounds"
+            ),
+            "context_key": "hand_background",
+        },
+
+        "steps": [
+            {
+                # Frame đầu: ảnh sản phẩm kính + background aesthetic.
+                "step": "01_hand_holding",
+                "step_order": 1,
+                "output_key": "frame_01",
+                "output_filename": "01_hand_holding.png",
+
+                "input_1": "{product_image}",
+                "input_2": "{hand_background}",
+            },
+            {
+                # Frame cuối: chuyển động nối tiếp, đưa kính gần camera hơn.
+                # Chỉ dùng Frame 01 để ưu tiên continuity tuyệt đối.
+                "step": "02_closeup",
+                "step_order": 2,
+                "output_key": "frame_02",
+                "output_filename": "02_closeup.png",
+
+                "input_1": "{frame_01}",
+                "input_2": "",
+            },
+        ],
+    },
+    # ========================================================
+    # SHOES (GIÀY: 2 FRAMES / 1 CLIP)
+    # ========================================================
+    "shoes": {
+        "products_dir": os.path.join(
+            "products",
+            "shoes"
+        ),
+
+        "product_inputs": {
+            "product_image": os.path.join(
+                "images",
+                "raw",
+                "product"
+            ),
+        },
+
+        "shared_inputs": {
+            "lifestyle_background": {
+                "folder": os.path.join(
+                    "references",
+                    "shoes",
+                    "backgrounds"
+                ),
+                "mode": "first",
+            },
+        },
+
+        "steps": [
+            {
+                "step": "01_crossed_legs",
+                "step_order": 1,
+                "output_key": "frame_01",
+                "output_filename": "01_crossed_legs.png",
+                "input_1": "{product_image}",
+                "input_2": "{lifestyle_background}",
+            },
+            {
+                "step": "02_both_feet_on_floor",
+                "step_order": 2,
+                "output_key": "frame_02",
+                "output_filename": "02_both_feet_on_floor.png",
                 "input_1": "{frame_01}",
                 "input_2": "",
             },
@@ -575,19 +693,29 @@ for category in ENABLED_CATEGORIES:
         # ----------------------------------------------------
         # CHANNEL BACKGROUND MODE
         #
-        # Chỉ keychain dùng nhiều channel.
-        # Mỗi background 1,2,3,4,5 tạo 1 bộ image riêng.
+        # Category nào khai báo "channel_backgrounds" sẽ chạy
+        # nhiều channel. Mỗi background tên số (1.*, 2.*, 3.* ...)
+        # tạo một bộ output riêng trong images/ai/channel_<id>/.
+        #
+        # Hiện tại áp dụng cho:
+        # - keychain
+        # - eyeglasses
         # ----------------------------------------------------
 
-        if category == "keychain":
+        channel_config = config.get("channel_backgrounds")
 
+        if channel_config:
             channel_backgrounds = get_channel_backgrounds(
-                os.path.join(
-                    "references",
-                    "keychain",
-                    "backgrounds"
-                )
+                channel_config["folder"]
             )
+
+            if not channel_backgrounds:
+                print(
+                    f"Skip product '{product_id}'. "
+                    f"No numeric channel backgrounds found in: "
+                    f"{channel_config['folder']}"
+                )
+                continue
 
         else:
             channel_backgrounds = [
@@ -599,12 +727,13 @@ for category in ENABLED_CATEGORIES:
 
             channel_context = dict(context)
 
-            if category == "keychain":
+            if channel_config:
 
                 if channel_background is None:
                     continue
 
-                channel_context["hand_background"] = (
+                context_key = channel_config["context_key"]
+                channel_context[context_key] = (
                     channel_background
                 )
 
@@ -738,31 +867,25 @@ pending_jobs = sum(
     if row["status"] == "pending"
 )
 
-snack_jobs = sum(
-    1
-    for row in rows
-    if row["category"] == "snack"
-)
+category_job_counts = {}
 
-keychain_jobs = sum(
-    1
-    for row in rows
-    if row["category"] == "keychain"
-)
-
-phone_case_jobs = sum(
-    1
-    for row in rows
-    if row["category"] == "phone_case"
-)
+for row in rows:
+    row_category = row["category"]
+    category_job_counts[row_category] = (
+        category_job_counts.get(row_category, 0) + 1
+    )
 
 
 print("=" * 60)
 print("Image queue created.")
 print(f"Done: {done_jobs}")
 print(f"Pending: {pending_jobs}")
-print(f"Snack jobs: {snack_jobs}")
-print(f"Keychain jobs: {keychain_jobs}")
-print(f"Phone case jobs: {phone_case_jobs}")
+
+for category in ENABLED_CATEGORIES:
+    print(
+        f"{category} jobs: "
+        f"{category_job_counts.get(category, 0)}"
+    )
+
 print(f"Total jobs: {len(rows)}")
 print(f"Saved: {QUEUE_FILE}")

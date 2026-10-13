@@ -36,6 +36,14 @@ os.makedirs(
     exist_ok=True
 )
 
+# ============================================================
+# CHANNEL CONFIG
+# ============================================================
+
+# Chạy 1 channel duy nhất cho tất cả categories
+KEYCHAIN_CHANNEL_COUNT = 1
+DEFAULT_CHANNEL_COUNT = 1
+
 
 # ============================================================
 # CATEGORY CONFIG
@@ -46,12 +54,15 @@ ENABLED_CATEGORIES = [
     "snack",
     "keychain",
     "phone_case",
+    "eyeglasses",
+    "shoes",
 ]
 
 # Test riêng:
 # ENABLED_CATEGORIES = ["snack"]
 # ENABLED_CATEGORIES = ["keychain"]
 # ENABLED_CATEGORIES = ["phone_case"]
+# ENABLED_CATEGORIES = ["eyeglasses"]
 
 
 CATEGORY_CONFIG = {
@@ -133,6 +144,56 @@ CATEGORY_CONFIG = {
             },
         ],
     },
+
+    # ========================================================
+    # EYEGLASSES
+    # ========================================================
+    "eyeglasses": {
+        "products_dir": os.path.join(
+            PRODUCTS_ROOT,
+            "eyeglasses"
+        ),
+
+        "prompt_dir": os.path.join(
+            PROMPTS_ROOT,
+            "eyeglasses",
+            "video_generation"
+        ),
+
+        "clips": [
+            {
+                "clip_index": "1",
+                "start_image": "01_hand_holding.png",
+                "end_image": "02_closeup.png",
+                "prompt_file": "clip_01_backpack_swing.txt",
+            },
+        ],
+    },
+
+    # ========================================================
+    # SHOES (GIÀY)
+    # ========================================================
+    "shoes": {
+        "products_dir": os.path.join(
+            PRODUCTS_ROOT,
+            "shoes"
+        ),
+
+        "prompt_dir": os.path.join(
+            PROMPTS_ROOT,
+            "shoes",
+            "video_generation"
+        ),
+
+        "clips": [
+            {
+                "clip_index": "1",
+                "start_image": "01_crossed_legs.png",
+                "end_image": "02_both_feet_on_floor.png",
+                "prompt_file": "clip_01_footwear_showcase.txt",
+            },
+        ],
+    },
 }
 
 
@@ -144,6 +205,7 @@ FIELDNAMES = [
     "job_id",
     "category",
     "product_id",
+    "channel",
     "clip_index",
     "start_image",
     "end_image",
@@ -204,6 +266,7 @@ def get_product_ids(products_dir):
 def find_existing_video(
     video_dir,
     product_id,
+    channel_id,
     clip_number
 ):
     """
@@ -231,6 +294,7 @@ def find_existing_video(
         video_dir,
         (
             f"{product_id}_"
+            f"CH{channel_id}_"
             f"clip_{clip_number}*.mp4"
         )
     )
@@ -316,43 +380,80 @@ def build_category_rows(
             product_id
         )
 
-        ai_dir = os.path.join(
+        ai_root_dir = os.path.join(
             product_dir,
             "images",
             "ai"
         )
 
-        # Tập hợp toàn bộ ảnh cần thiết
-        # cho các clip của category này.
-        required_images = {
-            image_name
-            for clip in clips
-            for image_name in [
-                clip["start_image"],
-                clip["end_image"],
-            ]
-        }
+        # Keychain pipeline mới:
+        # mỗi channel có folder riêng:
+        #
+        # images/ai/channel_1/
+        # images/ai/channel_2/
+        # ...
+        #
+        # Category khác vẫn dùng:
+        #
+        # images/ai/
 
-        missing_images = [
-            image_name
-            for image_name in sorted(
-                required_images
-            )
-            if not file_exists_and_not_empty(
-                os.path.join(
-                    ai_dir,
-                    image_name
+        channel_count = (
+            KEYCHAIN_CHANNEL_COUNT
+            if category == "keychain"
+            else DEFAULT_CHANNEL_COUNT
+        )
+
+        valid_channels = []
+
+        for channel_index in range(1, channel_count + 1):
+
+            if category == "keychain":
+                channel_ai_dir = os.path.join(
+                    ai_root_dir,
+                    f"channel_{channel_index}"
+                )
+            else:
+                channel_ai_dir = ai_root_dir
+
+            required_images = {
+                image_name
+                for clip in clips
+                for image_name in [
+                    clip["start_image"],
+                    clip["end_image"],
+                ]
+            }
+
+            missing_images = [
+                image_name
+                for image_name in sorted(
+                    required_images
+                )
+                if not file_exists_and_not_empty(
+                    os.path.join(
+                        channel_ai_dir,
+                        image_name
+                    )
+                )
+            ]
+
+            if missing_images:
+                print(
+                    f"Skip {category}/{product_id}/CH{channel_index} "
+                    f"— missing images: "
+                    f"{', '.join(missing_images)}"
+                )
+
+                continue
+
+            valid_channels.append(
+                (
+                    str(channel_index).zfill(2),
+                    channel_ai_dir
                 )
             )
-        ]
 
-        if missing_images:
-            print(
-                f"Skip {category}/{product_id} "
-                f"— missing images: "
-                f"{', '.join(missing_images)}"
-            )
-
+        if not valid_channels:
             continue
 
         # Kiểm tra prompt cho từng clip.
@@ -391,74 +492,80 @@ def build_category_rows(
             exist_ok=True
         )
 
-        for clip in clips:
-            clip_number = (
-                str(clip["clip_index"])
-                .zfill(2)
-            )
+        for channel_id, ai_dir in valid_channels:
 
-            start_image_path = os.path.join(
-                ai_dir,
-                clip["start_image"]
-            )
-
-            end_image_path = os.path.join(
-                ai_dir,
-                clip["end_image"]
-            )
-
-            prompt_path = os.path.join(
-                prompt_dir,
-                clip["prompt_file"]
-            )
-
-            existing_video = find_existing_video(
-                video_dir=video_dir,
-                product_id=product_id,
-                clip_number=clip_number
-            )
-
-            if existing_video:
-                status = "done"
-                video_path = existing_video
-
-            else:
-                status = "pending"
-
-                video_path = os.path.join(
-                    video_dir,
-                    (
-                        f"{product_id}_"
-                        f"clip_{clip_number}.mp4"
-                    )
+            for clip in clips:
+                clip_number = (
+                    str(clip["clip_index"])
+                    .zfill(2)
                 )
 
-            job_id = (
-                f"{category}_"
-                f"{product_id}_"
-                f"clip_{clip_number}"
-            )
+                start_image_path = os.path.join(
+                    ai_dir,
+                    clip["start_image"]
+                )
 
-            rows.append({
-                "job_id": job_id,
-                "category": category,
-                "product_id": product_id,
-                "clip_index": clip["clip_index"],
-                "start_image": start_image_path,
-                "end_image": end_image_path,
-                "prompt_file": prompt_path,
-                "status": status,
-                "attempts": "0",
-                "profile": "",
-                "video_path": video_path,
-                "error": "",
-                "updated_at": "",
-            })
+                end_image_path = os.path.join(
+                    ai_dir,
+                    clip["end_image"]
+                )
 
-            print(
-                f"Added job: {job_id} "
-                f"[{status}]"
-            )
+                prompt_path = os.path.join(
+                    prompt_dir,
+                    clip["prompt_file"]
+                )
+
+                existing_video = find_existing_video(
+                    video_dir=video_dir,
+                    product_id=product_id,
+                    channel_id=channel_id,
+                    clip_number=clip_number
+                )
+
+                if existing_video:
+                    status = "done"
+                    video_path = existing_video
+
+                else:
+                    status = "pending"
+
+                    video_path = os.path.join(
+                        video_dir,
+                        (
+                            f"{product_id}_"
+                            f"CH{channel_id}_"
+                            f"clip_{clip_number}.mp4"
+                        )
+                    )
+
+                job_id = (
+                    f"{category}_"
+                    f"{product_id}_"
+                    f"CH{channel_id}_"
+                    f"clip_{clip_number}"
+                )
+
+                rows.append({
+                    "job_id": job_id,
+                    "category": category,
+                    "product_id": product_id,
+                    "channel": channel_id,
+                    "clip_index": clip["clip_index"],
+                    "start_image": start_image_path,
+                    "end_image": end_image_path,
+                    "prompt_file": prompt_path,
+                    "status": status,
+                    "attempts": "0",
+                    "profile": "",
+                    "video_path": video_path,
+                    "error": "",
+                    "updated_at": "",
+                })
+
+                print(
+                    f"Added job: {job_id} "
+                    f"[{status}]"
+                )
 
     return rows, len(product_ids)
 
@@ -504,6 +611,7 @@ def build_rows():
         key=lambda row: (
             row["category"].lower(),
             row["product_id"].lower(),
+            int(row.get("channel", "0")),
             int(row["clip_index"]),
         )
     )
@@ -569,10 +677,16 @@ def print_summary(
         for row in rows
     })
 
-    snack_jobs = sum(
+    lipstick_jobs = sum(
         1
         for row in rows
-        if row["category"] == "snack"
+        if row["category"] == "lipstick"
+    )
+
+    sandal_jobs = sum(
+        1
+        for row in rows
+        if row["category"] == "sandal"
     )
 
     keychain_jobs = sum(
@@ -585,6 +699,12 @@ def print_summary(
         1
         for row in rows
         if row["category"] == "phone_case"
+    )
+
+    mask_jobs = sum(
+        1
+        for row in rows
+        if row["category"] == "mask"
     )
 
     print("=" * 60)
@@ -600,8 +720,12 @@ def print_summary(
         queued_product_count
     )
     print(
-        "Snack jobs:",
-        snack_jobs
+        "Lipstick jobs:",
+        lipstick_jobs
+    )
+    print(
+        "Sandal jobs:",
+        sandal_jobs
     )
     print(
         "Keychain jobs:",
@@ -610,6 +734,10 @@ def print_summary(
     print(
         "Phone case jobs:",
         phone_case_jobs
+    )
+    print(
+        "Mask jobs:",
+        mask_jobs
     )
     print(
         "Jobs:",

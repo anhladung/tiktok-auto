@@ -17,17 +17,13 @@ BASE_DIR = os.path.dirname(
 )
 
 CHATGPT_URL = (
-    "https://chatgpt.com/g/g-p-6aa7dc2d8b748191bc29eaadb76f4eee/project"
+    "https://chatgpt.com/"
 )
 
-# ChatGPT giờ vào thẳng được project bằng link, nên worker
-# sẽ page.goto() thẳng CHATGPT_URL, không còn tự bấm vào
-# project trong sidebar theo tên nữa.
-#
-# Giữ lại PROJECT_NAME vì vẫn là giá trị mặc định cho tham số
-# project_name của open_project()/open_project_home() -
-# 2 hàm này không còn được gọi trong open_chatgpt(), nhưng
-# vẫn để nguyên trong file phòng khi cần dùng lại sau này.
+# ChatGPT hiện không cho vào thẳng project bằng link nữa,
+# nên worker sẽ vào trang chủ rồi tự bấm vào project này
+# trong sidebar theo TÊN (không theo mã DOM/class, vì mã đó
+# giống nhau giữa rất nhiều project khác nhau).
 PROJECT_NAME = "Mỹ phẩm"
 
 CHATGPT_PROFILE_DIR = r"C:\chatgpt_auto_profile"
@@ -93,8 +89,7 @@ UPLOAD_READY_STABLE_SECONDS = 3
 RESTART_AFTER_PRODUCT = True
 
 # Áp dụng cho tất cả category:
-# lipstick, sandal, keychain, phone_case, mask, eyeglasses
-# và category thêm sau này.
+# lipstick, sandal, keychain, phone_case và category thêm sau này.
 #
 # Sau khi một ảnh được tạo và tải thành công:
 # - đóng browser hiện tại;
@@ -299,11 +294,6 @@ def get_prompt_file(category, step):
             image_generation/
                 01_side_view.txt
                 02_front_view.txt
-
-        eyeglasses/
-            image_generation/
-                01_hand_holding.txt
-                02_closeup.txt
     """
 
     return os.path.join(
@@ -754,16 +744,8 @@ def get_blocking_previous_steps(
         1. 01_side_view
         2. 02_front_view
 
-    eyeglasses:
-        1. 01_hand_holding
-        2. 02_closeup
-
     Một step chỉ được chạy khi tất cả step_order trước đó
-    của cùng category + product_id + channel_id đã có status = done.
-
-    channel_id đặc biệt quan trọng với keychain/eyeglasses vì mỗi
-    background tạo một pipeline 2 frame độc lập. Frame 02 của CH1
-    chỉ phụ thuộc Frame 01 của CH1, không chờ các channel khác.
+    của cùng category + product_id đã có status = done.
 
     Điều này cũng giữ an toàn cho lipstick và sandal,
     vì các frame nối tiếp của chúng phụ thuộc output trước.
@@ -775,10 +757,6 @@ def get_blocking_previous_steps(
 
     product_id = (
         current_job.get("product_id") or ""
-    ).strip()
-
-    channel_id = (
-        current_job.get("channel_id") or ""
     ).strip()
 
     current_step_order = parse_step_order(
@@ -803,10 +781,6 @@ def get_blocking_previous_steps(
             row.get("product_id") or ""
         ).strip()
 
-        row_channel_id = (
-            row.get("channel_id") or ""
-        ).strip()
-
         row_step_order = parse_step_order(
             row
         )
@@ -815,9 +789,6 @@ def get_blocking_previous_steps(
             continue
 
         if row_product_id != product_id:
-            continue
-
-        if row_channel_id != channel_id:
             continue
 
         if row_step_order >= current_step_order:
@@ -878,15 +849,6 @@ def get_job_input_paths(job):
             output Frame 01 + product reference.
 
         Chỉ có 2 frame / 1 clip.
-
-    Eyeglasses — pipeline 2 frame / multi-channel:
-        Step 1 / 01_hand_holding:
-            product + aesthetic hand background.
-
-        Step 2 / 02_closeup:
-            output của Step 1 trong cùng channel.
-
-        Mỗi background 1,2,3... là một channel độc lập.
 
     Worker không hard-code số input theo category.
     Nó đọc trực tiếp input_1 và input_2 từ image_queue.csv.
@@ -2136,10 +2098,15 @@ def open_chatgpt(playwright):
             page
         )
 
-        # Không còn thao tác bấm vào project trong sidebar
-        # (open_project) hay bấm "Open project home" nữa.
-        # CHATGPT_URL giờ vào thẳng được project bằng link,
-        # nên page.goto(CHATGPT_URL) ở trên là đủ.
+        open_project(
+            page,
+            project_name=PROJECT_NAME
+        )
+
+        open_project_home(
+            page,
+            project_name=PROJECT_NAME
+        )
     except Exception:
         print(
             "Loi trong luc mo ChatGPT - dong browser vua "
@@ -3105,7 +3072,6 @@ def main():
             # keychain/KC001
             # phone_case/PC001
             # mask/MSK001
-            # eyeglasses/GL001
             channel_id = (
                 job.get("channel_id") or "0"
             ).strip()
@@ -3113,7 +3079,7 @@ def main():
             # KHÔNG đưa channel_id vào product_key.
             #
             # Nhiều channel (CH1, CH2, CH3...) có thể cùng
-            # chung 1 product_id (VD: KC059 hoặc GL001). Các channel này
+            # chung 1 product_id (VD: KC059). Các channel này
             # vẫn được coi là cùng 1 "sản phẩm" và phải dùng
             # chung 1 session/browser cho tới khi TẤT CẢ job
             # của mọi channel thuộc product_id đó đều done.
